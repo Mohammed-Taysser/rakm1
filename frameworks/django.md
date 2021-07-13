@@ -833,6 +833,7 @@ here we get the data from model and turn it into JSON
 - fast api
 - dajax in django
 - django backend
+- mod_wsgi mean
 - override admin on django
 - django context processor
 - api puplic
@@ -842,6 +843,7 @@ here we get the data from model and turn it into JSON
 - django phone number field
 - postman
 - django rest api
+- https://django-filter.readthedocs.io/en/stable/guide/usage.html
 - https://ionicframework.com/
 - https://api.github.com/
 - https://github.com/carltongibson/django-filter
