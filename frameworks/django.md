@@ -362,7 +362,7 @@ test = models.DecimalField(decimal_places=3, max_digits=5)
 but `auto_now` save the creation date of the object
 
 
-### relations
+### Relationships
 
 - one to one [foregin key] (user have one profile)
 - many to many (one user have many groups and one group has many users)
@@ -380,7 +380,28 @@ test = models.ForeignKey(TopRatedFilms, on_delete=models.CASCADE)
 test = models.ManyToManyField(TopRatedFilms)
 ```
 
+```python
+poll = models.ForeignKey(
+    Poll,
+    on_delete=models.CASCADE,
+    verbose_name="the related poll",
+)
+sites = models.ManyToManyField(Site, verbose_name="list of sites")
+place = models.OneToOneField(
+    Place,
+    on_delete=models.CASCADE,
+    verbose_name="related place",
+)
+```
 
+
+## Extra fields on many-to-many relationships
+
+associate data with the relationship between two models.
+
+> **For example**, consider the case of an application tracking the musical groups which musicians belong to. There is a *many-to-many relationship* between a person and the groups of which they are a member, so you could use a ManyToManyField to represent this relationship. However, there is a lot of detail about the membership that you might want to collect, such as the date at which the person joined the group.
+
+> For these situations, Django allows you to specify the model that will be used to govern the many-to-many relationship. You can then put extra fields on the intermediate model. The intermediate model is associated with the ManyToManyField using the through argument to point to the model that will act as an intermediary. For our musician example, the code would look something like this:
 
 ### properties for all fields
 
