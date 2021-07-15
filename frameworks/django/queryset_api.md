@@ -1,3 +1,33 @@
+# QuerySet API
+
+> class QuerySet(model=None, query=None, using=None, hints=None)
+
+## Methods that return new QuerySets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 > **note** don't load database many times   : save query into variable and use it instead (cache)
 
@@ -91,15 +121,132 @@ class Entry(models.Model):
 
 ## Retrieving specific objects with filters
 
-- filter        # Returns a new QuerySet containing objects that match the given lookup parameters.
-- exclude       # Returns a new QuerySet containing objects that do not match the given lookup parameters.
+- filter     # Returns a new QuerySet containing objects that match the given lookup parameters.
+- exclude    # Returns a new QuerySet containing objects that do not match the given lookup parameters.
+- annotate   # Each argument is an annotation that will be added to each object in the QuerySet that is returned
+- order_by   # To order randomly, use "?" may be expensive and slow :   `Entry.objects.order_by('?')`
+- reverse    # reverse the order 'require order the data before use'
+- distinct   # eliminates duplicate rows from the query results.
+- values     # Returns a QuerySet that returns dictionaries, rather than model instances
+- values_list # similar to values() except that instead of returning dictionaries, it returns tuples
+- dates      # dates(field, kind, order='ASC')
+- datetimes  # datetimes(field_name, kind, order='ASC', tzinfo=None, is_dst=None)
+- union      # qs1.union(qs2, qs3)
+- intersection      # qs1.intersection(qs2, qs3)
+- difference        # qs1.difference(qs2, qs3)
+- select_related
+
 
 
     Entry.objects.filter(pub_date__year=2006)
 
     Entry.objects.all().filter(pub_date__year=2006)
 
+    Entry.objects.exclude(pub_date__gt=datetime.date(2005, 1, 3), headline='Hello')
 
+    Entry.objects.filter(pub_date__year=2005).order_by('-pub_date', 'headline')
+
+> annotate
+
+```python
+>>> from django.db.models import Count
+>>> q = Blog.objects.annotate(Count('entry'))
+# The name of the first blog
+>>> q[0].name
+'Blogasaurus'
+# The number of entries on the first blog
+>>> q[0].entry__count
+42
+>>> q = Blog.objects.annotate(number_of_entries=Count('entry'))
+# The number of entries on the first blog, using the name provided
+>>> q[0].number_of_entries
+42
+```
+> values
+
+```python
+>>> Blog.objects.filter(name__startswith='Beatles').values()
+<QuerySet [{'id': 1, 'name': 'Beatles Blog', 'tagline': 'All the latest Beatles news.'}]>
+
+>>> Blog.objects.values()
+<QuerySet [{'id': 1, 'name': 'Beatles Blog', 'tagline': 'All the latest Beatles news.'}]>
+>>> Blog.objects.values('id', 'name')
+<QuerySet [{'id': 1, 'name': 'Beatles Blog'}]>
+
+# The `values()` method also takes optional keyword arguments, **expressions, which are passed through to annotate():
+
+>>> from django.db.models.functions import Lower
+>>> Blog.objects.values(lower_name=Lower('name'))
+<QuerySet [{'lower_name': 'beatles blog'}]>
+
+# An aggregate within a values() clause is applied before other arguments within the same values() clause. If you need to group by another value, add it to an earlier `values()` clause instead
+
+>>> from django.db.models import Count
+>>> Blog.objects.values('entry__authors', entries=Count('entry'))
+<QuerySet [{'entry__authors': 1, 'entries': 20}, {'entry__authors': 1, 'entries': 13}]>
+>>> Blog.objects.values('entry__authors').annotate(entries=Count('entry'))
+<QuerySet [{'entry__authors': 1, 'entries': 33}]>
+
+```
+> values_list
+
+```python
+>>> Entry.objects.values_list('id').order_by('id')
+<QuerySet[(1,), (2,), (3,), ...]>
+
+# If you only pass in a single field, you can also pass in the flat parameter. 
+# If True, this will mean the returned results are single values, rather than one-tuples
+>>> Entry.objects.values_list('id', flat=True).order_by('id')
+<QuerySet [1, 2, 3, ...]>
+
+# get titles of blogs and order them by name
+>>> Blog.objects.values_list('name', flat=True).order_by('name')
+<QuerySet ['Beatles Blog', 'str']>
+```
+
+> dates
+
+```python
+>>> Entry.objects.dates('pub_date', 'year')
+[datetime.date(2005, 1, 1)]
+>>> Entry.objects.dates('pub_date', 'month')
+[datetime.date(2005, 2, 1), datetime.date(2005, 3, 1)]
+>>> Entry.objects.dates('pub_date', 'week')
+[datetime.date(2005, 2, 14), datetime.date(2005, 3, 14)]
+>>> Entry.objects.dates('pub_date', 'day')
+[datetime.date(2005, 2, 20), datetime.date(2005, 3, 20)]
+>>> Entry.objects.dates('pub_date', 'day', order='DESC')
+[datetime.date(2005, 3, 20), datetime.date(2005, 2, 20)]
+>>> Entry.objects.filter(headline__contains='Lennon').dates('pub_date', 'day')
+[datetime.date(2005, 3, 20)]
+```
+
+> nuio
+
+```python
+# The UNION operator selects only distinct values by default. To allow duplicate values, use the all=True argument.
+
+>>> qs1 = Author.objects.values_list('name')
+<QuerySet [('dr strange',), ('mohamed',), ('John',), ('Paul',), ('George',), ('Ringo',)]>
+>>> qs2 = Entry.objects.values_list('headline')
+<QuerySet [('ooo',)]>
+>>> qs1.union(qs2).order_by('name')
+<QuerySet [('George',), ('John',), ('Paul',), ('Ringo',), ('dr strange',), ('mohamed',), ('ooo',)]>
+```
+
+> select_related(*fields)
+```python
+# Returns a QuerySet that will “follow” foreign-key relationships, selecting additional related-object data when it executes its query. This is a performance booster which results in a single more complex query but means later use of foreign-key relationships won’t require database queries.
+
+
+e = Entry.objects.get(id=5)     # Hits the database.
+b = e.blog      # # Hits the database again to get the related Blog object.
+
+
+
+e = Entry.objects.select_related('blog').get(id=5)      # # Hits the database.
+b = e.blog    # # Doesn't hit the database, because e.blog has been prepopulated in the previous query.
+```
 
 ## Chaining filters
 
@@ -495,71 +642,137 @@ Poll.objects.get(
 
 # Comparing objects
 
+> Using the Entry example above, the following two statements are equivalent:
 
+    some_entry == other_entry
 
+    some_entry.id == other_entry.id
 
+    some_obj.name == other_obj.name
 
 
 
 
+# Deleting objects
 
+> The delete method, conveniently, is named `delete()`. This method immediately deletes the object and returns the number of objects deleted and a dictionary with the number of deletions per object type. Example:
 
+    >>> e.delete()
+    (1, {'weblog.Entry': 1})
 
 
 
+> You can also delete objects in bulk. Every QuerySet has a `delete()` method, which deletes all members of that QuerySet.
 
+> For example, this deletes all Entry objects with a pub_date year of 2005:
 
+    >>> Entry.objects.filter(pub_date__year=2005).delete()
+    (5, {'webapp.Entry': 5})
 
 
 
+> When Django deletes an object, by default it emulates the behavior of the SQL constraint ON DELETE CASCADE – in other words, any objects which had foreign keys pointing at the object to be deleted will be deleted along with it. For example:
 
+    b = Blog.objects.get(pk=1)
 
+    # This will delete the Blog and all of its Entry objects.
+    b.delete()
 
+> This cascade behavior is customizable via the on_delete argument to the ForeignKey.
 
+> if you do want to delete all the objects, then you have to explicitly request a complete query set:
 
+    Entry.objects.all().delete()
 
 
 
+# Updating multiple objects at once
 
+> The `update()` method is applied instantly and returns the number of rows matched by the query 
 
+    # Update all the headlines with pub_date in 2007.
+    Entry.objects.filter(pub_date__year=2007).update(headline='Everything is the same'
 
+Be aware that the update() method is converted directly to an SQL statement. It is a bulk operation for direct updates. It doesn’t run any save() methods on your models, or emit the pre_save or post_save signals (which are a consequence of calling save()), or honor the auto_now field option. If you want to save every item in a QuerySet and make sure that the save() method is called on each instance, you don’t need any special function to handle that. Loop over them and call save():
 
+    for item in my_queryset:
+        item.save()
 
 
+# Related objects
 
+## One-to-many relationships
 
+    e = Entry.objects.get(id=2)
+    e.blog()    # Returns the related Blog object.
 
 
+> If a ForeignKey field has `null=True` set remove the relation:
 
+    >>> e = Entry.objects.get(id=2)
+    >>> e.blog = None
+    >>> e.save() # "UPDATE blog_entry SET blog_id = NULL ...;"
 
 
+> Forward access to one-to-many relationships is cached the first time the related object is accessed. Subsequent accesses to the foreign key on the same object instance are cached. Example:
 
+    >>> e = Entry.objects.get(id=2)
+    >>> print(e.blog)  # Hits the database to retrieve the associated Blog.
+    >>> print(e.blog)  # Doesn't hit the database; uses cached version.
 
+> **Note** that the select_related() QuerySet method recursively prepopulates the cache of all one-to-many relationships ahead of time. Example:
 
+    >>> e = Entry.objects.select_related().get(id=2)
+    >>> print(e.blog)  # Doesn't hit the database; uses cached version.
+    >>> print(e.blog)  # Doesn't hit the database; uses cached version.
 
+### Following relationships “backward”
 
+```python
+>>> b = Blog.objects.get(id=1)
+>>> b.entry_set.all() # Returns all Entry objects related to Blog.
 
+# b.entry_set is a Manager that returns QuerySets.
+>>> b.entry_set.filter(headline__contains='Lennon')
+>>> b.entry_set.count()
+```
+> You can override the FOO_set name by setting the related_name parameter in the ForeignKey definition. For example, if the Entry model was altered to blog = ForeignKey(Blog, on_delete=models.CASCADE, related_name='entries'), the above example code would look like this:
 
+```python
+>>> b = Blog.objects.get(id=1)
+>>> b.entries.all() # Returns all Entry objects related to Blog.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# b.entries is a Manager that returns QuerySets.
+>>> b.entries.filter(headline__contains='Lennon')
+>>> b.entries.count()
+```
+
+### Additional methods to handle related objects
+
+- add(obj1, obj2, ...)
+    Adds the specified model objects to the related object set.
+- create(**kwargs)
+    Creates a new object, saves it and puts it in the related object set. Returns the created object.
+- remove(obj1, obj2, ...)
+    Removes the specified model objects from the related object set.
+- clear()
+    Removes all objects from the related object set.
+- set(objs)
+    Replace the set of related objects.
+
+
+## Many-to-many relationships
+
+```python
+e = Entry.objects.get(id=3)
+e.authors.all() # Returns all Author objects for this Entry.
+e.authors.count()
+e.authors.filter(name__contains='John')
+
+a = Author.objects.get(id=5)
+a.entry_set.all() # Returns all Entry objects for this Author.
+
+a = Author.objects.get(id=5)
+a.entry_set.set([e1, e2])
+a.entry_set.set([e1.pk, e2.pk])
+```
