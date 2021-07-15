@@ -307,6 +307,256 @@ This example finds the value of the highest rated entry and the total number of 
 
 
 
+# Querying `JSONField`
+
+>  mainly due to the existence of key transformations. To demonstrate, we will use the following example model:
+
+```python
+from django.db import models
+
+class Dog(models.Model):
+    name = models.CharField(max_length=200)
+    data = models.JSONField(null=True)
+
+    def __str__(self):
+        return self.name
+```
+
+
+## Storing and querying for None
+
+
+> As with other fields, storing None as the field’s value will store it as SQL `NULL`. While not recommended, it is possible to store JSON scalar null instead of SQL NULL by using `Value('null')`.
+
+
+```python
+>>> Dog.objects.create(name='Max', data=None)  # SQL NULL.
+<Dog: Max>
+>>> Dog.objects.create(name='Archie', data=Value('null'))  # JSON null.
+<Dog: Archie>
+>>> Dog.objects.filter(data=None)
+<QuerySet [<Dog: Archie>]>
+>>> Dog.objects.filter(data=Value('null'))
+<QuerySet [<Dog: Archie>]>
+>>> Dog.objects.filter(data__isnull=True)
+<QuerySet [<Dog: Max>]>
+>>> Dog.objects.filter(data__isnull=False)
+<QuerySet [<Dog: Archie>]>
+```
+> Unless you are sure you wish to work with SQL NULL values, consider setting `null=False` and providing a suitable default for empty values, such as `default=dict`.
+
+> **note**  : Storing JSON scalar null does not violate `null=False`.
+
+
+
+### Key, index, and path transforms
+
+
+
+```python
+>>> Dog.objects.create(name='Rufus', data={
+         'breed': 'labrador',
+         'owner': {
+             'name': 'Bob',
+             'other_pets': [{
+                 'name': 'Fishy',
+             }],
+         },
+     })
+<Dog: Rufus>
+>>> Dog.objects.create(name='Meg', data={'breed': 'collie', 'owner': None})
+<Dog: Meg>
+>>> Dog.objects.filter(data__breed='collie')
+<QuerySet [<Dog: Meg>]>
+```
+
+```python
+
+# Multiple keys can be chained together to form a path lookup:
+>>> Dog.objects.filter(data__owner__name='Bob')
+<QuerySet [<Dog: Rufus>]>
+
+
+# If the key is an integer, it will be interpreted as an index transform in an array:
+>>> Dog.objects.filter(data__owner__other_pets__0__name='Fishy')
+<QuerySet [<Dog: Rufus>]>
+
+
+>>> Dog.objects.create(name='Shep', data={'breed': 'collie'})
+<Dog: Shep>
+>>> Dog.objects.filter(data__owner__isnull=True)
+<QuerySet [<Dog: Shep>]>
+
+```
+
+
+## Containment and key lookups
+
+- contains      # supported on Oracle and SQLite
+  > The contains lookup is overridden on `JSONField`. The returned objects are those where the given dict of key-value pairs are all contained in the top-level of the field.
+  ```python
+     >>> Dog.objects.create(name='Rufus', data={'breed': 'labrador', 'owner': 'Bob'})
+    <Dog: Rufus>
+    >>> Dog.objects.create(name='Meg', data={'breed': 'collie', 'owner': 'Bob'})
+    <Dog: Meg>
+    >>> Dog.objects.create(name='Fred', data={})
+    <Dog: Fred>
+    >>> Dog.objects.filter(data__contains={'owner': 'Bob'})
+    <QuerySet [<Dog: Rufus>, <Dog: Meg>]>
+    >>> Dog.objects.filter(data__contains={'breed': 'collie'})
+    <QuerySet [<Dog: Meg>]>
+  ```
+- contained_by      # not supported on Oracle and SQLite.
+    > This is the inverse of the contains lookup - the objects returned will be those where the key-value pairs on the object are a subset of those in the value passed. 
+    .
+    ```python
+    >>> Dog.objects.filter(data__contained_by={'breed': 'collie', 'owner': 'Bob'})
+    <QuerySet [<Dog: Meg>, <Dog: Fred>]>
+    >>> Dog.objects.filter(data__contained_by={'breed': 'collie'})
+    <QuerySet [<Dog: Fred>]>
+    ```
+- has_key   # Returns objects where the given key is in the top-level of the data
+    Dog.objects.filter(data__has_key='owner')
+    <QuerySet [<Dog: Meg>]>
+
+- has_keys  # Returns objects where all of the given keys are in the top-level of the data.
+     Dog.objects.filter(data__has_keys=['breed', 'owner'])
+    <QuerySet [<Dog: Meg>]>
+
+- has_any_keys  # Returns objects where any of the given keys are in the top-level of the data
+    Dog.objects.filter(data__has_any_keys=['owner', 'breed'])
+    <QuerySet [<Dog: Rufus>, <Dog: Meg>]>
+
+
+
+
+
+
+# Complex lookups with Q objects
+
+    from django.db.models import Q
+
+```python
+Q(question__startswith='What')  
+   <Q: (AND: ('question__startswith', 'What'))>
+```
+
+
+> This is equivalent to the following SQL WHERE clause:
+```SQL 
+WHERE question LIKE 'Who%' OR question LIKE 'What%'
+```
+```python
+Q(question__startswith='Who') | Q(question__startswith='What')
+    <Q: (OR: ('question__startswith', 'Who'), ('question__startswith', 'What'))>
+```
+
+
+> You can compose statements of arbitrary complexity by combining `Q` objects with the` &` and `| `operators and use parenthetical grouping. Also, `Q` objects can be negated using the ~ operator, allowing for combined lookups that combine both a normal query and a negated (NOT) query:
+
+    Q(question__startswith='Who') | ~Q(pub_date__year=2005)
+
+
+> Each lookup function that takes keyword-arguments (e.g. `filter()`, `exclude()`, `get()`) can also be passed one or more `Q` objects as positional (not-named) arguments. If you provide multiple Q object arguments to a lookup function, the arguments will be “AND”ed together. For example:
+
+```python
+Poll.objects.get(
+    Q(question__startswith='Who'),
+    Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6))
+)
+```
+
+>  roughly translates into the `SQL`:
+
+```SQL:
+SELECT * from polls WHERE question LIKE 'Who%'
+    AND (pub_date = '2005-05-02' OR pub_date = '2005-05-06')
+```
+
+Lookup functions can mix the use of Q objects and keyword arguments. All arguments provided to a lookup function (be they keyword arguments or Q objects) are “AND”ed together. However, if a Q object is provided, it must **precede** the definition of any keyword arguments. For example:
+
+
+```python
+Poll.objects.get(
+    Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6)),
+    question__startswith='Who',
+)
+```
+> would be a valid query, equivalent to the previous example; but:
+
+```python
+Poll.objects.get(
+    question__startswith='Who',
+    Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6))
+)
+```
+> would not be valid.
+
+
+# Comparing objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
