@@ -2,32 +2,6 @@
 
 > class QuerySet(model=None, query=None, using=None, hints=None)
 
-## Methods that return new QuerySets
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 > **note** don't load database many times   : save query into variable and use it instead (cache)
 
@@ -119,7 +93,8 @@ class Entry(models.Model):
 
     one_entry = Entry.objects.get(pk=1)
 
-## Retrieving specific objects with filters
+## Methods that return new QuerySets
+### Retrieving specific objects with filters
 
 - filter     # Returns a new QuerySet containing objects that match the given lookup parameters.
 - exclude    # Returns a new QuerySet containing objects that do not match the given lookup parameters.
@@ -135,6 +110,8 @@ class Entry(models.Model):
 - intersection      # qs1.intersection(qs2, qs3)
 - difference        # qs1.difference(qs2, qs3)
 - select_related
+- defer     # no need to specified field to get from DB
+- only      # only field is needed
 
 
 
@@ -221,7 +198,7 @@ class Entry(models.Model):
 [datetime.date(2005, 3, 20)]
 ```
 
-> nuio
+> union
 
 ```python
 # The UNION operator selects only distinct values by default. To allow duplicate values, use the all=True argument.
@@ -235,6 +212,7 @@ class Entry(models.Model):
 ```
 
 > select_related(*fields)
+> 
 ```python
 # Returns a QuerySet that will “follow” foreign-key relationships, selecting additional related-object data when it executes its query. This is a performance booster which results in a single more complex query but means later use of foreign-key relationships won’t require database queries.
 
@@ -247,6 +225,191 @@ b = e.blog      # # Hits the database again to get the related Blog object.
 e = Entry.objects.select_related('blog').get(id=5)      # # Hits the database.
 b = e.blog    # # Doesn't hit the database, because e.blog has been prepopulated in the previous query.
 ```
+
+> differ
+
+```python
+# if you need those particular fields when you initially fetch the data, you can tell Django not to retrieve them from the database.
+
+>>> Entry.objects.defer("body_text").filter(rating=5).defer("headline")
+<QuerySet [<Entry: ooo>]>
+
+# You can defer loading of fields in related models (if the related models are loading via select_related()) by using the standard double-underscore notation to separate related fields:
+
+Blog.objects.select_related().defer("entry__headline", "entry__body")
+
+# Load all fields immediately.
+my_queryset.defer(None)
+```
+
+> only
+
+```python
+# The only() method is more or less the opposite of defer(). You call it with the fields that should not be deferred when retrieving a model. If you have a model where almost all the fields need to be deferred, using only() to specify the complementary set of fields can result in simpler code.
+
+# Suppose you have a model with fields name, age and biography. The following two querysets are the same, in terms of deferred fields:
+
+Person.objects.defer("age", "biography")
+Person.objects.only("name")
+```
+
+## Methods that do not return QuerySets
+
+- get(**kwargs)
+- create(**kwargs)    
+- get_or_create(defaults=None, **kwargs)    # only one object no repeat
+- update_or_create(defaults=None, **kwargs)
+- bulk_create(objs, batch_size=None, ignore_conflicts=False)
+- count()   # Returns an integer representing the number of objects in the database
+- latest(*fields)
+- earliest(*fields)
+- first()   # first object matched by the queryset
+- last()    # returns the last object in the queryset.
+- aggregate(*args, **kwargs)
+- exists()  # Returns True if the QuerySet contains any results, and False if not
+- update(**kwargs)
+- delete()
+
+> Like `get()`,` earliest()` and `latest()` raise DoesNotExist if there is no object with the given parameters.
+
+```python
+
+# get
+Entry.objects.get(id=1)
+Entry.objects.get(blog=blog, entry_number=1)
+
+# create
+
+p = Person.objects.create(first_name="Bruce", last_name="Springsteen")
+
+p = Person(first_name="Bruce", last_name="Springsteen")
+p.save(force_insert=True)
+
+# get_or_create
+# Returns a tuple of (object, created), where object is the retrieved or created object and created is a boolean specifying whether a new object was created.
+# instead of
+try:
+    obj = Person.objects.get(first_name='John', last_name='Lennon')
+except Person.DoesNotExist:
+    obj = Person(first_name='John', last_name='Lennon', birthday=date(1940, 10, 9))
+    obj.save()
+
+# can write as
+obj, created = Person.objects.get_or_create(
+    first_name='John',
+    last_name='Lennon',
+    defaults={'birthday': date(1940, 10, 9)},
+)
+
+# update_or_create
+# A convenience method for updating an object with the given kwargs, creating a new one if necessary. The defaults is a dictionary of (field, value) pairs used to update the object.
+# Returns a tuple of (object, created), where object is the created or updated object and created is a boolean specifying whether a new object was created.
+# The update_or_create method tries to fetch an object from database based on the given kwargs. If a match is found, it updates the fields passed in the defaults dictionary.
+
+# instead of writing
+defaults = {'first_name': 'Bob'}
+try:
+    obj = Person.objects.get(first_name='John', last_name='Lennon')
+    for key, value in defaults.items():
+        setattr(obj, key, value)
+    obj.save()
+except Person.DoesNotExist:
+    new_values = {'first_name': 'John', 'last_name': 'Lennon'}
+    new_values.update(defaults)
+    obj = Person(**new_values)
+    obj.save()
+
+# can write as
+obj, created = Person.objects.update_or_create(
+    first_name='John', last_name='Lennon',
+    defaults={'first_name': 'Bob'},
+)
+
+
+# bulk_create
+# This method inserts the provided list of objects into the database in an efficient manner (generally only 1 query, no matter how many objects there are), and returns created objects as a list, in the same order as provided:
+
+objs = Entry.objects.bulk_create([
+    Entry(headline='This is a test'),
+    Entry(headline='This is only a test'),
+])
+
+# count()
+# A count() call performs a SELECT COUNT(*) behind the scenes, so you should always use count() rather than loading all of the record into Python objects and calling len() on the result (unless you need to load the objects into memory anyway, in which case len() will be faster).
+# Returns the total number of entries in the database.
+Entry.objects.count()
+
+# Returns the number of entries whose headline contains 'Lennon'
+Entry.objects.filter(headline__contains='Lennon').count()
+
+
+#latest
+# Returns the latest object in the table based on the given field(s).
+
+Entry.objects.latest('pub_date')
+
+#You can also choose the latest based on several fields. For example, to select the Entry with the earliest expire_date when two entries have the same pub_date:
+
+Entry.objects.latest('pub_date', '-expire_date')
+
+
+# aggregate
+# Returns a dictionary of aggregate values (averages, sums, etc.) calculated over the QuerySet. Each argument to aggregate() specifies a value that will be included in the dictionary that is returned.
+
+from django.db.models import Count
+Blog.objects.aggregate(Count('entry'))  # {'entry__count': 16}
+Blog.objects.aggregate(number_of_entries=Count('entry'))    # {'number_of_entries': 16}
+
+# exist
+if some_queryset.exists():
+    print("There is at least one object in some_queryset")
+
+# Which will be faster than:
+
+if some_queryset:
+    print("There is at least one object in some_queryset")
+
+
+# update
+# Performs an SQL update query for the specified fields, and returns the number of rows matched (which may not be equal to the number of rows updated if some rows already have the new value).
+
+# to turn comments off for all blog entries published in 2010, you could do this:
+Entry.objects.filter(pub_date__year=2010).update(comments_on=False)
+
+# You can update multiple fields 
+Entry.objects.filter(pub_date__year=2010).update(comments_on=False, headline='This is old')
+
+Entry.objects.filter(id=64).update(comments_on=True)    # 1
+Entry.objects.filter(slug='nonexistent-slug').update(comments_on=True)  # 0
+Entry.objects.filter(pub_date__year=2010).update(comments_on=False)     # 132
+
+# instead of doing this:
+e = Entry.objects.get(id=10)
+e.comments_on = False
+e.save()
+
+# do this
+Entry.objects.filter(id=10).update(comments_on=False)
+
+
+# delete
+# Performs an SQL delete query on all rows in the QuerySet and returns the number of objects deleted and a dictionary with the number of deletions per object type.
+
+
+b = Blog.objects.get(pk=1)
+
+# Delete all the entries belonging to this Blog.
+Entry.objects.filter(blog=b).delete()
+    (4, {'weblog.Entry': 2, 'weblog.Entry_authors': 2})
+
+blogs = Blog.objects.all()
+
+# This will delete all Blogs and all of their Entry objects.
+blogs.delete()
+    (5, {'weblog.Blog': 1, 'weblog.Entry': 2, 'weblog.Entry_authors': 2})
+```
+
+
 
 ## Chaining filters
 
@@ -323,6 +486,25 @@ b = e.blog    # # Doesn't hit the database, because e.blog has been prepopulated
     >>> Entry.objects.order_by('headline')[0:1].get()
 
 
+## Operators that return new QuerySets
+
+
+- AND   &
+    ```python
+    Model.objects.filter(x=1) & Model.objects.filter(y=2)
+    Model.objects.filter(x=1, y=2)
+
+    from django.db.models import Q
+    Model.objects.filter(Q(x=1) & Q(y=2))
+    ```
+- OR    |
+    ```python
+    Model.objects.filter(x=1) | Model.objects.filter(y=2)
+
+    from django.db.models import Q
+    Model.objects.filter(Q(x=1) | Q(y=2))
+    ```
+
 
 
 # Field lookups
@@ -330,9 +512,96 @@ b = e.blog    # # Doesn't hit the database, because e.blog has been prepopulated
 - `exact`   : Entry.objects.get(headline__exact="Cat bites dog")
 - `iexact`  : Blog.objects.get(name__iexact="beatles blog")         # case-insensitive
 - contains  : Entry.objects.get(headline__contains='Lennon')
-- startswith, endswith
+- icontains : Entry.objects.get(headline__icontains='Lennon')
+- `in`      : Entry.objects.filter(id__in=[1, 3, 4])
+- gtl
+- gt
+- lt
+- lte
+- startswith
+- istartswith
+- endswith
+- iendswith
+- range
+- date  : Allows chaining additional field lookups  # pub_date__date__gt
+- year  : pub_date__year__gte, pub_date__year
+- month
+- day
+- week
+- week_day
+- quarter
+- time  : pub_date__time=datetime.time(14, 30), pub_date__time__range=(datetime.time(8), datetime.time(17))
+- hour  : timestamp__hour=23
+- minute    : timestamp__minute__gte=29
+- second    
+- regex     : title__regex=r'^(An?|The) +'
+- iregex
 
+```python
+Entry.objects.filter(headline__in='abc')
+# SQL equivalents: SELECT ... WHERE headline IN ('a', 'b', 'c');
 
+inner_qs = Blog.objects.filter(name__contains='Cheddar')
+entries = Entry.objects.filter(blog__in=inner_qs)
+
+inner_qs = Blog.objects.filter(name__contains='Ch').values('name')
+entries = Entry.objects.filter(blog__name__in=inner_qs)
+```
+## Filter Query
+```python
+name.objects.all()
+name.objects.bulk_create([obj1, ...])   # add objects of name to db
+name.objects.get(id = 1)                # return error if not found
+name.objects.filter(id = 1)             # return empty list if not found
+name.objects.count()
+name.objects.all().exclude(id = 1)      # all except id = 1
+name.objects.all().order_by('name')     # order objects
+name.objects.all().order_by('-name')     # order objects
+name.objects.all().order_by('?')        # order objects random
+name.objects.all().reverse()            # reverse objects
+name.objects.all().values('name')       # column values as dic
+name.objects.all().values('name', 'age')        # columns values as dic
+name.objects.all().values_list('name')          # column values as list
+name.objects.first()            # first row for table name
+name.objects.last()             # last row for table name
+name.objects.latest('age')      # latest row added to table in column age
+name.objects.earliest('age')    # earliest row added to table in column age
+name.objects.filter(age = 70).exists()              # return true | false
+name.objects.filter(id = 1).delete()
+name.objects.filter(title__exact  = 'ali')          # case sensitive
+name.objects.filter(title__iexact = 'ali')          # case insensitive
+name.objects.filter(title__contains  = 'ali')       # case sensitive
+name.objects.filter(title__icontains = 'ali')       # case insensitive
+name.objects.filter(title__isnull = True)           # contain null
+name.objects.filter(title__regex = r'[a-z]')        # search by re ex
+name.objects.filter(id__in = [1,2,3])               # id found in list
+name.objects.filter(id__range = [1,5])              # id found in range 1, 5
+name.objects.filter(id__gt = 10)                    # id greater than 10
+name.objects.filter(id__gte = 10)                   # id greater than or equal to 10
+name.objects.filter(id__lt = 10)                    # id less than 10
+name.objects.filter(id__lte = 10)                   # id less than or equal to 10
+name.objects.filter(title__startwith = 'o')         # start with o
+name.objects.filter(title__endwith = 'o')           # end with o
+```
+
+## deal with date
+```python
+name.objects.filter(date__range(datetime.date(2010,1,1), datetime.date(2015,1,1)))      # range between 2010,1, and 2015,1,1
+name.objects.filter(date__date(datetime.date(2010,1,1)))      # exact date 
+name.objects.filter(date__year = 2010)      # year
+name.objects.filter(date__month = 10)       # month
+name.objects.filter(date__week = 10)        # week
+name.objects.filter(date__day = 10)         # day
+name.objects.filter(date__quarter= 1)       # quarter 1-4
+```
+## deal with time
+```python
+name.objects.filter(date__time = datetime.time(10,3,20))      # exact time 10:03:20
+name.objects.filter(date__hour = 10)      # hour 10
+name.objects.filter(date__minute = 3)     # minute 03
+name.objects.filter(date__second = 20)    # second 20
+
+```
 ## Lookups that span relationships
 
 > This example retrieves all Entry objects with a Blog whose name is 'Beatles Blog'
@@ -776,3 +1045,6 @@ a = Author.objects.get(id=5)
 a.entry_set.set([e1, e2])
 a.entry_set.set([e1.pk, e2.pk])
 ```
+
+
+
