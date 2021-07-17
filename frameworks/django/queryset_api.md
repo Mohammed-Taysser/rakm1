@@ -1095,3 +1095,12 @@ a.entry_set.set([e1.pk, e2.pk])
 - clear(bulk=True)  # Removes all objects from the related object set:
     b = Blog.objects.get(id=1)
     b.entry_set.clear()
+
+
+
+# migrations
+
+## Reversing migrations
+
+    python manage.py migrate books zero
+
