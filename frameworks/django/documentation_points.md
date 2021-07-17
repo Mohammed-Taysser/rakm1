@@ -60,8 +60,8 @@
 
 ## The basics
 
-- [ ] URLconfs 
-- [ ] View functions 
+- [x] URLconfs 
+- [x] View functions 
 - [ ] Shortcuts 
 - [ ] Decorators 
 - [ ] Asynchronous Support

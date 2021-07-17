@@ -67,7 +67,7 @@ _You **can** combine them_
 ![placeholder](https://via.placeholder.com/150)
 ![placeholder](https://via.placeholder.com/150/09f/fff.png)
 ![placeholder](https://via.placeholder.com/150/f00/fff/fff.jpg?text=new)
-![placeholder](https://via.placeholder.com/300x300/fff/f00?text=it's+me+here)
+![placeholder](https://via.placeholder.com/300x300/333/fff?text=it's+me+here)
 
 ```markdown
 Format: ![Alt Text](url)
@@ -130,7 +130,5 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
-
-
 
 
