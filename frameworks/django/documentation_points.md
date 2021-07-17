@@ -14,9 +14,9 @@
 
 ## QuerySets
 
--[x] Making queries 
--[ ] QuerySet method reference 
--[x] Lookup expressions
+- [x] Making queries 
+- [x] QuerySet method reference 
+- [x] Lookup expressions
 
 
 ## Model instances
