@@ -62,8 +62,8 @@
 
 - [x] URLconfs 
 - [x] View functions 
-- [ ] Shortcuts 
-- [ ] Decorators 
+- [x] Shortcuts 
+- [x] Decorators 
 - [ ] Asynchronous Support
 
 ## Reference
