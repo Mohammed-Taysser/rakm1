@@ -1048,3 +1048,50 @@ a.entry_set.set([e1.pk, e2.pk])
 
 
 
+# Aggregation functions
+
+- expressions
+- output_field
+- filter
+- **extra
+- Avg
+- Count
+- Max
+- Min
+- StdDev
+- Sum
+- Variance
+
+
+# Query-related tools
+
+- Q() objects
+- F() expressions
+
+# Related objects reference
+
+- add(*objs, bulk=True, through_defaults=None)
+    b = Blog.objects.get(id=1)
+    e = Entry.objects.get(id=234)
+    b.entry_set.add(e) # Associates Entry e with Blog b.
+
+- create(through_defaults=None, **kwargs)
+    ```python
+    >>> b = Blog.objects.get(id=1)
+    >>> e = b.entry_set.create(
+            headline='Hello',
+            body_text='Hi',
+            pub_date=datetime.date(2005, 1, 1)
+        )
+    # No need to call e.save() at this point -- it's already been saved.
+    ```
+
+- remove(*objs, bulk=True)
+    ```python
+        b = Blog.objects.get(id=1)
+        e = Entry.objects.get(id=234)
+        b.entry_set.remove(e) # Disassociates Entry e from Blog b.
+    ```
+- clear(bulk=True)  # Removes all objects from the related object set:
+    b = Blog.objects.get(id=1)
+    b.entry_set.clear()
