@@ -68,13 +68,13 @@
 
 ## Reference
 
-- [ ] Built- in Views 
-- [ ] Request/response objects 
+- [x] Built- in Views 
+- [x] Request/response objects 
 - [ ] TemplateResponse objects
 
 ## File uploads
 
-- [ ] Overview 
+- [x] Overview          # need more on file upload
 - [ ] File objects 
 - [ ] Storage API 
 - [ ] Managing files 
