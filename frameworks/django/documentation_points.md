@@ -75,14 +75,14 @@
 ## File uploads
 
 - [x] Overview          # need more on file upload
-- [ ] File objects 
+- [x] File objects 
 - [ ] Storage API 
-- [ ] Managing files 
+- [x] Managing files 
 - [ ] Custom storage
 
 ## Class- based views
 
-- [ ] Overview 
+- [x] Overview 
 - [ ] Built- in display views 
 - [ ] Built- in editing views 
 - [ ] Using mixins 

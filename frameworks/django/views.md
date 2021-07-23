@@ -385,3 +385,45 @@ suppose you’ve written a ProgressBarUploadHandler that provides feedback on up
 You’d probably want to use list.insert() in this case (instead of append()) because a progress bar handler would need to run before any other handlers. Remember, the upload handlers are processed in order.
 
     request.upload_handlers = [ProgressBarUploadHandler(request)]
+
+
+# File object
+    class File(file_object, name=None)
+
+> The File class is a thin wrapper around a Python file object with some Django-specific additions. Internally, Django uses this class when it needs to represent a file.
+
+### methods
+
+- name
+- size
+- file      # The underlying file object that this class wraps.
+- mode read | write
+- open(mode=None)
+- __iter()
+- chunks(chunk_size=None)
+- multiple_chunks(chunk_size=None)
+- close()
+
+# ImageFile class
+    class ImageFile(file_object, name=None)
+
+> Django provides a built-in class specifically for images. django.core.files.images.ImageFile inherits all the attributes and methods of File, and additionally provides the following:
+
+- width
+- height
+
+
+### Additional methods on files attached to objects
+
+    File.save(name, content, save=True)
+
+```python
+>>> car.photo.save('myphoto.jpg', content, save=False)
+>>> car.save()
+
+# are equivalent to:
+
+>>> car.photo.save('myphoto.jpg', content, save=True)
+```
+
+    File.delete(save=True)
