@@ -83,7 +83,7 @@
 ## Class- based views
 
 - [x] Overview 
-- [ ] Built- in display views 
+- [x] Built- in display views 
 - [ ] Built- in editing views 
 - [ ] Using mixins 
 - [ ] API reference 

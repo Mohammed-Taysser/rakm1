@@ -1,4 +1,6 @@
 
+http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options', 'trace']
+
 
 ## deployment website
 

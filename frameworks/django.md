@@ -143,7 +143,7 @@ app for groups and app for post , comment,  pages.
 
 ### Create Virtual Environment
 
-    virtualenve project_name
+    virtualenv project_name
 
 ### Activate The Virtual Environment
 
