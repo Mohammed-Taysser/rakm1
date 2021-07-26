@@ -61,3 +61,20 @@ Localhost://3000
 - bootstrap tour
 - local storage in js
 - cpanels,directadmin, plesk
+
+
+## html page to design
+
+- https://blog.hubspot.com/marketing/examples-brand-style-guides
+- https://hugeinc.github.io/styleguide/
+- http://styleguides.io/
+- https://marvelapp.com/styleguide/overview/introduction
+- https://runescape.wiki/w/RuneScape:Style_guide/Competitions
+- https://opentrack.run/style-guide.html
+- https://worldskills.org/brand/resources/style-guide/
+- https://www.hackerearth.com/practice/notes/validating-user-input-in-c/
+- https://www.tutorialspoint.com/what-is-the-use-of-cin-ignore-in-cplusplus
+- https://www.wicys.org/about-wicys
+- https://www.baeldung.com/java-write-to-file
+- https://www.netcraft.com/
+- https://programmingdimension.wordpress.com/2015/04/30/seekg-tellg-seekp-tellp/
