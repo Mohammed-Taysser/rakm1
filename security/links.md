@@ -61,3 +61,179 @@ https://www.youtube.com/playlist?list=PLky4bd7_03m9gzHhTjyZdFxUZ64wjsPAO&fbclid=
 
 PEN-TESTING course
 https://www.youtube.com/playlist?list=PLu_68UQKcmvISwt134DUlOaIEaZCeLjUT&fbclid=IwAR1sYSIlnzA6_kpWDc9NaYDzocbpbXIigGaST5NhBrkXTRLB9H__pldcTYk
+
+
+
+
+فى ناس كتير متعرفش يعني ايه Cyber Security عشان كده احنا كتبنا البوست ده🥱
+🔷البوست ده ينقسم الي 3 أجزاء :-
+
+🎯1- يعني ايه Cyber Security .
+🎯2- ايه التخصصات الـ موجودة جوه الـ Cyber Security .
+🎯3- أزاى تبدء فى مجال الـ Cyber Security .
+
+==============================
+🎯الجزء رقم 1
+-----------------
+يعني ايه Cyber Security ؟
+
+ببساطة كده تعالى نقسم كلمة Cyber Security الى جزئين , الجزء الاول هو كلمة Cyber والجزء التانى هو كلمة Security , تعالى بقه نمسك كل جزء ونفهمه , اوﻻ كلمة Cyber دي معناها اي شيء ليه علاقة بالـ Technology سواء كان Operating System او Network او Application او Data , كل دي حاجات ليها علاقة بالـ Technology وهو ده معنى كلمة Cyber , نيجي بقه للجزء التانى وهو كلمة Security ودي معناها حماية , طب حماية لايه ؟ , حماية للحاجات الـ ليها علاقة بالـ Technology , يعنى لما تعمل حماية للـ Operating System حيبقى اسمها Operating System Security , ولما تعمل حماية للـ Network حيبقى اسمها Network Security , ولما تعمل حماية للـ Application حيبقى اسمها Application Security , ولما تعمل حماية للـ Data حيبقى اسمها information Security وهكذا بقه , كل دي تعتبر مجاﻻت بتندرج تحت مسمى الـ Cyber Security , يعنى معنى كلمة Cyber Security هو حماية اي شيء ليه علاقة بالـ Technology😌
+
+🔹وده فيديو صغير ممكن يوضحلك اكتر يعنى ايه Cyber Security :- https://www.youtube.com/watch?v=vvsfM5Dixow
+
+==============================الجزء رقم 2
+-----------------
+🎯ايه التخصصات الـ موجودة جوه الـ Cyber Security ؟
+
+مجال الـ Cyber Security مجال واسع جدا و متشعب جدا وجواه العديد والعديد من المجاﻻت زي الـ System Security , Network Security , Application Security , Penetration Testing , Threat Hunting , Digital Forensic , Malware Analysis , SOC Specialist وغيرهم وغيرهم وغيرهم , فا لو مشينا معاهم بالمنطق ده والتشعب ده فا مش حنخلص ومش حنوصل لأخر المسميات الوظيفية المندرجة تحت مسمى الـ Cyber Security , فا عشان كده احنا لما بنحب نتكلم عن التخصصات او المجاﻻت الـ موجودة جوه الـ Cyber Security بنحب نتكلم من مصطلح الـ Red Team و الـ Blue Team , طب يعني ايه الكلام ده !!!🤷🏻‍♀️
+
+يعنى خلينا نقول ان مجال الـ Cyber Security بيتكون من مجالين فقط او تخصصين فقط ! , المجال الاول هو الـ Red Team ودول وظيفتهم انهم يخترقوا اي شيء قدامهم سواء كان System او Network او Application او غيرهم , المجال التانى هو الـ Blue Team ودول وظيفتهم انهم يحموا اي شيء قدامها سواء كان System او Network او Application او غيرهم , تعالى بقه نمسكهم بالتفصيل وحده وحده .
+
+♦️1- الـ Red Team :-
+-------------------------
+يعنى ايه Red Team , ببساطة انت بيكون عندك شركة زي Yahoo مثلا طبعا بيكون عندها مواقع كتير على النت وسيرفرات كتيرة و داتا مهمة جدا بتاعت العملاء وارقام حسابات بنكية وبلاوي سوده تانية :P فا من الطبيعي انها تهتم بموضوع الاختراق ده جدا وتكون دايما خايفة ليحصل عملية Hacking عليها واديك شايف كمية الداتا المهمة الـ عندها فا سعتها بتلجأ للناس الـ شغاله فى مجال الـ Red Team بقه عشان ببساطة يعملوا محاكاة لعملية الـ Hacking دي , يعني يحولوا يخترقوا شركة ياهو من الاخر بس مش بغرض الاختراق والسرقة ﻻ بغرض انهم يعرفوا ايه هي نقاط الضعف الـ موجودة فيها ويبلغوا عنها للشركة وبكده الشركة تقدر تقفل الثغرات الـ ممكن حد تاني يستغلها عشان يسرق بيانات العملاء , وبكده تكون الشركة زودت نسبة الحماية الـ عندها وانت بتاخد مبلغ مادي محترم مقابل شغلك ده .
+
+بعض المجاﻻت او الـ Skills الـ بتندرج تحت مسمى الـ Red Team :-
+
+- Vulnerability Assessment.
+- Network Pentesting.
+- Web Pentesting.
+- Mobile Pentesting.
+- Wireless Pentesting.
+- Advanced Exploitation.
+----------------------------------------------------
+
+🔹2- الـ Blue Team :-
+--------------------------
+يعنى ايه Blue Team , هو بالظبط عكس الكلام الـ فوق ده , انك بدل ما بتخترق الشركة عشان تعرف الثغرات الـ فيها وتقفلها , ﻻ انت بتحاول انك تأمنها على قد ما تقدر عن طريق الـ Security Appliances زي الـ Firewall والـ Antivirus والـ IDS/IPS وغيرهم , وبيكون شغلك كله بنسبة 100% هو Security Monitoring , طب تعالى نبسط الموضوع اكتر , انت بيكون شغلك بالظبط انك تكتشف اى عملية Hacking بتحصل على الشركة , وعلى طول بتاخد الاجراءات اللازمة عشان توقف عملية الـ Hacking دي , يعنى من الاخر انت بتكون جدار الحماية بتاع الشركة عشان تحميها من اي عمليات اختراق ممكن تحصل , ولو حصلت توقفها على طول وتعرف مين الـ قام بعملية الاختراق دي .
+
+بعض المجاﻻت او الـ Skills الـ بتندرج تحت مسمى الـ Blue Team :-
+
+- Secure Network Design.
+- OS Harding.
+- Network Deviced Hardening.
+- Monitoring.
+- Intrusion Detection.
+- Incident Response.
+- Digital Forensics.
+- Malware Analysis.
+- Threat Intelligence.
+- Threat Hunting.
+==============================
+
+🎯الجزء رقم 3
+------------------
+أزاى تبدء فى مجال الـ Cyber Security ؟
+
+🔹اوﻻ ﻻزم يكون عندك شوية اساسيات ودول بيتلخصوا فى الاتى :-
+
+1- Operating Systems
+2- Network Protocols
+3- Programming
+
+🔹ثانيا المفروض بقه تختار مجال معين سواء كان Red Team او Blue Team وعلى اساس الاختيار ده حتبدء تحدد انت حتدرس ايه بالظبط .
+
+فى البداية ﻻزم تعرف حاجة مهمة جدا والـ هي : ان الـ Skills بتاعتك دي رقم واحد , فا مش مهم بقه حتدرس منين او حتتعلم ازاي اهم حاجة ان يكون عندك مهارات وخبرة وتجربة كتير , بس طبعا بقه الشركات بيكون مقدم ليها اﻻف من الناس الـ عيزه تشتغل فا صعب انهم يقابلوا كل الناس دي ويعملولها انترفيو , فا سعتها بيختاروا على اساس الـ CV , طب ازاي بيختاروا على اساس الـ CV ؟ ببساطة على اساس الكلام الـ انت كتبه فيه والـ يثبت صحة كلامك ومهاراتك , وصراحة اكتر حاجة بتغري الناس الـ بتوظف هي الشهادات بتاعت السيكيورتى , مع اني لسه قايلك فوق ان اهم حاجة هي الـ Skills , بس للاسف ﻻزم برده تظبط نفسك من ناحية الشهادات عشان دي الـ بتتكلم عنك فى السريع , يعنى بدل ما اقعد اقولك فى نص ساعة المهارات الـ عندي انا ممكن اقولك فى ثانيتين اني دارس شهادة OSCP مثلا فا سعتها حتعرف انا مستوايا عامل ازاي , ده على سبيل التوضيح مش اكتر ممكن تكون كداب اصلا :P , فعشان كده بيتعملك انترفيو عشان يشوفوا مستواك فعلا :P
+
+المفروض انت دلوقتى بقه تكون اختارت مجال تتخصص فيه سواء كان Red Team او Blue Team , فا نيجي بقه لجزء الـ Materials ^_^
+
+اكتر شهادات مطلوبة وليها وزنها فى الـ Red Team هم :-
+==============================
+♦️1- بالنسبة للـ Network Penetration Testing :-
+-----------------------------------------------------
+
+- Offensive Security Certified Professional
+- (OSCP)
+https://goo.gl/x9Y7Jx
+
+- GIAC Certified Penetration Tester
+- (GPEN)
+https://goo.gl/Q5P9vC
+
+----------------------------------------------------
+♦️2- بالنسبة للـ Advanced Network Penetration Testing :-
+-----------------------------------------------------
+
+- Offensive Security Certified Expert
+- (OSCE)
+https://goo.gl/hqC3md
+
+- GIAC Exploit Researcher and Advanced Penetration Tester
+- (GXPN)
+https://goo.gl/5BbFdb
+
+-----------------------------------------------------
+
+♦️3- بالنسبة للـ Web Application Penetration Testing :-
+-----------------------------------------------------
+
+- GIAC Web Application Penetration Tester
+- (GWAPT)
+https://goo.gl/5Dj6P9
+
+-----------------------------------------------------
+
+♦️4- بالنسبة للـ Advanced Web Application Penetration Testing :-
+-----------------------------------------------------
+
+- Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques
+- (SEC642)
+https://goo.gl/qzG272
+
+-----------------------------------------------------
+اكتر شهادات مطلوبة وليها وزنها فى الـ Blue Team هم :-
+==============================
+🔹1- بالنسبة للـ Infrastructure Security :-
+---------------------------------------------------
+
+- GIAC Certified Windows Security Administrator
+- (GCWN)
+https://goo.gl/UPQMEx
+
+- GIAC Certified UNIX Security Administrator
+- (GCUX)
+https://goo.gl/C3UTFS
+
+-----------------------------------------------------
+🔹2- بالنسبة للـ Endpoint Forensics :-
+-----------------------------------------------
+
+- GIAC Certified Forensics Examiner
+- (GCFE)
+https://goo.gl/fsPPXP
+
+- GIAC Certified Forensic Analyst
+- (GCFA)
+https://goo.gl/KA1nZE
+
+-----------------------------------------------------
+🔹3- بالنسبة للـ Network Monitoring & Forensics :-
+-----------------------------------------------------
+
+- GIAC Certified Intrusion Analyst
+- (GCIA)
+https://goo.gl/98495k
+
+- GIAC Network Forensic Analyst
+- (GNFA)
+https://goo.gl/66BJGZ
+
+-----------------------------------------------------
+🔹4- بالنسبة للـ Malware Analysis :-
+---------------------------------------------
+
+- GIAC Reverse Engineering Malware
+- (GREM)
+https://goo.gl/2Wbmak
+
+==============================
+ازاى بقه تدرس الشهادات دي وازاى كمان تقدر تشتغل من خلال الشهادات دي ؟🙃
+هتبدأ بقه تختار الشهادة الـ حتكون ناوى تدرسها وبعد كده تخش على الموقع بتاع الشهادة , حتلاقيهم كاتبين الـ Requirements الـ ﻻزم تكون عارفها عشان تقدر تاخد الشهادة دي , زي مثلا شهادة OSCP كانوا كاتبين ان الـ Requirements الـ ﻻزم تكون عارفها هي Linux و TCP/IP , فا سعتها حتسيرش على النت وتدرس الحاجتين دول اذا كنت مش عارفهم , وبعدين تبدء بقه تدرس الشهادة دي , وهكذا بقه على كل الشهادات لحد ما تخلصهم كلهم , وفى الاخر تعمل اكونت محترم على LinkedIn كده وتكتب فيه الـ Skills بتاعتك والـ Certifications الـ درستها حتى لو كانت Self Study عادى برده اكتبها وان شاء الله فى خلال أيام حتكون بتشتغل🤝🏻🥱
+
+🎯كل الكورسات الـ قولنا عليها فوق دي حتلاقيها فى اللنيك التورنت ده :-
+https://goo.gl/4n7X2y
+
+#Cyber_Security
+#امن_المعلومات
+#معلومات_حاسوباتيه
+#الطالب_الحاسوباتي
