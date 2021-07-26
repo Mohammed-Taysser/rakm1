@@ -1,4 +1,8 @@
 
+# links
+
+- [googleguide](http://www.googleguide.com/advanced_operators_reference.html)
+- [support.google](https://support.google.com/websearch/answer/2466433?hl=en)
 
 allinanchor:text => all links tend to        [text]
 allintext  :text => all page contain         [text]

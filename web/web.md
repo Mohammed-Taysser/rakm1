@@ -59,3 +59,5 @@ Localhost://3000
 
 ## search
 - bootstrap tour
+- local storage in js
+- cpanels,directadmin, plesk
