@@ -7,6 +7,23 @@ http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options',
 - [netlify](https://www.netlify.com/)
 - [pythonanywhere](https://www.pythonanywhere.com/)
 
+## 🔗  Frontend 
+- GitHub 
+- Netlify 
+- Heroku
+- DigitalOceam
+- Vercel
+- Surge 
+- Firebase
+
+## 🔗   Backend 
+- Vercel
+- Heroku
+- Google Cloud
+- AWS
+
+The Best
+Localhost://3000
 
 ## library
 
