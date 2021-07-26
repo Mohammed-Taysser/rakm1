@@ -28,6 +28,14 @@
 - [headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 - [network set](https://www.networkset.net/category/security/)
 - [cybrary](https://app.cybrary.it/my-learning)
+- https://www.cybrary.it/course/comptia-linux-plus/
+- https://www.cybrary.it/course/ethical-hacking
+- http://breakthesecurity.cysecurity.org/2011/08/hacking-basics-hacking-and-security-tutorials-index.html
+- http://hackaday.com/
+- https://evilzone.org/index.php?page=forum
+- https://www.hackthissite.org/forums/
+- http://insecure.org/
+- https://dr-virus.blogspot.com/
 
 
 
