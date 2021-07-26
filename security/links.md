@@ -9,7 +9,7 @@
 - [securitytracker](https://www.securitytracker.com/)
 - [securiteam](https://securiteam.us/)
 
-
+- https://app.cybrary.it/
 
 # search for
 - vulnerability report sample
