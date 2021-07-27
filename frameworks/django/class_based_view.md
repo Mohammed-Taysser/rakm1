@@ -247,12 +247,9 @@ class AuthorDetailView(DetailView):
 from django import forms
 
 class ContactForm(forms.Form):
-    name = forms.CharField()
-    message = forms.CharField(widget=forms.Textarea)
-
-    def send_email(self):
-        # send email using the self.cleaned_data dictionary
-        pass
+    name = forms.CharField(max_length=100)
+	email = forms.EmailField(max_length=120, widget=forms.EmailInput)
+	message = forms.CharField(max_length=120, widget=forms.Textarea)
 ```
 
 `views.py`
@@ -268,8 +265,6 @@ class ContactFormView(FormView):
 
     def form_valid(self, form):
         # This method is called when valid form data has been POSTed.
-        # It should return an HttpResponse.
-        form.send_email()
         return super().form_valid(form)
 
 ```
@@ -345,40 +340,6 @@ These views inherit `SingleObjectTemplateResponseMixin` which uses `template_nam
 > If you wish to have separate templates for `CreateView` and `UpdateView`, you can set either `template_name` or `template_name_suffix` on your view class.
 
 
-# Models and request.user
-
-`models.py`
-
-```python
-from django.contrib.auth.models import User
-from django.db import models
-
-class Author(models.Model):
-    name = models.CharField(max_length=200)
-    created_by = models.ForeignKey(User, on_delete=models.CASCADE)
-```
-
-> In the view, ensure that you don’t include `created_by` in the list of fields to edit, and override `form_valid()` to add the user
-> `LoginRequiredMixin` prevents users who aren’t logged in from accessing the form.
-
-
-`views.py`
-
-```python
-from django.contrib.auth.mixins import LoginRequiredMixin
-from django.views.generic.edit import CreateView
-from myapp.models import Author
-
-class AuthorCreateView(LoginRequiredMixin, CreateView):
-    model = Author
-    fields = ['name']
-
-    def form_valid(self, form):
-        form.instance.created_by = self.request.user
-        return super().form_valid(form)
-
-```
-
 # Using mixins with class-based views
 
 ## Context and template responses
@@ -389,16 +350,19 @@ class AuthorCreateView(LoginRequiredMixin, CreateView):
 
 # Building up Django’s generic class-based views
 
-- DetailView        : working with a single Django object
-- ListView          : working with many Django objects
+- `DetailView`        : working with a single Django object
+  - function `get_object`
+- `ListView`          : working with many Django objects
+  - variable `queryset`
+  - variable `model`
+  - function `get_queryset`
 
 
 
-
-## Using `SingleObjectMixin` with View
+## Using `SingleObjectMixin` with `View`
 
 a class-based view that responds only to POST
-
+If we want to write a class-based view that responds only to POST, we’ll subclass View and write a post() method in the subclass.
 
 `views.py`
 
@@ -437,7 +401,7 @@ urlpatterns = [
 ]
 ```
 
-## Using `SingleObjectMixin` with ListView
+## Using `SingleObjectMixin` with `ListView`
 
 `ListView` provides built-in pagination, but you might want to paginate a list of objects that are all linked (by a foreign key) to another object. In our publishing *example*, you might want to paginate through all the books by a particular publisher.
 

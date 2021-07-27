@@ -84,9 +84,25 @@
 
 - [x] Overview 
 - [x] Built- in display views 
-- [ ] Built- in editing views 
-- [ ] Using mixins 
+- [x] Built- in editing views 
+- [x] Using mixins 
 - [ ] API reference 
+  - [ ] Base views
+  - [ ] Generic display views
+  - [ ] Generic editing views
+  - [ ] Generic date views
+  - [ ] Class-based views mixins
+    - [ ] Simple mixins
+    - [ ] Single object mixins 
+    - [ ] Multiple object mixins 
+    - [ ] Editing mixins 
+    - [ ] Date-based mixins 
+  - [ ] Class-based generic views - flattened index
+    - [ ] Simple generic views
+    - [ ] Detail Views
+    - [ ] List Views
+    - [ ] Editing views
+    - [ ] Date-based views
 - [ ] Flattened index
 
 ## Advanced
