@@ -87,10 +87,10 @@
 - [x] Built- in editing views 
 - [x] Using mixins 
 - [ ] API reference 
-  - [ ] Base views
-  - [ ] Generic display views
-  - [ ] Generic editing views
-  - [ ] Generic date views
+  - [x] Base views
+  - [x] Generic display views
+  - [x] Generic editing views
+  - [x] Generic date views
   - [ ] Class-based views mixins
     - [ ] Simple mixins
     - [ ] Single object mixins 
