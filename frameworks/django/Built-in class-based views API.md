@@ -268,4 +268,292 @@ class Article(models.Model):
         return reverse('article-detail', kwargs={'pk': self.pk})
 ```
 
+- ### ArchiveIndexView
+    A top-level index page showing the “latest” objects, by date. Objects with a date in the future are not included unless you set `allow_future` to `True`.
 
+    **Notes**
+    - Uses a default `context_object_name` of **latest**.
+    - Uses a default `template_name_suffix` of `_archive`.
+    - Defaults to providing `date_list` by year, but this can be altered to month or day using the attribute `date_list_period`. This also applies to all subclass views.
+
+    `urls.py`
+
+    ```python
+    from django.urls import path
+    from django.views.generic.dates import ArchiveIndexView
+
+    from myapp.models import Article
+
+    urlpatterns = [
+        path('archive/', ArchiveIndexView.as_view(model=Article,  date_field="pub_date"), name="article_archive"),
+    ]
+    ```
+
+    `article_archive.html`
+
+    ```html
+    <ul>
+        {% for article in latest %}
+            <li>{{ article.pub_date }}: {{ article.title }}</li>
+        {% endfor %}
+    </ul>
+    ```
+
+- ### YearArchiveView
+    A yearly archive page showing all available months in a given year. Objects with a date in the future are not displayed unless you set `allow_future` to `True`.
+
+    **make_object_list**
+    A boolean specifying whether to retrieve the full list of objects for this year and pass those to the template. If `True`, the list of objects will be made available to the context. If `False`, the None queryset will be used as the object list. By default `False`.
+
+    **get_make_object_list()**
+    Determine if an object list will be returned as part of the context. Returns `make_object_list` by default.
+
+    **context**
+    - `date_list`: A QuerySet object containing all months that have objects available according to queryset, represented as `datetime.datetime` objects, in **ascending** order.
+    - `year`: A date object representing the given year.
+    `next_year`: A date object representing the first day of the next year, according to `allow_empty` and `allow_future`.
+    - `previous_year`: A date object representing the first day of the previous year, according to `allow_empty` and `allow_future`.
+
+    **Notes**
+    Uses a default `template_name_suffix` of `_archive_year`.
+
+    `views.py`
+    ```python
+    class ArticleYearArchiveView(YearArchiveView):
+        queryset = models.Book.objects.all()
+        date_field = "publication_date"
+        make_object_list = True
+        allow_future = True
+        template_name = 'CBV_doc/book_archive.html'
+    ```
+
+
+    `urls.py`
+
+    ```python
+    urlpatterns = [
+        path('<int:year>/',
+            ArticleYearArchiveView.as_view(),
+            name="article_year_archive"),
+    ]
+    ```
+    `html page`
+
+    ```html
+    <ul>
+        {% for date in date_list %}
+            <li>{{ date|date }}</li>
+        {% endfor %}
+    </ul>
+
+    <div>
+        <h3>All Articles for {{ year|date:"Y" }}</h3>
+        {% for obj in object_list %}
+            <p>
+                {{ obj.title }} - {{ obj.publication_date|date:"F j, Y" }}
+            </p>
+        {% endfor %}
+    </div>
+    ```
+
+- ### MonthArchiveView
+    A monthly archive page showing all objects in a given month. Objects with a date in the future are not displayed unless you set `allow_future` to `True`.
+
+    **Context**
+
+    - `date_list`: A QuerySet object containing all days that have objects available in the given month, according to queryset, represented as `datetime.datetime` objects, in ascending order.
+    - `month`: A date object representing the given month.
+    - `next_month`: A date object representing the first day of the next month, according to `allow_empty` and `allow_future`.
+    - `previous_month`: A date object representing the first day of the previous month, according to `allow_empty` and `allow_future`.
+  
+    **Notes**
+    Uses a default `template_name_suffix` of `_archive_month`.
+
+    `views.py`
+    ```python
+    class ArticleMonthArchiveView(MonthArchiveView):
+        queryset = models.Book.objects.all()
+        date_field = "publication_date"
+        allow_future = True
+        template_name = 'CBV_doc/book_archive.html'
+    ```
+    `urls.py`
+    ```python
+        # Example: /2012/08/
+        path('book-archive/<int:year>/<int:month>/', views.ArticleMonthArchiveView.as_view(month_format='%m'), name="archive_month_numeric"),
+        # Example: /2012/aug/
+        path('book-archive/<int:year>/<str:month>/', views.ArticleMonthArchiveView.as_view(), name="archive_month"),
+    ```
+
+    `html`
+    ```html
+    <ul>
+        {% for article in object_list %}
+            <li>{{ article.publication_date|date:"F j, Y" }}: {{ article.title }}</li>
+        {% endfor %}
+    </ul>
+
+    <p>
+        {% if previous_month %}
+            Previous Month: {{ previous_month|date:"F Y" }}
+        {% endif %}
+        {% if next_month %}
+            Next Month: {{ next_month|date:"F Y" }}
+        {% endif %}
+    </p>
+    ```
+
+- ### WeekArchiveView
+
+    A weekly archive page showing all objects in a given week. Objects with a date in the future are not displayed unless you set `allow_future` to `True`.
+
+    **Context**
+
+    - `week`: A date object representing the first day of the given week.
+    - `next_week`: A date object representing the first day of the next week, according to `allow_empty` and `allow_future`.
+    - `previous_week`: A date object representing the first day of the previous week, according to `allow_empty` and `allow_future`.
+
+    **Notes**
+    - Uses a default template_name_suffix of _archive_week.
+    - The week_format attribute is a strptime() format string used to parse the week number. The following values are supported:
+      - '%U': Based on the United States week system where the week begins on Sunday. This is the default value.
+      - '%W': Similar to '%U', except it assumes that the week begins on Monday. This is not the same as the ISO 8601 week number.
+      - '%V': ISO 8601 week number where the week begins on Monday.
+
+    `views.py`
+    ```python
+    class ArticleWeekArchiveView(WeekArchiveView):
+        queryset = models.Book.objects.all()
+        date_field = "publication_date"
+        week_format = "%W"
+        allow_future = True
+        template_name = 'CBV_doc/book_archive.html'
+    ```
+
+    `urls.py`
+    ```python
+    # Example: /2012/week/23/
+    path('book-archive/<int:year>/week/<int:week>/',  views.ArticleWeekArchiveView.as_view(),  name="archive_week"),
+    ```
+
+    `html`
+    ```html
+    <h1>Week {{ week|date:'W' }}</h1>
+
+    <ul>
+        {% for article in object_list %}
+            <li>{{ article.publication_date|date:"F j, Y" }}: {{ article.title }}</li>
+        {% endfor %}
+    </ul>
+
+    <p>
+        {% if previous_week %}
+            Previous Week: {{ previous_week|date:"W" }} of year {{ previous_week|date:"Y" }}
+        {% endif %}
+        {% if previous_week and next_week %}--{% endif %}
+        {% if next_week %}
+            Next week: {{ next_week|date:"W" }} of year {{ next_week|date:"Y" }}
+        {% endif %}
+    </p>
+    ```
+
+
+- ### DayArchiveView
+    A day archive page showing all objects in a given day. Days in the future *throw a 404 error*, regardless of whether any objects exist for future days, unless you set `allow_future` to `True`.
+
+    **Context**
+    - `day`: A date object representing the given day.
+    - `next_day`: A date object representing the next day, according to `allow_empty` and `allow_future`.
+    - `previous_day`: A date object representing the previous day, according to `allow_empty` and `allow_future`.
+    - `next_month`: A date object representing the first day of the next month, according to `allow_empty` and `allow_future`.
+    - `previous_month`: A date object representing the first day of the previous month, according to `allow_empty` and `allow_future`.
+    - 
+    **Notes**
+    Uses a default `template_name_suffix` of `_archive_day`.
+
+    `views.py`
+    ```python
+    class ArticleDayArchiveView(DayArchiveView):
+        queryset = models.Book.objects.all()
+        date_field = "publication_date"
+        allow_future = True
+        template_name = 'CBV_doc/book_archive.html'
+    ```
+
+    `urls.py`
+    ```python
+    # Example: /2012/nov/10/
+    path('book-archive/<int:year>/<str:month>/<int:day>/', views.ArticleDayArchiveView.as_view(), name="archive_day"),
+    ```
+
+    `html`
+    ```html
+    <h1>{{ day }}</h1>
+
+    <ul>
+        {% for article in object_list %}
+            <li>{{ article.publication_date|date:"F j, Y" }}: {{ article.title }}</li>
+        {% endfor %}
+    </ul>
+
+    <p>
+        {% if previous_day %}
+            Previous Day: {{ previous_day }}
+        {% endif %}
+        {% if previous_day and next_day %}--{% endif %}
+        {% if next_day %}
+            Next Day: {{ next_day }}
+        {% endif %}
+    </p>
+    ```
+
+
+- ### TodayArchiveView
+
+    A day archive page showing all objects for today. This is exactly the same as django.views.generic.dates.DayArchiveView, except today’s date is used instead of the year/month/day arguments.
+
+    **Notes**
+    Uses a default `template_name_suffix` of `_archive_today`.
+
+    `views.py`
+    ```python
+    class ArticleTodayArchiveView(TodayArchiveView):
+        queryset = models.Book.objects.all()
+        date_field = "pub_date"
+        allow_future = True
+        template_name = 'CBV_doc/book_archive.html'
+    ```
+
+    `urls.py`
+    ```python
+    path('book-archive/today',
+         views.ArticleTodayArchiveView.as_view(),
+         name="archive_today"),
+    ```
+
+    `html`
+    This view uses by default the same template as the `DayArchiveView`, which is in the previous example. If you need a different template, set the `template_name` attribute to be the name of the new template.
+
+
+- ### DateDetailView
+
+    A page representing an individual object. If the object has a date value in the future, the view will throw a 404 error by default, unless you set allow_future to True.
+
+    **Context**
+    Includes the single object associated with the model specified in the DateDetailView.
+
+    **Notes**
+    Uses a default template_name_suffix of _detail.
+
+    `urls.py`
+    ```python
+    urlpatterns = [
+        path('<int:year>/<str:month>/<int:day>/<int:pk>/',
+            DateDetailView.as_view(model=Article, date_field="pub_date"),
+            name="archive_date_detail"),
+    ]
+    ```
+    `html`
+    ```html
+    <h1>{{ object.title }}</h1>
+    ```
