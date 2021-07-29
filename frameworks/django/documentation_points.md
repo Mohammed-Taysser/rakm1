@@ -84,12 +84,12 @@
   - [x] Generic display views
   - [x] Generic editing views
   - [x] Generic date views
-  - [ ] Class-based views mixins
+  - [x] Class-based views mixins
     - [x] Simple mixins
-    - [ ] Single object mixins
-    - [ ] Multiple object mixins
-    - [ ] Editing mixins
-    - [ ] Date-based mixins
+    - [x] Single object mixins
+    - [x] Multiple object mixins
+    - [x] Editing mixins
+    - [x] Date-based mixins
   - [ ] Class-based generic views - flattened index
     - [ ] Simple generic views
     - [ ] Detail Views
