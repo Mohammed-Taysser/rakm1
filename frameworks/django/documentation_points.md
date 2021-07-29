@@ -1,102 +1,95 @@
 
-
-
 # The model layer
 
 ## Models
 
 - [x] Introduction to models
-- [x] Field types 
+- [x] Field types
 - [ ] Indexes
 - [X] Meta options
 - [X] Meta class
 
-
 ## QuerySets
 
-- [x] Making queries 
-- [x] QuerySet method reference 
+- [x] Making queries
+- [x] QuerySet method reference
 - [x] Lookup expressions
-
 
 ## Model instances
 
-- [x] Instance methods 
+- [x] Instance methods
 - [x] Accessing related objects
 
 ## Migrations
 
-- [x] Introduction to Migrations 
+- [x] Introduction to Migrations
 - [ ] Operations reference
-- [ ] SchemaEditor 
+- [ ] SchemaEditor
 - [ ] Writing migrations
 
 ## Advanced
 
 - [ ] Managers
-- [ ] Raw SQL 
-- [ ] Transactions 
-- [ ] Aggregation 
-- [ ] Search 
-- [ ] Custom fields 
-- [ ] Multiple databases 
-- [ ] Custom lookups 
-- [ ] Query Expressions 
-- [ ] Conditional Expressions 
+- [ ] Raw SQL
+- [ ] Transactions
+- [ ] Aggregation
+- [ ] Search
+- [ ] Custom fields
+- [ ] Multiple databases
+- [ ] Custom lookups
+- [ ] Query Expressions
+- [ ] Conditional Expressions
 - [ ] Database Functions
 
 ## Other
 
-- [ ] Supported databases 
-- [ ] Legacy databases 
-- [ ] Providing initial data 
-- [ ] Optimize database access 
+- [ ] Supported databases
+- [ ] Legacy databases
+- [ ] Providing initial data
+- [ ] Optimize database access
 - [ ] PostgreSQL specific features
-
-
 
 # The view layer
 
-
 ## The basics
 
-- [x] URLconfs 
-- [x] View functions 
-- [x] Shortcuts 
-- [x] Decorators 
+- [x] URLconfs
+- [x] View functions
+- [x] Shortcuts
+- [x] Decorators
 - [ ] Asynchronous Support
 
 ## Reference
 
-- [x] Built- in Views 
-- [x] Request/response objects 
+- [x] Built- in Views
+- [x] Request/response objects
 - [ ] TemplateResponse objects
 
 ## File uploads
 
 - [x] Overview          # need more on file upload
-- [x] File objects 
-- [ ] Storage API 
-- [x] Managing files 
+- [x] File objects
+- [ ] Storage API
+- [x] Managing files
 - [ ] Custom storage
 
 ## Class- based views
 
-- [x] Overview 
-- [x] Built- in display views 
-- [x] Built- in editing views 
-- [x] Using mixins 
-- [ ] API reference 
+- [x] Overview
+- [x] Built- in display views
+- [x] Built- in editing views
+- [x] Using mixins
+- [ ] API reference
   - [x] Base views
   - [x] Generic display views
   - [x] Generic editing views
   - [x] Generic date views
   - [ ] Class-based views mixins
     - [ ] Simple mixins
-    - [ ] Single object mixins 
-    - [ ] Multiple object mixins 
-    - [ ] Editing mixins 
-    - [ ] Date-based mixins 
+    - [ ] Single object mixins
+    - [ ] Multiple object mixins
+    - [ ] Editing mixins
+    - [ ] Date-based mixins
   - [ ] Class-based generic views - flattened index
     - [ ] Simple generic views
     - [ ] Detail Views
@@ -107,12 +100,12 @@
 
 ## Advanced
 
-- [ ] Generating CSV 
+- [ ] Generating CSV
 - [ ] Generating PDF
 
 ## Middleware
 
-- [ ] Overview 
+- [ ] Overview
 - [ ] Built- in middleware classes
 
 # The template layer
@@ -123,37 +116,37 @@
 
 ## For designers
 
-- [ ] Language overview 
-- [ ] Built- in tags and filters 
+- [ ] Language overview
+- [ ] Built- in tags and filters
 - [ ] Humanization
 
 ## For programmers
 
-- [ ] Template API 
-- [ ] Custom tags and filters 
+- [ ] Template API
+- [ ] Custom tags and filters
 - [ ] Custom template backend
 
 # Forms
 
 ## The basics
 
-- [ ] Overview 
-- [ ] Form API 
-- [ ] Built- in fields 
+- [ ] Overview
+- [ ] Form API
+- [ ] Built- in fields
 - [ ] Built- in widgets
 
 ## Advanced
 
-- [ ] Forms for models 
-- [ ] Integrating media 
-- [ ] Formsets 
+- [ ] Forms for models
+- [ ] Integrating media
+- [ ] Formsets
 - [ ] Customizing validation
 
 # The development process
 
 ## Settings
 
-- [ ] Overview 
+- [ ] Overview
 - [ ] Full list of settings
 
 ## Applications
@@ -171,18 +164,18 @@
 
 ## Testing
 
-- [ ] Introduction 
-- [ ] Writing and running tests 
-- [ ] Included testing tools 
+- [ ] Introduction
+- [ ] Writing and running tests
+- [ ] Included testing tools
 - [ ] Advanced topics
 
 ## Deployment
 
-- [ ] Overview 
-- [ ] WSGI servers 
-- [ ] ASGI servers 
-- [ ] Deploying static files 
-- [ ] Tracking code errors by email 
+- [ ] Overview
+- [ ] WSGI servers
+- [ ] ASGI servers
+- [ ] Deploying static files
+- [ ] Tracking code errors by email
 - [ ] Deployment checklist
 
 # The admin
