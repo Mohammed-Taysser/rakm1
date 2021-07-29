@@ -85,7 +85,7 @@
   - [x] Generic editing views
   - [x] Generic date views
   - [ ] Class-based views mixins
-    - [ ] Simple mixins
+    - [x] Simple mixins
     - [ ] Single object mixins
     - [ ] Multiple object mixins
     - [ ] Editing mixins
