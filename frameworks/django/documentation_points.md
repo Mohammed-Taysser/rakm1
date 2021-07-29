@@ -112,13 +112,13 @@
 
 ## The basics
 
-- [ ] Overview
+- [x] Overview
 
 ## For designers
 
-- [ ] Language overview
-- [ ] Built- in tags and filters
-- [ ] Humanization
+- [x] Language overview
+- [x] Built- in tags and filters
+- [x] Humanization
 
 ## For programmers
 
