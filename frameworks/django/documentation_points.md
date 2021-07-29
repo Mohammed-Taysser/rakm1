@@ -90,13 +90,13 @@
     - [x] Multiple object mixins
     - [x] Editing mixins
     - [x] Date-based mixins
-  - [ ] Class-based generic views - flattened index
+  - [x] Class-based generic views - flattened index
     - [ ] Simple generic views
     - [ ] Detail Views
     - [ ] List Views
     - [ ] Editing views
     - [ ] Date-based views
-- [ ] Flattened index
+- [x] Flattened index
 
 ## Advanced
 
