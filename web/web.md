@@ -61,6 +61,9 @@ Localhost://3000
 - bootstrap tour
 - local storage in js
 - cpanels,directadmin, plesk
+- https://github.com/ml-tooling/best-of-web-python
+- https://awesome-python.com/
+
 
 
 ## html page to design

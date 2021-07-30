@@ -36,6 +36,19 @@
 - https://www.hackthissite.org/forums/
 - http://insecure.org/
 - https://dr-virus.blogspot.com/
+- https://www.youtube.com/watch?v=J2k87a0IPlg&list=PLs6emGC4vqRIims61R2MQ5lBvA8xsIG0t&index=2
+- https://www.youtube.com/watch?v=ooJSgsB5fIE&list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_
+- https://www.youtube.com/watch?v=ooJSgsB5fIE&list=RDQM6iSnP-MpZ8Y&start_radio=1
+- https://www.youtube.com/watch?v=3rl4zJZpcHU&list=PLjXnMD3emuh3FM3J4bFLEHd3kiLGvyCso
+- https://www.maharah.net/courses/infosec
+- https://www.edx.org/course/cybersecurity-fundamentals
+- https://www.maharah.net/courses/wifipentesting
+- https://www.edraak.org/specialization/specialization/cs101-v1/
+- https://www.youtube.com/watch?v=-JxSXbo_f58&list=PLgIQibkrZYz2ILJG4WLv_CT8zUgicRcwV
+- https://www.udemy.com/course/cyber-security-advanced-persistent-threat-defender-preview/
+- https://www.udemy.com/course/certified-secure-netizen/learn/lecture/6553346?components=purchase%2Ccacheable_buy_button%2Cbuy_button%2Crecommendation#overview
+- https://www.rwaq.org/courses/penetration-kali-linux/sections/3362/lectures/15518
+- https://www.khanacademy.org/partner-content/nova/nova-labs-topic/cyber/v/cybersecurity-101
 
 
 
