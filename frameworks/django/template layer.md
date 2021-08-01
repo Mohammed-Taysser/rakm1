@@ -257,7 +257,6 @@ from django import template
 
 register = template.Library()
 
-
 @register.filter(name='cut')
 def cut(value, arg):
     """Removes all values of arg from the given string"""
@@ -274,7 +273,70 @@ def cut(value, arg):
 
 - `@register.filter`  use the tag name as function name
 - `@register.filter(name='tag_name')`  use the tag name as provide
-- `from django.template.defaultfilters import stringfilter`
+- `from django.template.defaultfilters import stringfilter` <br>
     `@stringfilter` only expects a string as the first argument
 - `@register.filter(is_safe=True)` take care of all the auto-escaping handling
-- `@register.filter(expects_localtime=True)`     filter that operates on datetime 
+- `@register.filter(expects_localtime=True)`     filter that operates on datetime
+- `@register.simple_tag`  writing simple tag that no need doing some processing
+- `@register.simple_tag(takes_context=True)` needs to access the current context
+- `@register.inclusion_tag('results.html')` displays some data by rendering another template
+
+```python
+# writing simple tag that no need doing some processing
+@register.simple_tag
+def current_time(format_string):
+    return datetime.datetime.now().strftime(format_string)
+
+#  needs to access the current context
+# Note that the first argument must be called context.
+@register.simple_tag(takes_context=True)
+def current_time(context, format_string):
+    timezone = context['timezone']
+    return your_get_current_time_method(timezone, format_string)
+# accept any number of positional or keyword arguments
+@register.simple_tag
+def my_tag(a, b, *args, **kwargs):
+    warning = kwargs['warning']
+    profile = kwargs['profile']
+    ...
+    return ...
+# Then in the template any number of arguments, separated by spaces, may be passed to the template tag. Like in Python, the values for keyword arguments are set using the equal sign (“=”) and must be provided after the positional arguments.
+{% my_tag 123 "abcd" book.title warning=message|lower profile=user.profile %}
+
+#  store the tag results in a template variable rather than directly outputting 
+{% current_time "%Y-%m-%d %I:%M %p" as the_time %}
+
+# If you need to rename your tag, you can provide a custom name for it:
+register.simple_tag(lambda x: x - 1, name='minusone')
+@register.simple_tag(name='minustwo')
+def some_function(value):
+    return value - 2
+
+# Inclusion tags    {% show_results poll %}
+# on custom_tags.py
+@register.inclusion_tag('results.html')
+def show_results(poll):
+    choices = poll.choice_set.all()
+    return {'choices': choices}
+# on results.html
+<ul>
+{% for choice in choices %}
+    <li> {{ choice }} </li>
+{% endfor %}
+</ul>
+# take data from context
+@register.inclusion_tag('link.html', takes_context=True)
+def jump_link(context):
+    return {
+        'link': context['home_link'],
+        'title': context['home_title'],
+    }
+
+# {% my_tag 123 "abcd" book.title warning=message|lower profile=user.profile %}
+@register.inclusion_tag('my_template.html')
+def my_tag(a, b, *args, **kwargs):
+    warning = kwargs['warning']
+    profile = kwargs['profile']
+    ...
+    return ...
+```

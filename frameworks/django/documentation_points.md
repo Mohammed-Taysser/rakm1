@@ -123,14 +123,14 @@
 ## For programmers
 
 - [ ] Template API
-- [ ] Custom tags and filters
+- [x] Custom tags and filters
 - [ ] Custom template backend
 
 # Forms
 
 ## The basics
 
-- [ ] Overview
+- [x] Overview
 - [ ] Form API
 - [ ] Built- in fields
 - [ ] Built- in widgets
