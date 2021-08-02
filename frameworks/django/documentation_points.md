@@ -131,13 +131,13 @@
 ## The basics
 
 - [x] Overview
-- [ ] Form API
-- [ ] Built- in fields
-- [ ] Built- in widgets
+- [x] Form API
+- [x] Built- in fields
+- [x] Built- in widgets
 
 ## Advanced
 
-- [ ] Forms for models
+- [x] Forms for models
 - [ ] Integrating media
 - [ ] Formsets
 - [ ] Customizing validation
