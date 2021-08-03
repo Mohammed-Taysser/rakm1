@@ -159,3 +159,163 @@
 - Malware Analysis
 
   - [GIAC Reverse Engineering Malware (GREM)](https://www.sans.org/cyber-security-courses/reverse-engineering-malware-malware-analysis-tools-techniques/)
+
+## USEFUL WEBSITES FOR PENTESTERS & HACKERS)
+
+- ### Exploits Database 💥
+
+  - [http://www.exploit-db.com/](http://www.exploit-db.com/)
+  - [http://www.intelligentexploit.com](http://www.intelligentexploit.com)
+  - [http://www.shodanhq.com/](http://www.shodanhq.com/)
+  - [http://packetstormsecurity.com/](http://packetstormsecurity.com/)
+
+- ### Vulnerabilities Database  🎯
+
+  - [https://cve.mitre.org/cve/](https://cve.mitre.org/cve/)
+  - [http://www.cvedetails.com/](http://www.cvedetails.com/)
+  - [https://nvd.nist.gov/](https://nvd.nist.gov/)
+  - [http://osvdb.org/](http://osvdb.org/)
+  - [https://www.kb.cert.org/vuls/](https://www.kb.cert.org/vuls/)
+  - [https://secunia.com/community/advisories/search/](https://secunia.com/community/advisories/search/)
+  - [http://www.securityfocus.com/bid](http://www.securityfocus.com/bid)
+  - [http://lwn.net/Vulnerabilities/](http://lwn.net/Vulnerabilities/)
+  - [http://denimgroup.com/resources-threadfix/](http://denimgroup.com/resources-threadfix/)
+  - [http://www.vulnerability-lab.com](http://www.vulnerability-lab.com)
+  - [http://www.secdocs.org/](http://www.secdocs.org/)
+
+- ### Hacking Tutorials 💻
+
+  - [https://www.offensive-security.com/](https://www.offensive-security.com/)
+  - [http://www.kalitutorials.net/2013/08/kali-linux.html](http://www.kalitutorials.net/2013/08/kali-linux.html)
+  - [https://www.youtube.com/user/DEFCONConference](https://www.youtube.com/user/DEFCONConference)
+  - [https://www.youtube.com/user/Hak5Darren](https://www.youtube.com/user/Hak5Darren)
+  - [https://www.youtube.com/user/sansinstitute](https://www.youtube.com/user/sansinstitute)
+  - [https://en.wikibooks.org/wiki/Metasploit/VideoTutorials](https://en.wikibooks.org/wiki/Metasploit/VideoTutorials)
+  - [http://www.hacking-tutorial.com/](http://www.hacking-tutorial.com/)
+  - [http://breakthesecurity.cysecurity.org/](http://breakthesecurity.cysecurity.org/)
+  - [http://www.securitytube.net/](http://www.securitytube.net/)
+  - [http://www.ehacking.net/](http://www.ehacking.net/)
+  - [https://vimeo.com/channels/fullscopesecurity](https://vimeo.com/channels/fullscopesecurity)
+  - [http://www.spacerogue.net/wordpress/](http://www.spacerogue.net/wordpress/)
+
+- ### Virus Scan 🦠
+
+  - [https://www.virustotal.com/nl/](https://www.virustotal.com/nl/)
+  - [http://anubis.iseclab.org/](http://anubis.iseclab.org/)
+  - [http://virusscan.jotti.org/it](http://virusscan.jotti.org/it)
+
+- ### Not distribute to AV
+
+  - [http://v2.scan.majyx.net/?page=home](http://v2.scan.majyx.net/?page=home)
+  - [http://fuckingscan.me/](http://fuckingscan.me/)
+  - [https://anonscanner.com/](https://anonscanner.com/)
+  - [http://nodistribute.com/](http://nodistribute.com/)
+  - [http://www.file2scan.net/](http://www.file2scan.net/)
+
+- ### Tools Download 🛠
+
+  - [http://tools.kali.org/tools-listing](http://tools.kali.org/tools-listing)
+  - [http://insecure.org/](http://insecure.org/)
+  - [http://www.hackersonlineclub.com/hacking-tools](http://www.hackersonlineclub.com/hacking-tools)
+  - [https://www.concise-courses.com/hacking-tools/](https://www.concise-courses.com/hacking-tools/)
+  - [http://www.darknet.org.uk/category/hacking-tools/](http://www.darknet.org.uk/category/hacking-tools/)
+  - [http://www.kitploit.com/](http://www.kitploit.com/)
+  - [http://www.toolswatch.org/](http://www.toolswatch.org/)
+  - [http://www.blackarch.org/tools.html](http://www.blackarch.org/tools.html)
+  - [https://pentest-tools.com/reconnaissance/google-hacking](https://pentest-tools.com/reconnaissance/google-hacking)
+  - [https://gexos.github.io/Hacking-Tools-Repository/](https://gexos.github.io/Hacking-Tools-Repository/)
+  - [http://www.romhacking.net/utilities/](http://www.romhacking.net/utilities/)
+
+- ### Network Online Tools 🌐
+
+  - [http://www.yougetsignal.com/](http://www.yougetsignal.com/)
+  - [http://www.dnswatch.info/](http://www.dnswatch.info/)
+  - [http://www.nirsoft.net/countryip/](http://www.nirsoft.net/countryip/)
+  - [http://www.tcpiputils.com/](http://www.tcpiputils.com/)
+  - [http://www.coffer.com/mac_find/](http://www.coffer.com/mac_find/)
+  - [http://bgp.he.net/](http://bgp.he.net/)
+  - [http://www.sockets.com/services.htm](http://www.sockets.com/services.htm)
+  - [http://services.ce3c.be/ciprg/](http://services.ce3c.be/ciprg/)
+
+- ### IP Lookup 🔎
+
+  - [http://ip-api.com/#](http://ip-api.com/#)
+  - [http://www.my-ip-neighbors.com/](http://www.my-ip-neighbors.com/)
+  - [http://www.whatismyip.com/](http://www.whatismyip.com/)
+  - [http://www.ip2location.com/demo](http://www.ip2location.com/demo)
+  - [http://freegeoip.net/static/index.html](http://freegeoip.net/static/index.html)
+  - [http://whatstheirip.com](http://whatstheirip.com)
+  - [http://ipaddress.com](http://ipaddress.com)
+  - [http://www.ip-adress.com/ipaddresstolocation/](http://www.ip-adress.com/ipaddresstolocation/)
+
+- ### Encrypt / Decrypt
+
+  - [http://crypo.in.ua/tools/](http://crypo.in.ua/tools/)
+  - [http://www.tools4noobs.com/online_tools/decrypt/](http://www.tools4noobs.com/online_tools/decrypt/)
+  - [http://codebeautify.org/encrypt-decrypt](http://codebeautify.org/encrypt-decrypt)
+  - [http://textmechanic.com/Encryption-Generator.html](http://textmechanic.com/Encryption-Generator.html)
+  - [http://www.yellowpipe.com/yis/tools/encrypter/](http://www.yellowpipe.com/yis/tools/encrypter/)
+
+- ### Online Hash Crackers 🧱
+
+  - [http://www.hashkiller.co.uk/](http://www.hashkiller.co.uk/)
+  - [http://www.md5online.org/](http://www.md5online.org/)
+  - [http://www.cmd5.org/](http://www.cmd5.org/)
+  - [http://www.md5crack.com/](http://www.md5crack.com/)
+  - [http://www.netmd5crack.com/cracker/](http://www.netmd5crack.com/cracker/)
+  - [http://md5decryption.com/](http://md5decryption.com/)
+  - [http://md5.rednoize.com/](http://md5.rednoize.com/)
+  - [http://www.md5this.com/index.php](http://www.md5this.com/index.php)
+  - [http://www.tydal.nu/article/md5-crack/](http://www.tydal.nu/article/md5-crack/)
+  - [http://passcracking.com/](http://passcracking.com/)
+  - [https://hdb.insidepro.com/en](https://hdb.insidepro.com/en)
+  - [https://crackstation.net/](https://crackstation.net/)
+  - [http://www.cloudcracker.net/](http://www.cloudcracker.net/)
+  - [https://isc.sans.edu/tools/reversehash.html](https://isc.sans.edu/tools/reversehash.html)
+  - [http://www.onlinehashcrack.com/ $](http://www.onlinehashcrack.com/)
+  - [http://hashcrack.in/en](http://hashcrack.in/en)
+
+- ### File Upload 📁
+
+  - [https://mega.co.nz/](https://mega.co.nz/)
+  - [https://www.mediafire.com/](https://www.mediafire.com/)
+  - [https://infotomb.com/m/welcome](https://infotomb.com/m/welcome)
+  - [http://sharesend.com/](http://sharesend.com/)
+  - [http://www.wss-coding.com/upload](http://www.wss-coding.com/upload)
+  - [http://zippyshare.com/](http://zippyshare.com/)
+  - [http://filetolink.com/](http://filetolink.com/)
+  - [http://ge.tt/](http://ge.tt/)
+  - [http://largedocument.com/](http://largedocument.com/)
+  - [http://rghost.net/](http://rghost.net/)
+  - [http://dox.abv.bg/files/share](http://dox.abv.bg/files/share)
+  - [http://secureupload.eu/](http://secureupload.eu/)
+  - [SendGB](sendgb.com)
+  - [GoFile](gofile.io/uploadFiles)
+  - [WeTransfer](wetransfer.com)
+  - [FileBin](filebin.net)
+  - [PCloud](transfer.pcloud.com)
+  - [KwiqFlick](home.kwiqflick.com)
+  - [TakeaFil](takeafile.com)
+
+- ### Anonymous Test 🕵️
+
+  - [https://ipleak.net/](https://ipleak.net/)
+  - [https://www.dnsleaktest.com/](https://www.dnsleaktest.com/)
+  - [https://diafygi.github.io/webrtc-ips/](https://diafygi.github.io/webrtc-ips/)
+
+- ### Torcheck 🧅
+
+  - [http://5deqglhxcoy3gbx6.onion - Xenobite](http://5deqglhxcoy3gbx6.onion)
+  - [http://tmkloc6vhxos3nde.onion](http://tmkloc6vhxos3nde.onion)
+
+- ### SMS 📩
+
+  - [http://receive-sms-now.com/](http://receive-sms-now.com/)
+  - [http://www.receive-sms-online.info/](http://www.receive-sms-online.info/)
+  - [http://www.receivesmsonline.net/](http://www.receivesmsonline.net/)
+
+- ### Fake Identity 🙃
+
+  - [http://www.fakenamegenerator.com/](http://www.fakenamegenerator.com/)
+  - [https://fakena.me/](https://fakena.me/)
+  - [http://names.igopaygo.com/people/fake_person](http://names.igopaygo.com/people/fake_person)

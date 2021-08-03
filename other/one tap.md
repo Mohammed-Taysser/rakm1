@@ -1,3 +1,98 @@
+https://www.m3aarf.com/articles/1685/%D8%A7%D9%81%D8%B6%D9%84-23-%D9%83%D9%88%D8%B1%D8%B3-%D9%84%D8%B7%D9%84%D8%A7%D8%A8-%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D9%88%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%85%D9%86-%D9%85%D9%86%D8%B5%D8%A9-Solol-learn | افضل 23 كورس لطلاب حاسبات ومعلومات مقدمة من منصة Solol learn - منصة معارف
+https://free4arab.net/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA-%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%85%D9%86-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%88%D9%81%D8%AA-%D9%88-%D9%84%D9%8A/ | كورسات مجانية مقدمة من مايكروسوفت و لينكد إن – Free4arab
+https://www.youtube.com/watch?v=QNV8j2wipPU | ازاي تصنع استبيان او امتحان إلكتروني بواسطة نماذج جوجل google forms - YouTube
+https://www.youtube.com/playlist?list=PLkIliLHi5M4J5tJRrTCNBMgS6-6dP4Q0J | مقدمة في استخدام سطر الأوامر Terminal - YouTube
+https://www.argosopentech.com/ | Argos Open Tech
+https://editorial.rottentomatoes.com/guide/james-bond-movies/ | All 26 James Bond Movies Ranked by Tomatometer << Rotten Tomatoes – Movie and TV News
+https://www.youtube.com/watch?v=oZwyA9lUwRk | Django Stripe Payments Simplified with Donation Page - YouTube
+
+https://www.youtube.com/playlist?list=PLv7cogHXoVhXvHPzIl1dWtBiYUAL8baHj | Web_Application_Penetration_Testing_Course - YouTube
+https://www.youtube.com/watch?v=pFNe4GbppRQ | 1 | How to Start in Information Security Field | بداية الطريق - كيف تبدأ في مجال أمن المعلومات - YouTube
+https://www.youtube.com/playlist?list=PLDRMxi70CdSBHODkNy87kqqGUSnl0ASxg | إختبار إختراق تطبيقات الويب - YouTube
+
+https://www.youtube.com/watch?v=_uQrJ0TkZlc | Python Tutorial - Python for Beginners [Full Course] - YouTube
+https://rapidapi.com/ | RapidAPI - The Next Generation API Platform
+https://www.youtube.com/playlist?list=PLs6emGC4vqRK0buaLWzZkxdNX6-WW0eh7 | دورة أساسيات لينكس - YouTube
+https://www.freecoursesandbooks.net/22745/ | تحويل الكلام إلى نص عن طريق موقع Dictation. - Free courses and books
+https://www.elmin7a.com/the-best-15-ted-talk/ | افضل 15 محادثة على مسرح TED - المنحة
+https://harmash.com/blog/useful-terms-in-the-field-of-penetration-testing/ | مصطلحات مفيدة في مجال اختبار الإختراق – مدونة هرمش
+https://www.freecoursesandbooks.net/14276/ | الكتابة السريعة - Free courses and books
+https://www.python.org/dev/peps/pep-0008/#tabs-or-spaces | PEP 8 -- Style Guide for Python Code | Python.org
+https://www.youtube.com/watch?v=_XQoh9BK_1g | ICS SCADA Hacking Demo with Simulation. - YouTube
+https://www.youtube.com/playlist?list=PL_YW0h4ytNBtBBaPFgMzCNmnzlFalu-SA | Network+ N10-007 Training - YouTube
+https://www.youtube.com/playlist?list=PLG49S3nxzAnnVhoAaL4B6aMFDQ8_gdxAy | CompTIA Security+ SY0-501 Training Course - YouTube
+https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As | Linux Command Line Tutorial For Beginners | Bash Terminal | Linux Terminal - YouTube
+https://www.youtube.com/playlist?list=PLG49S3nxzAnlGHY8ObL8DiyP3AIu9vd3K | CompTIA 220-1001 A+ Training Course - YouTube
+
+https://www.freecoursesandbooks.net/24213/ | Cameyo: موقع تشغيل البرامج على الكمبيوتر بدون تحميل. - Free courses and books
+https://www.freecoursesandbooks.net/24228/ | شرح موقع loom: أفضل موقع لتسجيل الفديوهات. - Free courses and books
+https://www.freecoursesandbooks.net/24422/ | تحميل برنامج تليجرام| كل ما تريد معرفته عن التليجرام. - Free courses and books
+https://www.freecoursesandbooks.net/22568/ | شرح موقع Canva: ما هو موقع كانفا؟ وكيفية التصميم عليه؟ - Free courses and books
+https://www.freecoursesandbooks.net/22745/ | تحويل الكلام إلى نص عن طريق موقع Dictation. - Free courses and books
+https://www.freecoursesandbooks.net/23348/ | طريقة للحصول على كورسات يوديمي المدفوعة مجانا| طريقة مجربة 100%. - Free courses and books
+https://www.freecoursesandbooks.net/22832/ | نماذج تسويقيه جاهزة|374 قالب للتخصصات التسويقية - Free courses and books
+https://www.freecoursesandbooks.net/ | Free courses and books - كورسات مجانية - كتب مجانية - منح مجانية
+https://www.freecoursesandbooks.net/23220/ | أفضل موقع لممارسة اللغة الإنجليزية مع الأجانب مجانا. - Free courses and books
+https://www.aqweeb.com/2020/10/back-end-back-end.html | مسار مطور Back End ... كيف تصبح مطور Back End محترف | أكوا ويب
+https://harmash.com/blog/useful-terms-in-the-field-of-penetration-testing/ | مصطلحات مفيدة في مجال اختبار الإختراق – مدونة هرمش
+https://www.youtube.com/watch?v=wR0KLF0l9ds | كيف تنقل الويندوز من الهاردسك القديم الى الـ SSD ( بدون فورمات !! ) - YouTube
+https://www.youtube.com/watch?v=KxG4t_0dmzw | خطوات تنفيذ المشروع البرمجي Software Development Process - YouTube
+https://www.youtube.com/playlist?list=PLn5BVKGFf3nfKzFFGocn7Bwn7phy53966 | المحادثات الصوتية - YouTube
+https://www.youtube.com/watch?v=3Z0xQUC-r7A | #الأمن_السيبراني المجالات والمسميات الوظيفية في الامن السيبراني - YouTube
+https://www.youtube.com/playlist?list=PL_YW0h4ytNBtBBaPFgMzCNmnzlFalu-SA | Network+ N10-007 Training - YouTube
+https://www.youtube.com/playlist?list=PLG49S3nxzAnnVhoAaL4B6aMFDQ8_gdxAy | CompTIA Security+ SY0-501 Training Course - YouTube
+https://www.youtube.com/playlist?list=PLG49S3nxzAnlGHY8ObL8DiyP3AIu9vd3K | CompTIA 220-1001 A+ Training Course - YouTube
+https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As | Linux Command Line Tutorial For Beginners | Bash Terminal | Linux Terminal - YouTube
+
+https://www.netaawy.com/2021/07/best-sites-for-learning-fast-typing.html | أفضل مواقع تعلم الكتابة السريعة على الكيبورد باللغة العربية
+https://www.netaawy.com/2020/12/best-telegram-channels.html | أفضل 10 قنوات تيليجرام مفيدة يجب عليك متابعتها
+https://www.netaawy.com/2019/06/Download-video-from-facebook.html | تحميل فيديو من الفيسبوك للكمبيوتر والهاتف أون لاين
+https://www.netaawy.com/2020/09/online-video-downloader.html | أفضل موقع تحميل الفيديو من أي موقع بدون برامج
+https://www.netaawy.com/2018/11/Video-converter-factory.html | تحميل برنامج تحويل الفيديو إلى جميع الصيغ
+https://www.netaawy.com/2018/02/Facial-recognition-search-engines.html | 5 محركات للبحث عن الوجوه والصور بدقة
+https://www.freecoursesandbooks.net/12907/ | عادات ستغير حياتك ! - Free courses and books
+https://www.mogtahed.com/%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%AB%D9%82%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D9%83%D8%AA%D8%A7.html | الاسرار الكاملة للثقة التامة بالنفس كتاب روبرت أنتوني
+
+http://127.0.0.1:8000/CBV/simple/?birth_year_month=1&birth_year_day=1&birth_year_year=1999&favorite_colors=bk | Problem loading page
+https://www.youtube.com/watch?v=2egEfIEQWbw | How i can start in Cyber Security CTF competition ? - YouTube
+https://www.youtube.com/watch?v=mkL04h4pKzs | ليه نقرأ؟ ما دام فيه فيديوهات تلخيص للكتب!؟ - YouTube
+https://www.youtube.com/watch?v=vvsfM5Dixow | What is CyberSecurity? - YouTube
+https://www.youtube.com/watch?v=e6zJaMxzciA | Data Structures - LinkedList (Arabic) - YouTube
+https://www.youtube.com/watch?v=YklnFXpq0ZE | Number Theory - Misc: Fib, GCD, LCM, Pow (Arabic) - YouTube
+https://www.youtube.com/watch?v=beSsSAUf-oc | You Can Learn Anything (30 sec) - YouTube
+https://courses.edx.org/dashboard | Dashboard | edX
+https://harmash.com/home/ | أفضل موقع عربي لتعلم البرمجة و الأنظمة و الشبكات مجاناً
+https://drive.google.com/drive/folders/0B5Tw8lljkW3ta0NuazVMckF6Xzg?resourcekey=0-IcU6c2iO-zQW9pdMH_cq6Q | ‪HD Book‬‏ - Google Drive
+https://www.youtube.com/playlist?list=PLoS1tHBCtbIm28iZfb8orVxRQ3MxulZzi | Python 3.8 هياكل بيانات وخوارزميات - YouTube
+https://lingva.ml/en/ar/hack | Lingva Translate
+https://libretranslate.com/ | LibreTranslate - Free and Open Source Machine Translation API
+https://duckduckgo.com/?q=class+python+syntax&atb=v281-7__&ia=programming | class python syntax at DuckDuckGo
+https://overapi.com/ | OverAPI.com | Collecting all the cheat sheets
+https://frontendtools.com/ | Secure Connection Not Available
+https://gtmetrix.com/ | GTmetrix | Website Performance Testing and Monitoring
+https://www.freecoursesandbooks.net/11734/ | ما هي الأشياء التي علي كل طالب جامعي بحاجة إلى معرفتها؟ - Free courses and books
+https://www.freecoursesandbooks.net/13250/ | مهارات البحث عن وظيفه بعد التخرج - Free courses and books
+https://www.mogtahed.com/%D8%A7%D8%B3%D8%A6%D9%84%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D9%88%D8%A7%D8%AC%D9%88%D8%A8%D8%AA%D9%87%D8%A7.html | - 13 من أخطر و أشهر اسئلة مقابلة شخصية واجوبتها - اكاديمية مجتهد
+https://www.youtube.com/playlist?list=PLCIJjtzQPZJ8KxEi278nugeO6R_9-Cn5o | CompTIA Linux + By Eng-Yasser Ramzy | Arabic - YouTube
+
+https://www.youtube.com/watch?v=g8nQ90Hk328 | Logging in Python || Learn Python Programming (Computer Science) - YouTube
+https://www.youtube.com/watch?v=S4HSEbWPqlA | Top CSS & Javascript Animation & Hover Effects | August 2020 - YouTube
+https://www.youtube.com/watch?v=KTR9xSBNBco | مشاريع لتعلم البرمجة و اهم المصادر ✅Projects every Programmer should try - YouTube
+https://duckduckgo.com/?q=app+on+obj&t=newext&atb=v256-5&ia=web | app on obj at DuckDuckGo
+https://www.youtube.com/watch?v=7pC-HEF3-KQ | فى30 يوم انسف البطن السفلية العنيدة والكرش | تخلص من البطن السفلية ببرنامج صحى متكامل - YouTube
+https://www.youtube.com/watch?v=KTR9xSBNBco | مشاريع لتعلم البرمجة و اهم المصادر ✅Projects every Programmer should try - YouTube
+https://www.youtube.com/watch?v=O2BwJfbKBt8 | ما بعد الاساسيات في لغة البايثون !؟ { تجارب مطور } (04) - YouTube
+https://docs.python.org/3.0/library/urllib.parse.html | urllib.parse — Parse URLs into components — Python v3.0.1 documentation
+https://regex101.com/r/TQKlDP/1 | regex101: build, test, and debug regex
+https://www.youtube.com/watch?v=tGjQpSicnNQ | How to type faster in Arabic and English on keyboard? | إزاي تكتب بسرعة عربي و إنجليزي علي الكيبورد؟ - YouTube
+https://www.debuggex.com/cheatsheet/regex/python | Python Regular Expression Cheatsheet - Debuggex
+https://duckduckgo.com/?q=regular+expression+python+example&t=newext&atb=v256-5&ia=web | regular expression python example at DuckDuckGo
+https://pythex.org/ | Pythex: a Python regular expression editor
+https://pylint.pycqa.org/en/latest/user_guide/run.html | Running Pylint — Pylint 2.9.2-dev0 documentation
+https://pillow.readthedocs.io/en/stable/reference/Image.html | Image Module — Pillow (PIL Fork) 8.3.1 documentation
+https://duckduckgo.com/?t=ffab&q=django.contrib.humanize%27&atb=v281-7__&ia=web | django.contrib.humanize' at DuckDuckGo
+https://mangastarz.com/manga-genre/%d9%88%d9%8a%d8%a8-%d8%aa%d9%88%d9%86/page/16/ | ويب تون الأرشيف - الصفحة 16 من 54 - مانجا ستارز Mangastarz
+
 https://www.algolia.com/ | Site Search & Discovery powered by AI | Algolia
 https://runninginproduction.com/tags/django | Websites Using Django in Production — Podcast and Interviews
 https://www.youtube.com/watch?v=wT4RUMkG8xY&list=PLtGOJcWqvbqfio_BvIw_sLqHCUQ5XPpyZ&index=8 | 06-Django Views | Arabic - YouTube
@@ -24,8 +119,6 @@ https://duckduckgo.com/?t=ffab&q=python+graphql&atb=v281-7__&ia=web | python gra
 https://duckduckgo.com/?t=ffab&q=free+code+camp&atb=v281-7__&ia=web | free code camp at DuckDuckGo
 https://duckduckgo.com/?t=ffab&q=python+turtle&atb=v281-7__&ia=web | python turtle at DuckDuckGo
 https://team1x1.com/manga/page/5/?st=11 | قائمة المانجا | TeamX
-https://team1x1.com/manga/the-rebirth-of-almighty-ancestor/ | The rebirth of almighty ancestor | TeamX
-https://team1x1.com/rpyh5uf/ | TeamX
 https://github.com/Mohammed-Taysser/notes/blob/main/other/story.md | notes/story.md at main · Mohammed-Taysser/notes
 https://www.youtube.com/playlist?list=PLs6emGC4vqRIims61R2MQ5lBvA8xsIG0t | دورة الهاكر الأخلاقي | Certified Ethical Hacker - YouTube
 https://www.imperva.com/learn/application-security/cross-site-scripting-xss-attacks/ | What is XSS | Stored Cross Site Scripting Example | Imperva
@@ -44,7 +137,6 @@ https://www.google.com/search?q=twitter+api&oq=twitter+api&aqs=chrome..69i57j0l3
 https://www.google.com/search?q=http+response+status+codes&oq=http+res&aqs=chrome.1.69i57j0j69i60j69i65l3j69i60l2.5190j1j7&sourceid=chrome&ie=UTF-8
 https://www.google.com/search?q=svelet&oq=svelet&aqs=chrome..69i57j0i13i131i433j0i13l2j0i13i395l4.2262j1j7&sourceid=chrome&ie=UTF-8 | svelet - بحث Google‏
 https://www.w3schools.com/python/python_mysql_insert.asp | Python MySQL Insert Into
-https://ww.xsanime.com/episode/gintama-%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9-136./ | Gintama الحلقة 136 مترجمة اون لاين | XSAnime
 https://www.facebook.com/CoursesForFreeForAllFields/posts/1468761776620362 | (2) ‏‎Courses4Free‎‏ - المنشورات | Facebook
 https://searchcode.com/?q=playlist+download+python+&lan=19 | playlist download python | searchcode
 
@@ -226,7 +318,6 @@ https://duckduckgo.com/?q=hash+table&t=newext&atb=v256-5&ia=web | hash table at 
 https://duckduckgo.com/?q=popular+module+for+python&t=newext&atb=v256-5&ia=web | popular module for python at DuckDuckGo
 https://strftime.org/ | Python strftime reference
 
-https://ww.xsanime.com/anime_list/page/16/?season&genre&status=%D9%85%D9%86%D8%AA%D9%87%D9%8A&letter | قائمة الأنميات | إكس إس أنمي
 https://docs.djangoproject.com/en/3.1/topics/db/models/ | Models | Django documentation | Django
 https://docs.djangoproject.com/en/3.1/ref/models/fields/ | Model field reference | Django documentation | Django
 https://docs.djangoproject.com/en/3.1/topics/db/examples/many_to_many/ | Many-to-many relationships | Django documentation | Django
@@ -238,13 +329,7 @@ https://docs.djangoproject.com/en/3.1/intro/reusable-apps/ | Advanced tutorial: 
 https://diveinto.org/python3/table-of-contents.html | Table of contents - Dive Into Python 3
 https://docs.djangoproject.com/en/3.1/topics/templates/#template-loading | Templates | Django documentation | Django
 https://docs.djangoproject.com/en/3.1/faq/help/ | FAQ: Getting Help | Django documentation | Django
-https://getbootstrap.com/docs/4.6/components/alerts/ | Alerts · Bootstrap v4.6
-https://github.com/Mohammed-Taysser/django-blog/commits/main | Commits · Mohammed-Taysser/django-blog
 
-https://www.cimaclub.show/watch/black-clover-%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9-169-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9 | Black Clover الحلقة 169 مترجمة
-https://www.cimaclub.show/watch/%D8%A7%D9%86%D9%85%D9%8A-%D9%88%D9%86-%D8%A8%D9%8A%D8%B3-one-piece-%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9-966-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D8%A7%D9%88%D9%86%D9%84%D8%A7%D9%8A%D9%86 | انمي ون بيس One Piece الحلقة 966 مترجمة اونلاين
-https://www.cimaclub.show/watch/%D8%A7%D9%86%D9%85%D9%8A-kemono-jihen-%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9-11-%D8%A7%D9%84%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B9%D8%B4%D8%B1-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9 | انمي Kemono Jihen الحلقة 11 الحادية عشر مترجمة
-https://www.cimaclub.show/watch/%D8%A7%D9%86%D9%85%D9%8A-tensei-shitara-slime-datta-ken-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%AD%D9%84%D9%82%D8%A9-11-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9 | انمي Tensei shitara Slime Datta Ken الموسم الثاني حلقة 11 مترجمة
 https://django-crispy-forms.readthedocs.io/en/latest/install.html# | Installation — django-crispy-forms 1.11.1 documentation
 https://www.djangoproject.com/download/ | Download Django | Django
 https://www.youtube.com/c/PythonProfessionals/playlists | Elsafy Hegazy - YouTube
@@ -270,9 +355,6 @@ https://docs.djangoproject.com/en/3.1/ref/models/relations/ | Related objects re
 https://docs.djangoproject.com/en/3.1/topics/db/queries/#field-lookups-intro | Making queries | Django documentation | Django
 https://docs.djangoproject.com/en/3.1/topics/db/queries/ | Making queries | Django documentation | Django
 
-https://www.cimaclub.show/watch/%D8%A7%D9%86%D9%85%D9%89-attack-on-titan-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9-%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9-15-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D8%B9%D8%B4%D8%B1-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9 | انمى Attack on Titan الموسم الرابع الحلقة 15 الخامسة عشر مترجمة
-https://www.cimaclub.show/watch/%D8%A7%D9%86%D9%85%D9%89-jujutsu-kaisen-(tv)-%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9-23-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%88%D9%86-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9 | انمى Jujutsu Kaisen (TV) الحلقة 23 الثالثة والعشرون مترجمة
-https://www.cimaclub.show/watch/%D8%A7%D9%86%D9%85%D9%8A-dr.-stone-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%A7%D9%84%D8%AD%D9%84%D9%82%D8%A9-10-%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9 | انمي Dr. Stone الموسم الثاني الحلقة 10 مترجمة
 https://duckduckgo.com/?q=postgres+regex&t=brave&ia=web | postgres regex at DuckDuckGo
 https://duckduckgo.com/?q=orm&t=brave&ia=web | orm at DuckDuckGo
 https://jinja.palletsprojects.com/en/2.11.x/ | Jinja — Jinja Documentation (2.11.x)
@@ -332,12 +414,6 @@ https://www.youtube.com/results?search_query=chat+app+using+django+ | chat app u
 https://www.youtube.com/watch?v=Y4-nPg_wJtc&list=PLgCYzUzKIBE9KUJZJUmnDFYQfVyXYjX6r&index=2 | Project Setup - Django, Postgres, Virtualenv, Redis - YouTube
 https://socket.io/docs/v3 | Introduction | Socket.IO
 
-https://www.youtube.com/c/AbdelrahmanGamal/videos | Abdelrahman Gamal - YouTube
-https://free4arab.net/course-category/security | Courses - Free4arab
-https://free4arab.net/%D9%85%D8%A6%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9/ | مئات الكورسات المجانية – Free4arab
-https://free4arab.net/course-category/security/ | Courses - Free4arab
-https://free4arab.net/course-category/linux/ | Courses - Free4arab
-https://free4arab.net/course-category/comptia/ | Courses - Free4arab
 https://www.youtube.com/c/DevTipsForDesigners/playlists | DevTips - YouTube
 https://www.youtube.com/c/learncodeacademy/playlists | LearnCode.academy - YouTube
 https://www.youtube.com/c/ProgrammingKnowledge/playlists | ProgrammingKnowledge - YouTube
@@ -377,20 +453,3 @@ https://duckduckgo.com/?q=sgi+and+wsgi&t=newext&atb=v256-1&ia=web | sgi and wsgi
 https://duckduckgo.com/?t=ffab&q=pretty+checkbox&atb=v256-1&ia=web | pretty checkbox at DuckDuckGo
 https://duckduckgo.com/?q=django+model&t=newext&atb=v256-1&ia=web | django model at DuckDuckGo
 https://www.youtube.com/watch?v=xBnemNpwowo&list=PLHIfW1KZRIfnYEkYsNi5XJLI57OWMKBjM&index=91 | Server Not Found
-
-https://pillow.readthedocs.io/en/stable/reference/Image.html | Image Module — Pillow (PIL Fork) 8.1.0 documentation
-https://pylint.pycqa.org/en/latest/user_guide/run.html | Running Pylint — Pylint 2.6.1-dev1 documentation
-https://pythex.org/ | Pythex: a Python regular expression editor
-https://duckduckgo.com/?q=regular+expression+python+example&t=newext&atb=v256-5&ia=web | regular expression python example at DuckDuckGo
-https://www.debuggex.com/cheatsheet/regex/python | Python Regular Expression Cheatsheet - Debuggex
-https://www.youtube.com/watch?v=tGjQpSicnNQ | How to type faster in Arabic and English on keyboard? | إزاي تكتب بسرعة عربي و إنجليزي علي الكيبورد؟ - YouTube
-https://regex101.com/r/TQKlDP/1 | regex101: build, debug and test regex
-https://docs.python.org/3.0/library/urllib.parse.html | urllib.parse — Parse URLs into components — Python v3.0.1 documentation
-https://www.youtube.com/watch?v=O2BwJfbKBt8 | ما بعد الاساسيات في لغة البايثون !؟ { تجارب مطور } (04) - YouTube
-https://www.youtube.com/watch?v=KTR9xSBNBco | مشاريع لتعلم البرمجة و اهم المصادر ✅Projects every Programmer should try - YouTube
-https://www.youtube.com/watch?v=7pC-HEF3-KQ | فى30 يوم انسف البطن السفلية العنيدة والكرش | تخلص من البطن السفلية ببرنامج صحى متكامل - YouTube
-https://www.youtube.com/watch?v=7nmKtI7fEmU | ملخص أهم كورس حضرته في حياتي : تعلم كيف تتعلم! - YouTube
-https://duckduckgo.com/?q=app+on+obj&t=newext&atb=v256-5&ia=web | app on obj at DuckDuckGo
-https://www.youtube.com/watch?v=KTR9xSBNBco | مشاريع لتعلم البرمجة و اهم المصادر ✅Projects every Programmer should try - YouTube
-https://www.youtube.com/watch?v=S4HSEbWPqlA | Top CSS & Javascript Animation & Hover Effects | August 2020 - YouTube
-https://www.youtube.com/watch?v=g8nQ90Hk328 | Logging in Python || Learn Python Programming (Computer Science) - YouTube
