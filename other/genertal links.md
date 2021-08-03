@@ -40,6 +40,31 @@
   - InterviewBest
   - Indiabix
 
+- ## projects & templates
+
+  - www.freeprojectscode.com
+  - www.sourcecodesworld.com
+  - www.freecode.com
+  - www.codeproject.com
+  - www.freestudentprojects.com
+  - www.programmersheaven.com
+  - www.code.google.com
+  - www.planet-source-code.com
+  - www.dzone.com
+  - www.thefreecountry.com
+  - www.sourceforge.net
+  - www.creately.com/diagram-examples
+  - www.freewebsitetemplates.com
+  - www.templatemo.com
+  - www.oswd.org
+  - www.designrazzi.net/2014/free-css3-html5-templates
+  - www.html5up.net
+  - www.freehtml5templates.com
+  - www.themesbase.com/WordPress-Templa
+  - www.templaty.com
+  - www.arblogger-templates.com
+  - www.templates.ssdaa.com
+
 # ted X Talks
 
 - [https://goo.gl/25eNO0](https://goo.gl/25eNO0)
