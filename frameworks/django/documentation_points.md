@@ -138,7 +138,7 @@
 ## Advanced
 
 - [x] Forms for models
-- [ ] Integrating media
+- [x] Integrating media
 - [ ] Formsets
 - [ ] Customizing validation
 
@@ -146,8 +146,8 @@
 
 ## Settings
 
-- [ ] Overview
-- [ ] Full list of settings
+- [x] Overview
+- [x] Full list of settings
 
 ## Applications
 
