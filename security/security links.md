@@ -31,6 +31,8 @@
 - each certificate Requirements
 - OSCP Requirements
 - TCP/IP
+- virtualization
+- linux+
 
 ## more
 
@@ -65,6 +67,8 @@
 - [https://www.youtube.com/playlist?list=PLCIJjtzQPZJ-pgNVYqsHPQGSD5oGmQypP](https://www.youtube.com/playlist?list=PLCIJjtzQPZJ-pgNVYqsHPQGSD5oGmQypP)
 - [https://www.youtube.com/playlist?list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_](https://www.youtube.com/playlist?list=PL9ooVrP1hQOGPQVeapGsJCktzIO4DtI4_)
 - [https://www.youtube.com/playlist?list=PLjXnMD3emuh3FM3J4bFLEHd3kiLGvyCso](https://www.youtube.com/playlist?list=PLjXnMD3emuh3FM3J4bFLEHd3kiLGvyCso)
+- [Ebrahem Hegazy](https://www.youtube.com/watch?v=BjfCWSFmIFI&list=PLv7cogHXoVhXvHPzIl1dWtBiYUAL8baHj&index=1&t=1s)
+- [Eng-Abdallah Elsokary](https://www.youtube.com/watch?v=ATPjR_lU4gI&list=PLCIJjtzQPZJ86feLaF-rSquVsbc4lnX9o)
 
 ## cyber security company in egypt
 
