@@ -86,7 +86,7 @@
 - [https://goo.gl/zsuwG2](https://goo.gl/zsuwG2)
 - [https://goo.gl/JrQItb](https://goo.gl/JrQItb)
 
-# visite
+# visit
 
 - [http://bit.ly/3hrcduM](http://bit.ly/3hrcduM)
 - [https://bit.ly/3kzB7sg](https://bit.ly/3kzB7sg)
