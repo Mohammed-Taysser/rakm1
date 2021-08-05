@@ -159,7 +159,7 @@
 
 ## django- admin and `manage.py`
 
-- [ ] Overview 
+- [x] Overview
 - [ ] Adding custom commands
 
 ## Testing

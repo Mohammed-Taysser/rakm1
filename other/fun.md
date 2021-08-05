@@ -9,3 +9,10 @@
 - [Nano Machine](https://mangaswat.com/nano-machine-64/797205/)
 - [Survival Story of a Sword King in a Fantasy World](https://mangastarz.com/manga/survival-story-of-a-sword-king-in-a-fantasy-world/51/)
 - [Tomb Raider King](https://team1x1.com/pakw47f/)
+- [Chronicles of Heavenly Demon](https://team1x1.com/iipcjrp/)
+
+## website
+
+- [https://mangaswat.com/](https://mangaswat.com/)
+- [https://team1x1.com](https://team1x1.com)
+- [https://mangastarz.com](https://mangastarz.com)
