@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=DhY4S3qG8Bg&list=PLH80gdCdZJpwieB6wrbDjbm2NEcnY3ROI | التدريب علي ctf - YouTube
+https://github.com/explore | Explore GitHub
 https://www.m3aarf.com/articles/1685/%D8%A7%D9%81%D8%B6%D9%84-23-%D9%83%D9%88%D8%B1%D8%B3-%D9%84%D8%B7%D9%84%D8%A7%D8%A8-%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D9%88%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%85%D9%86-%D9%85%D9%86%D8%B5%D8%A9-Solol-learn | افضل 23 كورس لطلاب حاسبات ومعلومات مقدمة من منصة Solol learn - منصة معارف
 https://free4arab.net/%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA-%D9%85%D8%AC%D8%A7%D9%86%D9%8A%D8%A9-%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%85%D9%86-%D9%85%D8%A7%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%88%D9%81%D8%AA-%D9%88-%D9%84%D9%8A/ | كورسات مجانية مقدمة من مايكروسوفت و لينكد إن – Free4arab
 https://www.youtube.com/watch?v=QNV8j2wipPU | ازاي تصنع استبيان او امتحان إلكتروني بواسطة نماذج جوجل google forms - YouTube
@@ -91,7 +93,6 @@ https://pythex.org/ | Pythex: a Python regular expression editor
 https://pylint.pycqa.org/en/latest/user_guide/run.html | Running Pylint — Pylint 2.9.2-dev0 documentation
 https://pillow.readthedocs.io/en/stable/reference/Image.html | Image Module — Pillow (PIL Fork) 8.3.1 documentation
 https://duckduckgo.com/?t=ffab&q=django.contrib.humanize%27&atb=v281-7__&ia=web | django.contrib.humanize' at DuckDuckGo
-https://mangastarz.com/manga-genre/%d9%88%d9%8a%d8%a8-%d8%aa%d9%88%d9%86/page/16/ | ويب تون الأرشيف - الصفحة 16 من 54 - مانجا ستارز Mangastarz
 
 https://www.algolia.com/ | Site Search & Discovery powered by AI | Algolia
 https://runninginproduction.com/tags/django | Websites Using Django in Production — Podcast and Interviews
@@ -231,14 +232,6 @@ https://education.github.com/students | Students - GitHub Education
 https://www.netlify.com/ | Netlify: Develop & deploy the best web experiences in record time
 https://duckduckgo.com/?q=bubble+effect+css&t=newext&atb=v256-1&ia=web | bubble effect css at DuckDuckGo
 
-https://itsfoss.com/set-up-firewall-gufw/ | Set Up a Firewall with GUFW on Linux Desktop
-https://itsfoss.com/apt-command-guide/ | Using apt Commands in Linux [Complete Guide] - It's FOSS
-https://itsfoss.com/apt-vs-apt-get-difference/ | Difference Between apt and apt-get Explained - It's FOSS
-https://duckduckgo.com/?q=sgi+and+wsgi&t=newext&atb=v256-1&ia=web | sgi and wsgi at DuckDuckGo
-https://duckduckgo.com/?t=ffab&q=pretty+checkbox&atb=v256-1&ia=web | pretty checkbox at DuckDuckGo
-https://duckduckgo.com/?q=django+model&t=newext&atb=v256-1&ia=web | django model at DuckDuckGo
-https://www.youtube.com/watch?v=xBnemNpwowo&list=PLHIfW1KZRIfnYEkYsNi5XJLI57OWMKBjM&index=91 | Server Not Found
-
 https://www.w3schools.com/xml/ajax_intro.asp | AJAX Introduction
 https://www.youtube.com/channel/UCZtMEPGln_sbgd9_ioDDC9g | Mahmoud Ahmed - بايثون بالعربي - YouTube
 https://www.youtube.com/watch?v=lAJzlpPe7bA | نظره معمقه علي وظائف دجانجو في الوطن العربي | المتطلبات والراتب - YouTube
@@ -254,19 +247,6 @@ https://www.youtube.com/watch?v=e1IyzVyrLSU&feature=youtu.be | Python Django Cra
 https://justdjango.com/ | JustDjango | The Definitive Django Learning Platform
 https://djangochat.com/ | djangochat.com/
 https://www.mattlayman.com/django-riffs/ | Django Riffs · Matt Layman
-https://docs.djangoproject.com/en/3.1/intro/install/ | Quick install guide | Django documentation | Django
-http://127.0.0.1:8000/appman/ | 127.0.0.1:8000/appman/
-https://docs.djangoproject.com/en/3.1/intro/tutorial02/ | Writing your first Django app, part 2 | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/install/#database-installation | How to install Django | Django documentation | Django
-https://www.psycopg.org/docs/install.html | Installation — Psycopg 2.8.7.dev0 documentation
-https://docs.djangoproject.com/en/3.1/ref/request-response/#django.http.HttpRequest | Request and response objects | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/django-admin/#django-admin-startproject | django-admin and manage.py | Django documentation | Django
-https://docs.python.org/3/tutorial/modules.html#tut-packages | 6. Modules — Python 3.9.1 documentation
-https://docs.djangoproject.com/en/3.1/topics/settings/ | Django settings | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/django-admin/ | django-admin and manage.py | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/checks/ | System check framework | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/http/urls/ | URL dispatcher | Django documentation | Django
-https://runninginproduction.com/tags/django | Websites Using Django in Production — Podcast and Interviews
 https://www.udemy.com/courses/search/?lang=en&price=price-free&q=django&sort=relevance&src=ukw | Online Courses - Anytime, Anywhere | Udemy
 https://www.youtube.com/watch?v=wT4RUMkG8xY&list=PLtGOJcWqvbqfio_BvIw_sLqHCUQ5XPpyZ&index=6 | 06-Django Views | Arabic - YouTube
 https://www.youtube.com/playlist?list=PLHKTPL-jkzUqgHIBdC2I16QqZCSDN_6oS&app=desktop | Operating Systems Course - YouTube
@@ -318,17 +298,7 @@ https://duckduckgo.com/?q=hash+table&t=newext&atb=v256-5&ia=web | hash table at 
 https://duckduckgo.com/?q=popular+module+for+python&t=newext&atb=v256-5&ia=web | popular module for python at DuckDuckGo
 https://strftime.org/ | Python strftime reference
 
-https://docs.djangoproject.com/en/3.1/topics/db/models/ | Models | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/models/fields/ | Model field reference | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/db/examples/many_to_many/ | Many-to-many relationships | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/howto/ | “How-to” guides | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/intro/reusable-apps/ | Advanced tutorial: How to write reusable apps | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/intro/whatsnext/ | What to read next | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/contrib/admin/#django.contrib.admin.ModelAdmin.list_display | The Django admin site | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/intro/reusable-apps/ | Advanced tutorial: How to write reusable apps | Django documentation | Django
 https://diveinto.org/python3/table-of-contents.html | Table of contents - Dive Into Python 3
-https://docs.djangoproject.com/en/3.1/topics/templates/#template-loading | Templates | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/faq/help/ | FAQ: Getting Help | Django documentation | Django
 
 https://django-crispy-forms.readthedocs.io/en/latest/install.html# | Installation — django-crispy-forms 1.11.1 documentation
 https://www.djangoproject.com/download/ | Download Django | Django
@@ -338,22 +308,6 @@ https://github.com/Mohammed-Taysser/django-blog/commits/main | Commits · Mohamm
 https://docs.djangoproject.com/en/3.1/ref/models/querysets/ | QuerySet API reference | Django documentation | Django
 https://docs.djangoproject.com/en/3.1/howto/custom-lookups/ | Custom Lookups | Django documentation | Django
 https://readthedocs.org/ | Home | Read the Docs
-https://docs.djangoproject.com/en/3.1/ref/models/expressions/ | Query Expressions | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/models/querysets/#django.db.models.query.QuerySet.distinct | QuerySet API reference | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/db/queries/#chaining-filters | Making queries | Django documentation | Django
-
-https://docs.djangoproject.com/en/3.1/ | Django documentation | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/class-based-views/generic-display/#django.views.generic.list.ListView | Generic display views | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/request-response/ | Request and response objects | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/models/expressions/#avoiding-race-conditions-using-f | Query Expressions | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/http/urls/ | URL dispatcher | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/http/shortcuts/#django.shortcuts.get_object_or_404 | Django shortcut functions | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/cache/ | Django’s cache framework | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/ref/contrib/syndication/ | The syndication feed framework | Django documentation | Django
-https://docs.python.org/3/tutorial/modules.html#tut-packages | 6. Modules — Python 3.9.2 documentation
-https://docs.djangoproject.com/en/3.1/ref/models/relations/ | Related objects reference | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/db/queries/#field-lookups-intro | Making queries | Django documentation | Django
-https://docs.djangoproject.com/en/3.1/topics/db/queries/ | Making queries | Django documentation | Django
 
 https://duckduckgo.com/?q=postgres+regex&t=brave&ia=web | postgres regex at DuckDuckGo
 https://duckduckgo.com/?q=orm&t=brave&ia=web | orm at DuckDuckGo
@@ -445,11 +399,3 @@ https://docs.microsoft.com/en-us/learn/browse/ | Browse all - Learn | Microsoft 
 https://education.github.com/students | Students - GitHub Education
 https://www.netlify.com/ | Netlify: Develop & deploy the best web experiences in record time
 https://duckduckgo.com/?q=bubble+effect+css&t=newext&atb=v256-1&ia=web | bubble effect css at DuckDuckGo
-
-https://itsfoss.com/set-up-firewall-gufw/ | Set Up a Firewall with GUFW on Linux Desktop
-https://itsfoss.com/apt-command-guide/ | Using apt Commands in Linux [Complete Guide] - It's FOSS
-https://itsfoss.com/apt-vs-apt-get-difference/ | Difference Between apt and apt-get Explained - It's FOSS
-https://duckduckgo.com/?q=sgi+and+wsgi&t=newext&atb=v256-1&ia=web | sgi and wsgi at DuckDuckGo
-https://duckduckgo.com/?t=ffab&q=pretty+checkbox&atb=v256-1&ia=web | pretty checkbox at DuckDuckGo
-https://duckduckgo.com/?q=django+model&t=newext&atb=v256-1&ia=web | django model at DuckDuckGo
-https://www.youtube.com/watch?v=xBnemNpwowo&list=PLHIfW1KZRIfnYEkYsNi5XJLI57OWMKBjM&index=91 | Server Not Found
