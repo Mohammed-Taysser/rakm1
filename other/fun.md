@@ -10,6 +10,7 @@
 - [Survival Story of a Sword King in a Fantasy World](https://mangastarz.com/manga/survival-story-of-a-sword-king-in-a-fantasy-world/51/)
 - [Tomb Raider King](https://team1x1.com/pakw47f/)
 - [Chronicles of Heavenly Demon](https://team1x1.com/iipcjrp/)
+- [overgeared](https://team1x1.com/ah6afsj/)
 
 ## website
 
