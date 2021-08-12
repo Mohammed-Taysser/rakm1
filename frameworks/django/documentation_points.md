@@ -98,7 +98,7 @@
     - [ ] Date-based views
 - [x] Flattened index
 
-## Advanced
+## Advanced of Class- based views
 
 - [ ] Generating CSV
 - [ ] Generating PDF
@@ -110,7 +110,7 @@
 
 # The template layer
 
-## The basics
+## The basics of template layer
 
 - [x] Overview
 
@@ -128,14 +128,14 @@
 
 # Forms
 
-## The basics
+## The basics of forms
 
 - [x] Overview
 - [x] Form API
 - [x] Built- in fields
 - [x] Built- in widgets
 
-## Advanced
+## Advanced of forms
 
 - [x] Forms for models
 - [x] Integrating media
@@ -180,15 +180,60 @@
 
 # The admin
 
-- [ ] Admin site
+- [x] Admin site
 - [ ] Admin actions
-- [ ] Admin documentation generator
+- [x] Admin documentation generator
 
 # Security
 
-- [ ] Security overview
-- [ ] Disclosed security issues in Django
-- [ ] Clickjacking protection
-- [ ] Cross Site Request Forgery protection
-- [ ] Cryptographic signing
-- [ ] Security Middleware
+- [x] Security overview
+- [x] Disclosed security issues in Django
+- [x] Clickjacking protection
+- [x] Cross Site Request Forgery protection
+- [x] Cryptographic signing
+- [x] Security Middleware
+
+# Internationalization and localization
+
+- [x] Overview
+- [ ] Internationalization
+- [ ] Localization
+- [ ] Localized Web UI formatting and form input
+- [ ] Time zone
+
+# Performance and optimization
+
+- [ ] Performance and optimization overview
+
+# Common Web application tools
+
+- [ ] Authentication:
+
+  - [ ] Overview
+  - [ ] Using the authentication system
+  - [ ] Password management
+  - [ ] Customizing authentication
+  - [ ] API Reference
+
+- [ ] Caching
+- [ ] Logging
+- [ ] Sending emails
+- [ ] Syndication feeds (RSS/Atom)
+- [ ] Pagination
+- [ ] Messages framework
+- [ ] Serialization
+- [ ] Sessions
+- [ ] Sitemaps
+- [ ] Static files management
+- [ ] Data validation
+
+# Other core functionalities
+
+- [ ] Conditional content processing
+- [ ] Content types and generic relations
+- [ ] Flatpages
+- [ ] Redirects
+- [ ] Signals
+- [ ] System check framework
+- [ ] The sites framework
+- [ ] Unicode in Django
