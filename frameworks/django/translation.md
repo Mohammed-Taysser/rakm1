@@ -38,3 +38,72 @@ def hello_world(request, count):
     }
     return HttpResponse(page)
 ```
+
+## steps to translate from template
+
+in `settings.py`
+
+```python
+MIDDLEWARE = [
+   'django.contrib.sessions.middleware.SessionMiddleware',
+   'django.middleware.locale.LocaleMiddleware', # add this
+   'django.middleware.common.CommonMiddleware',
+]
+
+LANGUAGES = [
+  ('en-us', 'English'),
+  ('fr', 'French'),
+]
+
+
+LOCALE_PATHS = [
+    BASE_DIR / 'locale',
+]
+```
+
+in `urls.py` for the project
+
+```python
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('i18n/', include('django.conf.urls.i18n')),    # add this
+]
+```
+
+on `template.html`
+
+```html
+{% load i18n %}
+
+<form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+     <select name="language">
+        {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+        {% for language in languages %}
+          <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+              {{ language.name_local }} ({{ language.code }})
+          </option>
+        {% endfor %}
+     </select>
+     <input type="submit" value="Go">
+ </form>
+
+
+{% trans "Have a good day" %}
+```
+
+- create `locale` dir with `manage.py`
+- on it create `dir` for each language
+- run `django-admin makemessages -l ar --ignore venv` for each language
+
+    in `locale/ar/django.po`
+
+    ```po
+    #: templates/home.html:27
+    msgid "Have a good day"
+    msgstr "نتمني لك يوما لطيفا"
+    ```
+
+- then run `django-admin compilemessages`
+- run `python manage.py migrate`

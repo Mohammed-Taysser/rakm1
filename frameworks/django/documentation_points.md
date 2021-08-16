@@ -196,8 +196,8 @@
 # Internationalization and localization
 
 - [x] Overview
-- [ ] Internationalization
-- [ ] Localization
+- [x] Internationalization
+- [x] Localization
 - [ ] Localized Web UI formatting and form input
 - [ ] Time zone
 
@@ -208,13 +208,11 @@
 # Common Web application tools
 
 - [ ] Authentication:
-
-  - [ ] Overview
+  - [x] Overview
   - [ ] Using the authentication system
   - [ ] Password management
   - [ ] Customizing authentication
   - [ ] API Reference
-
 - [ ] Caching
 - [ ] Logging
 - [ ] Sending emails
