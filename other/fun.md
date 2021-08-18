@@ -13,6 +13,8 @@
 - [overgeared](https://team1x1.com/ah6afsj/)
 - [Tales of Demons and Gods](https://team1x1.com/pus2jp/)
 - [Kill The Hero](https://team1x1.com/ig6rqcg/)
+- [cultivator against hero society](https://team1x1.com/5ig7ya/)
+- [the undefeatable swordsman](https://team1x1.com/ojkfxne/)
 
 ## website
 
