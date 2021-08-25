@@ -1,6 +1,12 @@
 
 # notes
 
+## books
+
+1. Hacking: The Art of Exploitation
+2. Software Security: Building Security In
+3. The Tangled Web: A Guide to Securing Modern Web
+
 ## أشهر برامج الهاكر  مجانا  ؟ ⁉️🚷
 
 - ### Metasploit
@@ -221,3 +227,54 @@
 - Can Utils
 - PuTTY
 - FFmpeg
+
+## Cybersecurity Job Types
+
+- Security generalist
+- Network security engineer
+- Cloud security engineer
+- Application security
+- Identity and Access Management (IAM) engineer
+- Security architecture
+- Penetration tester
+- Malware/forensics analyst
+- Incident response analyst
+- Cryptographer
+- Security trainer
+- Security auditor
+- Governance, Risk and Compliance professional
+
+## Key Cybersecurity Courses and Training
+
+- ### CompTIA Certifications
+
+  - A+
+  - Network+
+  - Security+
+  - Linux+
+  - CASP + (CompTIA Advanced Security Practitioner+)
+  - CySa+ (CompTIA Cybersecurity Analyst+)
+
+- ### EC Council Certifications
+
+  - CEH (Certified Ethical Hacker)
+  - CHFI (Computer Hacking Forensics Investigator)
+  - ECSA (EC-Council Certified Security Analyst)
+  - LPT (Licensed Penetration Tester)
+
+- ### Cisco Certifications
+
+  - CCNA Routing & Switching (Cisco Certified Network Associate)
+  - CCNA Security (Cisco Certified Network Associate)
+
+- ### ISC2 Certifications
+
+  - CISSP (Certified Information Systems Security Professional)
+  - SSCP (Systems Security Certified Practitioner)
+  - CCSP (Certified Cloud Security Professional)
+  - CAP (Certified Authorization Professional)
+
+- ### ISACA Certifications
+
+  - CISM (Certified Information Systems Manager)
+  - CISA (Certified Information Systems Auditor)

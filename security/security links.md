@@ -70,6 +70,13 @@
 - [Ebrahem Hegazy](https://www.youtube.com/watch?v=BjfCWSFmIFI&list=PLv7cogHXoVhXvHPzIl1dWtBiYUAL8baHj&index=1&t=1s)
 - [Eng-Abdallah Elsokary](https://www.youtube.com/watch?v=ATPjR_lU4gI&list=PLCIJjtzQPZJ86feLaF-rSquVsbc4lnX9o)
 
+## network youtube course
+
+- [Danny Garner](https://www.youtube.com/user/sotc6708/playlists)
+- [CompTIA 220-1001 A+ Training Course](https://www.youtube.com/playlist?list=PLG49S3nxzAnlGHY8ObL8DiyP3AIu9vd3K)
+- [digitalnetworksbiz](https://www.youtube.com/user/digitalnetworksbiz/playlists)
+- [Professor Messer](https://www.youtube.com/c/professormesser)
+
 ## cyber security company in egypt
 
 - Secure Misr

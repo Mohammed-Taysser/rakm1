@@ -209,9 +209,9 @@
 
 - [ ] Authentication:
   - [x] Overview
-  - [ ] Using the authentication system
+  - [x] Using the authentication system
   - [ ] Password management
-  - [ ] Customizing authentication
+  - [x] Customizing authentication
   - [ ] API Reference
 - [ ] Caching
 - [ ] Logging

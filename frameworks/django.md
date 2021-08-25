@@ -104,8 +104,8 @@
     - write docs for it
     - test the website
     - for advanced projects write all the project with CBV (class base view)
-    - docker 
-    -  [celery](https://docs.celeryproject.org/en/stable/)
+    - docker
+    - [celery](https://docs.celeryproject.org/en/stable/)
     - middleware use
 
 
@@ -131,14 +131,14 @@
 1. udemy
 
 ## devices
+
 1. part the project into apps like facebook
 app for groups and app for post , comment,  pages.
-
-
 
 # Virtual Environment
 
 ### Install
+
     pip install viryualenv
 
 ### Create Virtual Environment

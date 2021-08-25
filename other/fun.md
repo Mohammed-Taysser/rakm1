@@ -15,6 +15,8 @@
 - [Kill The Hero](https://team1x1.com/ig6rqcg/)
 - [cultivator against hero society](https://team1x1.com/5ig7ya/)
 - [the undefeatable swordsman](https://team1x1.com/ojkfxne/)
+- [SSS-Class Suicide Hunter](https://team1x1.com/cyhuqob/)
+- [the-god-of-death](https://mangastarz.com/manga/the-god-of-death/87/)
 
 ## website
 

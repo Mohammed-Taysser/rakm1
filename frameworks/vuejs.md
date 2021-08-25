@@ -45,3 +45,7 @@
 - `v-on: =>  @`
 
 stop at component
+
+```html
+@click = method_name ($event, index)
+```
