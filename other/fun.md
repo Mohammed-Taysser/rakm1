@@ -17,6 +17,7 @@
 - [the undefeatable swordsman](https://team1x1.com/ojkfxne/)
 - [SSS-Class Suicide Hunter](https://team1x1.com/cyhuqob/)
 - [the-god-of-death](https://mangastarz.com/manga/the-god-of-death/87/)
+- [dungeon-reset](https://mangastarz.com/manga/dungeon-reset/83/)
 
 ## website
 
