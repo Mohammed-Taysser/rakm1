@@ -1,3 +1,58 @@
+https://www.youtube.com/results?search_query=django+app | django app - YouTube
+https://www.youtube.com/c/DennisIvy/playlists | Dennis Ivy - YouTube
+https://www.zingchart.com/ | JavaScript Charts in one powerful declarative library | ZingChart
+https://www.free-css.com/template-categories/ecommerce | Free eCommerce Website Templates (48) | Free CSS
+https://html.design/ecommerce-template/page/2/ | Free eCommerce Website Template
+https://html.design/preview/?theme=frica | Frica | HTML Design
+https://www.cybersecurityeducation.org/careers/ | Compare Cyber Security Careers Job Duties | Cyber Security Education
+https://www.cyberseek.org/pathway.html | Cybersecurity Career Pathway
+https://www.youtube.com/watch?v=1V0herZjDfk&list=PLCIJjtzQPZJ9tmm43K6KCeZo2MNbB1F3P&index=1 | 01-CompTIA Security + (Lecture 1) By Eng-Hassan Saleh | Arabic - YouTube
+https://www.youtube.com/watch?v=2egEfIEQWbw | How i can start in Cyber Security CTF competition ? - YouTube
+https://www.youtube.com/watch?v=vvsfM5Dixow | What is CyberSecurity? - YouTube
+https://www.youtube.com/watch?v=6t_VfFOcSdk&list=PLV9Ike6NQZF7RfYO_SDDnGGcAbJ0mKJwN&index=4 | Girls Cyber Day - رزان - أخطر الاختراقات السيبرانية في العالم - YouTube
+https://www.youtube.com/watch?v=-7HPiGfOsEg | الوظائف السيبرانية - Cyber Security Jobs - YouTube
+https://www.youtube.com/watch?v=wXehnyPZGuA | (1) أمن المعلومات والأمن السيبراني - ماذا عن العمل في مجال السايبر سكيورتي؟ - YouTube
+https://www.youtube.com/watch?v=dPoGRYz-n5E&list=PL-51WBLyFTg38qZ0KHkJj-paDQAAu9HiP&index=8 | Django Voting App + Charts | Traversy Media Django Crash Course Advanced - YouTube
+https://mangastarz.com/manga-genre/%d9%88%d9%8a%d8%a8-%d8%aa%d9%88%d9%86/page/38/ | ويب تون الأرشيف - الصفحة 38 من 57 - مانجا ستارز Mangastarz
+https://mangastarz.com/manga-genre/%d8%aa%d9%86%d8%a7%d8%b3%d8%ae/ | تناسخ الأرشيف - مانجا ستارز Mangastarz
+https://mangastarz.com/manga-genre/%d9%82%d9%88%d8%a9-%d8%ae%d8%a7%d8%b1%d9%82%d8%a9/ | قوة خارقة الأرشيف - مانجا ستارز Mangastarz
+https://www.youtube.com/watch?v=3Z0xQUC-r7A | (1) #الأمن_السيبراني المجالات والمسميات الوظيفية في الامن السيبراني - YouTube
+https://www.mogtahed.com/%D8%A7%D8%B3%D8%A6%D9%84%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D9%88%D8%A7%D8%AC%D9%88%D8%A8%D8%AA%D9%87%D8%A7.html | - 13 من أخطر و أشهر اسئلة مقابلة شخصية واجوبتها - اكاديمية مجتهد
+https://mangastarz.com/manga-genre/%d8%b2%d9%85%d9%83%d8%a7%d9%86%d9%89/page/6/ | زمكانى الأرشيف - الصفحة 6 من 28 - مانجا ستارز Mangastarz
+https://www.youtube.com/watch?v=9-2kbeuidM4&list=PLCIJjtzQPZJ9tmm43K6KCeZo2MNbB1F3P&index=30 | (3) 28-CompTIA Security + ( Lecture 28) By Eng-Hassan Saleh | Arabic - YouTube
+
+https://www.google.com/search?q=twitter+api&oq=twitter+api&aqs=chrome..69i57j0l3j0i395l2j0i22i30i395l2.5591j1j7&sourceid=chrome&ie=UTF-8 | twitter api - بحث Google‏
+https://searchcode.com/?q=playlist+download+python+&lan=19 | playlist download python | searchcode
+https://techcampus.com/course?girlscyberday | Techcampus - Girls Cyber Day اليوم السيبراني النسائي
+https://www.youtube.com/playlist?list=PLsRSUZfRUa8in_5Aaf8VQFJHCDzJQklFo | سؤال سوفتويري - YouTube
+https://www.youtube.com/playlist?list=PLsRSUZfRUa8jYYDrdBMDC8XAZVmXyEIyQ | أمن المعلومات - YouTube
+https://www.youtube.com/playlist?list=PLsRSUZfRUa8h6A4Pmka_2AF9Hr864xLRc | تأملات سوفتويرية - YouTube
+https://duckduckgo.com/?t=ffab&q=axios&atb=v281-1&ia=web | axios at DuckDuckGo
+https://api.github.com/ | api.github.com/
+https://developers.google.com/speed/ | Make the Web Faster  |  Google Developers
+https://github.com/jazzband/django-debug-toolbar/ | jazzband/django-debug-toolbar: A configurable set of panels that display various debug information about the current request/response.
+https://samulinatri.com/blog/django-translation/ | Django - Translation Tutorial | Samuli Natri. Software developer.
+https://github.com/deschler/django-modeltranslation | deschler/django-modeltranslation: Translates Django models using a registration approach.
+https://academy.hsoub.com/programming/javascript/%D8%B6%D8%A8%D8%B7-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A%D8%AF-%D8%AF%D8%A7%D8%AE%D9%84-%D8%B5%D9%81%D8%AD%D8%A7%D8%AA-html-%D9%88%D9%85%D9%86%D8%B9%D9%87-%D8%B9%D8%A8%D8%B1-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA-r1240/ | ضبط التحديد داخل صفحات HTML ومنعه عبر جافاسكربت - جافاسكريبت - أكاديمية حسوب
+https://public-apis.xyz/github-jobs-9611 | Github Jobs | Public APIs
+https://www.aqweeb.com/2020/12/free-for-dev.html | موقع Free For Dev ... جنة المبرمجين | أكوا ويب
+https://www.netaawy.com/2019/02/Best-it-certifications.html | أقوى 10 شهادات في مجال تكنولوجيا المعلومات IT
+https://duckduckgo.com/?t=ffab&q=full+stack+developer+job+responsibilities&atb=v281-1&ia=web | full stack developer job responsibilities at DuckDuckGo
+https://www.indeed.com/recruitment/job-description/full-stack-developer | Full-Stack Developer Job Description [Updated for 2021]
+https://duckduckgo.com/?t=ffab&q=eslint&atb=v281-1&ia=web | eslint at DuckDuckGo
+https://jshint.com/docs/ | JSHint Documentation
+https://duckduckgo.com/?t=ffab&q=js+doc&atb=v281-1&ia=web | js doc at DuckDuckGo
+https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files | Ignoring files - GitHub Docs
+https://html5up.net/ | HTML5 UP! Responsive HTML5 and CSS3 Site Templates
+https://duckduckgo.com/?q=html+css+build+a+road+for+new+product&t=ffab&atb=v281-1&ia=web | html css build a road for new product at DuckDuckGo
+https://www.youtube.com/watch?v=5uXsf1Rm3BU&list=PLLXntwspGdhBRS4kFXzJEMrzJx9l_5sz_&index=7 | 7-Let's Code - project 3 - get data from API - part 1 - YouTube
+https://www.youtube.com/watch?v=mZ4jCfYo4M4&list=PLLXntwspGdhDJ05DgQhN5FmoipwZAupUF | 9- HTML & CSS Tips & Tricks - CSS Aspect Ratio - YouTube
+https://www.youtube.com/playlist?list=PLLXntwspGdhAuM7fYzXXkJKcQxJCnZBkH | Publish Your Website For Free - YouTube
+https://cdn.jsdelivr.net/npm/simple-icons@5.10.0/icons/ | simple-icons CDN by jsDelivr - A free, fast, and reliable Open Source CDN
+
+https://duckduckgo.com/?t=ffab&q=Convert+%23PDF+file+text+to+%23audio+using+%23Python.&atb=v281-7__&ia=web | Convert #PDF file text to #audio using #Python. at DuckDuckGo
+https://www.monocubed.com/ | Top Web Development Company in USA, Canada | Monocubed
+https://duckduckgo.com/?t=ffab&q=how+to+use+vue+js+with+django&atb=v281-7__&ia=web | how to use vue js with django at DuckDuckGo
 https://www.youtube.com/watch?v=DhY4S3qG8Bg&list=PLH80gdCdZJpwieB6wrbDjbm2NEcnY3ROI | التدريب علي ctf - YouTube
 https://github.com/explore | Explore GitHub
 https://www.m3aarf.com/articles/1685/%D8%A7%D9%81%D8%B6%D9%84-23-%D9%83%D9%88%D8%B1%D8%B3-%D9%84%D8%B7%D9%84%D8%A7%D8%A8-%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D9%88%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%85%D9%86-%D9%85%D9%86%D8%B5%D8%A9-Solol-learn | افضل 23 كورس لطلاب حاسبات ومعلومات مقدمة من منصة Solol learn - منصة معارف
@@ -9,41 +64,16 @@ https://editorial.rottentomatoes.com/guide/james-bond-movies/ | All 26 James Bon
 https://www.youtube.com/watch?v=oZwyA9lUwRk | Django Stripe Payments Simplified with Donation Page - YouTube
 
 https://www.youtube.com/playlist?list=PLv7cogHXoVhXvHPzIl1dWtBiYUAL8baHj | Web_Application_Penetration_Testing_Course - YouTube
-https://www.youtube.com/watch?v=pFNe4GbppRQ | 1 | How to Start in Information Security Field | بداية الطريق - كيف تبدأ في مجال أمن المعلومات - YouTube
 https://www.youtube.com/playlist?list=PLDRMxi70CdSBHODkNy87kqqGUSnl0ASxg | إختبار إختراق تطبيقات الويب - YouTube
 
 https://www.youtube.com/watch?v=_uQrJ0TkZlc | Python Tutorial - Python for Beginners [Full Course] - YouTube
 https://rapidapi.com/ | RapidAPI - The Next Generation API Platform
-https://www.youtube.com/playlist?list=PLs6emGC4vqRK0buaLWzZkxdNX6-WW0eh7 | دورة أساسيات لينكس - YouTube
 https://www.freecoursesandbooks.net/22745/ | تحويل الكلام إلى نص عن طريق موقع Dictation. - Free courses and books
 https://www.elmin7a.com/the-best-15-ted-talk/ | افضل 15 محادثة على مسرح TED - المنحة
 https://harmash.com/blog/useful-terms-in-the-field-of-penetration-testing/ | مصطلحات مفيدة في مجال اختبار الإختراق – مدونة هرمش
 https://www.freecoursesandbooks.net/14276/ | الكتابة السريعة - Free courses and books
 https://www.python.org/dev/peps/pep-0008/#tabs-or-spaces | PEP 8 -- Style Guide for Python Code | Python.org
 https://www.youtube.com/watch?v=_XQoh9BK_1g | ICS SCADA Hacking Demo with Simulation. - YouTube
-https://www.youtube.com/playlist?list=PL_YW0h4ytNBtBBaPFgMzCNmnzlFalu-SA | Network+ N10-007 Training - YouTube
-https://www.youtube.com/playlist?list=PLG49S3nxzAnnVhoAaL4B6aMFDQ8_gdxAy | CompTIA Security+ SY0-501 Training Course - YouTube
-https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As | Linux Command Line Tutorial For Beginners | Bash Terminal | Linux Terminal - YouTube
-https://www.youtube.com/playlist?list=PLG49S3nxzAnlGHY8ObL8DiyP3AIu9vd3K | CompTIA 220-1001 A+ Training Course - YouTube
-
-https://www.freecoursesandbooks.net/24213/ | Cameyo: موقع تشغيل البرامج على الكمبيوتر بدون تحميل. - Free courses and books
-https://www.freecoursesandbooks.net/24228/ | شرح موقع loom: أفضل موقع لتسجيل الفديوهات. - Free courses and books
-https://www.freecoursesandbooks.net/24422/ | تحميل برنامج تليجرام| كل ما تريد معرفته عن التليجرام. - Free courses and books
-https://www.freecoursesandbooks.net/22568/ | شرح موقع Canva: ما هو موقع كانفا؟ وكيفية التصميم عليه؟ - Free courses and books
-https://www.freecoursesandbooks.net/22745/ | تحويل الكلام إلى نص عن طريق موقع Dictation. - Free courses and books
-https://www.freecoursesandbooks.net/23348/ | طريقة للحصول على كورسات يوديمي المدفوعة مجانا| طريقة مجربة 100%. - Free courses and books
-https://www.freecoursesandbooks.net/22832/ | نماذج تسويقيه جاهزة|374 قالب للتخصصات التسويقية - Free courses and books
-https://www.freecoursesandbooks.net/ | Free courses and books - كورسات مجانية - كتب مجانية - منح مجانية
-https://www.freecoursesandbooks.net/23220/ | أفضل موقع لممارسة اللغة الإنجليزية مع الأجانب مجانا. - Free courses and books
-https://www.aqweeb.com/2020/10/back-end-back-end.html | مسار مطور Back End ... كيف تصبح مطور Back End محترف | أكوا ويب
-https://harmash.com/blog/useful-terms-in-the-field-of-penetration-testing/ | مصطلحات مفيدة في مجال اختبار الإختراق – مدونة هرمش
-https://www.youtube.com/watch?v=wR0KLF0l9ds | كيف تنقل الويندوز من الهاردسك القديم الى الـ SSD ( بدون فورمات !! ) - YouTube
-https://www.youtube.com/watch?v=KxG4t_0dmzw | خطوات تنفيذ المشروع البرمجي Software Development Process - YouTube
-https://www.youtube.com/playlist?list=PLn5BVKGFf3nfKzFFGocn7Bwn7phy53966 | المحادثات الصوتية - YouTube
-https://www.youtube.com/watch?v=3Z0xQUC-r7A | #الأمن_السيبراني المجالات والمسميات الوظيفية في الامن السيبراني - YouTube
-https://www.youtube.com/playlist?list=PL_YW0h4ytNBtBBaPFgMzCNmnzlFalu-SA | Network+ N10-007 Training - YouTube
-https://www.youtube.com/playlist?list=PLG49S3nxzAnnVhoAaL4B6aMFDQ8_gdxAy | CompTIA Security+ SY0-501 Training Course - YouTube
-https://www.youtube.com/playlist?list=PLG49S3nxzAnlGHY8ObL8DiyP3AIu9vd3K | CompTIA 220-1001 A+ Training Course - YouTube
 https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As | Linux Command Line Tutorial For Beginners | Bash Terminal | Linux Terminal - YouTube
 
 https://www.netaawy.com/2021/07/best-sites-for-learning-fast-typing.html | أفضل مواقع تعلم الكتابة السريعة على الكيبورد باللغة العربية
@@ -55,16 +85,12 @@ https://www.netaawy.com/2018/02/Facial-recognition-search-engines.html | 5 مح�
 https://www.freecoursesandbooks.net/12907/ | عادات ستغير حياتك ! - Free courses and books
 https://www.mogtahed.com/%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%AB%D9%82%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D9%83%D8%AA%D8%A7.html | الاسرار الكاملة للثقة التامة بالنفس كتاب روبرت أنتوني
 
-http://127.0.0.1:8000/CBV/simple/?birth_year_month=1&birth_year_day=1&birth_year_year=1999&favorite_colors=bk | Problem loading page
-https://www.youtube.com/watch?v=2egEfIEQWbw | How i can start in Cyber Security CTF competition ? - YouTube
 https://www.youtube.com/watch?v=mkL04h4pKzs | ليه نقرأ؟ ما دام فيه فيديوهات تلخيص للكتب!؟ - YouTube
-https://www.youtube.com/watch?v=vvsfM5Dixow | What is CyberSecurity? - YouTube
 https://www.youtube.com/watch?v=e6zJaMxzciA | Data Structures - LinkedList (Arabic) - YouTube
 https://www.youtube.com/watch?v=YklnFXpq0ZE | Number Theory - Misc: Fib, GCD, LCM, Pow (Arabic) - YouTube
 https://www.youtube.com/watch?v=beSsSAUf-oc | You Can Learn Anything (30 sec) - YouTube
 https://courses.edx.org/dashboard | Dashboard | edX
 https://harmash.com/home/ | أفضل موقع عربي لتعلم البرمجة و الأنظمة و الشبكات مجاناً
-https://drive.google.com/drive/folders/0B5Tw8lljkW3ta0NuazVMckF6Xzg?resourcekey=0-IcU6c2iO-zQW9pdMH_cq6Q | ‪HD Book‬‏ - Google Drive
 https://www.youtube.com/playlist?list=PLoS1tHBCtbIm28iZfb8orVxRQ3MxulZzi | Python 3.8 هياكل بيانات وخوارزميات - YouTube
 https://lingva.ml/en/ar/hack | Lingva Translate
 https://libretranslate.com/ | LibreTranslate - Free and Open Source Machine Translation API
@@ -72,14 +98,8 @@ https://duckduckgo.com/?q=class+python+syntax&atb=v281-7__&ia=programming | clas
 https://overapi.com/ | OverAPI.com | Collecting all the cheat sheets
 https://frontendtools.com/ | Secure Connection Not Available
 https://gtmetrix.com/ | GTmetrix | Website Performance Testing and Monitoring
-https://www.freecoursesandbooks.net/11734/ | ما هي الأشياء التي علي كل طالب جامعي بحاجة إلى معرفتها؟ - Free courses and books
-https://www.freecoursesandbooks.net/13250/ | مهارات البحث عن وظيفه بعد التخرج - Free courses and books
-https://www.mogtahed.com/%D8%A7%D8%B3%D8%A6%D9%84%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D9%88%D8%A7%D8%AC%D9%88%D8%A8%D8%AA%D9%87%D8%A7.html | - 13 من أخطر و أشهر اسئلة مقابلة شخصية واجوبتها - اكاديمية مجتهد
-https://www.youtube.com/playlist?list=PLCIJjtzQPZJ8KxEi278nugeO6R_9-Cn5o | CompTIA Linux + By Eng-Yasser Ramzy | Arabic - YouTube
 
-https://www.youtube.com/watch?v=g8nQ90Hk328 | Logging in Python || Learn Python Programming (Computer Science) - YouTube
 https://www.youtube.com/watch?v=S4HSEbWPqlA | Top CSS & Javascript Animation & Hover Effects | August 2020 - YouTube
-https://www.youtube.com/watch?v=KTR9xSBNBco | مشاريع لتعلم البرمجة و اهم المصادر ✅Projects every Programmer should try - YouTube
 https://duckduckgo.com/?q=app+on+obj&t=newext&atb=v256-5&ia=web | app on obj at DuckDuckGo
 https://www.youtube.com/watch?v=7pC-HEF3-KQ | فى30 يوم انسف البطن السفلية العنيدة والكرش | تخلص من البطن السفلية ببرنامج صحى متكامل - YouTube
 https://www.youtube.com/watch?v=KTR9xSBNBco | مشاريع لتعلم البرمجة و اهم المصادر ✅Projects every Programmer should try - YouTube
@@ -119,37 +139,17 @@ https://www.youtube.com/playlist?list=PLCIJjtzQPZJ9iJ3NS1xXJKyCOyD90dHuH | (3) P
 https://duckduckgo.com/?t=ffab&q=python+graphql&atb=v281-7__&ia=web | python graphql at DuckDuckGo
 https://duckduckgo.com/?t=ffab&q=free+code+camp&atb=v281-7__&ia=web | free code camp at DuckDuckGo
 https://duckduckgo.com/?t=ffab&q=python+turtle&atb=v281-7__&ia=web | python turtle at DuckDuckGo
-https://team1x1.com/manga/page/5/?st=11 | قائمة المانجا | TeamX
 https://github.com/Mohammed-Taysser/notes/blob/main/other/story.md | notes/story.md at main · Mohammed-Taysser/notes
 https://www.youtube.com/playlist?list=PLs6emGC4vqRIims61R2MQ5lBvA8xsIG0t | دورة الهاكر الأخلاقي | Certified Ethical Hacker - YouTube
-https://www.imperva.com/learn/application-security/cross-site-scripting-xss-attacks/ | What is XSS | Stored Cross Site Scripting Example | Imperva
 https://owasp.org/www-community/attacks/xss/ | Cross Site Scripting (XSS) Software Attack | OWASP Foundation
-https://portswigger.net/web-security/cross-site-scripting | What is cross-site scripting (XSS) and how to prevent it? | Web Security Academy
 
 https://www.youtube.com/c/GnuTux/videos | Gnu Tux - YouTube
-https://www.facebook.com/saved/?cref=28 | (5) العناصر المحفوظة | Facebook
 https://www.google.com/search?q=website+for+download+data+sample&oq=website+for+download+data+sa&aqs=chrome.5.69i57j33i22i29i30i395l7.17911j1j4&sourceid=chrome&ie=UTF-8 | website for download data sample - Google Search
 https://www.interviewqs.com/blog/free-online-data-sets | 11 great websites to find data sets | Data Interview Questions
 https://github.com/awesomedata/awesome-public-datasets | awesomedata/awesome-public-datasets: A topic-centric list of HQ open datasets.
 
-https://www.google.com/search?q=Node.JS&oq=node&aqs=chrome.1.69i57j69i59j35i19i39j0i433l2j69i60l2j69i61.2198j0j7&sourceid=chrome&ie=UTF-8
-https://www.youtube.com/watch?v=aYr7jKBVWWQ&list=PLCBJ6FzVTy-BzdyF3cFJJfWmqgNMVpmlJ&index=5&ab_channel=digitalnetworks.biz
-https://www.google.com/search?q=twitter+api&oq=twitter+api&aqs=chrome..69i57j0l3j0i395l2j0i22i30i395l2.5591j1j7&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=http+response+status+codes&oq=http+res&aqs=chrome.1.69i57j0j69i60j69i65l3j69i60l2.5190j1j7&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=svelet&oq=svelet&aqs=chrome..69i57j0i13i131i433j0i13l2j0i13i395l4.2262j1j7&sourceid=chrome&ie=UTF-8 | svelet - بحث Google‏
-https://www.w3schools.com/python/python_mysql_insert.asp | Python MySQL Insert Into
-https://www.facebook.com/CoursesForFreeForAllFields/posts/1468761776620362 | (2) ‏‎Courses4Free‎‏ - المنشورات | Facebook
-https://searchcode.com/?q=playlist+download+python+&lan=19 | playlist download python | searchcode
-
-https://www.google.com/search?q=api&oq=api&aqs=chrome..69i57j35i39j0l2j69i65l3j69i60.6827j0j7&sourceid=chrome&ie=UTF-8 | api - بحث Google‏
-
 https://code.visualstudio.com/docs/languages/tsql | Transact-SQL with Visual Studio Code
 https://code.visualstudio.com/docs/python/python-tutorial#_prerequisites | Get Started Tutorial for Python in Visual Studio Code
-
-https://www.google.com/search?sxsrf=ALeKk03P-2xKKT1C7cK2XFmxlZ3QPH162w%3A1610213184632&ei=QOf5X-6EJqqY1fAPr_i4mAc&q=blackchain&oq=blackchain&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1DxQVjxQWCxQ2gAcAJ4AIABAIgBAJIBAJgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwjupIfHr4_uAhUqTBUIHS88DnMQ4dUDCA0&uact=5 | blackchain - بحث Google‏
-https://www.google.com/search?q=write+your+own+code+formatter&oq=write+my+own+formatter&aqs=chrome.1.69i57j0i22i30.14726j0j7&sourceid=chrome&ie=UTF-8 | write your own code formatter - بحث Google‏
-https://www.google.com/search?q=company+target+requirments&oq=company+target+requirments&aqs=chrome..69i57.12830j0j7&sourceid=chrome&ie=UTF-8
-https://www.google.com/search?q=%D8%A7%D8%AD%D8%B5%D8%A7%D8%A6%D9%8A%D8%A7%D8%AA+%D9%84%D9%81%D9%88+%D8%A8%D8%A7%D9%8A%D8%AB%D9%88%D9%86+%D9%81+%D9%85%D8%B5%D8%B1&oq=%D8%A7%D8%AD%D8%B5%D8%A7%D8%A6%D9%8A%D8%A7%D8%AA+%D9%84%D9%81%D9%88+%D8%A8%D8%A7%D9%8A%D8%AB%D9%88%D9%86+%D9%81+%D9%85%D8%B5%D8%B1&aqs=chrome..69i57.9879j0j7&sourceid=chrome&ie=UTF-8
 
 https://www.google.com/search?sxsrf=ALeKk02qTVpqY2m_iwXJVyiAzoHSzLA0yw%3A1608742638822&ei=7nbjX9LYMdPU1fAPiOes2AI&q=cgi+web&oq=cgi+web&gs_lcp=CgZwc3ktYWIQAzIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywE6BAgAEEc6BAgjECc6BAgAEEM6AggAOgsIABDHARCvARDLAVCFQliRSWCiUGgAcAJ4AIABnAGIAdMEkgEDMC40mAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwjSh5asyeTtAhVTahUIHYgzCysQ4dUDCA0&uact=5 | cgi web - بحث Google‏
 https://www.google.com/search?sxsrf=ALeKk01nCljatAY4LId4F9tZOtRL7NW6Hg%3A1609399122956&ei=UnvtX-vzOc-BjLsPu5WPiAw&q=REST+API+%D9%85%D8%A7%D9%87%D9%88&oq=REST+AP&gs_lcp=CgZwc3ktYWIQARgAMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHUABYAGD1I2gAcAF4AIABAIgBAJIBAJgBAKoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab | REST API ماهو - بحث Google‏
@@ -160,9 +160,6 @@ https://www.pluralsight.com/browse/information-cyber-security | Info and Cyber S
 https://app.pluralsight.com/course-player?clipId=c33abefe-6feb-496c-906d-98a8f6dd05c1 | Security Management | Pluralsight
 https://free4arab.net/2020/06/16/freeudemy/ | كورسات مجانية من موقع يوديمي – Free4arab
 https://www.youtube.com/user/programmingwithmosh/videos | Programming with Mosh - YouTube
-https://www.youtube.com/playlist?list=PLCBJ6FzVTy-A-xIVD4k_9v8AL5oQrA0aw | الأمن الرقمي - YouTube
-https://www.youtube.com/playlist?list=PLCBJ6FzVTy-BzdyF3cFJJfWmqgNMVpmlJ | ComptiA Security+ (مكتمل) - YouTube
-https://www.youtube.com/playlist?list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC | Popular Programming Courses - YouTube
 https://www.youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu | Ethical Hacking - YouTube
 
 https://duckduckgo.com/?q=mod_wsgi+mean&t=newext&atb=v256-1&ia=web | mod_wsgi mean at DuckDuckGo
@@ -210,7 +207,6 @@ https://free4arab.net/startlearningprogramming/ | كيف تبدأ فى عالم 
 https://free4arab.net/courses/python-security/lessons/hashlib/ | Python Security → hashlib - Free4arab
 https://www.youtube.com/playlist?list=PLMYF6NkLrdN98I0nEXOuR_gK8b4w-NJcN | دورة Python 3 اساسيات ومتقدم - YouTube
 https://www.youtube.com/playlist?list=PL00vGmHQqFRbv46Tkdng_knUCyZ5NH38z | CHC v2 - YouTube
-https://www.youtube.com/watch?v=-7HPiGfOsEg | الوظائف السيبرانية - Cyber Security Jobs - YouTube
 https://1000projects.org/ | 1000 Projects – Free BTech BE Projects | MTech ME Projects | Msc MCA Projects
 https://www.youtube.com/watch?v=GZvSYJDk-us | APIs for Beginners - How to use an API (Full Course / Tutorial) - YouTube
 https://twitter.com/buhaimedi/status/1368622666660388865?s=21 | (18) تويتر \ إبراهيم بوحيمد | Ibrahim Buhaimed على تويتر: "موقع رهيب يعطيك اغلب الشهادات المهمه في مجال #cybersecuirty اهم ميزه فيه انه يوضح لك الشهاده في اي مجال من مجالات السايبرسيكورتي وايضا الجهه المقدمه للدوره ورابطها والسعر. لايفوتكم https://t.co/e8CImn5c74 https://t.co/stic63ASbe"
@@ -301,7 +297,6 @@ https://strftime.org/ | Python strftime reference
 https://diveinto.org/python3/table-of-contents.html | Table of contents - Dive Into Python 3
 
 https://django-crispy-forms.readthedocs.io/en/latest/install.html# | Installation — django-crispy-forms 1.11.1 documentation
-https://www.djangoproject.com/download/ | Download Django | Django
 https://www.youtube.com/c/PythonProfessionals/playlists | Elsafy Hegazy - YouTube
 https://www.youtube.com/playlist?list=PLnzqK5HvcpwS70RtOyS_DlH5iSa4U0IO1 | كورس الداتا استركشر والخوارزميات بالعربي(course data structures and Algorithms by arabic ) - YouTube
 https://github.com/Mohammed-Taysser/django-blog/commits/main | Commits · Mohammed-Taysser/django-blog · GitHub
@@ -355,8 +350,6 @@ https://www.youtube.com/playlist?list=PLJYBTsbldfv98tQGoFchRd-IwsjLM3efz | AskDe
 https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages | About GitHub Pages - GitHub Docs
 https://pytutorial.com/django-translate-app | Django Translator | Building a Translator app Step by Step
 https://duckduckgo.com/?q=waht+is+home+patition+that+create+in+ubuntu+install&t=newext&atb=v256-1&ia=web | waht is home patition that create in ubuntu install at DuckDuckGo
-https://www.w3schools.com/python/python_sets_methods.asp | Python - Set Methods
-https://www.w3schools.com/python/python_dictionaries_methods.asp | Python - Dictionary Methods
 https://www.w3schools.com/git/default.asp | Git Tutorial
 https://duckduckgo.com/?q=postman+%D9%85%D8%A7+%D9%87%D9%88&t=newext&atb=v256-1&ia=web | postman ما هو at DuckDuckGo
 https://duckduckgo.com/?q=python+ASCII_art&t=newext&atb=v256-1&ia=web | python ASCII_art at DuckDuckGo
@@ -378,7 +371,6 @@ https://free4arab.net/startlearningprogramming/ | كيف تبدأ فى عالم 
 https://free4arab.net/courses/python-security/lessons/hashlib/ | Python Security → hashlib - Free4arab
 https://www.youtube.com/playlist?list=PLMYF6NkLrdN98I0nEXOuR_gK8b4w-NJcN | دورة Python 3 اساسيات ومتقدم - YouTube
 https://www.youtube.com/playlist?list=PL00vGmHQqFRbv46Tkdng_knUCyZ5NH38z | CHC v2 - YouTube
-https://www.youtube.com/watch?v=-7HPiGfOsEg | الوظائف السيبرانية - Cyber Security Jobs - YouTube
 https://1000projects.org/ | 1000 Projects – Free BTech BE Projects | MTech ME Projects | Msc MCA Projects
 https://www.youtube.com/watch?v=GZvSYJDk-us | APIs for Beginners - How to use an API (Full Course / Tutorial) - YouTube
 https://twitter.com/buhaimedi/status/1368622666660388865?s=21 | (18) تويتر \ إبراهيم بوحيمد | Ibrahim Buhaimed على تويتر: "موقع رهيب يعطيك اغلب الشهادات المهمه في مجال #cybersecuirty اهم ميزه فيه انه يوضح لك الشهاده في اي مجال من مجالات السايبرسيكورتي وايضا الجهه المقدمه للدوره ورابطها والسعر. لايفوتكم https://t.co/e8CImn5c74 https://t.co/stic63ASbe"
