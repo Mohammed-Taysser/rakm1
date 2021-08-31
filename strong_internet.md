@@ -7,6 +7,9 @@
 - [ ] [Coding Month](https://www.youtube.com/playlist?list=PLV9Ike6NQZF63q0unczLiCfgvJ5ifG6sO)
 - [ ] [Tech 101 technology has no age](https://www.youtube.com/playlist?list=PLV9Ike6NQZF66IMPhn65YT7RVkRx_QCtG)
 - [ ] [Todo App | Django REST Framework & Ajax](https://www.youtube.com/watch?v=hISSGMafzvU&list=PL-51WBLyFTg38qZ0KHkJj-paDQAAu9HiP&index=3)
+- [ ] [Linux Command Prompt](https://www.youtube.com/playlist?list=PLgb1QHu0tFi347FoIEFUmOUR-zAYbFAfl)
+- [ ] [Kali Linux - Complete Training Program from Scratch](https://www.youtube.com/playlist?list=PLnjNR4-S-EVqfJWovxEJyb7I0IOkKkoYM)
+- [ ] [Learning Shell Scripting: How to Automate Your Tasks](https://www.youtube.com/playlist?list=PLF8OvnCBlEY3RgonBk3TUkEGn8f1fDoNP)
 - [ ] ~~[CompTIA Network+](https://www.youtube.com/playlist?list=PLCIJjtzQPZJ8mAprx9w_kOH_zOkF34Pot)~~
 
 ## google drive
