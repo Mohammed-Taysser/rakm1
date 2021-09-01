@@ -1,14 +1,14 @@
 
-# note from ITI Course
+# Note From ITI Course
 
-## other
+## Other
 
 - `show ip route`
 - `ipconfig /all`
 - `show ip dhcp pool`
 - `show ip dhcp binding`
 
-## open router port with configure
+## Open Router Port With Configure
 
     enable
 
@@ -20,7 +20,7 @@
 
     no shutdown
 
-## create DHCP server
+## Create DHCP Server
 
     ip dhcp pool alex
 
@@ -30,7 +30,7 @@
 
     dns-server  8.8.8.8
 
-## connect to external network like `we`
+## Connect To External Network Like `we`
 
     interface serial 0/0/0
 
@@ -40,7 +40,7 @@
 
     do wr
 
-## static route
+## Static Route
 
     ip route 192.168.1.0 255.255.255.0 serial 0/0/1
     
