@@ -4,9 +4,14 @@
 ## Other
 
 - `show ip route`
-- `ipconfig /all`
 - `show ip dhcp pool`
 - `show ip dhcp binding`
+- `show mac address-table`
+
+### window Terminal
+
+- `ipconfig /all`
+- `arp -a`
 
 ## Open Router Port With Configure
 
