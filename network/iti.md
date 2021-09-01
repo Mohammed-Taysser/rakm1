@@ -1,5 +1,5 @@
 
-# note from ITI
+# note from ITI Course
 
 ## other
 
@@ -7,8 +7,6 @@
 - `ipconfig /all`
 - `show ip dhcp pool`
 - `show ip dhcp binding`
-- `ip route 192.168.1.0 255.255.255.0 serial 0/0/1`
-- `ip route 192.168.1.0 255.255.255.0 60.0.0.2`
 
 ## open router port with configure
 
@@ -32,7 +30,7 @@
 
     dns-server  8.8.8.8
 
-## connect with `we`
+## connect to external network like `we`
 
     interface serial 0/0/0
 
@@ -41,3 +39,9 @@
     no shutdown
 
     do wr
+
+## static route
+
+    ip route 192.168.1.0 255.255.255.0 serial 0/0/1
+    
+    ip route 192.168.1.0 255.255.255.0 60.0.0.2
