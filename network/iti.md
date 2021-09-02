@@ -7,6 +7,8 @@
 - `show ip dhcp pool`
 - `show ip dhcp binding`
 - `show mac address-table`
+- `show vlan`
+- `show spanning-tree`
 
 ### window Terminal
 
@@ -50,3 +52,35 @@
     ip route 192.168.1.0 255.255.255.0 serial 0/0/1
     
     ip route 192.168.1.0 255.255.255.0 60.0.0.2
+
+## vlan
+
+### Create vlan
+
+    vlan 10
+
+    name sales
+
+    exit
+
+### Add pc To vlan
+
+    interface fastEthernet 0/1
+
+    switchport access vlan 10
+
+    # range select
+    interface range fastEthernet 0/1-3
+
+    # range and single select
+    interface range fastEthernet 0/1, fastEthernet 0/6-8
+
+### Switch Port To Trunk
+
+    interface fastEthernet 0/2
+
+    switchport mode trunk
+
+### Change Priority
+
+    spanning-tree vlan 1 priority 4096
