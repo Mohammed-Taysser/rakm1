@@ -34,6 +34,11 @@
 - virtualization
 - linux+
 - MAC address mack up (program)
+- TCP flags attack (each by name)
+- TCP SYN flood attack
+- pegasos
+- prtg
+- mrtg
 
 ## more
 
