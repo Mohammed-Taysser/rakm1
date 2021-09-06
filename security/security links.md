@@ -39,6 +39,10 @@
 - pegasos
 - prtg
 - mrtg
+- hashcalc
+- https://www.wireshark.org/
+- putty
+- gns3
 
 ## more
 
