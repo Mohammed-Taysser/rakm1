@@ -1,5 +1,6 @@
 # manga
 
+- [solo levelling](https://team1x1.com/iy9xhvp/)
 - [peerless dad](https://team1x1.com/xuvxj5h/)
 - [Demonic Emperor](https://team1x1.com/rflxbdn/)
 - [Release That Witch](https://team1x1.com/2r3kaw/)
@@ -18,6 +19,7 @@
 - [SSS-Class Suicide Hunter](https://team1x1.com/zrzxdc1/)
 - [the-god-of-death](https://mangastarz.com/manga/the-god-of-death/87/)
 - [dungeon-reset](https://mangastarz.com/manga/dungeon-reset/84/)
+- [Solo Max-Level Newbie](https://team1x1.com/izrnfz/)
 
 ## website
 
