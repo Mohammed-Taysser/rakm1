@@ -1,5 +1,5 @@
 
-# Note From ITI Course
+# Network + Cyber Security Essional
 
 ## Other
 
@@ -142,3 +142,33 @@ set password for use
 > **motd** : message of the day
 
     banner motd # message to appear #
+
+# MS Course
+
+## to setup the main server
+
+1. turn off the firewall (localserver on left)
+2. add static ip to the server (open network sharing on click network icon on task bar)
+   1. 192.168.1.100
+   2. 255.255.255.0
+   3. 192.168.1.1
+   4. 127.0.0.1
+3. restart the server
+4. add new role (dashboard on left)
+   1. check that the static ip for server are chosen
+   2. check active directory domain server
+   3. press ad freather
+   4. prees install
+5. restart the server
+6. on notification you will find a prompit click it
+7. choose `add a new forest` and type the domain name
+8. contine the steps it's easy
+
+## on windows 10
+
+1. add static ip
+   1. 192.168.1.200
+   2. 255.255.255.0
+   3. 192.168.1.1
+   4. 192.168.1.100
+2. pc>properities > remote setting > change name
