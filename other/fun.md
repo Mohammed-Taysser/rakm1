@@ -1,4 +1,6 @@
-# manga
+# fun notes
+
+## manga
 
 - [solo levelling](https://team1x1.com/iy9xhvp/)
 - [peerless dad](https://team1x1.com/xuvxj5h/)
@@ -20,6 +22,11 @@
 - [the-god-of-death](https://mangastarz.com/manga/the-god-of-death/87/)
 - [dungeon-reset](https://mangastarz.com/manga/dungeon-reset/84/)
 - [Solo Max-Level Newbie](https://team1x1.com/izrnfz/)
+
+## anime
+
+- [tensei-shitara-slime-datta-ken season 2 episode 10](https://octanime.net/animes/tensei-shitara-slime-datta-ken-2nd-season-part-2-85625/episodes/10)
+- [kumo-desu-ga-nani-ka](https://www.faselhd.pro/anime-episodes/%d8%a7%d9%86%d9%85%d9%8a-kumo-desu-ga-nani-ka-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-24-%d9%88%d8%a7%d9%84%d8%a3%d8%ae%d9%8a%d8%b1%d8%a9)
 
 ## website
 
