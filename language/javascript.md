@@ -22,7 +22,7 @@ if (condition){
 ## Function
 
 ```js
-function funtion_name (arg) {
+function function_name (arg) {
     'use strict';
     # code here
 }
@@ -1150,87 +1150,6 @@ fetch('https://api.github.com/users/Mohammed-Taysser/repos').then((result) => {
     })
 ```
 
-## from website
-
-    window.print() print the page
-    if a > b ? true : false short if
-    typeOf()
-    note that name = 'text' dosn't equal name = "text"
-    diffrent betweem search and indexOf
-    with search we can use reqular expression but not start position unlike indexOf we can use start position but not reqular expression
-    isNaN( varName ) return true if is undefine variable
-    isFinite( varName ) return true if is finite variable
-    isInterger( varName ) return true if is int variable
-    ** exponential
-    arr.sort((a,b) => a - b) sort with function to determine the order
-    Math.max.apply(null,arrayName) max element on array
-    Math.maxapply(...arrayName) max element on array
-    Math.min.apply(null,arrayName) min element on array
-    Math.minapply(...arrayName) min element on array
-
-some rule wile coding
-
-    var and function are in camelCase
-    global and constant are in upper case
-    file name are in lower case
-    space betweem seperator like +, - ...
-    short statment can be in one line
-    let i, len = arr.length; best in perfotmance
-    for(i=0; i< len; i++)
-    ...
-    avoid using new word it's bad in perfotmance
-    if we using html element more it's better put it into variable like let, var it effect on perfotmance
-    onload, onunload ues to deal with cookie and browser type
-    there two type of eveny 1-bubbling propagation(default) 2-capyturing propagation
-    selector.addEventListener('event', function, false|true)
-    by default false which mean we are using bubbling propagation
-
-      try{
-        throw 'any data type';
-        .....
-      }
-      catch (er){
-        er.message;
-        ......
-      }
-      finally{
-        'code execute after try/catch' ;
-      }
-
-    arr.find(function(val,index){}) return first element achive function condition
-    arr.findIndex(function(val,index){}) return index of first element achive function condition
-    arr.filter(function(val,index){}) return array under function condition
-    arr.foreach(function(val,index){}) loop on array
-    arr.map(function(val,index){}) return array after achive function on every element
-    arr.reduce(function(total,val,index){}) turn array into string under function condition
-    arr.every(function(val,index){}) return true|false if function achive on all elements
-    arr.some(function(val,index){}) return true|false if function achive on some elements
-    arr.indexof('key', 'start')
-    arr.lastIndexof('key', 'start')
-
-with object
-
-let name = {
-  username : 'Mohammed',
-  methodName : function(){
-    return username;
-  }
-  get : function(){
-    return username;
-  }
-  set : function(username){
-    this.username = username;
-  }
-};
-let temp = name.username;
-//any change on temp will effect on name and vice verse, as object are address by refrence
-
-for(i = 0; i< name.length; i++)
-  console(name[i]);
-
-//to delete proberity
-delete name.propName;
-
 # Javascript oop
 
 ```js
@@ -1242,15 +1161,16 @@ let user_object = {
         css : 90,
         js : 70
     },
+    skills: ['web', 'python'],
     get_details : function() {
       return `name: ${this.name}, age: ${this.age}`;
     },
     get_lang_value : () => user.language.html,
 };
 
-//accsess object methods
+//access object methods
 console.log(user.name);   // dot notation
-console.log(user['age']); // braket notation
+console.log(user['age']); // bracket notation
 console.log(user["language"]["html"]);
 console.log(user.language.js);
 console.log(user.get_lang());
@@ -1259,7 +1179,7 @@ console.log(user.get_details());
 
 ## object methods
 
-make a copy of exist object, it will have the same properities and methods
+make a copy of exist object, it will have the same properties and methods
 
     let other = Object.create(user);
 
@@ -1445,3 +1365,81 @@ using destruction
 let book = 'clean code', anime = 'solo levelling'
 [book, anime] = [anime, book]
 ```
+    window.print() print the page
+    if a > b ? true : false short if
+    typeOf()
+    note that name = 'text' dosn't equal name = "text"
+    diffrent betweem search and indexOf
+    with search we can use reqular expression but not start position unlike indexOf we can use start position but not reqular expression
+    isNaN( varName ) return true if is undefine variable
+    isFinite( varName ) return true if is finite variable
+    isInterger( varName ) return true if is int variable
+    ** exponential
+    arr.sort((a,b) => a - b) sort with function to determine the order
+    Math.max.apply(null,arrayName) max element on array
+    Math.maxapply(...arrayName) max element on array
+    Math.min.apply(null,arrayName) min element on array
+    Math.minapply(...arrayName) min element on array
+
+some rule wile coding
+
+    var and function are in camelCase
+    global and constant are in upper case
+    file name are in lower case
+    space betweem seperator like +, - ...
+    short statment can be in one line
+    let i, len = arr.length; best in perfotmance
+    for(i=0; i< len; i++)
+    ...
+    avoid using new word it's bad in perfotmance
+    if we using html element more it's better put it into variable like let, var it effect on perfotmance
+    onload, onunload ues to deal with cookie and browser type
+    there two type of eveny 1-bubbling propagation(default) 2-capyturing propagation
+    selector.addEventListener('event', function, false|true)
+    by default false which mean we are using bubbling propagation
+
+      try{
+        throw 'any data type';
+        .....
+      }
+      catch (er){
+        er.message;
+        ......
+      }
+      finally{
+        'code execute after try/catch' ;
+      }
+
+    arr.find(function(val,index){}) return first element achive function condition
+    arr.findIndex(function(val,index){}) return index of first element achive function condition
+    arr.filter(function(val,index){}) return array under function condition
+    arr.foreach(function(val,index){}) loop on array
+    arr.map(function(val,index){}) return array after achive function on every element
+    arr.reduce(function(total,val,index){}) turn array into string under function condition
+    arr.every(function(val,index){}) return true|false if function achive on all elements
+    arr.some(function(val,index){}) return true|false if function achive on some elements
+    arr.indexof('key', 'start')
+    arr.lastIndexof('key', 'start')
+
+with object
+
+let name = {
+  username : 'Mohammed',
+  methodName : function(){
+    return username;
+  }
+  get : function(){
+    return username;
+  }
+  set : function(username){
+    this.username = username;
+  }
+};
+let temp = name.username;
+//any change on temp will effect on name and vice verse, as object are address by refrence
+
+for(i = 0; i< name.length; i++)
+  console(name[i]);
+
+//to delete proberity
+delete name.propName;
