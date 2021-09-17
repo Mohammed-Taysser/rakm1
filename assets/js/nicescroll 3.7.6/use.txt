@@ -1,0 +1,10 @@
+
+
+
+js
+
+$(".test").niceScroll('.another');
+
+
+html
+<div class="test" style="height: 500px;width: 500px;margin: 0 auto;"><div class="another"></div></div>

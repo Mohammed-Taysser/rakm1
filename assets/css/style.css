@@ -1,0 +1,22 @@
+
+@font-face {
+	font-family: Montserrat;
+	src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+
+body{
+    font-family:Montserrat; 
+    text-transform: capitalize;
+}
+::selection{
+    background-color: #333;
+    color: #fff;
+}
+
+
+@media (min-width: 576px) { }
+@media (min-width: 768px) { }
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {  }
+
