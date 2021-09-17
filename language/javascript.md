@@ -1152,6 +1152,8 @@ fetch('https://api.github.com/users/Mohammed-Taysser/repos').then((result) => {
 
 # Javascript oop
 
+## object essential
+
 ```js
 let user_object = {
     name  : 'mohammed',
@@ -1183,55 +1185,131 @@ make a copy of exist object, it will have the same properties and methods
 
     let other = Object.create(user);
 
-### append objects
+### append & create objects
 
-`target` is the object that collect other objects, `sourses` is the other object to append
+`target` is the object that collect other objects, `source` is the other object to append
 
-Object.assign(target, sourse1, {
-    name  : 'mohammed',
-    age   : 21,
-}, sourse2, ...);
+    Object.assign(target, source1, {
+        name  : 'mohammed',
+        age   : 21,
+    }, source2, ...);
 
-let newUser = Object.assign({}, sourse1, {
-    name  : 'mohammed',
-    age   : 21,
-}, sourse2, ...);
+    let newUser = Object.assign({}, source1, {
+        name  : 'mohammed',
+        age   : 21,
+    }, source2, ...);
 
-JavaScript
+### delete object property
 
-// delete object properity
+```js
 delete user.name;
 delete user["age"];
+console.log(delete user.name);      // true | false if deleted or not
+```
 
-JavaScript
-loop on object
+### loop on object
 
+```js
 for(let i in user ) {
     if(user.hasOwnProperty(i)){
       console.log(i, user[i]);
     }
 }
+```
 
-JavaScript
+### freeze object
 
-// ---------------------- constructor ----------------------
+protect object from delete property
+
+```js
+let user_object = {
+    name  : 'mohammed',
+    age   : 21,
+};
+
+console.log(user.name);         // mohammed
+console.log(delete user.name);  // true
+console.log(user.name);         // undefine
+
+// -------------------- example 1
+
+let user_object = Object.freeze({
+    name  : 'mohammed',
+    age   : 21,
+});
+
+console.log(user.name);         // mohammed
+console.log(delete user.name);  // false
+console.log(user.name);         // mohammed
+
+// -------------------- example 1
+let user = {};
+user.defineProperty(user, 'value', {value: 1, configurable: false});
+
+console.log(user.name);         // mohammed
+console.log(delete user.name);  // false
+console.log(user.name);         // mohammed
+```
+
+## constructor (old way)
+
+```js
 class phone {
+
   constructor (model, price, color){
     this.model = model;
     this.price = price;
     this.color = color
   };
+
   get_price(){ return this.price; }
   set_price(price){ this.price = price; }
   get_details(){ return `model: ${this.model}, price: ${this.price}, color: ${this.color}`; }
 };
 let iphone = new phone(2020, 2000, "gold");
 console.log(iphone.get_details());
+```
 
-JavaScript
-deal with prototype
+## constructor (ES6)
 
+```js
+class phone {
+  constructor (model, price, color){
+    this.model = model;
+    this.price = price;
+    this.color = color
+  };
+  get get_price(){ return this.price; }       // treated as property
+  set set_price(price){ this.price = price; } // treated as property
+  get get_details(){ return `model: ${this.model}, price: ${this.price}, color: ${this.color}`; }
+};
+let iphone = new phone(2020, 2000, "gold");
+iphone.set_price = 5000;         // without ()
+console.log(iphone.get_details); // without ()
+```
+
+## deal with prototype
+
+any object inherit from it
+
+```js
+// check if object is object of class
+user_1.prototype === User.prototype     // true | false
+
+// ------------- instance
+if(!(this instanceof User)){
+    throw new Error('not called with new keyword')
+}
+
+// ------------- ES6
+if(!new.target){
+    throw new Error('not called with new keyword')
+}
+```
+
+```js
 // function to add 0 at begin of string or number
+// prototype is for class name
 String.prototype.zfill = function(len){
   let result = this;
   while (result.length < len) {
@@ -1242,27 +1320,11 @@ String.prototype.zfill = function(len){
 console.log("45".zfill(5));
 
 console.log(String.prototype); // all string methods
+```
 
-JavaScript
-using ES6
+## static
 
-class phone {
-  constructor (model, price, color){
-    this.model = model;
-    this.price = price;
-    this.color = color
-  };
-  get get_price(){ return this.price; } // treate as properity
-  set set_price(price){ this.price = price; } // treate as properity
-  get get_details(){ return `model: ${this.model}, price: ${this.price}, color: ${this.color}`; }
-};
-let iphone = new phone(2020, 2000, "gold");
-iphone.set_price = 5000;  // without ()
-console.log(iphone.get_details); // without ()
-
-JavaScript
-static
-
+```js
 class phone {
   static number_of_objects = 0;
   constructor (model, price, color){
@@ -1271,18 +1333,19 @@ class phone {
     this.color = color
     phone.number_of_objects ++;
   };
-  get get_price(){ return this.price; } // treate as properity
-  set set_price(price){ this.price = price; } // treate as properity
+  get get_price(){ return this.price; }       // treated as property
+  set set_price(price){ this.price = price; } // treated as property
   get get_details(){ return `model: ${this.model}, price: ${this.price}, color: ${this.color}`; }
   static current_number_of_objects(){return this.number_of_objects;}
 };
 let iphone = new phone(2020, 2000, "gold");
 let iphcone = new phone(2020, 2000, "gold");
-console.log(phone.number_of_objects);
+console.log(phone.number_of_objects);   // called by class name
+```
 
-JavaScript
-extends
+## extends & inheritance
 
+```js
 class phone {
   constructor (model, price, color){
     this.model = model;
@@ -1293,44 +1356,50 @@ class phone {
   set set_price(price){ this.price = price; }
   get get_details(){ return `model: ${this.model}, price: ${this.price}, color: ${this.color}`; }
 };
-class genration extends phone{
+class generation extends phone{
   constructor (model, price, color, sensor){
     super(model, price, color);
     this.sensor = sensor;
   }
 }
+```
 
-JavaScript
-meta data
+## meta data
 
+```js
 let name = {
   name : "Mo"
 }
-// define only properity
+// define only one property
 Object.defineProperty(name, "age",{
-  writable : true, // change value or not
-  enumerable : true, // appeare on for in loop or not
-  configrable : true, // deleteable or not [can change meta data]
+  writable : true,      // false : can't change it's value
+  enumerable : true,    // false : can't appear in loops
+  configurable : true,  // false : can't delete it or change it's meta data
   value : 21
 });
 console.log(name);
 console.log(name.age);
 
-console.log(Object.getOwnPropertyDescriptor(name,"age")); // get meta data about age
-console.log(Object.getOwnPropertyNames(name).length); // object properities length
+// get meta data about age
+console.log(Object.getOwnPropertyDescriptor(name,"age")); 
+
+// object properties length
+console.log(Object.getOwnPropertyNames(name).length); 
+
 console.log(Object.keys(name)); // can perform loop on it
 
-// define more properities
+// define more properties
 Object.defineProperties(name,{
   prop1 : {
     writable : true,
     enumerable : false,
-    configrable : true,
+    configurable : true,
     value : 21
   },
   prop2 : {},
   ...
 });
+```
 
 # JS Tricks
 
@@ -1365,61 +1434,88 @@ using destruction
 let book = 'clean code', anime = 'solo levelling'
 [book, anime] = [anime, book]
 ```
-    window.print() print the page
-    if a > b ? true : false short if
-    typeOf()
+
+## print the page
+
+    window.print()
+
+## short if
+
+    if a > b ? true : false
+
     note that name = 'text' dosn't equal name = "text"
-    diffrent betweem search and indexOf
-    with search we can use reqular expression but not start position unlike indexOf we can use start position but not reqular expression
-    isNaN( varName ) return true if is undefine variable
-    isFinite( varName ) return true if is finite variable
-    isInterger( varName ) return true if is int variable
+
+## different between `search` and `indexOf`
+
+with search we can use regular expression but not start position unlike `indexOf` we can use start position but not regular expression
+
+## check specified type
+
+    isNaN( varName )      // return true if is undefine variable
+    isFinite( varName )   // return true if is finite variable
+    isInteger( varName )  // return true if is int variable
+
+## exponential
+
     ** exponential
-    arr.sort((a,b) => a - b) sort with function to determine the order
+
+    2 ** 2      // 4
+
+## sort
+
+with function to determine the order
+
+    arr.sort((a,b) => a - b)
+
+## min & max element on array
+
     Math.max.apply(null,arrayName) max element on array
     Math.maxapply(...arrayName) max element on array
+
     Math.min.apply(null,arrayName) min element on array
     Math.minapply(...arrayName) min element on array
 
-some rule wile coding
+# some rule wile coding
 
-    var and function are in camelCase
-    global and constant are in upper case
-    file name are in lower case
-    space betweem seperator like +, - ...
-    short statment can be in one line
-    let i, len = arr.length; best in perfotmance
-    for(i=0; i< len; i++)
-    ...
-    avoid using new word it's bad in perfotmance
-    if we using html element more it's better put it into variable like let, var it effect on perfotmance
-    onload, onunload ues to deal with cookie and browser type
-    there two type of eveny 1-bubbling propagation(default) 2-capyturing propagation
-    selector.addEventListener('event', function, false|true)
-    by default false which mean we are using bubbling propagation
+- var and function are in camelCase
+- global and constant are in upper case
+- file name are in lower case
+- let space between `separator` like `+, - ...`
+- short statement can be in one line
+- `let i, len = arr.length;` best in performance than `for(i=0; i< len; i++)`
+- avoid using new word it's bad in performance
+- if we using `html` element more it's better put it into variable like `let`, `var` it effect on performance
+- `onload`, `onunload` ues to deal with cookie and browser type
+- there are two type of event
+  - bubbling propagation(default)
+  - capturing propagation
+- `selector.addEventListener('event', function, false|true)`  by default `false` which mean we are using bubbling propagation
+- use try & catch
 
-      try{
+    ```js
+    try{
         throw 'any data type';
         .....
-      }
-      catch (er){
+    }
+    catch (er){
         er.message;
         ......
-      }
-      finally{
+    }
+    finally{
         'code execute after try/catch' ;
-      }
+    }
+    ```
 
-    arr.find(function(val,index){}) return first element achive function condition
-    arr.findIndex(function(val,index){}) return index of first element achive function condition
-    arr.filter(function(val,index){}) return array under function condition
-    arr.foreach(function(val,index){}) loop on array
-    arr.map(function(val,index){}) return array after achive function on every element
-    arr.reduce(function(total,val,index){}) turn array into string under function condition
-    arr.every(function(val,index){}) return true|false if function achive on all elements
-    arr.some(function(val,index){}) return true|false if function achive on some elements
-    arr.indexof('key', 'start')
-    arr.lastIndexof('key', 'start')
+- `arr.find(function(val,index){})` return first element achieve function condition
+- `arr.findIndex(function(val,index){})` return index of first element achieve function condition
+- `arr.filter(function(val,index){})` return array under function condition
+- arr`.foreach(function(val,index){})` loop on array
+- arr`.map(function(val,index){})` return array after achieve function on every element
+- `arr.reduce(function(total,val,index){})` turn array into string under function condition
+- `arr.every(function(val,index){})` return `true|false` if function achieve on all elements
+- `arr.some(function(val,index){})` return `true|false` if function achieve on some elements
+- `arr.indexof('key', 'start')`
+- `arr.lastIndexof('key', 'start')`
 
 with object
 
@@ -1437,9 +1533,3 @@ let name = {
 };
 let temp = name.username;
 //any change on temp will effect on name and vice verse, as object are address by refrence
-
-for(i = 0; i< name.length; i++)
-  console(name[i]);
-
-//to delete proberity
-delete name.propName;
