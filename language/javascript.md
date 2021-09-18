@@ -1475,6 +1475,15 @@ with function to determine the order
     Math.min.apply(null,arrayName) min element on array
     Math.minapply(...arrayName) min element on array
 
+## prevent right click
+
+```js
+document.addEventListener('contextmenu', function(e){
+    e.preventDefault();
+})
+```
+
+
 # some rule wile coding
 
 - var and function are in camelCase

@@ -1,12 +1,9 @@
 
-## What Is Git
+# What Is Git
 
 > git is version control system
 
-
 ## Basic Git commands
-
-
 
 - `git init` initializes a brand new Git repository and begins tracking an existing directory. 
     It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
@@ -17,7 +14,7 @@
 - `git add` stages a change. Git tracks changes to a developer’s codebase, but it’s necessary to stage and take a snapshot of the changes to include them in the project’s history.
 
 - `git commit` saves the snapshot to the project history and completes the change-tracking process.
-- 
+
 - `git status` shows the status of changes as untracked, modified, or staged.
 
 - `git branch` shows the branches being worked on locally.
@@ -29,9 +26,6 @@
     Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.
 
 - `git push` updates the remote repository with any commits made locally to a branch.
-
-
-
 
 ## GitHub and the command line
 
@@ -126,10 +120,8 @@ git commit -m "edit file1"
 git push
 ```
 
-
-
 - `git add .`
 - `git add file_name`
 - `git status`
 - `git clone git_url`
-- `git checkout --orphan gh-pages `  create gh-page branch and choose it
+- `git checkout --orphan gh-pages`  create gh-page branch and choose it
