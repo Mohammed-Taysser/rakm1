@@ -125,3 +125,353 @@ git push
 - `git status`
 - `git clone git_url`
 - `git checkout --orphan gh-pages`  create gh-page branch and choose it
+
+## course 1
+
+- `git --version`
+- `git init`
+- `git status`
+- `git add file_name.extension`
+- `git add .`
+- `git restore --staged name.txt`
+- `git commit -m 'initial commit'`
+  - `git config --global user.email 'mohamedtaysser112@yahoo.com'`
+  - `git config --global user.name 'mohammed-taysser'`
+- `git log` list all commits with it's id
+- `git checkout commit_id`  return to it's state (it's like we are in commit_id and any commit after that will delete (like back in time))
+
+## search
+
+- `git commit -help`    for flag and option
+
+# All git commands of github ordered 🔥
+
+## 👍 conclusion for git commands 👍
+
+### show current git version
+
+```shell
+git --version
+```
+
+### show configuration of git
+
+```shell
+git config --list
+```
+
+### initialize git repo
+
+```shell
+git init
+```
+
+### For clone project from github 🔽
+
+``` Shell
+git clone "url_to_github_project"
+```
+
+### To see your state after editing on files ⬇️
+
+``` Shell
+git status 
+```
+
+### To see your changes on files ⬇️
+
+``` Shell
+git diff             # the different between repo and working area
+```
+
+### Stages of moving files from your device to remote repo ⬇️
+
+``` shell
+git add *  or git add .
+git add 'file_name' 'file_name'
+
+git commit -am "description"
+git push
+```
+
+### configure git for all folders
+
+```shell
+git config --global user.email 'mo@mo.mo'
+git config --global user.name 'mohammed-taysser'
+```
+
+### configure git for current folder
+
+```shell
+git config user.email 'mo@mo.mo'
+git config user.name 'mohammed-taysser'
+```
+
+### get configure
+
+```shell
+git config user.email
+```
+
+### get git help
+
+```shell
+git --help
+
+git help commit
+```
+
+### For removing files from staging area ⬇️
+
+```shell
+git reset -- 'name of file' ,'name of another file '
+git restore --staged file_name.txt
+```
+
+### For loading files to local repo ⬇️
+
+``` shell
+git commit -am "description"
+          or 
+git commit -m "description"
+```
+
+### To know any branch ⬇️
+
+```shell
+git branch
+    or
+git branch --list
+```
+
+### create new branch ⬇️
+
+```shell
+git branch new_name
+```
+
+### remove branch ⬇️
+
+```shell
+git branch -d branch_name
+git push origin :branch_name
+```
+
+### switch to branch ⬇️
+
+```shell
+git checkout branch_name
+```
+
+### rename exist branch ⬇️
+
+```shell
+git branch old_branch_name new_branch_name
+```
+
+### create branch and switch to it ⬇️
+
+```shell
+git checkout -b branch_name
+```
+
+### create branch , switch and push to it ⬇️
+
+```shell
+git checkout -b branch_name
+
+git push --set-upstream origin more
+```
+
+### show all commits by date
+
+```shell
+git log
+    or on short
+git log --oneline
+```
+
+### To know any remoteRepo ⬇️
+
+```shell
+git remote -v
+```
+
+### To load files to remote Repo ⬇️
+
+```shell
+git push 'remote name' 'branch name' 
+git push origin main
+```  
+
+### how To add Contributors from github  ⬇️
+
+```shell
+     from settings
+         options 
+             Manage access
+                invite a collaborator
+```  
+
+### how To pull updating files from Remote Repo ⬇️
+
+ ```shell
+
+ 1] git fetch origin main
+ 2] git stash save "description"
+ 3] git merge
+
+ ```
+
+### how To pull updating files from Remote Repo with new branch ⬇️
+
+ ```shell
+ 1] git fetch origin main
+ 2] git merge
+ ```
+
+by `branch_name`
+
+```shell
+ 1] git fetch origin main branch_name:branch_name
+ 2] git merge
+ ```
+
+### how To pull updating files from Remote Repo in one line command ⬇️
+
+``` shell
+git pull origin main
+```
+
+### Stages of moving files from remote Repo to your device ⬇️
+
+``` shell
+remote repo 
+     git fetch
+        local repo
+            git stash save "description"
+                staging area
+                     git merge
+                        working directory
+```
+
+### If you want to erase a file from working directory  ⬇️
+
+```shell
+git  rm  file_name.extension
+```
+
+### merge branch with main
+
+you should be in `main` branch
+
+```shell
+git merge branch_name
+
+git push
+```
+
+if error are appear then deal with changes in editor then
+
+```shell
+git add .
+git commit -m 'message'
+git push
+```
+
+### get changes from repo to locale
+
+```shell
+git pull
+```
+
+### To erase a file from both the working directory remote Repo ⬇️
+
+```shell
+ 1] git rm "file name"
+ 2] git commit "description"
+ 3] git push "remote repo name" "branch name"
+```
+
+### If you erased a file from working directory and you want erase it from remote Repo ⬇️
+
+```shell
+ 1] git add/rm "file name"
+ 2] git commit "description"
+ 3] git push "remote repo name" "branch name"
+```
+
+### If you erased a file from working directory by mistake and want to retrieve it ⬇️
+
+```shell
+git restore file_name.extension
+    or
+git checkout file_ame
+```
+
+### To go back from stage area to working directory ⬇️
+
+```shell
+git restore --staged file_name.extension
+```
+
+### back to previous specified commit ⬇️
+
+```shell
+git revert commit_id
+
+git status
+git push
+```
+
+if we know number of previous commit
+
+```shell
+git revert HEAD~commit_number
+
+# remember to fix the conflict
+
+git status
+git push
+```
+
+# writing `.gitignore`
+
+comment like `python` with `#`
+
+```gitgnore
+home.html           # ignore any html file with home name
+src/*               # folder and it's content
+!src/script.js      # folder and it's content except script.js
+*.zip               # any file with zip extension
+```
+
+## remove cache about file or dir
+
+```sell
+git rm --cached script.js
+```
+
+## remove file or dir from staged area and from working area
+
+```sell
+git rm -f script.js
+```
+
+## remove file or dir from staged area
+
+```sell
+git rm --cached script.js
+```
+
+## rename file or dir from staged area
+
+```sell
+# not recommend
+git rm old_file.js
+git add new_file.js
+
+# the right way
+git mv old_name.html new_name.html
+```
