@@ -172,3 +172,45 @@ set password for use
    3. 192.168.1.1
    4. 192.168.1.100
 2. pc>properities > remote setting > change name
+
+# redhat
+
+    cmd option arg_1 arg_2
+
+    ls -a[all fle even hidden] -l[long details] -h[human readable size]
+    dir
+    pwd
+    clear
+    su
+    date
+    cal
+    who
+    whoami
+    echo
+    history
+    man cmd
+    password [change password in root mode]
+    touch file1 file2
+
+    cp -r source destination      [copy]
+    mv    file_name     [cut or rename]
+    rm    file_name     [remove]
+    cat   file_name     [show, change file content]
+    more  file_name     [show file content]
+    less  file_name     [show file content]
+    mkdir dir_name      [make dir]
+    rmdir -r dir_name   [remove dir]
+
+## `/` root dir
+
+    /bin/   : essential running command
+    /sbin/  : system command (storage, ...)
+    /boot/  : necessary files for booting
+    /lib/   : needed library for system
+    /lib64/ : needed library for 64-bit system
+    /tmp/   : temporary files
+    /var/   : changeable files size (log, ...)
+    /home/  : user home dir (dir for each user)
+    /root/  : root home dir
+    /etc/   : system configuration files
+    /dev/   : devices on system
