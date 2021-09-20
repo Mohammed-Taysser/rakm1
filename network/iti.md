@@ -201,6 +201,9 @@ set password for use
     mkdir dir_name      [make dir]
     rmdir -r dir_name   [remove dir]
 
+    tail -n 3           [print last n line]
+    head -n 3           [print first n line]
+
 ## `/` root dir
 
     /bin/   : essential running command
@@ -214,3 +217,42 @@ set password for use
     /root/  : root home dir
     /etc/   : system configuration files
     /dev/   : devices on system
+
+## vim
+
+                                                                         k
+      Move around:  Use the cursor keys, or "h" to go left,            h   l
+                    "j" to go down, "k" to go up, "l" to go right.       j
+    Close this window:  Use ":`q<Enter>`".
+    Get out of Vim:  Use ":qa!`<Enter>`" (careful, all changes are lost!).
+
+    Jump to a subject:  Position the cursor on a tag (e.g. bars) and hit CTRL-].
+    With the mouse:  ":set mouse=a" to enable the mouse (in xterm or GUI).
+                        Double-click the left mouse button on a tag, e.g. bars.
+            Jump back:  Type CTRL-O.  Repeat to go further back.
+
+    Get specific help:  It is possible to go directly to whatever you want help
+                        on, by giving an argument to the :help command.
+                        Perpend something to specify the context:  help-context
+
+    Command-line command        Esc
+    Insert mode command         i
+    delete line                 dd
+    delete char                 x
+    cut line                    c
+    copy line                   yy
+    Regular expression          /
+
+    See help-summary for more contexts and an explanation.
+
+
+    Search for help:  Type ":help word", then hit CTRL-D to see matching
+                        help entries for "word".
+                        Or use ":helpgrep word". :helpgrep
+
+    Getting started:  Do the Vim tutor, a 30-minute interactive course for the
+                        basic commands, see vimtutor.
+                        Read the user manual from start to end: usr_01.txt
+
+    Vim stands for Vi IMproved.  Most of Vim was made by Bram Moolenaar, but only
+    through the help of many others.  See credits.
