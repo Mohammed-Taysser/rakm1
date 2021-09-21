@@ -51,7 +51,7 @@
 ## Static Route
 
     ip route 192.168.1.0 255.255.255.0 serial 0/0/1
-    
+
     ip route 192.168.1.0 255.255.255.0 60.0.0.2
 
 ## vlan
@@ -276,11 +276,11 @@ an example is `log` file
 
 ### pip line `|`
 
-take the output of command one and use it as input for command two 
+take the output of command one and use it as input for command two
 
 ### other type pr terminal
 
-    bash    the default one, to use `bash` 
+    bash    the default one, to use `bash`
     shell   to use `sh`
 
 ### grouping
@@ -308,7 +308,7 @@ take the output of command one and use it as input for command two
     userdel
 
     # change sell
-    # list all shell : cat /etc/sells 
+    # list all shell : cat /etc/sells
     usermod -s /bin/sh username
     usermod -c 'comment as full name' -u 2000 -e '2021-10-20' username
 
@@ -366,7 +366,33 @@ files
 
 ## permission
 
+![linux-permission](../assets/images/linux_permission.png)
 
-![linux permission](../assets/images/linux_permission.png)
+first char is file type (file is `-`, dir is `d`)
 
-- first char is file type (file is `-`, dir is `d`)
+    chmod u=rw file     # user
+    chmod g=rw file     # group
+    chmod o=rw file     # other
+
+    r = 4       w = 2       x = 1
+    rw = 6      rx = 5      wx = 3      rwx = 7
+
+    chmod 764 file      # u:rwx     g=rw    o=r
+    chmod 000 file      # no permission
+
+    chmod a+w file      # a:all     +: add      -:remove
+    chomd u+w file
+
+    # for dir
+    chmod -R 755 data/
+
+    # for change owner
+    chown mohammed data/
+
+    # for change group
+    chgrp iti data/
+
+    # change owner & group in one line
+    chown mohammed:iti data/
+    
+    chown -R mohammed:iti data/
