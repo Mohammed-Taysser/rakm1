@@ -363,3 +363,10 @@ files
     cat /etc/shadow
 
     group_name:x:1005:username
+
+## permission
+
+
+![linux permission](../assets/images/linux_permission.png)
+
+- first char is file type (file is `-`, dir is `d`)
