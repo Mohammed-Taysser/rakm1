@@ -171,7 +171,7 @@ set password for use
    2. 255.255.255.0
    3. 192.168.1.1
    4. 192.168.1.100
-2. pc>properities > remote setting > change name
+2. pc > properties > remote setting > change name
 
 # redhat
 
@@ -186,9 +186,10 @@ set password for use
     cal
     who
     whoami
+    whereis
     echo
     history
-    man cmd
+    man -f[file source] -k[search for keyword]
     password [change password in root mode]
     touch file1 file2
 
@@ -203,6 +204,8 @@ set password for use
 
     tail -n 3           [print last n line]
     head -n 3           [print first n line]
+
+    pinfo               only in redhat  like man
 
 ## `/` root dir
 
@@ -237,11 +240,18 @@ set password for use
 
     Command-line command        Esc
     Insert mode command         i
+    Insert mode + new line      o
     delete line                 dd
     delete char                 x
     cut line                    c
     copy line                   yy
-    Regular expression          /
+    undo                        y
+    last line                   G
+    first line                  g
+    quit                        :q
+    quit and save               :wq
+    Regular expression          /   + enter
+    perform copy with n number     n y
 
     See help-summary for more contexts and an explanation.
 
@@ -256,3 +266,100 @@ set password for use
 
     Vim stands for Vi IMproved.  Most of Vim was made by Bram Moolenaar, but only
     through the help of many others.  See credits.
+
+### redierct
+
+an example is `log` file
+
+    ls >  ls.txt     # replace
+    ls >> ls.txt     # append
+
+### pip line `|`
+
+take the output of command one and use it as input for command two 
+
+### other type pr terminal
+
+    bash    the default one, to use `bash` 
+    shell   to use `sh`
+
+### grouping
+
+    cmd ; cmd ; cmd .....
+
+### wildcard
+
+    one char
+    file?
+    file1 file2 file3 file4
+
+    all char
+    file*
+    file1 file2 file3 file4
+
+    all char
+    file[1-3]
+    file1 file2 file3
+
+## users
+
+    useradd
+    usermod
+    userdel
+
+    # change sell
+    # list all shell : cat /etc/sells 
+    usermod -s /bin/sh username
+    usermod -c 'comment as full name' -u 2000 -e '2021-10-20' username
+
+    # -L : lock user
+    # -U : unlock user
+
+    # delete user without it's home dir
+    userdel  username
+    ## it's home dir still
+    ls -ld /home/username
+    ### to remove it
+    rm -rf /home/username
+
+    # delete user with home dir
+    userdel -r username
+
+    groupadd
+
+    # add user to primary group
+    useradd -g pr_group username
+
+    groupmod
+    groupdel
+
+    # delete user from all group and add him to new secandary group
+    usermod -G new_group username
+
+    # append user to a new secandary group
+    usermod -aG new_group username
+
+files
+
+    /etc/passwd
+
+    cat /etc/passwd
+        ....
+        # username x:password  1005:UID    1007:Group_ID   home dir    bash used
+        username:x:1005:1007::/home/username:/bin/bash
+        ....
+
+    /etc/shadow
+
+    cat /etc/shadow
+
+    # if password start with ! mean user is locked
+
+    # set password
+    passwd username
+
+    /etc/group
+
+    cat /etc/shadow
+
+    group_name:x:1005:username
