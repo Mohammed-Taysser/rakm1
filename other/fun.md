@@ -23,6 +23,8 @@
 - [dungeon-reset](https://mangastarz.com/manga/dungeon-reset/84/)
 - [Solo Max-Level Newbie](https://team1x1.com/izrnfz/)
 - [solo login 49](https://mangaswat.com/solo-49-2/814619/)
+- [the-master-of-tutorial-tower-ch-51](https://mangaswat.com/the-master-of-tutorial-tower-ch-51/779198/)
+- [he-tutorial-28](https://mangaswat.com/the-tutorial-28/941451/)
 
 ## anime
 
