@@ -175,6 +175,8 @@ set password for use
 
 # redhat
 
+## startup
+
     cmd option arg_1 arg_2
 
     ls -a[all fle even hidden] -l[long details] -h[human readable size]
@@ -318,7 +320,7 @@ take the output of command one and use it as input for command two
     # delete user without it's home dir
     userdel  username
     ## it's home dir still
-    ls -ld /home/username
+    ls -ls /home/username
     ### to remove it
     rm -rf /home/username
 
@@ -339,7 +341,7 @@ take the output of command one and use it as input for command two
     # append user to a new secandary group
     usermod -aG new_group username
 
-files
+## files
 
     /etc/passwd
 
@@ -396,3 +398,226 @@ first char is file type (file is `-`, dir is `d`)
     chown mohammed:iti data/
     
     chown -R mohammed:iti data/
+
+## process
+
+    ps -aux         # snapshot of process
+    ps -aux | grep service_id
+    pstree          # tree of process and it's dependinies
+    top             # snyn process snapshots
+
+    kill -15 process_id     # terminate
+    kill -9 process_id      # kill if not response
+
+    firefox&                # work in background
+    fg 1                    # back to work in terminal 1 is job number
+    jobs                    # show working job in background
+    nohub cmd               # work cmd even terminal is close (deamon)
+
+## services
+
+    tty
+    who                 # logined user
+    webmin
+    systemctl   action  service_name        # see manual
+    service
+    systemctl list-unit-files -t servic     # current working services
+    systemctl status sshd
+    systemctl enable sshd
+    systemctl reload sshd
+    systemctl restart sshd
+    systemctl is-enabled sshd
+
+    runlevel        # GUI or terminal used
+
+    init 3          # CLI, 5 is GUI
+
+    systemctl get-default runlevel                 # which level is used
+    systemctl set-default runlevel3-target         # no GUI
+    systemctl isolate runlevel3-target             # toggle GUI by CLI tempolrary
+    systemctl isolate runlevel6-target  == init 6 == reboot
+
+
+## secret key
+
+    ssh-keygen
+
+    # an output
+    SHA256:mx82mdDS/AvoTB28cCV7r43wvfY3vY0JEJrVLSUhHmo student@lab.example.com
+
+    # location
+    /home/student/.ssh/id_rsa.pub
+
+    # transfare
+    ssh-copy-id -i /home/student/.ssh/id_rsa.pub student@192.168.29.129
+
+    # login
+    ssh student@192.168.29.129
+
+    ## or
+    ssh -v student@192.168.29.129
+
+    ## or
+    ssh -l student 192.168.29.129
+
+    # remove the key
+    rm -rf .ssh/id_rsa*
+
+## work with compress
+
+    # arcaide
+    tar -cf /root/etc.tar /etc/     # f[file] c[create] v[vision]
+
+    # compress
+    gzip file
+    bzip2 file
+    xz file
+
+    # uncopress
+    bzip2 -d file.bz2
+    gzip -d file.gz
+
+    tar -xf etc.tar     # x[extract]
+
+    ## arcide and compress at the same time
+
+    tar -cJvf /root/etc.tar.xz    # compress using z[gzip] j[bzip2] J[xz]
+
+## transfer over network
+
+    ## secure copy
+    scp etc-backup.tgz student@192.168.29.129/data/backup    # file
+    scp -r etc-backup.tgz student@192.168.29.129/data/backup # dir
+
+    ## not encrypted transfear
+    rsync -avz /etc  /data/    
+    rsync -avz /etc  student@192.168.29.129/data/ 
+
+## logs
+
+    ## show log
+    less /var/log/messages
+
+    ## write log
+    ### rsyslog configration and paths
+    vat /etc/rsyslog.conf
+
+    systemctl status rsyslog-service
+
+    journalctl          # logs from start pc
+
+
+## network
+
+    ifconfig
+    lspci
+    lspci -v
+    
+    ## GUI  => network manager
+    ## TEXT => nntui
+    ## CLI  => mmcli
+    mmcli connection show
+    mmcli connection edit eth1
+
+    ## reload / restart network service
+    mmcli connection reload
+    systemctl reload NetworkManager
+    ifdown eth1 ; ifup eth1             # only interface eth1
+
+    ### configration file
+    ls /etc/sysconfig/network-scripts
+    cat /etc/sysconfig/network-scripts/ifctg-eth1
+
+    ## change ip temporiary (only not write on setting)
+    ipconfig eth2 192.168.10.10 netwmask 255.255.255.0
+
+    route -n
+
+    ## DNS
+    vim /etc/resolve.conf
+
+    ## hosts
+    vim /etc/hosts
+
+## install programs
+
+
+
+diff between arcide and compress
+
+password  ||  -p redhat
+
+
+## exam
+
+1- Configure your Host Name, IP Address, Gateway and DNS.
+
+Host name: station1.example.com
+
+IP Address:XXX.XXX.XXX.100/24 
+
+Gateway:XXX.XXX.XXX.1
+
+DNS1:8.8.8.8
+
+DNS1:8.8.4.4
+
+where x is your vmware  subnet .
+
+    cat /etc/sysconfig/network-scripts/ifcfg-ens33
+
+2- Create a directory under /home named admins. Its respective group is requested to be the admin group. The group users could read and write, while other users are not allowed to access it. 
+
+    cd /home/
+    mkdir admins ; chgrp admin admins ; chmod 560 admins/
+
+3- Create a directory named /common. Allow john and davis to share documents in the /common directory using a group called team. Both of them can read, write and remove documents from the other in this directory but any user not member of the group can’t.
+
+    mkdir common ; groupadd team ; chgrp team common ; chmod 560 common
+    usermod -aG team john
+    usermod -aG team davis
+    chmod 060 common/
+    
+
+4- Find the files owned by john, and redirect the output to /root/find.txt
+
+    find -user  john > /root/find.txt
+
+5- Find out all the columns that contains the string seismic within /usr/share/dict/words, then copy all these columns to /root/lines.txt 
+
+    cat /usr/share/dict/words  | grep seismic > /root/lines.txt
+
+6- Create a user harry  uid is 3400. Password is redhat
+
+    useradd -u 3400 harry
+    id -u harry
+    passwd harry
+
+7- Create a backup file named /root/backup.tar.bz2, contains the content of /etc , tar must use bzip2 to compress.
+
+    tar -cjvf /root/backup.tar.bz2 /etc/
+
+8- Add a repository for YUM with name   custom_repo which can be found via URL http://mirror.centos.org/centos/7/os/x86_64/
+
+    touch /etc/yum.repos.d/custom_repo.repo
+    gedit /etc/yum.repos.d/custom_repo.repo
+    yum search httpd
+
+9- install httpd and vsftpd  packages  then ensure both  services will start after  the reboot 
+
+    yum search httpd
+    yum search vsftpd
+
+    yum install vsftpd.x86_64
+    yum install httpd.x86_64
+
+    systemctl start vsftpd
+    systemctl status vsftpd
+
+    systemctl start httpd
+    systemctl status httpd
+
+
+10- Create a soft link from /etc/hosts to /root/softlink 
+
+    ln -s /etc/hosts /root/softlink
