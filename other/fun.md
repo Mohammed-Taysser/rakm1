@@ -25,6 +25,9 @@
 - [solo login 49](https://mangaswat.com/solo-49-2/814619/)
 - [the-master-of-tutorial-tower-ch-51](https://mangaswat.com/the-master-of-tutorial-tower-ch-51/779198/)
 - [he-tutorial-28](https://mangaswat.com/the-tutorial-28/941451/)
+- [never-dead-46](https://mangaswat.com/never-dead-46/565680/)
+- [Invisible Elephant](https://team1x1.com/mphnisk/)
+- [world-of-warcraft-swordmaster 58](https://mangastarz.com/manga/world-of-warcraft-swordmaster/58/)
 
 ## anime
 
