@@ -81,6 +81,7 @@ Localhost://3000
 - [https://www.baeldung.com/java-write-to-file](https://www.baeldung.com/java-write-to-file)
 - [https://www.netcraft.com/](https://www.netcraft.com/)
 - [https://programmingdimension.wordpress.com/2015/04/30/seekg-tellg-seekp-tellp/](https://programmingdimension.wordpress.com/2015/04/30/seekg-tellg-seekp-tellp/)
+- [self-documenting-javascript](https://www.sitepoint.com/self-documenting-javascript/)
 
 ## Learning and Practicing SQL: Resources and Platforms
 
