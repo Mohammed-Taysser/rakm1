@@ -2,26 +2,27 @@
 # how to write doc for js function
 
 ![comments meme](../assets/images/comments_meme.png)
+[source](https://stfalcon.com/uploads/images/55c8bcff18b94.png)
 
 ## For user-focused documentation
 
-    How-to & user guides
-    Release notes
-    Tutorials
-    Reference documents
-    Software design documents
-    Explanations
+- How-to & user guides
+- Release notes
+- Tutorials
+- Reference documents
+- Software design documents
+- Explanations
 
 ## For developer-focused documentation
 
-    Back-end release notes
-    Test plans
-    API documentation
-    README
-    Software requirements
-    System documentation
-    Code documentation (many developers use a web tool like GitHub for these purposes)
-    Other technical documentation & technical specifications 
+- Back-end release notes
+- Test plans
+- API documentation
+- README
+- Software requirements
+- System documentation
+- Code documentation (many developers use a web tool like GitHub for these purposes)
+- Other technical documentation & technical specifications 
 
 # main structure
 
