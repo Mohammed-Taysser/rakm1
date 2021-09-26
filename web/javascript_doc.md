@@ -1,8 +1,8 @@
 
-# how to write doc for js function
+# how to write doc :joy: :smile: for js function
 
 ![comments meme](../assets/images/comments_meme.png)
-[source](https://stfalcon.com/uploads/images/55c8bcff18b94.png)
+[image source](https://stfalcon.com/uploads/images/55c8bcff18b94.png)
 
 ## For user-focused documentation
 
