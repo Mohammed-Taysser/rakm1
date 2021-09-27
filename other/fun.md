@@ -12,10 +12,10 @@
 - [Nano Machine](https://mangaswat.com/nano-machine-66-free/875985/)
 - [Survival Story of a Sword King in a Fantasy World](https://mangastarz.com/manga/survival-story-of-a-sword-king-in-a-fantasy-world/52/)
 - [Tomb Raider King](https://team1x1.com/pakw47f/)
-- [Chronicles of Heavenly Demon](https://team1x1.com/iipcjrp/)
+- [Chronicles of Heavenly Demon](https://team1x1.com/yx1o5i/)
 - [overgeared](https://team1x1.com/51ouazsm/)
-- [Tales of Demons and Gods](https://team1x1.com/cgzbky/)
-- [Kill The Hero](https://team1x1.com/npyvkd/)
+- [Tales of Demons and Gods](https://team1x1.com/qbw1l8/)
+- [Kill The Hero](https://team1x1.com/4gq4kpa/)
 - [cultivator against hero society](https://team1x1.com/wnhidv/)
 - [the undefeatable swordsman](https://team1x1.com/ojkfxne/)
 - [SSS-Class Suicide Hunter](https://team1x1.com/zrzxdc1/)
@@ -28,6 +28,8 @@
 - [never-dead-46](https://mangaswat.com/never-dead-46/565680/)
 - [Invisible Elephant](https://team1x1.com/mphnisk/)
 - [world-of-warcraft-swordmaster 58](https://mangastarz.com/manga/world-of-warcraft-swordmaster/58/)
+- [son-of-spirit-venearavle 33](https://mangastarz.com/manga/son-of-spirit-venearavle/33/)
+- [__trashed 45](https://mangastarz.com/manga/__trashed-21/45/)
 
 ## anime
 
