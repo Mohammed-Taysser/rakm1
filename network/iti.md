@@ -437,7 +437,6 @@ first char is file type (file is `-`, dir is `d`)
     systemctl isolate runlevel3-target             # toggle GUI by CLI tempolrary
     systemctl isolate runlevel6-target  == init 6 == reboot
 
-
 ## secret key
 
     ssh-keygen

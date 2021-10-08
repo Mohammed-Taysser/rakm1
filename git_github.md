@@ -3,6 +3,20 @@
 
 > git is version control system
 
+add new git
+
+```
+ 1999  echo "# ultimate-frontend-course" >> README.md
+ 2000  git init
+ 2001  git add README.md 
+ 2002  git commit -m 'init commint'
+ 2003  git status 
+ 2004  git branch -M main
+ 2005  git branch 
+ 2006  git remote add origin https://github.com/Mohammed-Taysser/ultimate-frontend-course.git
+ 2007  git push -u origin main
+ ``
+
 ## Basic Git commands
 
 - `git init` initializes a brand new Git repository and begins tracking an existing directory. 

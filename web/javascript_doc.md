@@ -186,3 +186,162 @@ function functioncallbackexample(mycallback) {
 
 - [valentinog](https://www.valentinog.com/blog/jsdoc/)
 - [cloudhadoop](https://www.cloudhadoop.com/2018/09/jsdoc-javascript-documentation-function.html)
+
+## Tag order
+
+```text
+@global
+
+@typedef
+@var
+@name
+@namespace
+@constructor
+@callback
+@event
+@function
+
+@augments
+@lends
+
+@type
+@prop
+
+@param
+@return
+
+@throws
+@fires
+@listens
+
+@ingroup
+@deprecated
+@see
+@todo
+@ignore
+```
+
+## Documenting a JavaScript file
+
+```js
+/**
+ * @file 
+ * Provides some feature.
+ *
+ * The extra line between the end of the @file docblock
+ * and the file-closure is important.
+ */
+    
+(function ($) {
+
+  "use strict";
+
+})();
+```
+
+## Documenting behaviors
+
+```js
+/**
+ * Attaches the table drag behavior to tables.
+ *
+ * @type {Drupal~behavior}
+ * 
+ * @prop {Drupal~behaviorAttach} attach
+ *   Specific description of this attach function goes here.
+ * @prop {Drupal~behaviorDetach} detach
+ *   Specific description of this detach function goes here.
+ */
+Drupal.behaviors.tableDrag = {
+  attach: function (context, settings) {
+    // ...
+  },
+  detach: function (context, settings, trigger) {
+    // …
+  }
+};
+```
+
+## Documenting usual constructs
+
+```js
+/**
+ * Holds JavaScript settings and other information for Drupal.
+ *
+ * @namespace
+ */
+var Drupal = {
+   // ...
+  /**
+   * Holds behaviors for Drupal.
+   *
+   * @namespace
+   */
+  'behaviors': {},
+  // ...
+};
+
+/**
+ * Returns the value of foo for the current widget.
+ *
+ * Description of this ordinary function in the Drupal namespace goes here.
+ *
+ * @return
+ *   The value of foo in the current widget.
+ */
+Drupal.getCurrentFoo = function () {
+  // ...
+};
+
+/**
+ * Constructs a table drag object.
+ * 
+ * Provides the ability to drag to manipulate a table and its fields.
+ * 
+ * @constructor
+ *
+ * @param {HTMLTableElement} table
+ *   DOM object for the table to be made draggable.
+ * @param {object} tableSettings
+ *   Settings for the table.
+ */
+Drupal.tableDrag = function (table, tableSettings) {
+  // ...
+}
+
+/**
+ * Hides the columns containing weight and parent form elements.
+ *
+ * @fires event:columnschange
+ *
+ * @see Drupal.tableDrag.showColumns
+ */
+Drupal.tableDrag.prototype.hideColumns = function() {
+  // ...
+
+  /**
+   * Indicates that columns have changed in a table.
+   *
+   * @param {string} type
+   *   Type of change: 'show' or 'hide'.
+   *
+   * @event columnschange
+   */
+
+  $('table.tableDrag-processed').trigger('columnschange', 'hide');
+  // ...
+};
+
+/**
+ * Shows the columns containing weight and parent form elements.
+ *
+ * @fires columnschange
+ * 
+ * @see Drupal.tableDrag.hideColumns
+ */
+Drupal.tableDrag.prototype.showColumns = function() {
+  // This event is documented in Drupal.tableDrag.hideColumns
+  $('table.tabledrag-processed').trigger('columnschange', 'hide');
+};
+
+```

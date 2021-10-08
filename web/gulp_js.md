@@ -51,6 +51,9 @@ node -v
 npm  -v
 gulp -v
 
+## install from exist package.json
+npm install
+
 # init
 npm init
 
@@ -362,7 +365,7 @@ function buildStyles() {
 ### install del
 
 ```sell
-npm install del
+npm install --save-del del
 ```
 
 ### use del
@@ -433,12 +436,65 @@ export default () => (
 ]))
 ```
 
+## [gulp-newer](npm install gulp-newer --save-dev)
+
+### install gulp-newer
+
+```sell
+npm install --save-dev gulp-newer
+```
+
+### Usage gulp-newer
+
+```js
+var gulp = require('gulp');
+var newer = require('gulp-newer');
+var imagemin = require('gulp-imagemin');
+ 
+var imgSrc = 'src/img/**';
+var imgDest = 'build/img';
+ 
+// Minify any new images
+gulp.task('images', function() {
+ 
+  // Add the newer pipe to pass through newer images only
+  return gulp.src(imgSrc)
+      .pipe(newer(imgDest))
+      .pipe(imagemin())
+      .pipe(gulp.dest(imgDest));
+ 
+});
+ 
+gulp.task('default', function() {
+  gulp.watch(imgSrc, ['images']);
+});
+```
+
+### Using newer with many
+
+```js
+var gulp = require('gulp');
+var newer = require('gulp-newer');
+var concat = require('gulp-concat');
+ 
+// Concatenate all if any are newer
+gulp.task('concat', function() {
+ 
+  // Add the newer pipe to pass through all sources if any are newer
+  return gulp.src('lib/*.js')
+      .pipe(newer('dist/all.js'))
+      .pipe(concat('all.js'))
+      .pipe(gulp.dest('dist'));
+ 
+});
+```
+
 ## [gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)
 
 ### install gulp-htmlmin
 
 ```sell
-npm install --save gulp-htmlmin
+npm install --save-dev gulp-htmlmin
 ```
 
 ### Usage gulp-htmlmin
@@ -543,26 +599,29 @@ const gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     sass = require('gulp-sass')(require('sass')),
     del = require('del'),
-    zip = require('gulp-zip'),
     paths = {
         css: {
-            src: ['dev/css/**/*.css'],  // multiple source
+            src: ['css/my-bootstrap.css', 'css/**/*.css'],  // multiple source
             dest: 'dist/css/'
         },
         sass: {
-            src: 'dev/sass/files/**/*.sass',
+            src: 'sass/files/**/*.sass',
             dest: 'dist/css/'
         },
         js: {
-            src: 'dev/js/**/*.js',
+            src: ['js/jquery-3.5.1.min.js', 'js/**/*.js'],
             dest: 'dist/js/'
         },
         html: {
-            src: 'dev/html/**/*.html',
-            dest: 'dist/html/'
+            src: 'index.html',
+            dest: 'dist/'
+        },
+        fonts: {
+            src: 'fonts/**',
+            dest: 'dist/fonts/'
         },
         images: {
-            src: 'dev/images/**',
+            src: 'images/**',
             dest: 'dist/images/'
         }
     };
@@ -604,6 +663,12 @@ function html_fun() {
         .pipe(gulp.dest(paths.html.dest));
 }
 
+function fonts_fun() {
+    'use strict';
+    return gulp.src(paths.fonts.src)
+        .pipe(gulp.dest(paths.fonts.dest));
+}
+
 function javascript_fun() {
     'use strict';
     return gulp.src(paths.js.src)
@@ -617,13 +682,6 @@ function javascript_fun() {
         .pipe(gulp.dest(paths.js.dest));
 }
 
-function compress() {
-    'use strict';
-    return gulp.src('dist/**/*.*')
-        .pipe(zip('archive.zip'))
-        .pipe(gulp.dest('.'));
-}
-
 function images_fun() {
     'use strict';
     return gulp.src(paths.images.src)
@@ -632,136 +690,60 @@ function images_fun() {
 
 function watch_fun() {
     'use strict';
-    require('./server.js');
     gulp.watch(paths.js.src, javascript_fun);
     gulp.watch(paths.css.src, css_fun);
     gulp.watch(paths.sass.src, sass_fun);
     gulp.watch(paths.html.src, html_fun);
+    gulp.watch(paths.fonts.src, fonts_fun);
+    gulp.watch(paths.images.src, images_fun);
 }
 
 
-exports.default = gulp.series(clean, sass_fun, html_fun, css_fun, javascript_fun, images_fun, compress, gulp.parallel(watch_fun));
+exports.default = gulp.series(clean, html_fun, css_fun, javascript_fun, sass_fun, fonts_fun, images_fun, gulp.parallel(watch_fun));
 ```
 
-## `.gitignore`
+## `package.json`
 
-```.gtignore
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-.pnpm-debug.log*
+```js
+{
+  "name": "",
+  "version": "2.0.0",
+  "description": "use gulp to automate and update file as it's very big",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Mohammed Taysser",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^5.1.0",
+    "jest": "^27.2.3",
+    "sass": "^1.42.1"
+  }
+}
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Directory for instrumented libs generated by jscoverage/JSCover
-lib-cov
-
-# Coverage directory used by tools like istanbul
-coverage
-*.lcov
-
-# nyc test coverage
-.nyc_output
-
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# Bower dependency directory (https://bower.io/)
-bower_components
-
-# node-waf configuration
-.lock-wscript
-
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# Snowpack dependency directory (https://snowpack.dev/)
-web_modules/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variables file
-.env
-.env.test
-.env.production
-
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
-
-# Next.js build output
-.next
-out
-
-# Nuxt.js build / generate output
-.nuxt
-dist
-
-# Gatsby files
-.cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
-
-# vuepress build output
-.vuepress/dist
-
-# Serverless directories
-.serverless/
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
-
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
-
-# yarn v2
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
 ```
