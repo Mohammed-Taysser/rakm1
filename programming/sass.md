@@ -654,3 +654,4 @@ $title: left;
 # resources
 
 - [the sass way](https://thesassway.herokuapp.com/)
+- [sass-guide lines](https://sass-guidelin.es/)
