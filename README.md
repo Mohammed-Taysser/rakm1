@@ -6,8 +6,7 @@
   - library
   - frameworks
 - web development
-    - library
-    - frameworks
+  - library
+  - frameworks
 - programming language
-
 
