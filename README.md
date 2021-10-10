@@ -10,4 +10,4 @@
   - frameworks
 - programming language
 
-:code: with :heart: by mohammed-tayser
+:code: with :hearts: by mohammed-tayser

@@ -2,7 +2,9 @@
 # references
 
 - [html](https://htmlreference.io/)
+- [html.spec.whatwg](https://html.spec.whatwg.org/multipage/)
 - [css](https://cssreference.io/)
+- [css guide lines](https://cssguidelin.es/)
 
 ## before buy
 
@@ -22,7 +24,7 @@ http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options',
 - Heroku
 - DigitalOceam
 - Vercel
-- Surge
+- [Surge](https://surge.sh/)
 - Firebase
 
 ### Backend
@@ -34,6 +36,18 @@ http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options',
 
 The Best :smile:
 Localhost://3000
+
+## icons & illustrations
+
+- <https://www.flaticon.com/>
+- <https://www.freepik.com/>
+- <https://vector.me/>
+- <https://icons8.com/>
+- <https://boxicons.com/>
+- <https://icomoon.io/>
+- <https://dribbble.com/>
+- <https://undraw.co/> illustrations
+- <https://www.toptal.com/designers/subtlepatterns/>  pattern
 
 ## library
 
@@ -65,10 +79,13 @@ Localhost://3000
 - <https://getbootstrap.com/>
 - <https://jstherightway.org/>
 - tailwindcss
+- <https://bulma.io>
 
 ## search
 
 - bootstrap tour
+- A Simple Searchable Select Dropdown Plugin
+- Checkboxes Multi-Select with Shift and Ctrl/Cmd Keys | Shift-Select
 - local storage in js
 - cpanels,directadmin, plesk
 - [https://github.com/ml-tooling/best-of-web-python](https://github.com/ml-tooling/best-of-web-python)
@@ -144,12 +161,96 @@ from [hsoub](https://academy.hsoub.com/)
 
 - website report
   - [gtmetrix](https://gtmetrix.com/)
+  - [webpage test](https://www.webpagetest.org/)
+  - [security headers](https://securityheaders.com/)
   - [wave webaim](https://wave.webaim.org/)
   - [validator nu](https://validator.w3.org/nu/)
+  - [observatory.mozilla](https://observatory.mozilla.org/)
   - [validator checklink](https://validator.w3.org/checklink)
+- speed
+  - [developers pages peed](https://developers.google.com/speed/pagespeed/insights/)
+  - [tools.pingdom](https://tools.pingdom.com/)
 
 ## API
 
 - [breaking bad api](https://www.breakingbadapi.com/documentation)
 - [random user](https://randomuser.me/)
 - [picsum.photos](https://picsum.photos/)
+- <https://reqres.in/>
+
+## animation plugin
+
+- [snarl](https://hoxxep.github.io/snarl/) for notification need js
+- [wave](http://fian.my.id/Waves/) for wave effect on button click need js
+- [css-ripple](https://github.com/mladenplavsic/css-ripple-effect) for wave effect on button click no js
+- [popup](https://github.com/tedshd/popup_view) create popup with propagation need js
+- [start  js](https://pryley.github.io/star-rating.js/) make star for product need js
+- [bubbles](https://bmsvieira.github.io/BVAmbient/) make bubbles or objects need js
+- [sparticlesjs](https://sparticlesjs.dev/)
+- [starback](https://zuramai.github.io/starback.js/)
+- https://inorganik.github.io/countUp.js/
+- https://gabrielfins.github.io/ripple-effect/
+- https://github.com/leobrn/SlideBlock/blob/master/app/js/slideBlock.js
+- https://luncheon.github.io/ripplet.js/demo/
+- https://animejs.com/
+- https://georapbox.github.io/shuffle-letters/
+- https://simonwep.github.io/selection/
+- https://webcodeflow.com/number-counter-rollup/
+- http://imagehover.io/
+- https://pqina.nl/filepond/#multi-file-code
+- https://nullilac.github.io/skeleton-screen-css/   # animation while loading content
+- https://edumigueis.github.io/Annimay/             # button animation on hover
+
+## form plugin
+
+- https://beholdr.github.io/maska/
+- https://lcweb.it/lc-select-javascript-plugin
+- https://tarekraafat.github.io/autoComplete.js/
+- https://select2.org/getting-started/basic-usage
+- https://github.com/luverolla/js-select
+- https://yaireo.github.io/tagify/
+- https://github.com/johndatserakis/file-upload-with-preview
+- https://alphagov.github.io/accessible-autocomplete/examples/
+- https://github.com/freakazoid41/pickle_complete
+- https://github.com/Denglo/bs5-autocomplete-vanillaJS
+- https://getbutterfly.com/tail-select/
+- https://github.com/lekoala/bootstrap5-tags
+- https://github.com/sidneywm/iconic-multiselect
+- https://github.com/woadudakand/pureScriptSelect
+- https://sa-si-dev.github.io/virtual-select                  # vanilla js
+- https://webcodeflow.com/style-select-dropdown/
+- https://bmsvieira.github.io/BVSelect-VanillaJS/             # simple
+- https://intl-tel-input.com/
+- https://momentjs.com/
+- https://nishantk02.github.io/SimpleDropit/demo/
+
+## animate-on-scroll
+
+- https://webcodeflow.com/animate-on-scroll-scrollrisen/
+- https://webcodeflow.com/on-scroll-animation-effect/
+- https://webcodeflow.com/smooth-scroll-lax/
+- https://bnthor.github.io/animon-site/ # great
+- https://johnsonfash.github.io/onscroll-animation/website.html
+- https://prjct-samwest.github.io/scrollCue/
+- https://stacksagar.github.io/effect-js/#getStarted
+- https://scrollmotion.neoflow.ch/demo.html
+
+## other plugin
+
+- https://ckeditor.com/docs/ckeditor5/latest/builds/guides/quick-start.html
+
+## colors
+
+- danger  `#f0506e`
+- success `#32d296`
+- warning `#faa05a`
+- primary `#1e87f0`
+- like white `#f8f8f8`
+
+## shadow
+
+- box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+
+## dividor
+
+- -------------------- O --------------------

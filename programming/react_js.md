@@ -185,3 +185,7 @@ setInterval(tick, 1000);
 
 componentDidMount  : every this is loaded in html like ready in js
 componentDidUpdate : when change in page
+
+# resources
+
+- https://react-bootstrap.github.io/

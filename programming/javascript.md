@@ -1,4 +1,8 @@
 
+# resources
+
+- [dev docs](https://devdocs.io/javascript/)
+
 # JS Essential
 
 ## Output
