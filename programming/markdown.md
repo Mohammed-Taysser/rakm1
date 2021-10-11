@@ -33,7 +33,7 @@ on HTML
 <a href="#heading-ids">Heading IDs</a>
 ```
 
-```markdown 
+```markdown
 *This text will be italic*
 _This will also be italic_
 
@@ -58,12 +58,13 @@ _You **can** combine them_
 ## Bold and Italic Best Practices
 
 ```markdown
-This is really***very***important text.	
+This is really***very***important text.
 ```
 
-This is really***very***important text.	
+This is really***very***important text.
 
 # Lists
+
 ## Unordered
 
 also can use `+ - *`
@@ -73,13 +74,13 @@ also can use `+ - *`
 * Item 2
   * Item 2a
   * Item 2b
-  ```
+```
+
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
   
-
 ## Ordered
 
 ```markdown
@@ -88,7 +89,8 @@ also can use `+ - *`
 1. Item 3
    1. Item 3a
    1. Item 3b
-   ```
+```
+
 1. Item 1
 1. Item 2
 1. Item 3
@@ -126,9 +128,10 @@ ___
 ```markdown
 [GitHub](http://github.com)
 ```
+
 [GitHub](http://github.com) link
 
-Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
+Any URL (like `http://www.github.com/`) will be automatically converted into a clickable link.
 
 ## Adding Titles
 
@@ -155,22 +158,25 @@ See the section on [`code`](#code).
 
 ### Formatting the First Part of the Link
 
-    [hobbit-hole][1]
-    [hobbit-hole] [1]
+```markdown
+[hobbit-hole][1]
+[hobbit-hole] [1]
+```
 
 ### Formatting the Second Part of the Link
 
 [linkedin]: https://linkedin.com/in/mohammed-taysser
 [portfolio]: https://mohammed-taysser.github.io/portfolio/
 
-    [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
-    [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
-    [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
-    [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
-    [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
-    [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
-    [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
-
+```markdown
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
+```
 
 [linkedin]: https://linkedin.com/in/mohammed-taysser
 
@@ -184,13 +190,13 @@ See the section on [`code`](#code).
 
 # Blockquotes
 
-
 ```markdown
 > We're living the future so
 > the present is our past.
 >
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 ```
+
 > We're living the future so
 > the present is our past.
 >
@@ -205,22 +211,22 @@ See the section on [`code`](#code).
 >  *Everything* is going according to **plan**.
 ```
 
-> #### The quarterly results look great!
+> ## The quarterly results look great
 >
-> - Revenue was off the chart.
-> - Profits were higher than ever.
+> * Revenue was off the chart.
+> * Profits were higher than ever.
 >
->  *Everything* is going according to **plan**.
+> *Everything* is going according to **plan**.
 
 # Inline code
 
 ```markdown
 I think you should use an `<addr>` element here instead
 ```
+
 I think you should use an `<addr>` element here instead
 
 # Task Lists
-
 
 ```markdown
 - [x] first complete one
@@ -229,11 +235,10 @@ I think you should use an `<addr>` element here instead
 - [ ] @mentions is here
 ```
 
-- [x] first complete one
-- [x] list syntax
-- [x] this is a complete item
-- [ ] @mentions is here
-
+* [x] first complete one
+* [x] list syntax
+* [x] this is a complete item
+* [ ] @mentions is here
 
 # Tables
 
@@ -243,7 +248,6 @@ First | Second
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 ```
-
 
 First | Second
 ------------ | -------------
@@ -294,7 +298,6 @@ Character | Name
 
 You can display a pipe (|) character in a table by using its HTML character code (`&#124;`).
 
-
 # Footnotes
 
 ```markdown
@@ -318,4 +321,3 @@ Here's a simple [io][io] footnote,[^1] and here's a longer one.[^bignote]
 [^1]: This is the first footnote.
 
 [^bignote]: Here's one with multiple paragraphs and code.
-
