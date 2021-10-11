@@ -39,11 +39,18 @@ Localhost://3000
 
 ## icons & illustrations
 
+- <https://feathericons.com/>     # downloadable
+- <https://thenounproject.com/>
 - <https://www.flaticon.com/>
+- <https://flaticons.net/>
 - <https://www.freepik.com/>
 - <https://vector.me/>
 - <https://icons8.com/>
 - <https://boxicons.com/>
+- <https://primer.style/octicons/>
+- <https://icons.getbootstrap.com/>
+- <https://fontawesome.com/v5.15/icons?d=gallery&m=free>
+- <https://www.iconfinder.com/>
 - <https://icomoon.io/>
 - <https://dribbble.com/>
 - <https://undraw.co/> illustrations
@@ -60,6 +67,14 @@ Localhost://3000
 ## code pen
 
 - [enricotoniato](https://codepen.io/enricotoniato/)
+
+## Share website
+
+- <https://codepen.io>
+- <https://replit.com/>
+- <https://www.codechef.com/ide>
+- <https://ideone.com/>
+- <https://jsfiddle.net/>
 
 ## addon
 
@@ -161,12 +176,14 @@ from [hsoub](https://academy.hsoub.com/)
 
 - website report
   - [gtmetrix](https://gtmetrix.com/)
+  - <https://w3c.github.io/developers/tools/>
   - [webpage test](https://www.webpagetest.org/)
   - [security headers](https://securityheaders.com/)
   - [wave webaim](https://wave.webaim.org/)
   - [validator nu](https://validator.w3.org/nu/)
   - [observatory.mozilla](https://observatory.mozilla.org/)
   - [validator checklink](https://validator.w3.org/checklink)
+  - <https://webaim.org/resources/evalquickref/>
 - speed
   - [developers pages peed](https://developers.google.com/speed/pagespeed/insights/)
   - [tools.pingdom](https://tools.pingdom.com/)
@@ -188,64 +205,66 @@ from [hsoub](https://academy.hsoub.com/)
 - [bubbles](https://bmsvieira.github.io/BVAmbient/) make bubbles or objects need js
 - [sparticlesjs](https://sparticlesjs.dev/)
 - [starback](https://zuramai.github.io/starback.js/)
-- https://inorganik.github.io/countUp.js/
-- https://gabrielfins.github.io/ripple-effect/
-- https://github.com/leobrn/SlideBlock/blob/master/app/js/slideBlock.js
-- https://luncheon.github.io/ripplet.js/demo/
-- https://animejs.com/
-- https://georapbox.github.io/shuffle-letters/
-- https://simonwep.github.io/selection/
-- https://webcodeflow.com/number-counter-rollup/
-- http://imagehover.io/
-- https://pqina.nl/filepond/#multi-file-code
-- https://nullilac.github.io/skeleton-screen-css/   # animation while loading content
-- https://edumigueis.github.io/Annimay/             # button animation on hover
+- <https://inorganik.github.io/countUp.js/>
+- <https://gabrielfins.github.io/ripple-effect/>
+- <https://github.com/leobrn/SlideBlock/blob/master/app/js/slideBlock.js>
+- <https://luncheon.github.io/ripplet.js/demo/>
+- <https://animejs.com/>
+- <https://georapbox.github.io/shuffle-letters/>
+- <https://simonwep.github.io/selection/>
+- <https://webcodeflow.com/number-counter-rollup/>
+- <http://imagehover.io/>
+- <https://pqina.nl/filepond/#multi-file-code>
+- <https://nullilac.github.io/skeleton-screen-css/>    # animation while loading content
+- <https://edumigueis.github.io/Annimay/>              # button animation on hover
 
 ## form plugin
 
-- https://beholdr.github.io/maska/
-- https://lcweb.it/lc-select-javascript-plugin
-- https://tarekraafat.github.io/autoComplete.js/
-- https://select2.org/getting-started/basic-usage
-- https://github.com/luverolla/js-select
-- https://yaireo.github.io/tagify/
-- https://github.com/johndatserakis/file-upload-with-preview
-- https://alphagov.github.io/accessible-autocomplete/examples/
-- https://github.com/freakazoid41/pickle_complete
-- https://github.com/Denglo/bs5-autocomplete-vanillaJS
-- https://getbutterfly.com/tail-select/
-- https://github.com/lekoala/bootstrap5-tags
-- https://github.com/sidneywm/iconic-multiselect
-- https://github.com/woadudakand/pureScriptSelect
-- https://sa-si-dev.github.io/virtual-select                  # vanilla js
-- https://webcodeflow.com/style-select-dropdown/
-- https://bmsvieira.github.io/BVSelect-VanillaJS/             # simple
-- https://intl-tel-input.com/
-- https://momentjs.com/
-- https://nishantk02.github.io/SimpleDropit/demo/
+- <https://beholdr.github.io/maska/>
+- <https://lcweb.it/lc-select-javascript-plugin>
+- <https://tarekraafat.github.io/autoComplete.js/>
+- <https://select2.org/getting-started/basic-usage>
+- <https://github.com/luverolla/js-select>
+- <https://yaireo.github.io/tagify/>
+- <https://github.com/johndatserakis/file-upload-with-preview>
+- <https://alphagov.github.io/accessible-autocomplete/examples/>
+- <https://github.com/freakazoid41/pickle_complete>
+- <https://github.com/Denglo/bs5-autocomplete-vanillaJS>
+- <https://getbutterfly.com/tail-select/>
+- <https://github.com/lekoala/bootstrap5-tags>
+- <https://github.com/sidneywm/iconic-multiselect>
+- <https://github.com/woadudakand/pureScriptSelect>
+- <https://sa-si-dev.github.io/virtual-select>                  # vanilla js
+- <https://webcodeflow.com/style-select-dropdown/>
+- <https://bmsvieira.github.io/BVSelect-VanillaJS/>             # simple
+- <https://intl-tel-input.com/>
+- <https://momentjs.com/>
+- <https://nishantk02.github.io/SimpleDropit/demo/>
 
 ## animate-on-scroll
 
-- https://webcodeflow.com/animate-on-scroll-scrollrisen/
-- https://webcodeflow.com/on-scroll-animation-effect/
-- https://webcodeflow.com/smooth-scroll-lax/
-- https://bnthor.github.io/animon-site/ # great
-- https://johnsonfash.github.io/onscroll-animation/website.html
-- https://prjct-samwest.github.io/scrollCue/
-- https://stacksagar.github.io/effect-js/#getStarted
-- https://scrollmotion.neoflow.ch/demo.html
+- <https://webcodeflow.com/animate-on-scroll-scrollrisen/>
+- <https://webcodeflow.com/on-scroll-animation-effect/>
+- <https://webcodeflow.com/smooth-scroll-lax/>
+- <https://bnthor.github.io/animon-site/ # great>
+- <https://johnsonfash.github.io/onscroll-animation/website.html>
+- <https://prjct-samwest.github.io/scrollCue/>
+- <https://stacksagar.github.io/effect-js/#getStarted>
+- <https://scrollmotion.neoflow.ch/demo.html>
 
 ## other plugin
 
-- https://ckeditor.com/docs/ckeditor5/latest/builds/guides/quick-start.html
+- <https://ckeditor.com/docs/ckeditor5/latest/builds/guides/quick-start.html>
 
-## colors
+## colors & gradient
 
 - danger  `#f0506e`
 - success `#32d296`
 - warning `#faa05a`
 - primary `#1e87f0`
 - like white `#f8f8f8`
+- <https://coolors.co/>
+- <https://webgradients.com/>
 
 ## shadow
 

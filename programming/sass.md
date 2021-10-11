@@ -1,5 +1,10 @@
 # Sass notes
 
+stopped at
+
+- [sass documentation](https://sass-lang.com/documentation/values)
+- [el zero build sass website](https://www.youtube.com/watch?v=zHtjBS1hD84&list=PLDoPjvoNmBAz9sluuyOWPifXvySgrGma8&index=8)
+
 ## resources
 
 - [the sass way](https://thesassway.herokuapp.com/)
@@ -253,7 +258,8 @@ body {
 
 ## Operators
 
-Sass has a handful of standard math operators like `+, -, *, math.div()`, and `%`
+- Sass has a handful of standard math operators like `+, -, *, math.div()`, and `%`
+- `and`, `or`, and `not` have the usual boolean behavior. Sass considers every value `true` except for `false` and `null`.
 
 ```scss
 @use "sass:math";
@@ -270,6 +276,199 @@ aside[role="complementary"] {
   width: math.div(300px, 960px) * 100%;
   margin-left: auto;
 }
+```
+
+### Equality Operators
+
+The equality operators return whether or not two values are the same. They’re written `<expression> == <expression>`
+
+- **Numbers** are equal if they have the same value and the same units, or if their values are equal when their units are converted between one another.
+- **Strings** are unusual in that unquoted and quoted strings with the same contents are considered equal.
+- **Colors** are equal if they have the same red, green, blue, and alpha values.
+- **Lists** are equal if their contents are equal. *Comma-separated* lists aren’t equal to *space-separated* lists, and *bracketed lists* aren’t equal to *unbracketed lists*.
+- **Maps** are equal if their keys and values are both equal.
+- **Calculations** are equal if their names and arguments are all equal. Operation arguments are compared textually.
+- `true`, `false`, and `null` are only equal to themselves.
+- **Functions** are equal to the same function. Functions are compared by reference, so even if two functions have the same name and definition they’re considered different if they aren’t defined in the same place
+
+```scss
+@debug 1px == 1px;  // true
+@debug 1px != 1em;  // true
+@debug 1 != 1px;    // true
+@debug 96px == 1in; // true
+
+@debug "Helvetica" == Helvetica; // true
+@debug "Helvetica" != "Arial";   // true
+
+@debug hsl(34, 35%, 92.1%) == #f2ece4; // true
+@debug rgba(179, 115, 153, 0.5) != rgba(179, 115, 153, 0.8); // true
+
+@debug (5px 7px 10px) == (5px 7px 10px);   // true
+@debug (5px 7px 10px) != (10px 14px 20px); // true
+@debug (5px 7px 10px) != (5px, 7px, 10px); // true
+@debug (5px 7px 10px) != [5px 7px 10px];   // true
+
+$theme: ("venus": #998099, "nebula": #d2e1dd);
+@debug $theme == ("venus": #998099, "nebula": #d2e1dd); // true
+@debug $theme != ("venus": #998099, "iron": #dadbdf);   // true
+
+@debug true == true;  // true
+@debug true != false; // true
+@debug null != false; // true
+
+@debug get-function("rgba") == get-function("rgba"); // true
+@debug get-function("rgba") != get-function("hsla"); // true
+```
+
+### Relational Operators
+
+Relational operators determine whether numbers are larger or smaller than one another. They automatically convert between compatible units.
+
+```scss
+@debug 100 > 50;     // true
+@debug 10px < 17px;  // true
+@debug 96px >= 1in;  // true
+@debug 1000ms <= 1s; // true
+```
+
+Unitless numbers can be compared with any number. They’re automatically converted to that number’s unit.
+
+```scss
+@debug 100 > 50px; // true
+@debug 10px < 17;  // true
+```
+
+Numbers with incompatible units can’t be compared.
+
+```scss
+@debug 100px > 10s;
+//     ^^^^^^^^^^^
+// Error: Incompatible units px and s.
+```
+
+### Numeric Operators
+
+```scss
+@debug 10s + 15s; // 25s
+@debug 1in - 10px; // 0.8958333333in
+@debug 5px * 3px; // 15px*px
+@debug 1in % 9px; // 0.0625in
+```
+
+Unitless numbers can be used with numbers of any unit.
+
+```scss
+@debug 100px + 50; // 150px
+@debug 4s * 10; // 40s
+```
+
+Numbers with incompatible units can’t be used with addition, subtraction, or modulo.
+
+```scss
+@debug 100px + 10s;
+//     ^^^^^^^^^^^
+// Error: Incompatible units px and s.
+```
+
+### Unary Operators
+
+Because - can refer to both subtraction and unary negation, it can be confusing which is which in a space-separated list. To be safe
+
+- Always write spaces on both sides of - when subtracting.
+- Write a space before - but not after for a negative number or a unary negation.
+- Wrap unary negation in parentheses if it’s in a space-separated list.
+
+```scss
+@debug +(5s + 7s); // 12s
+@debug -(50px + 30px); // -80px
+@debug -(10px - 15px); // 5px
+```
+
+The different meanings of - in Sass take precedence in the following order
+
+- as part of an identifier. The only exception are units; Sass normally allows any valid identifier to be used as an identifier, but units may not contain a hyphen followed by a digit.
+- between an expression and a literal number with no whitespace, which is parsed as subtraction.
+- at the beginning of a literal number, which is parsed as a negative number.
+- between two numbers regardless of whitespace, which is parsed as subtraction.
+- before a value other than a literal number, which is parsed as unary negation.
+
+```scss
+@debug a-1; // a-1
+@debug 5px-3px; // 2px
+@debug 5-3; // 2
+@debug 1 -2 3; // 1 -2 3
+
+$number: 2;
+@debug 1 -$number 3; // -1 3
+@debug 1 (-$number) 3; // 1 -2 3
+```
+
+### Division
+
+division in Sass is done with the `math.div()` function, in CSS / is used as a separator `(as in font: 15px/32px or hsl(120 100% 50% / 0.8))`.
+
+You can use `list.slash()` to force / to be used as a separator.
+
+Sass will print the result as slash-separated instead of divided unless one of these conditions is met:
+
+- Either expression is anything other than a literal number.
+- The result is stored in a variable or returned by a function.
+- The operation is surrounded by parentheses, unless those parentheses are outside a list - that contains the operation.
+- The result is used as part of another operation (other than /).
+
+```scss
+@use "sass:list";
+
+@debug 15px / 30px;                  // 15px/30px
+@debug (10px + 5px) / 30px;          // 0.5
+@debug list.slash(10px + 5px, 30px); // 15px/30px
+
+$result: 15px / 30px;
+@debug $result; // 0.5
+
+@function fifteen-divided-by-thirty() {
+  @return 15px / 30px;
+}
+@debug fifteen-divided-by-thirty(); // 0.5
+
+@debug (15px/30px); // 0.5
+@debug (bold 15px/30px sans-serif); // bold 15px/30px sans-serif
+@debug 15px/30px + 1; // 1.5
+```
+
+### String Operators
+
+- `<expression> + <expression> `returns a string that contains both expressions’ values. If the either value is a quoted string, the result will be quoted; otherwise, it will be unquoted.
+- `<expression> - <expression>` returns an unquoted string that contains both expressions’ values, separated by -.
+
+```scss
+@debug "Helvetica" + " Neue"; // "Helvetica Neue"
+@debug sans- + serif;         // sans-serif
+@debug sans - serif;          // sans-serif
+
+@debug "Elapsed time: " + 10s;       // "Elapsed time: 10s";
+@debug true + " is a boolean value"; // "true is a boolean value";
+```
+
+- `/<expression>` returns an unquoted string starting with / and followed by the expression’s value.
+- `-<expression>` returns an unquoted string starting with - and followed by the expression’s value.
+
+```scss
+@debug / 15px;   // /15px
+@debug - moz;    // -moz
+```
+
+### Boolean Operators
+
+```scss
+@debug not true;        // false
+@debug not false;       // true
+
+@debug true and true;   // true
+@debug true and false;  // false
+
+@debug true or false;   // true
+@debug false or false;  // false
 ```
 
 ## comments
@@ -854,6 +1053,36 @@ $primary-color: #036;
 }
 ```
 
+### advanced example
+
+```scss
+@use "sass:list";
+@use "sass:meta";
+@use "sass:string";
+
+/// Return a copy of $list with all elements for which $condition returns `true`
+/// removed.
+@function remove-where($list, $condition) {
+  $new-list: ();
+  $separator: list.separator($list);
+  @each $element in $list {
+    @if not meta.call($condition, $element) {
+      $new-list: list.append($new-list, $element, $separator: $separator);
+    }
+  }
+  @return $new-list;
+}
+
+$fonts: Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+content {
+  @function contains-helvetica($string) {
+    @return string.index($string, "Helvetica");
+  }
+  font-family: remove-where($fonts, meta.get-function("contains-helvetica"));
+}
+```
+
 ## `@extend`
 
 - if an `@extend` doesn’t match any selectors in the stylesheet, Sass will produce an error
@@ -1308,3 +1537,268 @@ When possible, Sass will also merge media queries that are nested within one ano
   }
 }
 ```
+
+## string
+
+```scss
+@use "sass:string";
+
+@debug string.length(\7Fx);                          // 5
+@debug string.index("Helvetica Neue", "Helvetica");  // 1
+@debug string.index("Helvetica Neue", "Neue");       // 11
+@debug string.slice("Roboto Mono", -4);              // "Mono"
+
+@debug string.unquote(".widget:hover"); // .widget:hover
+@debug string.quote(bold);              // "bold"
+
+@debug "\"";                            // '"'
+@debug \.widget;                        // \.widget
+@debug "\a";                            // "\a" (a string containing only a newline)
+@debug "line1\a line2";                 // "line1\a line2"
+@debug "Nat + Liz \1F46D";              // "Nat + Liz 👭"
+
+@debug "Helvetica Neue";                // "Helvetica Neue"
+@debug "C:\\Program Files";             // "C:\Program Files"
+@debug "\"Don't Fear the Reaper\"";     // "Don't Fear the Reaper"
+@debug "line1\a line2";                 // "line1\a line2"
+
+$roboto-variant: "Mono";
+@debug "Roboto #{$roboto-variant}";      // "Roboto Mono"
+```
+
+## Colors
+
+```scss
+@debug #f2ece4;                  // #f2ece4
+@debug #b37399aa;                // rgba(179, 115, 153, 67%)
+@debug midnightblue;             // #191970
+@debug rgb(204, 102, 153);       // #c69
+@debug rgba(107, 113, 127, 0.8); // rgba(107, 113, 127, 0.8)
+@debug hsl(228, 7%, 86%);        // #dadbdf
+@debug hsla(20, 20%, 85%, 0.7);  // rgb(225, 215, 210, 0.7)
+
+$venus: #998099;
+
+@debug scale-color($venus, $lightness: +15%); // #a893a8
+@debug mix($venus, midnightblue);             // #594d85
+```
+
+## Lists
+
+```scss
+// Access an Element by index
+@debug list.nth(10px 12px 16px, 2);         // 12px
+@debug list.nth([line1, line2, line3], -1); // line3
+
+// loop
+$sizes: 40px, 50px, 80px;
+@each $size in $sizes {
+  .icon-#{$size} {
+    font-size: $size;
+  }
+}
+
+// Add to a List
+@debug append(10px 12px 16px, 25px);     // 10px 12px 16px 25px
+@debug append([col1-line1], col1-line2); // [col1-line1, col1-line2]
+
+// Find an Element in a List
+// If the value isn’t in the list at all, list.index() returns null
+// you can use list.index() with @if or if() to check whether a list does or doesn’t contain a given value.
+@debug list.index(1px solid red, 1px);    // 1
+@debug list.index(1px solid red, solid);  // 2
+@debug list.index(1px solid red, dashed); // null
+
+@use "sass:list";
+
+$valid-sides: top, bottom, left, right;
+
+@mixin attach($side) {
+  @if not list.index($valid-sides, $side) {
+    @error "#{$side} is not a valid side. Expected one of #{$valid-sides}.";
+  }
+}
+// Immutability
+@use "sass:list";
+@use "sass:map";
+
+$prefixes-by-browser: ("firefox": moz, "safari": webkit, "ie": ms);
+
+@function prefixes-for-browsers($browsers) {
+  $prefixes: ();
+  @each $browser in $browsers {
+    $prefixes: list.append($prefixes, map.get($prefixes-by-browser, $browser));
+  }
+  @return $prefixes;
+}
+@debug prefixes-for-browsers("firefox" "ie"); // moz ms
+
+// Argument Lists
+@use "sass:meta";
+
+@mixin syntax-colors($args...) {
+  @debug meta.keywords($args);
+  // (string: #080, comment: #800, variable: #60b)
+
+  @each $name, $color in meta.keywords($args) {
+    pre span.stx-#{$name} {
+      color: $color;
+    }
+  }
+}
+
+@include syntax-colors(
+  $string: #080,
+  $comment: #800,
+  $variable: #60b,
+)
+```
+
+## Maps
+
+- Maps in Sass hold pairs of keys and values
+- Maps in Sass are immutable, which means that the contents of a map value never changes
+- Sass’s map functions all return new maps rather than modifying the originals
+- You can still update your state over time by assigning new maps to the same variable, though. This is often used in functions and mixins to track configuration in a map.
+
+```scss
+$font-weights: ("regular": 400, "medium": 500, "bold": 700);
+
+@debug map.get($font-weights, "medium"); // 500
+@debug map.get($font-weights, "extra-bold"); // null
+
+// Do Something for Every Pair
+$icons: ("eye": "\f112", "start": "\f12e", "stop": "\f12f");
+
+@each $name, $glyph in $icons {
+  .icon-#{$name}:before {}
+}
+
+// Add to a Map
+// add new pairs to a map, or to replace the value for an existing key
+// map.set($map, $key, $value)
+$font-weights: ("regular": 400, "medium": 500, "bold": 700);
+
+@debug map.set($font-weights, "extra-bold", 900);
+// ("regular": 400, "medium": 500, "bold": 700, "extra-bold": 900)
+@debug map.set($font-weights, "bold", 900);
+// ("regular": 400, "medium": 500, "bold": 900)
+
+// map.merge($map1, $map2)
+$light-weights: ("lightest": 100, "light": 300);
+$heavy-weights: ("medium": 500, "bold": 700);
+
+@debug map.merge($light-weights, $heavy-weights);
+// ("lightest": 100, "light": 300, "medium": 500, "bold": 700)
+
+// If both maps have the same keys, the second map’s values are used in the map that gets returned
+$weights: ("light": 300, "medium": 500);
+
+@debug map.merge($weights, ("medium": 700));
+// ("light": 300, "medium": 700)
+
+
+// Immutability
+$prefixes-by-browser: ("firefox": moz, "safari": webkit, "ie": ms);
+
+@mixin add-browser-prefix($browser, $prefix) {
+  $prefixes-by-browser: map.merge($prefixes-by-browser, ($browser: $prefix)) !global;
+}
+
+@include add-browser-prefix("opera", o);
+@debug $prefixes-by-browser;
+// ("firefox": moz, "safari": webkit, "ie": ms, "opera": o)
+```
+
+## Booleans
+
+```scss
+@use "sass:math";
+
+@debug 1px == 2px; // false
+@debug 1px == 1px; // true
+@debug 10px < 3px; // false
+@debug math.comparable(100px, 3in); // true
+
+@debug null or 10;
+@debug true and false;
+
+
+// Using Booleans
+@mixin avatar($size, $circle: false) {
+  width: $size;
+  height: $size;
+
+  @if $circle {
+    border-radius: $size / 2;
+  }
+}
+
+.square-av {
+  @include avatar(100px, $circle: false);
+}
+.circle-av {
+  @include avatar(100px, $circle: true);
+}
+
+
+// if(condition, true, false)   may use null for do nothing
+@debug if(true, 10px, 30px); // 10px
+@debug if(false, 10px, 30px); // 30px
+```
+
+## null
+
+often returned by functions to indicate the lack of a result.
+
+```scss
+@use "sass:map";
+@use "sass:string";
+
+@debug string.index("Helvetica Neue", "Roboto"); // null
+@debug map.get(("large": 20px), "small"); // null
+@debug &; // null
+
+
+// If a list contains a `null`, that `null` is omitted from the generated CSS.
+$fonts: ("serif": "Helvetica Neue", "monospace": "Consolas");
+h3 {font: 18px bold map-get($fonts, "sans");}
+// in css
+h3 {font: 18px bold;}
+
+
+// If a property value is null, that property is omitted entirely.
+h3 {
+  font: {
+    size: 18px;
+    weight: bold;
+    family: map-get($fonts, "sans");
+  }
+}
+// in css
+h3 {font-size: 18px;font-weight: bold;}
+
+
+// null is also falsey, which means it counts as false for any rules or operators that take booleans. This makes it easy to use values that can be null as conditions for @if and if().
+@mixin app-background($color) {
+  #{if(&, '&.app-background', '.app-background')} {
+    background-color: $color;
+    color: rgba(#fff, 0.75);
+  }
+}
+
+@include app-background(#036);
+
+.sidebar {
+  @include app-background(#c6538c);
+}
+```
+
+## Built-In Modules
+
+- `sass:math`
+- `sass:string`
+- `sass:color`
+- `sass:map`
+- `sass:selector`
+- `sass:meta`

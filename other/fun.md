@@ -66,7 +66,9 @@
 - [One Punch Man](https://www.faselhd.pro/?p=79525)
 - [Darwin’s Game](https://www.faselhd.pro/?p=123128)
 - [Dr. Stone](https://www.faselhd.pro/?p=119203)
+- [man no Inochi no Ue ni Ore wa Tatteiru](https://www.faselhd.pro/?p=134165)
 - [High-Rise Invasion](https://www.faselhd.pro/?p=119075)
+- [Genjitsu Shugi Yuusha no Oukoku Saikenki](https://www.faselhd.pro/?p=134289)
 - [Shingeki no Kyojin (Attack on Titan)](https://www.faselhd.pro/?p=115789)
 
 ## website

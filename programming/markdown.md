@@ -275,7 +275,8 @@ Content in the first column | Content in the second column
 Character | Name
 ------------ | -------------
 `\` | backslash
-`*` | asterisk 
+`/` | slash
+`*` | asterisk
 `_` | underscore
 `{}` | curly braces
 `[]` | brackets
@@ -286,8 +287,8 @@ Character | Name
 `-` | minus sign (hyphen)
 `!` | exclamation mark
 `.` | dot
-&#124; | pipe 
-` | backtick 
+&#124; | pipe
+` | backtick
 
 ## Escaping Pipe Characters in Tables
 
