@@ -372,11 +372,11 @@ Numbers with incompatible units can’t be used with addition, subtraction, or m
 
 ### Unary Operators
 
-Because - can refer to both subtraction and unary negation, it can be confusing which is which in a space-separated list. To be safe
+Because - can refer to both subtraction and unary negation, it can be confusing which is which in a space-separated list To be safe
 
 - Always write spaces on both sides of - when subtracting.
 - Write a space before - but not after for a negative number or a unary negation.
-- Wrap unary negation in parentheses if it’s in a space-separated list.
+- Wrap unary negation in parentheses if it’s in a space-separated list
 
 ```scss
 @debug +(5s + 7s); // 12s
@@ -1794,11 +1794,235 @@ h3 {font-size: 18px;font-weight: bold;}
 }
 ```
 
-## Built-In Modules
+## `sass:color`
 
-- `sass:math`
-- `sass:string`
-- `sass:color`
-- `sass:map`
-- `sass:selector`
-- `sass:meta`
+- he `$red`, `$green`, and `$blue` arguments must be **unitless** and between -255 and 255
+- The `$hue` argument must have either the unit deg or no unit
+- The `$saturation`, `$lightness`, `$whiteness`, and `$blackness` arguments must be between -100% and 100%
+- The $alpha argument must be unitless and between -1 and 1
+
+```scss
+@use "sass:color";
+
+color.adjust($color,
+  $red: null, $green: null, $blue: null,
+  $hue: null, $saturation: null, $lightness: null,
+  $whiteness: null, $blackness: null,
+  $alpha: null)
+
+color.change($color,
+  $red: null, $green: null, $blue: null,
+  $hue: null, $saturation: null, $lightness: null,
+  $whiteness: null, $blackness: null,
+  $alpha: null)
+```
+
+- `color.complement($color)` complement of `$color`.
+- `adjust($color, $alpha: -$amount)` reduce opacity
+- `color.adjust($color, $lightness: -$amount)` Makes `$color` darker.
+- `color.adjust($color, $lightness:  $amount)` Makes `$color` lighter.
+- `color.invert($color, $weight: 100%)` inverse of `$color`
+- `color.mix($color, $color)` mix
+
+## `sass:list`
+
+n Sass, every `map` counts as a list that contains a two-element list for each key/value pair. For example, `(1: 2, 3: 4)` counts as `(1 2, 3 4)`. So all these functions work for maps as well!
+
+If `$separator` is comma, space, or slash, the returned list is **comma-separated**, **space-separated**, or **slash-separated**, respectively. If it’s auto (the default), the returned list will use the same separator as `$list` (or space if $list doesn’t have a separator). Other values aren’t allowed.
+
+### copy list
+
+Returns a copy of $list with $val added to the end
+
+```scss
+@use "sass:list";
+
+list.append($list, $val, $separator: auto)
+// ==
+append($list, $val, $separator: auto)
+
+@debug list.append(10px 20px, 30px); // 10px 20px 30px
+@debug list.append((blue, red), green); // blue, red, green
+@debug list.append(10px 20px, 30px 40px); // 10px 20px (30px 40px)
+@debug list.append(10px, 20px, $separator: comma); // 10px, 20px
+@debug list.append((blue, red), green, $separator: space); // blue red green
+```
+
+### index in list
+
+- Returns the index of `$value` in `$list`.
+- If `$value` doesn’t appear in `$list`, this returns `null`. If `$value` appears multiple times in $`list`, this returns the index of its **first** appearance.
+
+```scss
+list.index($list, $value)
+index($list, $value) //=> number | null 
+
+@debug list.index(1px solid red, 1px); // 1
+@debug list.index(1px solid red, solid); // 2
+@debug list.index(1px solid red, dashed); // null
+```
+
+### `is-bracketed`
+
+Returns whether $list has square brackets
+
+```scss
+list.is-bracketed($list)
+is-bracketed($list) //=> boolean 
+
+
+@debug list.is-bracketed(1px 2px 3px); // false
+@debug list.is-bracketed([1px, 2px, 3px]); // true
+```
+
+### join list
+
+Use `list.append()` instead to add a single value to a list. Only use `list.join()` to combine two lists together into one.
+
+```scss
+list.join($list1, $list2, $separator: auto, $bracketed: auto)
+join($list1, $list2, $separator: auto, $bracketed: auto) //=> list
+
+@debug list.join(10px 20px, 30px 40px); // 10px 20px 30px 40px
+@debug list.join((blue, red), (#abc, #def)); // blue, red, #abc, #def
+@debug list.join(10px, 20px); // 10px 20px
+@debug list.join(10px, 20px, $separator: comma); // 10px, 20px
+@debug list.join((blue, red), (#abc, #def), $separator: space); // blue red #abc #def
+@debug list.join([10px], 20px); // [10px 20px]
+@debug list.join(10px, 20px, $bracketed: true); // [10px 20px]
+```
+
+```scss
+list.length($list)
+length($list) //=> number 
+
+@debug list.length(10px); // 1
+@debug list.length(10px 20px 30px); // 3
+@debug list.length((width: 10px, height: 20px)); // 2
+```
+
+```scss
+list.nth($list, $n)
+nth($list, $n) 
+// Returns the element of $list at index $n.
+
+@debug list.nth(10px 12px 16px, 2); // 12px
+@debug list.nth([line1, line2, line3], -1); // line3
+```
+
+```scss
+list.separator($list)
+list-separator($list) //=> unquoted string 
+
+@debug list.separator(1px 2px 3px); // space
+@debug list.separator(1px, 2px, 3px); // comma
+@debug list.separator('Helvetica'); // space
+@debug list.separator(()); // space
+```
+
+```scss
+list.set-nth($list, $n, $value)
+set-nth($list, $n, $value) //=> list 
+// Returns a copy of $list with the element at index $n replaced with $value.
+
+@debug list.set-nth(10px 20px 30px, 1, 2em); // 2em 20px 30px
+@debug list.set-nth(10px 20px 30px, -1, 8em); // 10px, 20px, 8em
+@debug list.set-nth((Helvetica, Arial, sans-serif), 3, Roboto); // Helvetica, Arial, Roboto
+```
+
+```scss
+list.zip($lists...)
+zip($lists...) //=> list 
+// Combines every list in $lists into a single list of sub-lists.
+
+@debug list.zip(10px 50px 100px, short mid long); // 10px short, 50px mid, 100px long
+@debug list.zip(10px 50px 100px, short mid); // 10px short, 50px mid
+```
+
+## `sass:map`
+
+- `map.merge($map1, $map2)`
+- `map.deep-merge($map1, $map2)`
+- `map.deep-remove($map, $key, $keys...)`
+- `map.get($map, $key, $keys...)`
+- `map.has-key($map, $key, $keys...)`
+- `map.keys($map)`
+- `map.values($map)`
+- `map.set($map, $key, $value)`
+
+## `sass:math`
+
+-`math.$e`
+-`math.$pi`
+-`math.ceil($number)`
+-`math.floor($number)`
+-`math.round($number)`
+-`math.clamp($min, $number, $max)` Restricts `$number` to the range between `$min` and `$max`. If `$number` is less than `$min` this returns `$min`, and if it’s greater than `$max` this returns `$max`. `$min`, `$number`, and `$max` must have compatible units, or all be unitless.
+-`math.max($number...)`
+-`math.min($number...)`
+-`math.abs($number)`
+-`math.log($number, $base: null)` like `math.log(10)` or  `math.log(10, 10)`
+-`math.pow($base, $exponent)`
+-`math.sqrt($number)`
+-`math.cos($number)`
+-`math.sin($number)`
+-`math.tan($number)`
+-`math.acos($number)`
+-`math.asin($number)`
+-`math.atan($number)`
+-`math.atan2($y, $x)`
+-`math.compatible($number1, $number2)` true || false if  have compatible units.
+-`math.is-unitless($number)`
+-`math.unit($number)`
+-`math.div($number1, $number2)` dividing
+-`math.percentage($number)` identical to `$number * 100%`.
+-`math.random($limit: null)` If `$limit`  is `null`, returns a random number  0 : 1 else 1 : $limit.
+
+## `sass:meta`
+
+- `meta.load-css($url, $with: null)` can use anywhere in a stylesheet, url like `@use`
+- `meta.function-exists($name)` true || false
+- `meta.global-variable-exists($name)` true || false
+- `meta.variable-exists($name)`
+- `meta.mixin-exists($name)`
+- `meta.module-variables($module)`
+- `meta.module-functions($module)`
+- `meta.type-of($value)`
+
+## `sass:selector`
+
+```scss
+@debug ((unquote(".main") unquote("aside:hover")), (unquote(".sidebar") unquote("p")));
+// .main aside:hover, .sidebar p
+
+@debug selector.append("a", ".disabled"); // a.disabled
+@debug selector.append(".accordion", "__copy"); // .accordion__copy
+@debug selector.append(".accordion", "__copy, __image");
+// .accordion__copy, .accordion__image
+
+
+#{$extender} {
+  @extend #{$extendee};
+}
+
+
+@debug selector.nest("ul", "li"); // ul li
+@debug selector.nest(".alert, .warning", "p"); // .alert p, .warning p
+@debug selector.nest(".alert", "&:hover"); // .alert:hover
+@debug selector.nest(".accordion", "&__copy"); // .accordion__copy
+```
+
+- `selector.append($selectors...)`
+- `selector.extend($selector, $extendee, $extender)`
+- `selector.nest($selectors...)`
+
+## `sass:string`
+
+- `string.quote($string)`
+- `string.unquote($string)`
+- `string.index($string, $substring)`
+- `string.insert($string, $insert, $index)`
+- `string.length($string)`
+- `string.slice($string, $start-at, $end-at: -1)`
+- `string.to-upper-case($string)`
+- `string.to-lower-case($string)`
