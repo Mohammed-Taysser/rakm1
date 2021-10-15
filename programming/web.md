@@ -102,9 +102,17 @@ Localhost://3000
 - A Simple Searchable Select Dropdown Plugin
 - Checkboxes Multi-Select with Shift and Ctrl/Cmd Keys | Shift-Select
 - local storage in js
+- blockquote style
 - cpanels,directadmin, plesk
 - [https://github.com/ml-tooling/best-of-web-python](https://github.com/ml-tooling/best-of-web-python)
 - [https://awesome-python.com/](https://awesome-python.com/)
+- <https://kodhus.com/framework/components/view/autocomplete-suggestion>
+- <https://kodhus.com/framework/components/view/accordion>
+- <https://kodhus.com/framework/components/view/vertical-timeline-v2>
+- <https://kodhus.com/framework/components/view/hover-reveal-button>
+- <https://kodhus.com/framework/components/view/placeholder-template>
+- <https://kodhus.com/framework/components/view/reveal-on-scroll>
+- <https://kodhus.com/framework/components/view/typewritter>
 
 ## html page to design
 
@@ -158,7 +166,6 @@ from [hsoub](https://academy.hsoub.com/)
 - colors
   - [get colors from image](https://www.10bestdesign.com/color-palette-generator/)
 - fonts , woff2 , woff , ttf
-
   ```css
     @font-face {
     font-family: 'MyWebFont';
@@ -173,7 +180,6 @@ from [hsoub](https://academy.hsoub.com/)
     font-family: 'MyWebFont', Fallback, sans-serif;
   }
   ```
-
 - website report
   - [gtmetrix](https://gtmetrix.com/)
   - <https://w3c.github.io/developers/tools/>
@@ -187,6 +193,16 @@ from [hsoub](https://academy.hsoub.com/)
 - speed
   - [developers pages peed](https://developers.google.com/speed/pagespeed/insights/)
   - [tools.pingdom](https://tools.pingdom.com/)
+- website tags (for facebook and twitter)
+  - <https://metatags.io/>
+  - <https://developers.facebook.com/docs/sharing/webmasters/> facebook link preview
+  - [twitter cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started)
+  - <https://cards-dev.twitter.com/validator> Card validator
+- search preview
+  - <https://app.sistrix.com/en/serp-snippet-generator>
+- favicon
+  - <https://www.favicon-generator.org/> just check it
+  - <https://realfavicongenerator.net/>
 
 ## API
 
@@ -194,6 +210,10 @@ from [hsoub](https://academy.hsoub.com/)
 - [random user](https://randomuser.me/)
 - [picsum.photos](https://picsum.photos/)
 - <https://reqres.in/>
+- <https://ipapi.co/>
+- <https://quotes.rest/>
+- <https://www.quotes.net/quotes_api.php>
+- <https://rapidapi.com/collection/quote-generator-apis>
 
 ## animation plugin
 
@@ -213,7 +233,11 @@ from [hsoub](https://academy.hsoub.com/)
 - <https://georapbox.github.io/shuffle-letters/>
 - <https://simonwep.github.io/selection/>
 - <https://webcodeflow.com/number-counter-rollup/>
+- <https://fancyapps.com/>
 - <http://imagehover.io/>
+- <https://victordiego.com/lightbox/> popup
+- <https://github.com/tigrr/circle-progress>
+- <https://ianlunn.github.io/Hover/>
 - <https://pqina.nl/filepond/#multi-file-code>
 - <https://nullilac.github.io/skeleton-screen-css/>    # animation while loading content
 - <https://edumigueis.github.io/Annimay/>              # button animation on hover
@@ -258,18 +282,31 @@ from [hsoub](https://academy.hsoub.com/)
 
 ## colors & gradient
 
-- danger  `#f0506e`
-- success `#32d296`
-- warning `#faa05a`
-- primary `#1e87f0`
-- like white `#f8f8f8`
 - <https://coolors.co/>
 - <https://webgradients.com/>
+- <https://uigradients.com/#Reef>
 
 ## shadow
 
 - box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 
+## angled edges
+
+- <https://angled-edges-generator.josephfus.co/>
+
 ## dividor
 
 - -------------------- O --------------------
+
+# best practices
+
+```html
+<!-- don't-->
+<img src="image.png" alt="Image description"/>
+
+<!-- do-->
+<figure>
+  <img src="image.png" alt="Image description"/>
+  <figcaption>Image caption</figcaption>
+</figure>
+```
