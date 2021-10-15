@@ -1,3 +1,84 @@
+https://www.youtube.com/results?search_query=Jest+course | Jest course - YouTube
+https://dev.to/dstrekelj/how-to-write-unit-tests-in-javascript-with-jest-2e83 | How to write unit tests in JavaScript with Jest - DEV Community
+https://www.sitepoint.com/good-front-end-architecture/ | A Good Front-End Architecture - SitePoint
+https://duckduckgo.com/?t=ffab&q=best+frontend+plugins&atb=v281-1&ia=web | best frontend plugins at DuckDuckGo
+http://getbem.com/naming/ | BEM — Block Element Modifier
+https://webcodeflow.com/category/menu-plugins/ | Menu Plugins Archives - Web Code Flow
+https://webcodeflow.com/wizard-style-multistep-plugin/ | A Wizard-Style Plugin With a Series of Customizable Steps | MultiStep
+https://duckduckgo.com/?t=ffab&q=deploy+react+app+to+github&atb=v281-1&ia=web | deploy react app to github at DuckDuckGo
+https://github.com/sampotts/plyr | sampotts/plyr: A simple HTML5, YouTube and Vimeo player
+https://jsdoc.app/index.html#block-tags | Use JSDoc: Index
+https://guides.lib.berkeley.edu/how-to-write-good-documentation | Home - How to Write a Good Documentation - Library Guides at UC Berkeley
+https://duckduckgo.com/?t=ffab&q=Particles+JS&atb=v281-1&ia=web | Particles JS at DuckDuckGo
+https://www.facebook.com/array.eg/posts/1488219574660279 | ‏‎Array ;‎‏ - المنشورات | Facebook
+https://gist.github.com/Mohammed-Taysser | Mohammed-Taysser’s gists
+https://duckduckgo.com/?q=Gist+and+github&t=ffab&atb=v281-1&ia=web | Gist and github at DuckDuckGo
+https://www.youtube.com/watch?v=dXExABKuLGs | Front-end Projects | افكار مشاريع فرونت اند - YouTube
+https://www.youtube.com/results?search_query=react+course | react course - YouTube
+https://www.smashingmagazine.com/2016/06/improving-ux-for-color-blind-users/ | Accessibility: Improving The UX For Color-Blind Users — Smashing Magazine
+https://www.youtube.com/results?search_query=%D9%83%D9%88%D8%B1%D8%B3+react | كورس react - YouTube
+https://www.youtube.com/watch?v=7NHdULFkAIQ&list=PL1FWK-sgJ9el-axKTMU_1l5PEyv7tn-wk&index=41 | 040 - ReactJS بالعربية - Http Ajax Requests - Create UsersForm Component - YouTube
+https://www.youtube.com/c/UniqueCoderzAcademy/playlists | Unique Coderz Academy - YouTube
+https://www.youtube.com/watch?v=0QPfpkUdSPM&list=PLtFbQRDJ11kGvzwSDJlGX2ROuVpZaNuPl&index=3 | ( Advanced Definition ) CSS Sprites - YouTube
+https://duckduckgo.com/?t=ffab&q=best+frontend+plugins&atb=v281-1&ia=web | best frontend plugins at DuckDuckGo
+https://docs.github.com/en/code-security/supply-chain-security/managing-vulnerabilities-in-your-projects-dependencies/configuring-dependabot-security-updates | Configuring Dependabot security updates - GitHub Docs
+https://github.com/audreyfeldroy/favicon-cheat-sheet | audreyfeldroy/favicon-cheat-sheet: Obsessive cheat sheet to favicon sizes/types. Please contribute! (Note: this may be in flux as I learn new things about favicon best practices.)
+https://css-tricks.com/favicon-quiz/ | Favicons, Touch Icons, Tile Icons, etc. Which Do You Need? | CSS-Tricks
+https://caniuse.com/link-icon-png | PNG favicons | Can I use... Support tables for HTML5, CSS3, etc
+https://rapidapi.com/collection/list-of-free-apis | 35 Free Public APIs for Developers & Free Alternatives List - October, 2021 | RapidAPI
+https://simpleicons.org/?q=git | Simple Icons
+https://shields.io/endpoint | Shields.io: Quality metadata badges for open source projects
+https://github.com/plausible/analytics/ | plausible/analytics: Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics.
+https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/ | How to Build Responsive Images with srcset - SitePoint
+https://web.dev/fast/#optimize-your-images | Fast load times
+https://axesslab.com/alt-texts/ | Axess Lab | Alt-texts: The Ultimate Guide
+https://github.com/mfranzke/loading-attribute-polyfill/ | mfranzke/loading-attribute-polyfill: Fast and lightweight dependency-free vanilla JavaScript polyfill for native lazy loading / the awesome loading='lazy'-attribute.
+https://developers.google.com/speed/docs/insights/BlockingJS | Remove Render-Blocking JavaScript  |  PageSpeed Insights
+https://webdesign.tutsplus.com/tutorials/quick-tip-dont-forget-the-noscript-element--cms-25498 | Quick Tip: Don’t Forget the “noscript” Element
+https://developers.google.com/speed/docs/insights/MinifyResources | Minify Resources (HTML, CSS, and JavaScript)  |  PageSpeed Insights
+https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html#Guidelines_for_Developing_Secure_Applications_Utilizing_JavaScript | DOM based XSS Prevention - OWASP Cheat Sheet Series
+https://animate.style/ | Animate.css | A cross-browser library of CSS animations.
+http://velocityjs.org/ | Velocity.js
+https://github.com/github/fetch | github/fetch: A window.fetch JavaScript polyfill.
+https://plainjs.com/ | plainJS - The Vanilla JavaScript Repository
+https://evilmartians.com/chronicles/size-limit-make-the-web-lighter | Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog
+https://web.dev/performance-scoring/ | Lighthouse performance scoring
+https://www.youtube.com/c/GoogleChromeDevelopers/playlists | Google Chrome Developers - YouTube
+https://web-platform-tests.org/ | web-platform-tests documentation — web-platform-tests documentation
+https://search.google.com/search-console/about | Google Search Console
+https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data#search-appearance | Understand How Structured Data Works | Google Search Central
+https://schema.org/docs/gs.html | Getting Started - schema.org
+https://developer.chrome.com/docs/devtools/coverage/ | Find Unused JavaScript And CSS With The Coverage Tab - Chrome Developers
+https://duckduckgo.com/?t=ffab&q=robots+txt&atb=v281-1&ia=web | robots txt at DuckDuckGo
+https://github.com/twbs/bootstrap/tree/v4-dev/dist/css | bootstrap/dist/css at v4-dev · twbs/bootstrap
+https://duckduckgo.com/?t=ffab&q=make+doc+for+css&atb=v281-1&ia=web | make doc for css at DuckDuckGo
+https://css-tricks.com/responsive-designs-and-css-custom-properties-building-a-flexible-grid-system/ | Responsive Designs and CSS Custom Properties: Building a Flexible Grid System | CSS-Tricks
+http://localhost:5500/html/dashboard.html | Home
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox | Basic concepts of flexbox - CSS: Cascading Style Sheets | MDN
+http://flexboxgrid.com/ | Flexbox Grid
+https://geekyhumans.com/top-20-bootstrap-alternatives/ | Top 20 Bootstrap Alternative That You Can Use - Geeky Humans
+https://blog.logrocket.com/building-react-code-editor-syntax-highlighter/ | Building a React code editor and syntax highlighter from scratch - LogRocket Blog
+https://inspirationalpixels.com/creating-a-responsive-menu-with-html-css-jquery/ | Creating a Responsive Menu with HTML, CSS & jQuery – Inspirational Pixels
+https://demos.inspirationalpixels.com/responsive-menu/ | Creating a Reponsive Menu with HTML & CSS (Demo) | Inspirational Pixels
+https://inspirationalpixels.com/creating-a-dropdown-menu-with-html-css/ | Creating a Dropdown Menu with HTML & CSS – Inspirational Pixels
+https://inspirationalpixels.com/tooltips-in-pure-htmlcss/ | Tooltips in HTML and CSS – Inspirational Pixels
+https://github.com/devlint/gridlex | devlint/gridlex: Just a CSS Flexbox Grid System
+https://www.bourbon.io/docs/latest/ | Bourbon - Documentation
+https://tutorialzine.com/articles?page=3 | Articles - Tutorialzine
+https://github.com/twbs/bootstrap/blob/main/dist/css/bootstrap.css | bootstrap/bootstrap.css at main · twbs/bootstrap
+https://webcodeflow.com/css-sliding-panel-pushy/ | Responsive Off-Canvas Navigation Menu Using CSS | Pushy
+https://codepen.io/mohmmedtaysser/pen/mdMeJOx | Only Test
+https://www.iamrohit.in/css-floating-button/ | 20+ CSS Floating Button Examples - iamrohit.in
+https://codepen.io/CSS3fx/pen/RNYaoE | Add Button
+https://www.jotform.com/widgets/category/photo | Photo Form Widgets | Jotform
+https://www.codingnepalweb.com/image-comparison-slider-javascript/ | Awesome Image Comparison Slider using HTML CSS & JavaScript
+https://freefrontend.com/css-sliders/ | 101 CSS Sliders
+https://semantic-ui.com/usage/theming.html | Theming | Semantic UI
+https://antonijasimic.bitbucket.io/text_hover_effects/documentation.html | Text Hover Effects | Documentation
+
+http://ar.awkafonline.com/?cat=20 | خطبة الجمعة | بوابة الأوقاف الإلكترونية
+https://duckduckgo.com/?q=inssider+ubuntu+install&t=ffab&atb=v281-1&ia=web | inssider ubuntu install at DuckDuckGo
+
 https://www.youtube.com/results?search_query=django+app | django app - YouTube
 https://www.youtube.com/c/DennisIvy/playlists | Dennis Ivy - YouTube
 https://www.zingchart.com/ | JavaScript Charts in one powerful declarative library | ZingChart
@@ -13,12 +94,8 @@ https://www.youtube.com/watch?v=6t_VfFOcSdk&list=PLV9Ike6NQZF7RfYO_SDDnGGcAbJ0mK
 https://www.youtube.com/watch?v=-7HPiGfOsEg | الوظائف السيبرانية - Cyber Security Jobs - YouTube
 https://www.youtube.com/watch?v=wXehnyPZGuA | (1) أمن المعلومات والأمن السيبراني - ماذا عن العمل في مجال السايبر سكيورتي؟ - YouTube
 https://www.youtube.com/watch?v=dPoGRYz-n5E&list=PL-51WBLyFTg38qZ0KHkJj-paDQAAu9HiP&index=8 | Django Voting App + Charts | Traversy Media Django Crash Course Advanced - YouTube
-https://mangastarz.com/manga-genre/%d9%88%d9%8a%d8%a8-%d8%aa%d9%88%d9%86/page/38/ | ويب تون الأرشيف - الصفحة 38 من 57 - مانجا ستارز Mangastarz
-https://mangastarz.com/manga-genre/%d8%aa%d9%86%d8%a7%d8%b3%d8%ae/ | تناسخ الأرشيف - مانجا ستارز Mangastarz
-https://mangastarz.com/manga-genre/%d9%82%d9%88%d8%a9-%d8%ae%d8%a7%d8%b1%d9%82%d8%a9/ | قوة خارقة الأرشيف - مانجا ستارز Mangastarz
 https://www.youtube.com/watch?v=3Z0xQUC-r7A | (1) #الأمن_السيبراني المجالات والمسميات الوظيفية في الامن السيبراني - YouTube
 https://www.mogtahed.com/%D8%A7%D8%B3%D8%A6%D9%84%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D8%A9-%D8%B4%D8%AE%D8%B5%D9%8A%D8%A9-%D9%88%D8%A7%D8%AC%D9%88%D8%A8%D8%AA%D9%87%D8%A7.html | - 13 من أخطر و أشهر اسئلة مقابلة شخصية واجوبتها - اكاديمية مجتهد
-https://mangastarz.com/manga-genre/%d8%b2%d9%85%d9%83%d8%a7%d9%86%d9%89/page/6/ | زمكانى الأرشيف - الصفحة 6 من 28 - مانجا ستارز Mangastarz
 https://www.youtube.com/watch?v=9-2kbeuidM4&list=PLCIJjtzQPZJ9tmm43K6KCeZo2MNbB1F3P&index=30 | (3) 28-CompTIA Security + ( Lecture 28) By Eng-Hassan Saleh | Arabic - YouTube
 
 https://www.google.com/search?q=twitter+api&oq=twitter+api&aqs=chrome..69i57j0l3j0i395l2j0i22i30i395l2.5591j1j7&sourceid=chrome&ie=UTF-8 | twitter api - بحث Google‏
@@ -40,7 +117,6 @@ https://www.netaawy.com/2019/02/Best-it-certifications.html | أقوى 10 شها
 https://duckduckgo.com/?t=ffab&q=full+stack+developer+job+responsibilities&atb=v281-1&ia=web | full stack developer job responsibilities at DuckDuckGo
 https://www.indeed.com/recruitment/job-description/full-stack-developer | Full-Stack Developer Job Description [Updated for 2021]
 https://duckduckgo.com/?t=ffab&q=eslint&atb=v281-1&ia=web | eslint at DuckDuckGo
-https://jshint.com/docs/ | JSHint Documentation
 https://duckduckgo.com/?t=ffab&q=js+doc&atb=v281-1&ia=web | js doc at DuckDuckGo
 https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files | Ignoring files - GitHub Docs
 https://html5up.net/ | HTML5 UP! Responsive HTML5 and CSS3 Site Templates
@@ -77,13 +153,6 @@ https://www.youtube.com/watch?v=_XQoh9BK_1g | ICS SCADA Hacking Demo with Simula
 https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As | Linux Command Line Tutorial For Beginners | Bash Terminal | Linux Terminal - YouTube
 
 https://www.netaawy.com/2021/07/best-sites-for-learning-fast-typing.html | أفضل مواقع تعلم الكتابة السريعة على الكيبورد باللغة العربية
-https://www.netaawy.com/2020/12/best-telegram-channels.html | أفضل 10 قنوات تيليجرام مفيدة يجب عليك متابعتها
-https://www.netaawy.com/2019/06/Download-video-from-facebook.html | تحميل فيديو من الفيسبوك للكمبيوتر والهاتف أون لاين
-https://www.netaawy.com/2020/09/online-video-downloader.html | أفضل موقع تحميل الفيديو من أي موقع بدون برامج
-https://www.netaawy.com/2018/11/Video-converter-factory.html | تحميل برنامج تحويل الفيديو إلى جميع الصيغ
-https://www.netaawy.com/2018/02/Facial-recognition-search-engines.html | 5 محركات للبحث عن الوجوه والصور بدقة
-https://www.freecoursesandbooks.net/12907/ | عادات ستغير حياتك ! - Free courses and books
-https://www.mogtahed.com/%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D8%AB%D9%82%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%85%D8%A9-%D8%A8%D8%A7%D9%84%D9%86%D9%81%D8%B3-%D9%83%D8%AA%D8%A7.html | الاسرار الكاملة للثقة التامة بالنفس كتاب روبرت أنتوني
 
 https://www.youtube.com/watch?v=mkL04h4pKzs | ليه نقرأ؟ ما دام فيه فيديوهات تلخيص للكتب!؟ - YouTube
 https://www.youtube.com/watch?v=e6zJaMxzciA | Data Structures - LinkedList (Arabic) - YouTube
