@@ -190,3 +190,7 @@ componentDidUpdate : when change in page
 
 - <https://react-bootstrap.github.io/>
 - <https://formik.org/docs/overview>
+- <https://github.com/jquense/yup>
+- <https://reactjs.org/docs/hooks-intro.html>
+- <https://github.com/JedWatson/classnames>
+- <https://axios-http.com/>
