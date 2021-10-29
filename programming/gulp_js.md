@@ -2,7 +2,7 @@
 
 ## startup
 
-```
+```shell
 - use to automate tasks
 - build on node js
 - task example [minify css, compile sass, compress images, upload files]
@@ -14,29 +14,11 @@ app
 │   ├── fonts
 │   ├── images
 │   ├── css
-│   │   ├── my-style.css
-│   │   └── text.css
 │   ├── html
-│   │   └── index.html
 │   ├── js
-│   │   ├── aro.js
-│   │   ├── arrow.js
-│   │   └── more.js
 │   └── sass
-│       ├── files
-│       │   ├── _footer.sass
-│       │   └── _header.sass
 │       └── main.scss
 ├── dist
-│   ├── css
-│   │   ├── main.css
-│   │   ├── main.css.map
-│   │   ├── style.css
-│   │   └── style.css.map
-│   ├── html
-│   │   └── index.html
-│   └── js
-│       └── script.js
 ├── gulpfile.js
 ├── node_modules
 ├── package.json
@@ -65,7 +47,32 @@ npm install gulp --save-dev
 ## -dev are used for development but not in production
 ## like gulp, jest
 npm i --save-dev gulp
+
+# install used package
+npm i --save-dev gulp-concat gulp-autoprefixer gulp-babel @babel/core @babel/preset-env gulp-uglify gulp-csso gulp-sourcemaps gulp-sass del gulp-newer static-server gulp-pug
 ```
+
+## Packages
+
+- [gulp-responsive](https://github.com/mahnunchik/gulp-responsive)
+- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
+- [gulp-sourcemaps](https://www.npmjs.org/package/gulp-sourcemaps)
+- [gulp-concat](https://www.npmjs.com/package/gulp-concat)
+- [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
+- [gulp-babel](https://www.npmjs.com/package/gulp-babel)
+- [gulp-uglify](https://www.npmjs.com/package/gulp-uglify)
+- [gulp-csso](https://github.com/ben-eb/gulp-csso)
+- [gulp-htmlmin](https://www.npmjs.com/package/gulp-htmlmin)
+- [gulp-sass](https://www.npmjs.com/package/gulp-sass)
+- [del](https://www.npmjs.com/package/del)
+- [gulp-zip](https://www.npmjs.com/package/gulp-zip)
+- [gulp-newer](https://www.npmjs.com/package/gulp-newer)
+- [static-server](https://www.npmjs.com/package/static-server)
+- [gulp-pug](https://www.npmjs.com/package/gulp-pug)
+
+## other
+
+- <https://www.npmjs.com/package/gulp-clean-css>
 
 ## [gulp-concat](https://www.npmjs.com/package/gulp-concat)
 
@@ -436,7 +443,7 @@ export default () => (
 ]))
 ```
 
-## [gulp-newer](npm install gulp-newer --save-dev)
+## [gulp-newer](https://www.npmjs.com/package/gulp-newer)
 
 ### install gulp-newer
 
@@ -576,52 +583,60 @@ server.start(function () {
 });
 ```
 
+## [gulp-pug](https://www.npmjs.com/package/gulp-pug)
+
+```js
+const { src, dest } = require('gulp');
+const pug = require('gulp-pug');
+
+exports.views = () => {
+  return src('./src/*.pug')
+    .pipe(
+      pug({
+        // Your options in here.
+      })
+    )
+    .pipe(dest('./dist'));
+};
+```
+
 ## other plugins
 
-- [gulp-less](https://www.npmjs.com/package/gulp-less)
-- [gulp-cached](https://www.npmjs.com/package/gulp-cached)
-- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
-- [ansi-colors](https://www.npmjs.com/package/ansi-colors)
-- [gulp-responsive](https://github.com/mahnunchik/gulp-responsive)
+- [gulp.spritesmith](https://www.npmjs.com/package/gulp.spritesmith)
+- [gulp-image](https://www.npmjs.com/package/gulp-image)
+- [gulp-mobile-icons](https://www.npmjs.com/package/gulp-mobile-icons)
 
 ## full example of `gulpfile.js`
 
 ```js
-/* global require, exports */
-
 const gulp = require('gulp'),
     concat = require('gulp-concat'),
-    htmlmin = require('gulp-htmlmin'),
     uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
-    csso = require('gulp-csso'),
     babel = require('gulp-babel'),
     sourcemaps = require('gulp-sourcemaps'),
     sass = require('gulp-sass')(require('sass')),
     del = require('del'),
+    pug = require('gulp-pug'),
     paths = {
-        css: {
-            src: ['css/my-bootstrap.css', 'css/**/*.css'],  // multiple source
-            dest: 'dist/css/'
+        html: {
+            src: 'src/html/pages/*.pug',
+            dest: 'dist/html'
         },
-        sass: {
-            src: 'sass/files/**/*.sass',
+        css: {
+            src: ['src/css/**/*.css', 'src/css/*.scss'],
             dest: 'dist/css/'
         },
         js: {
-            src: ['js/jquery-3.5.1.min.js', 'js/**/*.js'],
+            src: 'src/js/**/*.js',
             dest: 'dist/js/'
         },
-        html: {
-            src: 'index.html',
-            dest: 'dist/'
-        },
         fonts: {
-            src: 'fonts/**',
+            src: 'src/fonts/**',
             dest: 'dist/fonts/'
         },
         images: {
-            src: 'images/**',
+            src: 'src/images/**',
             dest: 'dist/images/'
         }
     };
@@ -630,59 +645,65 @@ function clean() {
     return del(['dist/**', '!dist']);
 }
 
-function css_fun() {
+function un_minified_css_task() {
     'use strict';
     return gulp.src(paths.css.src)
         .pipe(sourcemaps.init())
+        .pipe(autoprefixer())
+        .pipe(sass().on('error', sass.logError))
+        // .pipe(csso())
         .pipe(concat('style.css'))
-        .pipe(autoprefixer('last 2 versions'))
-        .pipe(csso({
-            restructure: true,
-            sourceMap: true,
-            debug: true
-        }))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(paths.css.dest));
 }
 
-function sass_fun() {
+function minified_css_task() {
     'use strict';
-    return gulp.src(paths.sass.src)
+    return gulp.src(paths.css.src)
         .pipe(sourcemaps.init())
-        .pipe(concat('main.sass'))
-        .pipe(sass({ outputStyle: 'compressed' }))
-        .pipe(autoprefixer('last 2 versions'))
+        .pipe(autoprefixer())
+        .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+        .pipe(concat('style.min.css'))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(paths.sass.dest));
+        .pipe(gulp.dest(paths.css.dest));
 }
 
-function html_fun() {
+function html_task() {
     'use strict';
+    require('./server.js');
     return gulp.src(paths.html.src)
-        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(pug({ pretty: true }))
         .pipe(gulp.dest(paths.html.dest));
 }
 
-function fonts_fun() {
+function fonts_task() {
     'use strict';
     return gulp.src(paths.fonts.src)
         .pipe(gulp.dest(paths.fonts.dest));
 }
 
-function javascript_fun() {
+function un_minified_javascript_task() {
     'use strict';
     return gulp.src(paths.js.src)
         .pipe(sourcemaps.init())
-        .pipe(babel({
-            presets: ['@babel/env']
-        }))
+        .pipe(babel({ presets: ['@babel/env'] }))
         .pipe(concat('script.js'))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(paths.js.dest));
+}
+
+function minified_javascript_task() {
+    'use strict';
+    return gulp.src(paths.js.src)
+        .pipe(sourcemaps.init())
+        .pipe(babel({ presets: ['@babel/env'] }))
+        .pipe(concat('script.min.js'))
         .pipe(uglify())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(paths.js.dest));
 }
 
-function images_fun() {
+function images_task() {
     'use strict';
     return gulp.src(paths.images.src)
         .pipe(gulp.dest(paths.images.dest));
@@ -690,28 +711,39 @@ function images_fun() {
 
 function watch_fun() {
     'use strict';
-    gulp.watch(paths.js.src, javascript_fun);
-    gulp.watch(paths.css.src, css_fun);
-    gulp.watch(paths.sass.src, sass_fun);
-    gulp.watch(paths.html.src, html_fun);
-    gulp.watch(paths.fonts.src, fonts_fun);
-    gulp.watch(paths.images.src, images_fun);
+    gulp.watch(paths.html.src, html_task);
+    gulp.watch(paths.css.src, un_minified_css_task);
+    gulp.watch(paths.css.src, minified_css_task);
+    gulp.watch(paths.js.src, un_minified_javascript_task);
+    gulp.watch(paths.js.src, minified_javascript_task);
+    gulp.watch(paths.fonts.src, fonts_task);
+    gulp.watch(paths.images.src, images_task);
 }
 
 
-exports.default = gulp.series(clean, html_fun, css_fun, javascript_fun, sass_fun, fonts_fun, images_fun, gulp.parallel(watch_fun));
+exports.default = gulp.series(
+    clean,
+    html_task,
+    un_minified_css_task,
+    minified_css_task,
+    un_minified_javascript_task,
+    minified_javascript_task,
+    fonts_task,
+    images_task,
+    gulp.parallel(watch_fun)
+);
 ```
 
-## `package.json`
+## `package.js`
 
 ```js
 {
-  "name": "",
-  "version": "2.0.0",
-  "description": "use gulp to automate and update file as it's very big",
+  "name": "ultimate-frontend",
+  "version": "1.0.0",
+  "description": "project structure for start design multiped pages",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -727,23 +759,26 @@ exports.default = gulp.series(clean, html_fun, css_fun, javascript_fun, sass_fun
   },
   "homepage": "",
   "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^4.0.1",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^8.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "gulp-zip": "^5.1.0",
-    "jest": "^27.2.3",
-    "sass": "^1.42.1"
-  }
+    "sass": "^1.43.2",
+    "static-server": "^2.2.1"
+  },
+  "browserslist": [
+    "> 2%",
+    "last 2 versions",
+    "IE 10"
+  ]
 }
-
 ```
