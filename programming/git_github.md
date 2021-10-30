@@ -605,7 +605,7 @@ git mv old_name.html new_name.html
 
 ## Jest JS
 
-- <https://github.com/sapegin/jest-cheat-sheet>
+- [x] <https://github.com/sapegin/jest-cheat-sheet>
 
 ### Gulp
 
@@ -615,46 +615,27 @@ git mv old_name.html new_name.html
 
 ### Frontend Development
 
+- [x] <https://github.com/thedaviddias/Resources-Front-End-Beginner>
 - [x] <https://github.com/dypsilon/frontend-dev-bookmarks>
 - [x] <https://github.com/qazbnm456/awesome-web-security>
 - [x] <https://github.com/FallibleInc/security-guide-for-developers>
-- <https://github.com/phodal/fe>
-- <https://github.com/thedaviddias/Front-End-Design-Checklist>
-- <https://github.com/andrew--r/frontend-case-studies>
-- <https://github.com/moklick/frontend-stuff>
-- <https://github.com/kdeldycke/awesome-falsehood>
-- <https://github.com/LeCoupa/awesome-cheatsheets>
-- <https://github.com/sindresorhus/awesome-npm>
-- <https://github.com/awesome-css-group/awesome-css>
-- <https://github.com/goabstract/Awesome-Design-Tools>
-- <https://github.com/micromata/awesome-css-learning>
-- <https://github.com/JingwenTian/awesome-frontend>
-- <https://github.com/thedaviddias/Resources-Front-End-Beginner>
-- <https://github.com/aniftyco/awesome-tailwindcss>
-- <https://github.com/nas5w/100-days-of-code-frontend>
-- <https://github.com/windiest/Front-end-tutorial>
+- [x] <https://github.com/thedaviddias/Front-End-Design-Checklist>
+- ~~<https://github.com/andrew--r/frontend-case-studies>~~
+- [x] <https://github.com/moklick/frontend-stuff>
+- ~~<https://github.com/kdeldycke/awesome-falsehood>~~
+- [x] <https://github.com/LeCoupa/awesome-cheatsheets>
+- ~~<https://github.com/sindresorhus/awesome-npm>~~
+- ~~<https://github.com/awesome-css-group/awesome-css>~~
+- ~~<https://github.com/goabstract/Awesome-Design-Tools>~~
+- ~~<https://github.com/micromata/awesome-css-learning>~~
+- ~~<https://github.com/aniftyco/awesome-tailwindcss>~~
+- ~~<https://github.com/nas5w/100-days-of-code-frontend>~~
 - <https://github.com/sindresorhus/promise-fun>
 - <https://andreasbm.github.io/web-skills/>
-- <https://github.com/neiesc/awesome-minimalist>
 - <https://github.com/aloisdg/awesome-regex>
-- <https://github.com/dustinspecker/awesome-eslint>
-- <https://github.com/styfle/awesome-online-ide>
-- <https://github.com/stackshareio/awesome-stacks>
-- <https://github.com/diegocard/awesome-html5>
-- <https://github.com/ripienaar/free-for-dev>
-- <https://github.com/moklick/frontend-stuff>
-- <https://github.com/agarrharr/awesome-static-website-services>
-- <https://github.com/LeCoupa/awesome-bootstrappers>
-- <https://css-tricks.com/extremely-handy-nth-child-recipes-sass-mixins/> search for more about nth
-- <https://www.digitaldesignjournal.com/particle-backgrounds-css/>
-- <https://www.digitaldesignjournal.com/border-animation-css/>
-- <https://duckduckgo.com/?t=ffab&q=Responsive+Mega+menu+with+logo&atb=v281-1&ia=web>
-
-- <https://www.jotform.com/widgets/category/photo>
-- <https://freefrontend.com/css-sliders/>
-- <https://www.codingnepalweb.com/>
-- <https://www.digitaldesignjournal.com/>
-- <https://www.iamrohit.in/#>
+- ~~<https://github.com/neiesc/awesome-minimalist>~~
+- ~~<https://github.com/dustinspecker/awesome-eslint>~~
+- ~~<https://github.com/ripienaar/free-for-dev>~~
 
 ### Hacking
 
