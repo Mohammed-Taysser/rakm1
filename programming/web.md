@@ -6,6 +6,102 @@
 - [css](https://cssreference.io/)
 - [css guide lines](https://cssguidelin.es/)
 
+## Inspiration & Parts
+
+- <https://freefrontend.com/>
+- <https://webcodeflow.com/>
+- <https://jquerypluginsfree.com/>
+- <https://vanillalist.top/>
+- <https://plainjs.com/>
+- <https://bashooka.com/>
+- <https://www.codingnepalweb.com/>
+- <https://www.iamrohit.in/#>
+
+## Best Plugins
+
+### slider & carousel
+
+- <https://glidejs.com/>                                slider and carousel
+- <https://splidejs.com/>                               slider and carousel
+- <https://flickity.metafizzy.co/options.html>          slider and carousel
+- <https://github.com/NickPiscitelli/Glider.js>         slider and carousel
+
+### Other
+
+- <https://yiotis.net/filterizr/#/>                     filter
+- <https://isotope.metafizzy.co/>                       Filter & sort
+
+- <https://simonwep.github.io/pickr/>                   Color-Picker
+- <https://tarekraafat.github.io/autoComplete.js/#/>    input autoComplete
+- <https://github.com/ApoorvSaxena/lozad.js>            lazy load
+- <https://github.com/Grsmto/simplebar>                 change browser scroll
+- <https://timeago.org/>                                date-time formate
+- <https://github.com/flatpickr/flatpickr>              javascript datetime picker
+- <https://kamranahmed.info/driver.js/>                 user guide
+- <https://imask.js.org/>                               input mask
+- <https://nosir.github.io/cleave.js/>                  Format your `<input/>`
+- <https://michalsnik.github.io/aos/>                   Animate On Scroll
+- <https://drublic.github.io/css-modal/>                model pure CSS
+- <https://github.com/woadudakand/pureScriptSelect>     select elements
+- <https://sa-si-dev.github.io/virtual-select>          select elements
+- <https://bmsvieira.github.io/BVSelect-VanillaJS/>     select elements
+- <https://intl-tel-input.com/>                         International Telephone Input
+- <https://www.chartjs.org/docs/latest/>                create charts
+- <http://fian.my.id/Waves/>                            wave effect
+- <https://pryley.github.io/star-rating.js/>            star-rating
+- <https://sparticlesjs.dev/>                           particles
+
+  ```json
+  {
+    "composition":"source-over",
+    "count":15,
+    "speed":3.4,
+    "parallax":9.3,
+    "direction":130,
+    "xVariance":4.4,
+    "yVariance":18.6,
+    "rotate":true,
+    "rotation":1.5,
+    "alphaSpeed":10,
+    "alphaVariance":1,
+    "minAlpha":0,
+    "maxAlpha":1,
+    "minSize":10,
+    "maxSize":30,
+    "style":"both",
+    "bounce":false,
+    "drift":15.9,
+    "glow":16,
+    "twinkle":false,
+    "color":["random"],
+    "shape":"random",
+    "imageUrl":""
+  }
+  ```
+
+- <https://inorganik.github.io/countUp.js/>
+- <https://georapbox.github.io/shuffle-letters/>        shuffle text
+- <http://imagehover.io/>                               Pure CSS Image Hover Effect Library
+- <https://victordiego.com/lightbox/>                   popup
+- <https://github.com/tigrr/circle-progress>            Circle Progress
+- <https://pqina.nl/filepond/#multi-file-code>          Upload anything, from anywhere
+- <https://github.com/sbstjn/timesheet.js>              create HTML time sheets
+- <https://github.com/rstacruz/nprogress>               like youtube progressbar (ajax request)
+
+### Video & Audio
+
+- <https://plyr.io/>                                    A simple, accessible media player
+- <https://www.mediaelementjs.com/>                     A dependable HTML media framework
+- <https://github.com/goldfire/howler.js>               audio library for the modern web
+
+### Button Hover
+
+- <https://github.com/IanLunn/Hover>
+
+## UX
+
+- make hint for scroll like header angle scroll for any scroll part
+
 ## before buy
 
 see [web archive](https://web.archive.org) for more details
@@ -43,6 +139,7 @@ Localhost://3000
 - <https://thenounproject.com/>
 - <https://www.flaticon.com/>
 - <https://flaticons.net/>
+- <https://fontisto.com/icons>
 - <https://www.freepik.com/>
 - <https://vector.me/>
 - <https://icons8.com/>
@@ -55,18 +152,16 @@ Localhost://3000
 - <https://dribbble.com/>
 - <https://undraw.co/> illustrations
 - <https://www.toptal.com/designers/subtlepatterns/>  pattern
+- <https://github.com/atlemo/SubtlePatterns>          pattern
+- <https://bansal.io/pattern-css>
 
-## library
+## Useful
 
-- [chartjs](https://www.chartjs.org/docs/latest/)
-- [flexdatalist](http://projects.sergiodinislopes.pt/flexdatalist/)
-- [metafizzy](https://isotope.metafizzy.co/)
-- [flickity](https://flickity.metafizzy.co/options.html)
-- <https://mervick.github.io/emojionearea/>
+- <https://syntaxdb.com/>
 
-## code pen
+## making doc
 
-- [enricotoniato](https://codepen.io/enricotoniato/)
+- <https://docusaurus.io>
 
 ## Share website
 
@@ -85,34 +180,16 @@ Localhost://3000
 - [jenkins](https://www.jenkins.io/)
 - [travis ci](https://travis-ci.com/)
 
-## css frameworks
+## JS Start
 
-- <https://materializecss.com/>    `---> perfect`
-- <https://getuikit.com/>
-- <https://get.foundation/>
-- <https://semantic-ui.com/>
-- <https://getbootstrap.com/>
 - <https://jstherightway.org/>
-- tailwindcss
-- <https://bulma.io>
 
 ## search
 
-- bootstrap tour
-- A Simple Searchable Select Dropdown Plugin
 - Checkboxes Multi-Select with Shift and Ctrl/Cmd Keys | Shift-Select
 - local storage in js
-- blockquote style
-- cpanels,directadmin, plesk
-- [https://github.com/ml-tooling/best-of-web-python](https://github.com/ml-tooling/best-of-web-python)
-- [https://awesome-python.com/](https://awesome-python.com/)
+- <https://nullilac.github.io/skeleton-screen-css/>     animation while loading content
 - <https://kodhus.com/framework/components/view/autocomplete-suggestion>
-- <https://kodhus.com/framework/components/view/accordion>
-- <https://kodhus.com/framework/components/view/vertical-timeline-v2>
-- <https://kodhus.com/framework/components/view/hover-reveal-button>
-- <https://kodhus.com/framework/components/view/placeholder-template>
-- <https://kodhus.com/framework/components/view/reveal-on-scroll>
-- <https://kodhus.com/framework/components/view/typewritter>
 
 ## html page to design
 
@@ -120,6 +197,7 @@ Localhost://3000
 - [https://hugeinc.github.io/styleguide/](https://hugeinc.github.io/styleguide/)
 - [http://styleguides.io/](http://styleguides.io/)
 - [https://marvelapp.com/styleguide/overview/introduction](https://marvelapp.com/styleguide/overview/introduction)
+- <https://inkline.io/>
 - [https://runescape.wiki/w/RuneScape:Style_guide/Competitions](https://runescape.wiki/w/RuneScape:Style_guide/Competitions)
 - [https://opentrack.run/style-guide.html](https://opentrack.run/style-guide.html)
 - [https://worldskills.org/brand/resources/style-guide/](https://worldskills.org/brand/resources/style-guide/)
@@ -131,25 +209,18 @@ Localhost://3000
 - [https://programmingdimension.wordpress.com/2015/04/30/seekg-tellg-seekp-tellp/](https://programmingdimension.wordpress.com/2015/04/30/seekg-tellg-seekp-tellp/)
 - [self-documenting-javascript](https://www.sitepoint.com/self-documenting-javascript/)
 - [https://www.hubspot.com/careers/product-engineering](https://www.hubspot.com/careers/product-engineering)
+- <https://github.com/tabler/tabler>
 
-## Learning and Practicing SQL: Resources and Platforms
+## User Warn from console
 
-- [https://sqlbolt.com/](https://sqlbolt.com/)
-- [https://sqlzoo.net/](https://sqlzoo.net/)
-- [https://www.codecademy.com/learn/learn-sql](https://www.codecademy.com/learn/learn-sql)
-- [https://www.w3schools.com/sql/](https://www.w3schools.com/sql/)
-- [https://www.hackerrank.com/domains/sql](https://www.hackerrank.com/domains/sql)
-- [https://www.windowfunctions.com/](https://www.windowfunctions.com/)
-- [https://selectstarsql.com/](https://selectstarsql.com/)
-- [https://quip.com/2gwZArKuWk7W](https://quip.com/2gwZArKuWk7W)
-- [https://leetcode.com/problemset/database/](https://leetcode.com/problemset/database/)
-- [http://thedatamonk.com/](http://thedatamonk.com/)
+from <https://academy.hsoub.com/>
 
-## print in console
+This is a browser feature intended for developers. Do not paste any code here given to you by someone else. It may compromise your account or have other negative side effects.
 
-from [hsoub](https://academy.hsoub.com/)
+## github
 
-    This is a browser feature intended for developers. Do not paste any code here given to you by someone else. It may compromise your account or have other negative side effects.
+- <https://github.com/collections/machine-learning>
+- <https://github.com/collections/open-data>
 
 ## test website before deploy
 
@@ -190,6 +261,7 @@ from [hsoub](https://academy.hsoub.com/)
   - [observatory.mozilla](https://observatory.mozilla.org/)
   - [validator checklink](https://validator.w3.org/checklink)
   - <https://webaim.org/resources/evalquickref/>
+  - <https://github.com/GoogleChrome/lighthouse>
 - speed
   - [developers pages peed](https://developers.google.com/speed/pagespeed/insights/)
   - [tools.pingdom](https://tools.pingdom.com/)
@@ -200,113 +272,62 @@ from [hsoub](https://academy.hsoub.com/)
   - <https://cards-dev.twitter.com/validator> Card validator
 - search preview
   - <https://app.sistrix.com/en/serp-snippet-generator>
+  - <https://cssstats.com/>
 - favicon
   - <https://www.favicon-generator.org/> just check it
   - <https://realfavicongenerator.net/>
 
 ## API
 
-- [breaking bad api](https://www.breakingbadapi.com/documentation)
-- [random user](https://randomuser.me/)
-- [picsum.photos](https://picsum.photos/)
+- <https://www.breakingbadapi.com/documentation>
+- <https://randomuser.me/>
+- <https://picsum.photos/>
 - <https://reqres.in/>
 - <https://ipapi.co/>
 - <https://quotes.rest/>
 - <https://www.quotes.net/quotes_api.php>
 - <https://rapidapi.com/collection/quote-generator-apis>
 
-## animation plugin
+## convert any image into a pure css image
 
-- [snarl](https://hoxxep.github.io/snarl/) for notification need js
-- [wave](http://fian.my.id/Waves/) for wave effect on button click need js
-- [css-ripple](https://github.com/mladenplavsic/css-ripple-effect) for wave effect on button click no js
-- [popup](https://github.com/tedshd/popup_view) create popup with propagation need js
-- [start  js](https://pryley.github.io/star-rating.js/) make star for product need js
-- [bubbles](https://bmsvieira.github.io/BVAmbient/) make bubbles or objects need js
-- [sparticlesjs](https://sparticlesjs.dev/)
-- [starback](https://zuramai.github.io/starback.js/)
-- <https://inorganik.github.io/countUp.js/>
-- <https://gabrielfins.github.io/ripple-effect/>
-- <https://github.com/leobrn/SlideBlock/blob/master/app/js/slideBlock.js>
-- <https://luncheon.github.io/ripplet.js/demo/>
-- <https://animejs.com/>
-- <https://georapbox.github.io/shuffle-letters/>
-- <https://simonwep.github.io/selection/>
-- <https://webcodeflow.com/number-counter-rollup/>
-- <https://fancyapps.com/>
-- <http://imagehover.io/>
-- <https://victordiego.com/lightbox/> popup
-- <https://github.com/tigrr/circle-progress>
-- <https://ianlunn.github.io/Hover/>
-- <https://pqina.nl/filepond/#multi-file-code>
-- <https://nullilac.github.io/skeleton-screen-css/>    # animation while loading content
-- <https://edumigueis.github.io/Annimay/>              # button animation on hover
-
-## form plugin
-
-- <https://beholdr.github.io/maska/>
-- <https://lcweb.it/lc-select-javascript-plugin>
-- <https://tarekraafat.github.io/autoComplete.js/>
-- <https://select2.org/getting-started/basic-usage>
-- <https://github.com/luverolla/js-select>
-- <https://yaireo.github.io/tagify/>
-- <https://github.com/johndatserakis/file-upload-with-preview>
-- <https://alphagov.github.io/accessible-autocomplete/examples/>
-- <https://github.com/freakazoid41/pickle_complete>
-- <https://github.com/Denglo/bs5-autocomplete-vanillaJS>
-- <https://getbutterfly.com/tail-select/>
-- <https://github.com/lekoala/bootstrap5-tags>
-- <https://github.com/sidneywm/iconic-multiselect>
-- <https://github.com/woadudakand/pureScriptSelect>
-- <https://sa-si-dev.github.io/virtual-select>                  # vanilla js
-- <https://webcodeflow.com/style-select-dropdown/>
-- <https://bmsvieira.github.io/BVSelect-VanillaJS/>             # simple
-- <https://intl-tel-input.com/>
-- <https://momentjs.com/>
-- <https://nishantk02.github.io/SimpleDropit/demo/>
-
-## animate-on-scroll
-
-- <https://webcodeflow.com/animate-on-scroll-scrollrisen/>
-- <https://webcodeflow.com/on-scroll-animation-effect/>
-- <https://webcodeflow.com/smooth-scroll-lax/>
-- <https://bnthor.github.io/animon-site/ # great>
-- <https://johnsonfash.github.io/onscroll-animation/website.html>
-- <https://prjct-samwest.github.io/scrollCue/>
-- <https://stacksagar.github.io/effect-js/#getStarted>
-- <https://scrollmotion.neoflow.ch/demo.html>
-
-## other plugin
-
-- <https://ckeditor.com/docs/ckeditor5/latest/builds/guides/quick-start.html>
+- <https://javier.xyz/img2css/>
 
 ## colors & gradient
 
 - <https://coolors.co/>
+- <https://randoma11y.com/>
 - <https://webgradients.com/>
 - <https://uigradients.com/#Reef>
+- <https://components.ai/gradient/>
 
-## shadow
+## svg generator
 
-- box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+- <https://components.ai/svg-grid/>
+- <https://components.ai/delaunay/>
 
-## angled edges
+## Frontend Design tips
 
-- <https://angled-edges-generator.josephfus.co/>
+- <https://medium.com/nextux/design-better-forms-96fadca0f49c>
+- <https://medium.com/eightshapes-llc/buttons-in-design-systems-eac3acf7e23>
+- <https://medium.com/nextux/design-better-input-fields-3d02985a8e24>
+- <https://uxplanet.org/button-ux-design-best-practices-types-and-states-647cf4ae0fc6>
 
-## dividor
+## Backend Development
 
-- -------------------- O --------------------
+- <https://github.com/shieldfy/API-Security-Checklist>
+- <https://github.com/djstein/modern-django>
+- <https://github.com/wsvincent/awesome-django>
+- <https://github.com/ismaxim/awesome-backend>
 
-# best practices
+### Learning and Practicing SQL: Resources and Platforms
 
-```html
-<!-- don't-->
-<img src="image.png" alt="Image description"/>
-
-<!-- do-->
-<figure>
-  <img src="image.png" alt="Image description"/>
-  <figcaption>Image caption</figcaption>
-</figure>
-```
+- [https://sqlbolt.com/](https://sqlbolt.com/)
+- [https://sqlzoo.net/](https://sqlzoo.net/)
+- [https://www.codecademy.com/learn/learn-sql](https://www.codecademy.com/learn/learn-sql)
+- [https://www.w3schools.com/sql/](https://www.w3schools.com/sql/)
+- [https://www.hackerrank.com/domains/sql](https://www.hackerrank.com/domains/sql)
+- [https://www.windowfunctions.com/](https://www.windowfunctions.com/)
+- [https://selectstarsql.com/](https://selectstarsql.com/)
+- [https://quip.com/2gwZArKuWk7W](https://quip.com/2gwZArKuWk7W)
+- [https://leetcode.com/problemset/database/](https://leetcode.com/problemset/database/)
+- [http://thedatamonk.com/](http://thedatamonk.com/)
