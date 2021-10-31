@@ -1096,3 +1096,9 @@ def like_or_unlike(request, id):
 
     return redirect(reverse('details', kwargs = {'id':current_product.id}))
 ```
+
+## links
+
+- <https://pytutorial.com/django-translate-app>
+- <https://www.youtube.com/watch?v=Y4-nPg_wJtc&list=PLgCYzUzKIBE9KUJZJUmnDFYQfVyXYjX6r&index=3>
+- <https://www.youtube.com/results?search_query=chat+app+using+django+>
