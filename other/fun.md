@@ -2,11 +2,11 @@
 
 ## manga
 
-- [solo levelling](https://teamxmanga.com/ek8fy3/)
-- [peerless dad](https://teamxmanga.com/xuvxj5h/)
-- [Demonic Emperor](https://teamxmanga.com/rxzvzjs/)
-- [Release That Witch](https://teamxmanga.com/5jnlhj/)
-- [I’m An Evil God](https://mangastarz.com/manga/im-an-evil-god/191/)
+- [solo levelling](https://teamxmanga.com/8zgnbf/)
+- [peerless dad](https://teamxmanga.com/bwiaqhz/)
+- [Demonic Emperor](https://teamxmanga.com/ufdmvf/)
+- [Release That Witch](https://teamxmanga.com/d6xz7dj/)
+- [I’m An Evil God](https://mangaswat.com/evil-197/1050329/)
 - [Otherworldly Evil Monarch](https://teamxmanga.com/r47k1z/)
 - [Murim Login](https://mangaswat.com/murim-login-ch-76/997184/)
 - [Nano Machine](https://mangaswat.com/nano-machine-66-free/875985/)
@@ -14,7 +14,7 @@
 - [overgeared](https://teamxmanga.com/qbw1l8/)
 - [Kill The Hero](https://teamxmanga.com/w4ylqe5/)
 - [cultivator against hero society](https://teamxmanga.com/lgk7b3/)
-- [SSS-Class Suicide Hunter](https://teamxmanga.com/t3lc21f/)
+- [SSS-Class Suicide Hunter](https://teamxmanga.com/74vnex/)
 - [the-god-of-death](https://mangastarz.com/manga/the-god-of-death/87/)
 - [dungeon-reset](https://mangastarz.com/manga/dungeon-reset/87/)
 - [Solo Max-Level Newbie](https://teamxmanga.com/izrnfz/)
@@ -26,6 +26,15 @@
 - [world-of-warcraft-swordmaster 58](https://mangastarz.com/manga/world-of-warcraft-swordmaster/58/)
 - [son-of-spirit-venearavle 33](https://mangastarz.com/manga/son-of-spirit-venearavle/33/)
 - [__trashed 45](https://mangastarz.com/manga/__trashed-21/45/)
+- [i-am-an-invincible-genius](https://mangaswat.com/i-am-an-invincible-genius-89/834327/)
+- [anti-16](https://mangaswat.com/anti-16/192224/)
+- [martial-arts-reigns-ch274](https://mangaswat.com/martial-arts-reigns-ch274/1033733/)
+- [I Have A Shanzhai](https://teamxmanga.com/ROGzcOh/)
+- [The legendary Mechanic](https://teamxmanga.com/cymjoas/)
+- [Library of Heaven’s Path](https://teamxmanga.com/5j6vc5/)
+- [Ranker Who Lives A Second Time](https://teamxmanga.com/4ya76f/)
+- [Fighting spirit mainland](https://teamxmanga.com/tl3gxk/)
+- [I’m Not The Overlord](https://teamxmanga.com/fwnh7j/)
 
 ## anime
 
@@ -70,10 +79,11 @@
 - [High-Rise Invasion](https://www.faselhd.pro/?p=119075)
 - [Genjitsu Shugi Yuusha no Oukoku Saikenki](https://www.faselhd.pro/?p=134289)
 - [Shingeki no Kyojin (Attack on Titan)](https://www.faselhd.pro/?p=115789)
+- [Golden Kamuy](https://www.faselhd.pro/?p=108523)
+- [Mushoku Tensei: Isekai Ittara Honki Dasu Season 2](https://www.faselhd.pro/?p=136039)
 
 ## website
 
 - [https://mangaswat.com/](https://mangaswat.com/)
 - [https://teamxmanga.com](https://teamxmanga.com)
-- [https://mangastarz.com](https://mangastarz.com)
 - [https://www.cima-club.cc:2096/c14](https://www.cima-club.cc:2096/c14)
