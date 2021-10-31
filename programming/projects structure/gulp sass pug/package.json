@@ -34,11 +34,18 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.43.2",
-    "static-server": "^2.2.1"
+    "static-server": "^2.2.1",
+    "eslint": "^8.0.1"
   },
   "browserslist": [
     "> 2%",
     "last 2 versions",
     "IE 10"
-  ]
+  ],
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
 }
