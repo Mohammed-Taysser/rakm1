@@ -17,13 +17,19 @@ dev/
 └── aro.test.js
 ```
 
-## initialize
+## install
 
-    npm init
+```shell
+npm i jest --save-dev
+# or
+yarn add --dev jest
+```
 
-## install jest
+## Generate a basic configuration file
 
-    npm i jest --save-dev
+```shell
+npm init
+```
 
 ## run tests
 
@@ -39,18 +45,15 @@ dev/
 
     describe('description', function)
 
-on `index.js`
+on `sum.js`
 
 ```javascript
-/* global module */
-
 const powerfulSum = (...numbers) => numbers.reduce((previous, current) => previous + current, 0);
 
 module.exports = powerfulSum;
-
 ```
 
-on `index.test.js`
+on `sum.test.js`
 
 ```javascript
 /* global test expect require describe */
@@ -64,7 +67,16 @@ describe('sum numbers', () => {
  });
 
 });
+```
 
+add to `package.json`
+
+```json
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
 ```
 
 ## focus on test or describe
