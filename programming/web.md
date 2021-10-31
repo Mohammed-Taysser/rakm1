@@ -101,6 +101,8 @@
 ## UX
 
 - make hint for scroll like header angle scroll for any scroll part
+- add icons in form
+- use validation in user form input with message in error
 
 ## before buy
 
