@@ -39,6 +39,7 @@
 - <https://github.com/flatpickr/flatpickr>              javascript datetime picker
 - <https://kamranahmed.info/driver.js/>                 user guide
 - <https://imask.js.org/>                               input mask
+- <https://github.com/validatorjs/validator.js>         validator
 - <https://nosir.github.io/cleave.js/>                  Format your `<input/>`
 - <https://michalsnik.github.io/aos/>                   Animate On Scroll
 - <https://drublic.github.io/css-modal/>                model pure CSS
@@ -50,6 +51,7 @@
 - <http://fian.my.id/Waves/>                            wave effect
 - <https://pryley.github.io/star-rating.js/>            star-rating
 - <https://sparticlesjs.dev/>                           particles
+- <https://shepherdjs.dev/>                             guiding user
 
   ```json
   {
@@ -138,6 +140,7 @@ Localhost://3000
 ## icons & illustrations
 
 - <https://feathericons.com/>     # downloadable
+- <https://boxicons.com/>         # downloadable
 - <https://thenounproject.com/>
 - <https://www.flaticon.com/>
 - <https://flaticons.net/>
@@ -145,7 +148,6 @@ Localhost://3000
 - <https://www.freepik.com/>
 - <https://vector.me/>
 - <https://icons8.com/>
-- <https://boxicons.com/>
 - <https://primer.style/octicons/>
 - <https://icons.getbootstrap.com/>
 - <https://fontawesome.com/v5.15/icons?d=gallery&m=free>
