@@ -513,6 +513,58 @@ function WelcomeDialog() {
 }
 ```
 
+## Accessibility
+
+### `WAI-ARIA`
+
+`all aria-*` HTML attributes are fully supported in JSX. Whereas most DOM properties and attributes in React are camelCased, these attributes should be hyphen-cased
+
+```js
+<input
+  type="text" value={inputValue} name="name"
+  aria-label={labelText}  aria-required="true"  onChange={onchangeHandler}
+/>
+```
+
+### Semantic HTML
+
+use React `Fragments` to group together multiple elements.
+
+```js
+function Glossary(props) {
+  return (
+    <dl> {
+        props.items.map(item => (
+        // Fragments should also have a `key` prop when mapping collections
+        <Fragment key={item.id}>          <dt>{item.term}</dt>
+          <dd>{item.description}</dd>
+        </Fragment>      ))
+        }
+    </dl>
+  );
+}
+```
+
+When you don’t need any props on the `Fragment` tag you can use the short syntax
+
+```js
+<>      
+  <dt>{item.term}</dt>
+  <dd>{item.description}</dd>
+</>
+```
+
+### Labeling
+
+Every HTML form control, such as `<input>` and `<textarea>`, needs to be labeled accessibly. We need to provide descriptive labels that are also exposed to screen readers.
+
+Although these standard HTML practices can be directly used in React, note that the for attribute is written as htmlFor in JSX:
+
+```js
+<label htmlFor="namedInput">Name:</label>
+<input id="namedInput" type="text" name="name"/>
+```
+
 - onClick
 - onDoubleClick
 - onMouseMove

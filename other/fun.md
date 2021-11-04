@@ -35,6 +35,8 @@
 - [Ranker Who Lives A Second Time](https://teamxmanga.com/4ya76f/)
 - [Fighting spirit mainland](https://teamxmanga.com/tl3gxk/)
 - [I’m Not The Overlord](https://teamxmanga.com/fwnh7j/)
+- [Survive on a Deserted Island with Beautiful Girls](https://teamxmanga.com/gokwtyu/)
+- [Dungeons & Artifacts](https://teamxmanga.com/cbqh1c4/)
 
 ## anime
 
