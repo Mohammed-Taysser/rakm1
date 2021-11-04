@@ -1144,6 +1144,51 @@ Promise.all([promise_1, promise_2]).then((result) => {
 
 ## fetch
 
+### simple
+
+```js
+fetch(url, options).then(function(response) {
+  // handle HTTP response
+}, function(error) {
+  // handle network error
+})
+```
+
+### complex
+
+```js
+fetch(url, {
+  method: "POST", // default `GET`
+  body: JSON.stringify(data),
+  headers: {    // default {}
+    "Content-Type": "application/json"
+  },
+  credentials: "same-origin"    
+    // default omit  - don't include authentication credentials (e.g. cookies) in the request
+    // "same-origin" - include credentials in requests to the same site
+    // "include"     - include credentials in requests to all sites
+}).then(function(response) {
+  response.status     //=> number 100–599
+  response.statusText //=> String
+  response.headers    //=> Headers
+  response.url        //=> String
+
+  if (response.ok) {  //  True if status is HTTP 2xx
+    return response
+  } else {
+    var error = new Error(response.statusText)
+    error.response = response
+    throw error
+  }
+
+  return response.text()
+}, function(error) {
+  error.message //=> String
+})
+```
+
+### fetch example
+
 ```js
 fetch('https://api.github.com/users/Mohammed-Taysser/repos').then((result) => {
         let repos = result.json();
