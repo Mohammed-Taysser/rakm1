@@ -10,6 +10,10 @@
 - [ ] [Linux Command Prompt](https://www.youtube.com/playlist?list=PLgb1QHu0tFi347FoIEFUmOUR-zAYbFAfl)
 - [ ] ~~[Kali Linux - Complete Training Program from Scratch](https://www.youtube.com/playlist?list=PLnjNR4-S-EVqfJWovxEJyb7I0IOkKkoYM)~~
 - [ ] ~~[CompTIA Network+](https://www.youtube.com/playlist?list=PLCIJjtzQPZJ8mAprx9w_kOH_zOkF34Pot)~~
+- [ ] [Try REACTJS Tutorial Series](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQbwYDx1zgcKJ4tzyWFaESK)
+- [ ] [دورة تعلم react.js](https://www.youtube.com/playlist?list=PLfDx4cQoUNObRCqeYOws_JK_CCGCmQv_l)
+- [ ] [React Hooks](https://www.youtube.com/playlist?list=PLfDx4cQoUNOZ5-WwSSWYLp0kC8xxE46YG)
+- [ ] [React Context API](https://www.youtube.com/playlist?list=PLfDx4cQoUNOYjmdzQPMPqV8a_Cjwr6VUu)
 
 ## google drive
 
