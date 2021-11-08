@@ -10,10 +10,19 @@
 - [ ] [Linux Command Prompt](https://www.youtube.com/playlist?list=PLgb1QHu0tFi347FoIEFUmOUR-zAYbFAfl)
 - [ ] ~~[Kali Linux - Complete Training Program from Scratch](https://www.youtube.com/playlist?list=PLnjNR4-S-EVqfJWovxEJyb7I0IOkKkoYM)~~
 - [ ] ~~[CompTIA Network+](https://www.youtube.com/playlist?list=PLCIJjtzQPZJ8mAprx9w_kOH_zOkF34Pot)~~
-- [ ] [Try REACTJS Tutorial Series](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQbwYDx1zgcKJ4tzyWFaESK)
-- [ ] [دورة تعلم react.js](https://www.youtube.com/playlist?list=PLfDx4cQoUNObRCqeYOws_JK_CCGCmQv_l)
-- [ ] [React Hooks](https://www.youtube.com/playlist?list=PLfDx4cQoUNOZ5-WwSSWYLp0kC8xxE46YG)
-- [ ] [React Context API](https://www.youtube.com/playlist?list=PLfDx4cQoUNOYjmdzQPMPqV8a_Cjwr6VUu)
+- [x] [Try REACTJS Tutorial Series](https://www.youtube.com/playlist?list=PLEsfXFp6DpzQbwYDx1zgcKJ4tzyWFaESK)
+- [x] [دورة تعلم react.js](https://www.youtube.com/playlist?list=PLfDx4cQoUNObRCqeYOws_JK_CCGCmQv_l)
+- [x] [React Hooks](https://www.youtube.com/playlist?list=PLfDx4cQoUNOZ5-WwSSWYLp0kC8xxE46YG)
+- [x] [React Context API](https://www.youtube.com/playlist?list=PLfDx4cQoUNOYjmdzQPMPqV8a_Cjwr6VUu)
+- [ ] [ReactJS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
+- [ ] [React Hooks Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A)
+- [ ] [React Redux Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK)
+- [ ] [Practical React](https://www.youtube.com/playlist?list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM)
+- [ ] [React Formik Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiPmFbtzEWjESkqBVDbdgGu)
+- [ ] [React Storybook Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwhC-j3x3t9la8-GQJGViDQk)
+- [ ] [React Render Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwg7czgqpQIBEAHn8D6l530t)
+- [ ] [React Table Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgWTSrDiwmUsl4ZvipOw9Cz)
+- [ ] [React Query Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2)
 
 ## google drive
 
