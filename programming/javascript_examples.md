@@ -350,6 +350,17 @@ function RGBToHex (r, g, b) {
 RGBToHex(255, 165, 1); // 'ffa501'
 ```
 
+## Convert rgb color to hex
+
+```js
+const rgbToHex = (red, green, blue) => `#${((1 << 24) + (red << 16) + (green << 8) + blue).toString(16).slice(1)}`;
+
+// Or
+const rgbToHex = (red, green, blue) => `#${[red, green, blue].map((v) => v.toString(16).padStart(2, '0')).join('')}`;
+
+rgbToHex(0, 255, 255); // '#00ffff'
+```
+
 ## hexToRGB
 
 ```js
@@ -375,6 +386,20 @@ function hexToRGB (hex) {
 hexToRGB('#27ae60ff'); // 'rgba(39, 174, 96, 255)'
 hexToRGB('27ae60'); // 'rgb(39, 174, 96)'
 hexToRGB('#fff'); // 'rgb(255, 255, 255)'
+```
+
+## Convert hex to rgb
+
+```js
+const hexToRgb = (hex) =>
+    hex
+        .replace(/^#?([a-f\d])([a-f\d])([a-f\d])$/i, (_, r, g, b) => `#${r}${r}${g}${g}${b}${b}`)
+        .substring(1)
+        .match(/.{2}/g)
+        .map((x) => parseInt(x, 16));
+
+hexToRgb('#00ffff'); // [0, 255, 255]
+hexToRgb('#0ff'); // [0, 255, 255]
 ```
 
 ## formatSeconds
@@ -898,4 +923,111 @@ const xor = (a, b) => !(!a && !b) && !(a && b);
 
 // Or
 const xor = (a, b) => Boolean(!a ^ !b);
+```
+
+# misc
+
+## Clear all cookies
+
+```js
+const clearCookies = () => document.cookie.split(';').forEach((c) => (document.cookie = c.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date().toUTCString()};path=/`)));
+```
+
+## Convert 3 digits color to 6 digits color
+
+```js
+const toFullHexColor = (color) =>
+    `#${(color.startsWith('#') ? color.slice(1) : color)
+        .split('')
+        .map((c) => `${c}${c}`)
+        .join('')}`;
+
+toFullHexColor('123'); // '#112233'
+toFullHexColor('#123'); // '#112233'
+toFullHexColor('#abc'); // '#aabbcc'
+```
+
+## Convert Celsius to Fahrenheit
+
+```js
+const celsiusToFahrenheit = (celsius) => (celsius * 9) / 5 + 32;
+```
+
+## Convert Fahrenheit to Celsius
+
+```js
+const fahrenheitToCelsius = (fahrenheit) => ((fahrenheit - 32) * 5) / 9;
+
+fahrenheitToCelsius(59); // 15
+fahrenheitToCelsius(32); // 0
+```
+
+## Convert cookie to object
+
+```js
+const cookies = document.cookie
+    .split(';')
+    .map((item) => item.split('='))
+    .reduce((acc, [k, v]) => (acc[k.trim().replace('"', '')] = v) && acc, {});
+```
+
+## Convert URL parameters to object
+
+```js
+const getUrlParams = (query) => Array.from(new URLSearchParams(query)).reduce((p, [k, v]) => Object.assign({}, p, { [k]: p[k] ? (Array.isArray(p[k]) ? p[k] : [p[k]]).concat(v) : v }), {});
+
+
+getUrlParams(location.search); // Get the parameters of the current URL
+getUrlParams('foo=Foo&bar=Bar'); // { foo: "Foo", bar: "Bar" }
+
+// Duplicate key
+getUrlParams('foo=Foo&foo=Fuzz&bar=Bar'); // { foo: ["Foo", "Fuzz"], bar: "Bar" }
+```
+
+## Detect dark mode
+
+```js
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+```
+
+## Get type of a variable in string
+
+```js
+const getTypeOf = (obj) => Object.prototype.toString.call(obj).match(/\[object (.*)\]/)[1];
+
+
+getTypeOf('hello world'); // String
+getTypeOf(1000); // Number
+getTypeOf(Infinity); // Number
+getTypeOf(true); // Boolean
+getTypeOf(Symbol()); // Symbol
+getTypeOf(null); // Null
+getTypeOf(undefined); // Undefined
+getTypeOf({}); // Object
+getTypeOf([]); // Array
+getTypeOf(/[a-z]/g); // RegExp
+getTypeOf(new Date(2021)); // Date
+getTypeOf(new Error()); // Error
+getTypeOf(function () {}); // Function
+getTypeOf((a, b) => a + b); // Function
+getTypeOf(async () => {}); // AsyncFunction
+getTypeOf(document); // HTMLDocument
+```
+
+## Swap two variables
+
+```js
+[a, b] = [b, a];
+
+// Or
+a = [b, (b = a)][0];
+
+// Or
+a = ((x) => x)(b, (b = a));
+
+// Or
+// (only works with numbers)
+a = b + ((b = a), 0);
+
+a = b * ((b = a), 1);
 ```
