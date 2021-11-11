@@ -810,6 +810,20 @@ const yesterday = ((d) => new Date(d.setDate(d.getDate() - 1)))(new Date());
 const yesterday = new Date(new Date().valueOf() - 1000 * 60 * 60 * 24);
 ```
 
+## Check if a date is between two dates
+
+```js
+// `min`, `max` and `date` are `Date` instances
+const isBetween = (date, min, max) => date.getTime() >= min.getTime() && date.getTime() <= max.getTime();
+```
+
+## Check if a date is today
+
+```js
+// `date` is a Date object
+const isToday = (date) => date.toISOString().slice(0, 10) === new Date().toISOString().slice(0, 10);
+```
+
 # JS DOM
 
 ## Check if an element is a descendant of another
@@ -1030,4 +1044,165 @@ a = ((x) => x)(b, (b = a));
 a = b + ((b = a), 0);
 
 a = b * ((b = a), 1);
+```
+
+## Check if a given integer is a prime number
+
+```js
+const isPrime = (n) =>
+    n > 1 &&
+    Array(Math.floor(Math.sqrt(n)) - 1)
+        .fill(0)
+        .map((_, i) => i + 2)
+        .every((i) => n % i !== 0);
+```
+
+## Check if a number is negative
+
+```js
+const isNegative = (n) => Math.sign(n) === -1;
+
+// Or
+const isNegative = (n) => n < 0;
+```
+
+## Check if a number is positive
+
+```js
+const isPositive = (n) => Math.sign(n) === 1;
+```
+
+## Check if a number is odd
+
+```js
+const isOdd = (n) => n % 2 !== 0;
+
+// Or
+const isOdd = (n) => !!(n & 1);
+
+// Or
+const isOdd = (n) => !Number.isInteger(n / 2);
+```
+
+# Random
+
+## Generate a random boolean
+
+```js
+const randomBoolean = () => Math.random() >= 0.5;
+```
+
+## Generate a random floating point number in given range
+
+```js
+const randomFloat = (min, max) => Math.random() * (max - min) + min;
+```
+
+## Generate a random integer in given range
+
+```js
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+```
+
+## Generate a random hex color
+
+```js
+const randomColor = () => `#${Math.random().toString(16).slice(2, 8).padEnd(6, '0')}`;
+
+// Or
+const randomColor = () => `#${(~~(Math.random() * (1 << 24))).toString(16)}`;
+```
+
+## Generate an array of random integers in a given range
+
+```js
+randomArrayInRange(1, 100, 10); // [11, 82, 41, 35, 76, 83, 43, 15, 60, 54]
+```
+
+## Get a random item from an array
+
+```js
+const randomItem = (arr) => arr[(Math.random() * arr.length) | 0];
+```
+
+## Get random items of an array
+
+```js
+const randomItems = (arr, count) => arr.concat().reduce((p, _, __, arr) => (p[0] < count ? [p[0] + 1, p[1].concat(arr.splice((Math.random() * arr.length) | 0, 1))] : p), [0, []])[1];
+
+
+randomItems([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3); // [4, 8, 5]
+randomItems(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'], 4); // ['e', 'c', 'h', 'j']
+```
+
+# String
+
+## Convert a letter to associate emoji
+
+```js
+const letterToEmoji = (c) => String.fromCodePoint(c.toLowerCase().charCodeAt(0) + 127365);
+
+
+letterToEmoji('a'); // 🇦
+letterToEmoji('b'); // 🇧
+```
+
+## Convert a string to URL slug
+
+```js
+const slugify = (str) =>
+    str
+        .toLowerCase()
+        .replace(/\s+/g, '-')
+        .replace(/[^\w-]+/g, '');
+
+
+slugify('Chapter One: Once upon a time...'); // 'chapter-one-once-upon-a-time'
+```
+
+## Count the number of words in a string
+
+```js
+const countWords = (str) => str.trim().split(/\s+/).length;
+
+
+countWords('Hello World'); // 2
+countWords('Hello    World'); // 2
+countWords('  Hello  World  '); // 2
+```
+
+## Get the number of a character in a string
+
+```js
+const characterCount = (str, char) => str.split(char).length - 1;
+
+// Or
+const characterCount = (str, char) => str.replace(new RegExp(String.raw`[^${char}]`, 'g'), '').length;
+
+
+characterCount('192.168.1.1', '.'); // 3
+characterCount('star wars', 's'); // 2
+```
+
+## Reverse a string
+
+```js
+const reverse = (str) => str.split('').reverse().join('');
+
+// Or
+const reverse = (str) => [...str].reverse().join('');
+
+// Or
+const reverse = (str) => str.split('').reduce((rev, char) => `${char}${rev}`, '');
+
+// Or
+const reverse = (str) => (str === '' ? '' : `${reverse(str.substr(1))}${str.charAt(0)}`);
+```
+
+## Truncate a string at full words
+
+```js
+const truncate = (str, max, suffix) => (str.length < max ? str : `${str.substr(0, str.substr(0, max - suffix.length).lastIndexOf(' '))}${suffix}`);
+
+truncate('This is a long message', 20, '...'); // 'This is a long...'
 ```
