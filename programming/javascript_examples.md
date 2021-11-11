@@ -1,6 +1,10 @@
 
 # js examples
 
+## resources
+
+- <https://1loc.dev/>
+
 ## save on locale storage
 
 ```html
@@ -334,4 +338,377 @@ $('.section-input-effect input.effect').focusout(function () {
         $(this).removeClass('has-content');
     }
 });
+```
+
+## RGBToHex
+
+```js
+function RGBToHex (r, g, b) {
+  return ((r << 16) + (g << 8) + b).toString(16).padStart(6, '0');
+}
+
+RGBToHex(255, 165, 1); // 'ffa501'
+```
+
+## hexToRGB
+
+```js
+function hexToRGB (hex) {
+  let alpha = false, h = hex.slice(hex.startsWith('#') ? 1 : 0);
+  if (h.length === 3) h = [...h].map(x => x + x).join('');
+  else if (h.length === 8) alpha = true;
+  h = parseInt(h, 16);
+  return (
+    'rgb' +
+    (alpha ? 'a' : '') +
+    '(' +
+    (h >>> (alpha ? 24 : 16)) +
+    ', ' +
+    ((h & (alpha ? 0x00ff0000 : 0x00ff00)) >>> (alpha ? 16 : 8)) +
+    ', ' +
+    ((h & (alpha ? 0x0000ff00 : 0x0000ff)) >>> (alpha ? 8 : 0)) +
+    (alpha ? `, ${h & 0x000000ff}` : '') +
+    ')'
+  );
+};
+
+hexToRGB('#27ae60ff'); // 'rgba(39, 174, 96, 255)'
+hexToRGB('27ae60'); // 'rgb(39, 174, 96)'
+hexToRGB('#fff'); // 'rgb(255, 255, 255)'
+```
+
+## formatSeconds
+
+```js
+const formatSeconds = s => {
+  const [hour, minute, second, sign] =
+    s > 0
+      ? [s / 3600, (s / 60) % 60, s % 60, '']
+      : [-s / 3600, (-s / 60) % 60, -s % 60, '-'];
+
+  return (
+    sign +
+    [hour, minute, second]
+      .map(v => `${Math.floor(v)}`.padStart(2, '0'))
+      .join(':')
+  );
+};
+
+formatSeconds(200); // '00:03:20'
+formatSeconds(-200); // '-00:03:20'
+formatSeconds(99999); // '27:46:39'
+```
+
+## copyToClipboard
+
+```js
+const copyToClipboard = str => {
+  const el = document.createElement('textarea');
+  el.value = str;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  document.body.removeChild(el);
+};
+```
+
+## Create your own query selector shorthand
+
+```js
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+
+const mainContent = $('.main-content');
+const externalLinks = $$('a[target="_blank"]');
+```
+
+## scrollToTop
+
+```js
+const scrollToTop = () => {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, c - c / 8);
+  }
+};
+
+scrollToTop(); // Smooth-scrolls to the top of the page
+```
+
+## smoothScroll
+
+```js
+const smoothScroll = element =>
+  document.querySelector(element).scrollIntoView({
+    behavior: 'smooth'
+  });
+
+smoothScroll('#fooBar'); // scrolls smoothly to the element with the id fooBar
+smoothScroll('.fooBar');
+// scrolls smoothly to the first element with a class of fooBar
+```
+
+## formatDuration
+
+```js
+const formatDuration = ms => {
+  if (ms < 0) ms = -ms;
+  const time = {
+    day: Math.floor(ms / 86400000),
+    hour: Math.floor(ms / 3600000) % 24,
+    minute: Math.floor(ms / 60000) % 60,
+    second: Math.floor(ms / 1000) % 60,
+    millisecond: Math.floor(ms) % 1000
+  };
+  return Object.entries(time)
+    .filter(val => val[1] !== 0)
+    .map(([key, val]) => `${val} ${key}${val !== 1 ? 's' : ''}`)
+    .join(', ');
+};
+
+formatDuration(1001); // '1 second, 1 millisecond'
+formatDuration(34325055574);
+// '397 days, 6 hours, 44 minutes, 15 seconds, 574 milliseconds'
+```
+
+# Array
+
+## shuffle array
+
+```js
+const shuffle = ([...arr]) => {
+  let m = arr.length;
+  while (m) {
+    const i = Math.floor(Math.random() * m--);
+    [arr[m], arr[i]] = [arr[i], arr[m]];
+  }
+  return arr;
+};
+
+// or
+const shuffle = (arr) =>
+    arr
+        .map((a) => ({ sort: Math.random(), value: a }))
+        .sort((a, b) => a.sort - b.sort)
+        .map((a) => a.value);
+
+// Or
+const shuffle = (arr) => arr.sort(() => 0.5 - Math.random());
+
+
+shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // [9, 1, 10, 6, 8, 5, 2, 3, 7, 4]
+```
+
+## Sort an array of numbers
+
+```js
+const sort = (arr) => arr.sort((a, b) => a - b);
+
+sort([1, 5, 2, 4, 3]); // [1, 2, 3, 4, 5]
+```
+
+## Check if an array is empty
+
+```js
+const isEmpty = (arr) => !Array.isArray(arr) || arr.length === 0;
+
+isEmpty([]); // true
+isEmpty([1, 2, 3]); // false
+```
+
+## Clone an array
+
+```js
+const clone = (arr) => arr.slice(0);
+
+// Or
+const clone = (arr) => [...arr];
+
+// Or
+const clone = (arr) => Array.from(arr);
+
+// Or
+const clone = (arr) => arr.map((x) => x);
+
+// Or
+const clone = (arr) => JSON.parse(JSON.stringify(arr));
+
+// Or
+const clone = (arr) => arr.concat([]);
+```
+
+## Convert an array of strings to numbers
+
+```js
+const toNumbers = (arr) => arr.map(Number);
+
+// Or
+const toNumbers = (arr) => arr.map((x) => +x);
+
+toNumbers(['2', '3', '4']); // [2, 3, 4]
+```
+
+## Count the occurrences of a value in an array
+
+```js
+const countOccurrences = (arr, val) => arr.reduce((a, v) => (v === val ? a + 1 : a), 0);
+
+// Or
+const countOccurrences = (arr, val) => arr.filter((item) => item === val).length;
+
+countOccurrences([2, 1, 3, 3, 2, 3], 2); // 2
+countOccurrences(['a', 'b', 'a', 'c', 'a', 'b'], 'a'); // 3
+```
+
+## Count the occurrences of array elements
+
+```js
+const countOccurrences = (arr) => arr.reduce((prev, curr) => ((prev[curr] = ++prev[curr] || 1), prev), {});
+
+countOccurrences([2, 1, 3, 3, 2, 3]); // { '1': 1, '2': 2, '3': 3 }
+countOccurrences(['a', 'b', 'a', 'c', 'a', 'b']); // { 'a': 3, 'b': 2, 'c': 1 }
+```
+
+## Create an array of numbers in the given range
+
+```js
+const range = (min, max) => [...Array(max - min + 1).keys()].map((i) => i + min);
+
+// Or
+const range = (min, max) =>
+    Array(max - min + 1)
+        .fill(0)
+        .map((_, i) => min + i);
+
+// Or
+const range = (min, max) => Array.from({ length: max - min + 1 }, (_, i) => min + i);
+
+range(5, 10); // [5, 6, 7, 8, 9, 10]
+```
+
+## Generate an array of alphabet characters
+
+```js
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+
+// Or
+const alphabet = [...'abcdefghijklmnopqrstuvwxyz'];
+
+// Or
+const alphabet = Array(26)
+    .fill(0)
+    .map((_, i) => String.fromCharCode(i + 97));
+
+// Or
+const alphabet = [...Array(26).keys()].map((i) => String.fromCharCode(i + 97));
+
+// Or
+const alphabet = [...Array(26)].map((_, i) => (i + 10).toString(36));
+
+// Or
+const alphabet = String.fromCharCode(
+    ...' '
+        .repeat(26)
+        .split('')
+        .map((_, i) => i + 97)
+).split('');
+```
+
+## Get indices of a value in an array
+
+```js
+const indices = (arr, value) => arr.reduce((acc, v, i) => (v === value ? [...acc, i] : acc), []);
+
+// Or
+const indices = (arr, value) => arr.map((v, i) => (v === value ? i : false)).filter(Boolean);
+
+indices(['h', 'e', 'l', 'l', 'o'], 'l'); // [2, 3]
+indices(['h', 'e', 'l', 'l', 'o'], 'w'); // []
+```
+
+## Get the average of an array
+
+```js
+const average = (arr) => arr.reduce((a, b) => a + b, 0) / arr.length;
+```
+
+## Flatten an array
+
+```js
+const flat = (arr) =>
+    [].concat.apply(
+        [],
+        arr.map((a) => (Array.isArray(a) ? flat(a) : a))
+    );
+
+// Or
+const flat = (arr) => arr.reduce((a, b) => (Array.isArray(b) ? [...a, ...flat(b)] : [...a, b]), []);
+
+// Or
+// See the browser compatibility at https://caniuse.com/#feat=array-flat
+const flat = (arr) => arr.flat();
+```
+
+## Get the intersection of arrays
+
+```js
+const getIntersection = (a, ...arr) => [...new Set(a)].filter((v) => arr.every((b) => b.includes(v)));
+
+getIntersection([1, 2, 3], [2, 3, 4, 5]); // [2, 3]
+getIntersection([1, 2, 3], [2, 3, 4, 5], [1, 3, 5]); // [3]
+```
+
+## Get union of arrays
+
+```js
+const union = (...arr) => [...new Set(arr.flat())];
+```
+
+## Get the sum of an array of numbers
+
+```js
+const sum = (arr) => arr.reduce((a, b) => a + b, 0);
+```
+
+## Get the unique values of an array
+
+```js
+const unique = (arr) => [...new Set(arr)];
+
+// Or
+const unique = (arr) => arr.filter((el, i, array) => array.indexOf(el) === i);
+
+// Or
+const unique = (arr) => arr.reduce((acc, el) => (acc.includes(el) ? acc : [...acc, el]), []);
+```
+
+## Merge two arrays
+
+```js
+// Merge but don't remove the duplications
+const merge = (a, b) => a.concat(b);
+// Or
+const merge = (a, b) => [...a, ...b];
+
+// Merge and remove the duplications
+const merge = (a, b) => [...new Set(a.concat(b))];
+// Or
+const merge = (a, b) => [...new Set([...a, ...b])];
+```
+
+## Remove duplicate values in an array
+
+```js
+const removeDuplicate = (arr) => arr.filter((i) => arr.indexOf(i) === arr.lastIndexOf(i));
+
+removeDuplicate(['h', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']); //  ['h', 'e', 'w', 'r', 'd']
+```
+
+# Date
+
+## Calculate the number of difference days between two dates
+
+```js
+const diffDays = (date, otherDate) => Math.ceil(Math.abs(date - otherDate) / (1000 * 60 * 60 * 24));
 ```
