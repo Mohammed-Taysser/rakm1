@@ -784,3 +784,118 @@ const yesterday = ((d) => new Date(d.setDate(d.getDate() - 1)))(new Date());
 // Or
 const yesterday = new Date(new Date().valueOf() - 1000 * 60 * 60 * 24);
 ```
+
+# JS DOM
+
+## Check if an element is a descendant of another
+
+```js
+const isDescendant = (child, parent) => parent.contains(child);
+```
+
+## Check if the touch events are supported
+
+```js
+const touchSupported = () => 'ontouchstart' in window || (window.DocumentTouch && document instanceof window.DocumentTouch);
+```
+
+## Check if user scrolls to the bottom of the page
+
+```js
+const isAtBottom = () => document.documentElement.clientHeight + window.scrollY >= document.documentElement.scrollHeight;
+```
+
+## Detect Internet Explorer browser 🥲
+
+```js
+const isIE = !!document.documentMode;
+```
+
+## Detect macOS browser 🤑
+
+```js
+const isMacBrowser = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+```
+
+## Get all siblings of an element
+
+```js
+const siblings = (ele) => [].slice.call(ele.parentNode.children).filter((child) => child !== ele);
+```
+
+## Get the position of an element relative to the document
+
+```js
+const getPosition = (ele) => ((r = ele.getBoundingClientRect()), { left: r.left + window.scrollX, top: r.top + window.scrollY });
+
+getPosition(document.body); // { left: 0, top: 0 }
+```
+
+## Get the selected text
+
+```js
+const getSelectedText = () => window.getSelection().toString();
+```
+
+## Insert given HTML after an element
+
+```js
+const insertHtmlAfter = (html, ele) => ele.insertAdjacentHTML('afterend', html);
+```
+
+## Insert given HTML before an element
+
+```js
+const insertHtmlBefore = (html, ele) => ele.insertAdjacentHTML('beforebegin', html);
+```
+
+## Redirect to another page
+
+```js
+const goTo = (url) => (location.href = url);
+```
+
+## Reload the current page
+
+```js
+const reload = () => location.reload();
+
+// Or
+const reload = () => (location.href = location.href);
+```
+
+## Toggle an element
+
+```js
+const toggle = (ele) => (ele.style.display = ele.style.display === 'none' ? 'block' : 'none');
+
+// Or
+const toggle = (ele) => (ele.hidden = !ele.hidden);
+```
+
+# Function
+
+## Execute a function once
+
+```js
+const once = (fn) =>
+    (
+        (ran = false) =>
+        () =>
+            ran ? fn : ((ran = !ran), (fn = fn()))
+    )();
+```
+
+## Logical xor operator
+
+```js
+// returns `true` if one of the arguments is truthy and the other is falsy
+
+const xor = (a, b) => (a && !b) || (!a && b);
+
+// Or
+const xor = (a, b) => !(!a && !b) && !(a && b);
+
+// Or
+const xor = (a, b) => Boolean(!a ^ !b);
+```
