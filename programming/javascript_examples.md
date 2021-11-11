@@ -711,4 +711,76 @@ removeDuplicate(['h', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd']); //  ['h', '
 
 ```js
 const diffDays = (date, otherDate) => Math.ceil(Math.abs(date - otherDate) / (1000 * 60 * 60 * 24));
+
+diffDays(new Date('2014-12-19'), new Date('2020-01-01')); // 1839
+```
+
+## Calculate the number of months between two dates
+
+```js
+const monthDiff = (startDate, endDate) => Math.max(0, (endDate.getFullYear() - startDate.getFullYear()) * 12 - startDate.getMonth() + endDate.getMonth());
+
+monthDiff(new Date('2020-01-01'), new Date('2021-01-01')); // 12
+```
+
+## Convert a date to `YYYY-MM-DD` format
+
+```js
+// `date` is a `Date` object
+const formatYmd = (date) => date.toISOString().slice(0, 10);
+
+formatYmd(new Date()); // 2020-05-06
+```
+
+## Convert seconds `to hh:mm:ss` format
+
+```js
+// `s` is number of seconds
+const formatSeconds = (s) => new Date(s * 1000).toISOString().substr(11, 8);
+
+// Or
+const formatSeconds = (s) => new Date(s * 1000).toUTCString().match(/(\d\d:\d\d:\d\d)/)[0];
+
+// Or
+const formatSeconds = (s) => [parseInt(s / 60 / 60), parseInt((s / 60) % 60), parseInt(s % 60)].join(':').replace(/\b(\d)\b/g, '0$1');
+
+formatSeconds(200); // 00:03:20
+formatSeconds(500); // 00:08:20
+```
+
+## Extract year, month, day, hour, minute, second and millisecond from a date
+
+```js
+// `date` is a `Date` object
+const extract = (date) =>
+    date
+        .toISOString()
+        .split(/[^0-9]/)
+        .slice(0, -1);
+
+// `extract` is an array of [year, month, day, hour, minute, second, millisecond]
+```
+
+## Get the current quarter of a date
+
+```js
+const getQuarter = (d = new Date()) => Math.ceil((d.getMonth() + 1) / 3);
+```
+
+## Get the tomorrow date
+
+```js
+const tomorrow = ((d) => new Date(d.setDate(d.getDate() + 1)))(new Date());
+
+// Or
+const tomorrow = new Date(new Date().valueOf() + 1000 * 60 * 60 * 24);
+```
+
+## Get the yesterday date
+
+```js
+const yesterday = ((d) => new Date(d.setDate(d.getDate() - 1)))(new Date());
+
+// Or
+const yesterday = new Date(new Date().valueOf() - 1000 * 60 * 60 * 24);
 ```
