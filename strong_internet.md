@@ -14,15 +14,22 @@
 - [x] [دورة تعلم react.js](https://www.youtube.com/playlist?list=PLfDx4cQoUNObRCqeYOws_JK_CCGCmQv_l)
 - [x] [React Hooks](https://www.youtube.com/playlist?list=PLfDx4cQoUNOZ5-WwSSWYLp0kC8xxE46YG)
 - [x] [React Context API](https://www.youtube.com/playlist?list=PLfDx4cQoUNOYjmdzQPMPqV8a_Cjwr6VUu)
-- [ ] [ReactJS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
-- [ ] [React Hooks Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A)
-- [ ] [React Redux Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK)
-- [ ] [Practical React](https://www.youtube.com/playlist?list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM)
-- [ ] [React Formik Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiPmFbtzEWjESkqBVDbdgGu)
-- [ ] [React Storybook Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwhC-j3x3t9la8-GQJGViDQk)
-- [ ] [React Render Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwg7czgqpQIBEAHn8D6l530t)
-- [ ] [React Table Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgWTSrDiwmUsl4ZvipOw9Cz)
-- [ ] [React Query Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2)
+- [x] [React Hooks Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A)
+- [x] [React Redux Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK)
+- [x] [Practical React](https://www.youtube.com/playlist?list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM)
+- [x] [React Formik Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiPmFbtzEWjESkqBVDbdgGu)
+- [x] [React Storybook Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwhC-j3x3t9la8-GQJGViDQk)
+- [x] [React Render Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwg7czgqpQIBEAHn8D6l530t)
+- [x] [React Table Tutorial](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgWTSrDiwmUsl4ZvipOw9Cz)
+- [x] [React Query Tutorial for Beginners](https://www.youtube.com/playlist?list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2)
+- [x]  [Chrome Developer Tools Crash Course](https://www.youtube.com/watch?v=x4q86IjJFag&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=32)
+- [ ]  ~~[SOLID Principles](https://www.youtube.com/watch?v=Rqh8p3k7M00&list=PLfDx4cQoUNOZz7d8Pk5Mhv-7gh_ofegbG&index=1)~~
+- [ ]  ~~[Algorithms & Data Structures](https://www.youtube.com/watch?v=owCqVRbZlbg&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&index=1)~~
+- [ ]  ~~[Postman](https://www.youtube.com/watch?v=yVhnLWixxQ4&list=PLbw0NwfOlr_xCz2JYvjTPp_JcpWXLBRpa)~~
+- [ ]  ~~[Docker](https://www.youtube.com/watch?v=dTZZ-4PibHg&list=PLdYYj2XLw5Bmx7lN1flO4eXGGyieUkfBa)~~
+- [ ]  ~~[Software Development Process](https://www.youtube.com/watch?v=KxG4t_0dmzw)
+- [ ]  ~~[Agile & Scrum Introduction](https://www.youtube.com/watch?v=82gV6yXmVng&list=PLvQqAypn5_zqhuJr0j77a2RCuef6qmRYf&index=1)~~
+- [ ]  ~~[Software Development Methodologies](https://www.youtube.com/watch?v=NptJt63mO1s&list=PLsUhBXmTwOwMwi7ulqNuS9Sh6hSpXb-Ki&index=1)~~
 
 ## google drive
 

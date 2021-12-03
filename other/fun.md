@@ -67,6 +67,7 @@
 - [The Eternal Supreme 42](https://mangaswat.com/the-eternal-supreme-41-2/1105661/)
 - [The Lord’s Coins Aren’t Decreasing ?!](https://mangaswat.com/the-lords-coins-arent-decreasing-6/1108934/)
 - [The Max Level Hero has Returned! 71](https://mangaswat.com/the-max-level-hero-has-returned-71/1110661/)
+- [the strong man From The Mental Hospital 28](https://mangaswat.com/the-strong-man-28/1111788/)
 
 ## anime
 

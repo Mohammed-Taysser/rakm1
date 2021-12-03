@@ -1,8 +1,57 @@
+https://www.cssscript.com/ | Free JavaScript / CSS / CSS3 - CSS Script
+https://codepen.io/brenden/pen/VLjKMQ | Pure CSS Fullscreen Navigation Menu
+https://codepen.io/ainalem/pen/LJYRxz | Flippin' burgers
+https://codepen.io/designcouch/pen/hyFAD | Drawn Hamburger Transition
+https://codepen.io/plavookac/pen/qomrMw | PURE CSS SIDEBAR TOGGLE MENU
+https://codepen.io/ainalem/pen/PoYvggj | Hamburger
+https://codepen.io/ahmedhrayyan/pen/EremLG | Creative Hamburger Menu ?
+https://codepen.io/marcbizal/pen/YXEmyQ | Fullscreen Navigation
+https://codepen.io/ainalem/pen/wvKOEMV | Hamburger Menu
+https://codepen.io/pranjal9599/pen/yJRNoL | Hamburger Icon
+https://www.digitaldesignjournal.com/ | Digital Design Journal - Web Design & Development Magazine
+https://www.cssscript.com/demo/cool-radial-toggle-menu-with-gooey-effect/ | Gooey Menu Demo
+https://codepen.io/maheshambure21/full/KgyKBZ | Responsive Mega menu with logo
+https://codepen.io/melnik909/full/JpJPYp | Mobile Menu Animation
+https://codyhouse.co/demo/rounded-animated-navigation/index.html | Rounded Animated Navigation | CodyHouse
+https://codepen.io/Naito/full/pgyOVm | Star Wars Menu Icon
+https://codepen.io/creme/full/KGPrmV | Uber-like Navigation
+https://codepen.io/3lv3n_snip3r/full/QbEvYg | Mobile Navigation Menu
+https://codepen.io/akselkreis/full/EPazad | Another 'burger
+https://www.cssscript.com/demo/pure-css-css3-morphing-drawer-menu/ | CSS Only Morphing Drawer Menu
+https://www.cssscript.com/demo/tilted-navigation-clip-path/ | Tilted Sliding Navigation Example
+https://codepen.io/mtorosian/full/EgbXaZ | Sexy Flexy Mega Menu
+https://codepen.io/Kirbaba/full/YyJJxZ | Toggle Menu
+https://codepen.io/mikel301292/full/dMYRYZ | SVG Gooey Hover Menu Concept
+https://codepen.io/alcoven/full/JdoWdx | Atomic Hamburger Menu CSS
+https://codepen.io/hexagoncircle/full/dJMERy | Flipping Menu Toggle
+https://www.berriart.com/sidr/ | Sidr | Berriart
+https://codepen.io/jasperlachance/full/yOJdRr | Colourful Flower Popup Menu
+https://codepen.io/tonyooi/full/PPbNrj | Social Media Slide Out Menu
+https://codepen.io/Twikito/full/zGdqVO | UI with UX improvements with only CSS
+https://codepen.io/tonkec/full/XXgdoo | Pure CSS hamburger icons transition
+https://codepen.io/PavelLaptev/full/XXJJWa | SVG popup with gsap js
+https://codepen.io/PavelLaptev/full/XXJJWa | SVG popup with gsap js
+https://codepen.io/phenax/full/zvVdgr | 3D Offcanvas Menu
+https://codepen.io/sarath-ar/full/jLZWyd | Hamburger Open Animation
+https://codepen.io/jlnljn/full/LkXoBb | Burger Menu - Full CSS / No JS
+https://codepen.io/trhino/full/ujHan/ | Canvas Navigation
+https://codepen.io/GeoxCodes/full/rrabLK | CSS Menu Concept #2 - #codepenchallenge
+https://tympanus.net/Tutorials/YouTubeLeftSideMenu/ | Simple YouTube Menu Effect
+https://codepen.io/woodwoerk/full/BoEGYZ | Expanding Burger/Menu Icon
+https://codepen.io/codyhouse/full/jqomk | Full Page Intro & Navigation
+https://codepen.io/erikrahm/full/tFnwo | Burgers & Sliders
+https://codepen.io/maheshambure21/full/KgyKBZ | Responsive Mega menu with logo
+https://codepen.io/Rabrennie/full/WogNvV | CSS Only Expanding Menu
+https://codepen.io/jonwilcox/full/WygLby | Expanding and Collapsing Hamburger Menu
+https://codepen.io/lbebber/full/LELBEo | Gooey Menu
+https://codepen.io/dicson/full/waKPgQ | Menu Button
+https://codepen.io/RobinBertilsson/full/EPaLmo | Navigation Toggle Effect
+https://codepen.io/derekmorash/full/VeWYXG/ | CSS(SASS) Hamburger Menu Animation
+
 https://www.youtube.com/results?search_query=Jest+course | Jest course - YouTube
 https://dev.to/dstrekelj/how-to-write-unit-tests-in-javascript-with-jest-2e83 | How to write unit tests in JavaScript with Jest - DEV Community
 https://www.sitepoint.com/good-front-end-architecture/ | A Good Front-End Architecture - SitePoint
 https://duckduckgo.com/?t=ffab&q=best+frontend+plugins&atb=v281-1&ia=web | best frontend plugins at DuckDuckGo
-http://getbem.com/naming/ | BEM — Block Element Modifier
 https://webcodeflow.com/category/menu-plugins/ | Menu Plugins Archives - Web Code Flow
 https://webcodeflow.com/wizard-style-multistep-plugin/ | A Wizard-Style Plugin With a Series of Customizable Steps | MultiStep
 https://duckduckgo.com/?t=ffab&q=deploy+react+app+to+github&atb=v281-1&ia=web | deploy react app to github at DuckDuckGo
@@ -17,7 +66,6 @@ https://www.youtube.com/watch?v=dXExABKuLGs | Front-end Projects | افكار م
 https://www.youtube.com/results?search_query=react+course | react course - YouTube
 https://www.smashingmagazine.com/2016/06/improving-ux-for-color-blind-users/ | Accessibility: Improving The UX For Color-Blind Users — Smashing Magazine
 https://www.youtube.com/results?search_query=%D9%83%D9%88%D8%B1%D8%B3+react | كورس react - YouTube
-https://www.youtube.com/watch?v=7NHdULFkAIQ&list=PL1FWK-sgJ9el-axKTMU_1l5PEyv7tn-wk&index=41 | 040 - ReactJS بالعربية - Http Ajax Requests - Create UsersForm Component - YouTube
 https://www.youtube.com/c/UniqueCoderzAcademy/playlists | Unique Coderz Academy - YouTube
 https://www.youtube.com/watch?v=0QPfpkUdSPM&list=PLtFbQRDJ11kGvzwSDJlGX2ROuVpZaNuPl&index=3 | ( Advanced Definition ) CSS Sprites - YouTube
 https://duckduckgo.com/?t=ffab&q=best+frontend+plugins&atb=v281-1&ia=web | best frontend plugins at DuckDuckGo
@@ -67,17 +115,6 @@ https://www.bourbon.io/docs/latest/ | Bourbon - Documentation
 https://tutorialzine.com/articles?page=3 | Articles - Tutorialzine
 https://github.com/twbs/bootstrap/blob/main/dist/css/bootstrap.css | bootstrap/bootstrap.css at main · twbs/bootstrap
 https://webcodeflow.com/css-sliding-panel-pushy/ | Responsive Off-Canvas Navigation Menu Using CSS | Pushy
-https://codepen.io/mohmmedtaysser/pen/mdMeJOx | Only Test
-https://www.iamrohit.in/css-floating-button/ | 20+ CSS Floating Button Examples - iamrohit.in
-https://codepen.io/CSS3fx/pen/RNYaoE | Add Button
-https://www.jotform.com/widgets/category/photo | Photo Form Widgets | Jotform
-https://www.codingnepalweb.com/image-comparison-slider-javascript/ | Awesome Image Comparison Slider using HTML CSS & JavaScript
-https://freefrontend.com/css-sliders/ | 101 CSS Sliders
-https://semantic-ui.com/usage/theming.html | Theming | Semantic UI
-https://antonijasimic.bitbucket.io/text_hover_effects/documentation.html | Text Hover Effects | Documentation
-
-http://ar.awkafonline.com/?cat=20 | خطبة الجمعة | بوابة الأوقاف الإلكترونية
-https://duckduckgo.com/?q=inssider+ubuntu+install&t=ffab&atb=v281-1&ia=web | inssider ubuntu install at DuckDuckGo
 
 https://www.youtube.com/results?search_query=django+app | django app - YouTube
 https://www.youtube.com/c/DennisIvy/playlists | Dennis Ivy - YouTube
@@ -153,20 +190,6 @@ https://www.youtube.com/watch?v=_XQoh9BK_1g | ICS SCADA Hacking Demo with Simula
 https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As | Linux Command Line Tutorial For Beginners | Bash Terminal | Linux Terminal - YouTube
 
 https://www.netaawy.com/2021/07/best-sites-for-learning-fast-typing.html | أفضل مواقع تعلم الكتابة السريعة على الكيبورد باللغة العربية
-
-https://www.youtube.com/watch?v=mkL04h4pKzs | ليه نقرأ؟ ما دام فيه فيديوهات تلخيص للكتب!؟ - YouTube
-https://www.youtube.com/watch?v=e6zJaMxzciA | Data Structures - LinkedList (Arabic) - YouTube
-https://www.youtube.com/watch?v=YklnFXpq0ZE | Number Theory - Misc: Fib, GCD, LCM, Pow (Arabic) - YouTube
-https://www.youtube.com/watch?v=beSsSAUf-oc | You Can Learn Anything (30 sec) - YouTube
-https://courses.edx.org/dashboard | Dashboard | edX
-https://harmash.com/home/ | أفضل موقع عربي لتعلم البرمجة و الأنظمة و الشبكات مجاناً
-https://www.youtube.com/playlist?list=PLoS1tHBCtbIm28iZfb8orVxRQ3MxulZzi | Python 3.8 هياكل بيانات وخوارزميات - YouTube
-https://lingva.ml/en/ar/hack | Lingva Translate
-https://libretranslate.com/ | LibreTranslate - Free and Open Source Machine Translation API
-https://duckduckgo.com/?q=class+python+syntax&atb=v281-7__&ia=programming | class python syntax at DuckDuckGo
-https://overapi.com/ | OverAPI.com | Collecting all the cheat sheets
-https://frontendtools.com/ | Secure Connection Not Available
-https://gtmetrix.com/ | GTmetrix | Website Performance Testing and Monitoring
 
 https://www.youtube.com/watch?v=S4HSEbWPqlA | Top CSS & Javascript Animation & Hover Effects | August 2020 - YouTube
 https://duckduckgo.com/?q=app+on+obj&t=newext&atb=v256-5&ia=web | app on obj at DuckDuckGo
@@ -303,8 +326,6 @@ https://www.youtube.com/watch?v=lAJzlpPe7bA | نظره معمقه علي وظا�
 https://www.youtube.com/channel/UC7FFcZc90vE5FfR_dgA_dVg | Mahmoud Raouf - برمج بالعربي - YouTube
 https://www.youtube.com/channel/UC9ocsRoOwj9tkAQNfUt8ZJg | Python Arabic Community - YouTube
 https://www.youtube.com/channel/UCZtMEPGln_sbgd9_ioDDC9g | Mahmoud Ahmed - بايثون بالعربي - YouTube
-https://docs.djangoproject.com/en/dev/intro/tutorial01/ | Writing your first Django app, part 1 | Django documentation | Django
-https://www.djangoproject.com/start/ | Getting started with Django | Django
 https://learndjango.com/tutorials/database-design-tutorial-beginners | Database Design Tutorial for Beginners | LearnDjango.com
 https://guides.github.com/introduction/git-handbook/ | Git Handbook · GitHub Guides
 https://www.youtube.com/watch?v=UmljXZIypDc | Python Django Tutorial: Full-Featured Web App Part 1 - Getting Started - YouTube
@@ -415,48 +436,8 @@ https://duckduckgo.com/?t=ffab&q=django+template+tags&ia=web | django template t
 https://docs.djangoproject.com/en/3.2/topics/pagination/ | Pagination | Django documentation | Django
 https://duckduckgo.com/?t=ffab&q=class+based+views+django&ia=web | class based views django at DuckDuckGo
 
-https://www.youtube.com/playlist?list=PLJYBTsbldfv98tQGoFchRd-IwsjLM3efz | AskDeveloper Podcast - YouTube
-https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages | About GitHub Pages - GitHub Docs
-https://pytutorial.com/django-translate-app | Django Translator | Building a Translator app Step by Step
-https://duckduckgo.com/?q=waht+is+home+patition+that+create+in+ubuntu+install&t=newext&atb=v256-1&ia=web | waht is home patition that create in ubuntu install at DuckDuckGo
-https://www.w3schools.com/git/default.asp | Git Tutorial
-https://duckduckgo.com/?q=postman+%D9%85%D8%A7+%D9%87%D9%88&t=newext&atb=v256-1&ia=web | postman ما هو at DuckDuckGo
-https://duckduckgo.com/?q=python+ASCII_art&t=newext&atb=v256-1&ia=web | python ASCII_art at DuckDuckGo
-https://stackedit.io/app# | StackEdit
-https://mermaid-js.github.io/mermaid/#/sequenceDiagram | Sequence diagram
-https://duckduckgo.com/?q=make+scroll+bar+insdead+of+browser&t=newext&atb=v256-1&ia=web | make scroll bar insdead of browser at DuckDuckGo
-https://itsfoss.com/linux-command-tricks/ | 20 Linux Command Tips and Tricks That Will Save You A Lot of Time - It's FOSS
-https://www.youtube.com/results?search_query=chat+app+using+django+ | chat app using django - YouTube
-https://www.youtube.com/watch?v=Y4-nPg_wJtc&list=PLgCYzUzKIBE9KUJZJUmnDFYQfVyXYjX6r&index=2 | Project Setup - Django, Postgres, Virtualenv, Redis - YouTube
-https://socket.io/docs/v3 | Introduction | Socket.IO
-
 https://www.youtube.com/c/DevTipsForDesigners/playlists | DevTips - YouTube
 https://www.youtube.com/c/learncodeacademy/playlists | LearnCode.academy - YouTube
 https://www.youtube.com/c/ProgrammingKnowledge/playlists | ProgrammingKnowledge - YouTube
 https://www.youtube.com/channel/UCJbPGzawDH1njbqV-D5HqKw | thenewboston - YouTube
 https://www.youtube.com/c/derekbanas/playlists | Derek Banas - YouTube
-
-https://free4arab.net/startlearningprogramming/ | كيف تبدأ فى عالم البرمجة | المهندس اسلام محفوظ – Free4arab
-https://free4arab.net/courses/python-security/lessons/hashlib/ | Python Security → hashlib - Free4arab
-https://www.youtube.com/playlist?list=PLMYF6NkLrdN98I0nEXOuR_gK8b4w-NJcN | دورة Python 3 اساسيات ومتقدم - YouTube
-https://www.youtube.com/playlist?list=PL00vGmHQqFRbv46Tkdng_knUCyZ5NH38z | CHC v2 - YouTube
-https://1000projects.org/ | 1000 Projects – Free BTech BE Projects | MTech ME Projects | Msc MCA Projects
-https://www.youtube.com/watch?v=GZvSYJDk-us | APIs for Beginners - How to use an API (Full Course / Tutorial) - YouTube
-https://twitter.com/buhaimedi/status/1368622666660388865?s=21 | (18) تويتر \ إبراهيم بوحيمد | Ibrahim Buhaimed على تويتر: "موقع رهيب يعطيك اغلب الشهادات المهمه في مجال #cybersecuirty اهم ميزه فيه انه يوضح لك الشهاده في اي مجال من مجالات السايبرسيكورتي وايضا الجهه المقدمه للدوره ورابطها والسعر. لايفوتكم https://t.co/e8CImn5c74 https://t.co/stic63ASbe"
-https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O | Algorithms - YouTube
-https://www.youtube.com/playlist?list=PL7mt2FDjAkPeK336hwl2NzN_hI4rr0EJ9 | Linux Basics - YouTube
-https://www.youtube.com/playlist?list=PL7mt2FDjAkPf5lpAnUDwbTYH4tuB-BN-v | Learn SQL basics and advanced concepts in Arabic - YouTube
-https://www.youtube.com/watch?v=TAX1yJimmnM | GIT crash course in Arabic - Everything you need to know about GIT - YouTube
-
-https://creativebooster.net/collections/free-resume-templates-in-photoshop-psd-format | Free Resume Templates in Photoshop (PSD) Format - CreativeBooster
-https://harmash.com/blog/hide-messages-in-images-using-steghide-tool/ | أداة steghide للتراسل الآمن و إخفاء الرسائل داخل صورة – مدونة هرمش
-https://overapi.com/ | OverAPI.com | Collecting all the cheat sheets
-https://gtmetrix.com/ | GTmetrix | Website Performance Testing and Monitoring
-https://syntaxdb.com/ | SyntaxDB - Programming Syntax Database
-https://www.facebook.com/267752237453949/posts/537894113773092/?app=fbl | ‏‎Learn with badran‎‏ - المنشورات
-https://www.facebook.com/677518389063739/posts/1585532924928943/?app=fbl | ‏‎Array ;‎‏ - المنشورات
-https://www.facebook.com/groups/ahmednazmycisco/permalink/1319224008279040/?app=fbl | Network Club احمد نظمى ... نادى الشبكات : انا عايز اتعلم ccna
-https://docs.microsoft.com/en-us/learn/browse/ | Browse all - Learn | Microsoft Docs
-https://education.github.com/students | Students - GitHub Education
-https://www.netlify.com/ | Netlify: Develop & deploy the best web experiences in record time
-https://duckduckgo.com/?q=bubble+effect+css&t=newext&atb=v256-1&ia=web | bubble effect css at DuckDuckGo

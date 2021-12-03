@@ -16,12 +16,14 @@
 - <https://bashooka.com/>
 - <https://www.codingnepalweb.com/>
 - <https://www.iamrohit.in/#>
+- <https://codemyui.com>
 
 ## Best Plugins
 
 ### slider & carousel
 
 - <https://glidejs.com/>                                slider and carousel
+- <https://revealjs.com/>
 - <https://splidejs.com/>                               slider and carousel
 - <https://flickity.metafizzy.co/options.html>          slider and carousel
 - <https://github.com/NickPiscitelli/Glider.js>         slider and carousel
@@ -106,6 +108,46 @@
 - add icons in form
 - use validation in user form input with message in error
 
+### website
+
+- <https://uideck.com/>
+
+## SVG Icons
+
+- <https://boxicons.com/>
+- <https://coolicons.cool/>
+- <https://systemuicons.com/>
+- <https://remixicon.com/>
+- <https://healthicons.org/>    # Free, open source health icons
+
+## Gradients
+
+- <https://www.csscolorgradients.com/>
+
+## create photo from code
+
+- <https://ray.so/>
+- <https://carbon.now.sh/>
+- <https://codeimg.io/>
+
+## link to QR
+
+- <https://link-to-qr.com/>
+
+## PWA
+
+- <https://www.pwabuilder.com/>
+- <https://maskable.app/>
+
+## JSON Fake data
+
+- <https://www.json-generator.com>
+- <https://mockaroo.com>
+
+## minify & putty code
+
+- <https://alchemizeapp.com/>
+
 ## before buy
 
 see [web archive](https://web.archive.org) for more details
@@ -144,6 +186,8 @@ Localhost://3000
 - <https://thenounproject.com/>
 - <https://www.flaticon.com/>
 - <https://flaticons.net/>
+- <https://akaricons.com/>
+- <https://ikonate.com>
 - <https://fontisto.com/icons>
 - <https://www.freepik.com/>
 - <https://vector.me/>
@@ -154,10 +198,16 @@ Localhost://3000
 - <https://www.iconfinder.com/>
 - <https://icomoon.io/>
 - <https://dribbble.com/>
-- <https://undraw.co/> illustrations
+- <https://flat-icons.com/>
+- <https://undraw.co/>          illustrations
+- <https://blush.design/>       illustrations
+- <https://opendoodles.com/>    illustrations
+- <https://illustrationkit.com/>
+- <https://iconscout.com/>
 - <https://www.toptal.com/designers/subtlepatterns/>  pattern
 - <https://github.com/atlemo/SubtlePatterns>          pattern
 - <https://bansal.io/pattern-css>
+- <https://trianglify.io/>
 
 ## Useful
 
@@ -300,9 +350,20 @@ This is a browser feature intended for developers. Do not paste any code here gi
 
 - <https://coolors.co/>
 - <https://randoma11y.com/>
+- <https://colorsinspo.com>
+- <https://palettegenerator.colorion.co>
 - <https://webgradients.com/>
 - <https://uigradients.com/#Reef>
 - <https://components.ai/gradient/>
+- <https://www.gradientmagic.com/>
+- <https://gradients.party/>
+- <https://cssgradient.io>
+- <https://cssgradient.io/gradient-backgrounds/>
+- <https://gradienta.io/>
+- <https://mybrandnewlogo.com/color-gradient-generator>
+- <https://webkul.github.io/coolhue/>
+- <https://designkiki.com/colordoo/>
+- <https://www.30secondsofcode.org/articles/s/25-css-gradients>
 
 ## svg generator
 
@@ -335,3 +396,11 @@ This is a browser feature intended for developers. Do not paste any code here gi
 - [https://quip.com/2gwZArKuWk7W](https://quip.com/2gwZArKuWk7W)
 - [https://leetcode.com/problemset/database/](https://leetcode.com/problemset/database/)
 - [http://thedatamonk.com/](http://thedatamonk.com/)
+
+## Save code as photo
+
+- <https://ray.so/>
+
+## Image Compress
+
+- <https://compressimage.io/>

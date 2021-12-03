@@ -4,6 +4,37 @@
 ## resources
 
 - <https://1loc.dev/>
+- <https://shortcode.dev/javascript-cheatsheet>
+
+## Auto Load || ready Function
+
+```js
+(function() {
+   // your page initialization code here
+   // the DOM will be available here
+})();
+```
+
+## document notification
+
+```js
+let old_title = document.title;
+document.title += '(5)'
+```
+
+## print the page
+
+```js
+window.print()
+```
+
+## prevent right click
+
+```js
+document.addEventListener('contextmenu', function(e){
+    e.preventDefault();
+})
+```
 
 ## save on locale storage
 
@@ -135,6 +166,65 @@ done_btn.onclick = function(){
 $('.section-close-button').on('click', function () {
     $('.section-close-button .close-button div').toggleClass('transform');
 });
+```
+
+## Create an one-time event handler
+
+```js
+const handler = (e) => {
+    // Do something ...
+    element.removeEventListener('click', handler);
+};
+
+element.addEventListener('click', handler);
+```
+
+## date counter
+
+```js
+<script>
+(function(){
+    // Targeted date
+    var countDownDate = new Date("Jun 2, 2025 23:59:59").getTime();
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+        // Get current date and time
+        var now = new Date().getTime();
+        // Time to the date
+        var timeToDate = countDownDate - now;
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(timeToDate / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((timeToDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((timeToDate % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((timeToDate % (1000 * 60)) / 1000);
+        // Display the result in the element with id="counter"
+        document.getElementById("counter").innerHTML = days + "<small>d</small> " + hours + "<small>h</small> " + minutes + "<small>m</small> " + seconds + "<small>s</small> ";
+        // If the countdown is finished, display a message 
+        if (timeToDate < 0) {
+            clearInterval(x);
+            document.getElementById("counter").innerHTML = "Countdown finished";
+        }
+    }, 1000);
+
+})();
+</script>
+
+<div id="counter"></div>
+```
+
+## mouse position
+
+```js
+window.addEventListener("mousemove", function(e){
+    console.log("Mouse position: Y " + e.clientY, ", X " + e.clientY, );
+});
+```
+
+## offline online network
+
+```js
+window.addEventListener('online', ()=> console.log("online"));
+window.addEventListener('offline', ()=> console.log("offline"));
 ```
 
 ## spinner
@@ -447,6 +537,15 @@ const mainContent = $('.main-content');
 const externalLinks = $$('a[target="_blank"]');
 ```
 
+## prevent user from leaving page
+
+```js
+window.onbeforeunload = function(e) {
+        window.open(document.URL,"_blank");
+        return 'Dialog text here.';
+};
+```
+
 ## scrollToTop
 
 ```js
@@ -459,6 +558,13 @@ const scrollToTop = () => {
 };
 
 scrollToTop(); // Smooth-scrolls to the top of the page
+
+//  or
+document.documentElement.scrollTo({
+    top: 0,
+    left:0,
+    behavior: 'smooth'
+});
 ```
 
 ## smoothScroll
@@ -499,6 +605,10 @@ formatDuration(34325055574);
 
 # Array
 
+## different between `search` and `indexOf`
+
+with search we can use regular expression but not start position unlike `indexOf` we can use start position but not regular expression
+
 ## shuffle array
 
 ```js
@@ -531,6 +641,33 @@ shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // [9, 1, 10, 6, 8, 5, 2, 3, 7, 4]
 const sort = (arr) => arr.sort((a, b) => a - b);
 
 sort([1, 5, 2, 4, 3]); // [1, 2, 3, 4, 5]
+```
+
+## search on array
+
+includes(searchElement, fromIndex)
+
+```js
+const array1 = [1, 2, 3];
+
+console.log(array1.includes(2));
+// expected output: true
+[1, 2, 3].includes(2)         // true
+[1, 2, 3].includes(4)         // false
+[1, 2, 3].includes(3, 3)      // false
+[1, 2, 3].includes(3, -1)     // true
+[1, 2, NaN].includes(NaN)     // true
+["1", "2", "3"].includes(3)   // false
+```
+
+## min & max element on array
+
+```js
+Math.max.apply(null,arrayName) // max element on array
+Math.maxapply(...arrayName)    // max element on array
+
+Math.min.apply(null,arrayName) // min element on array
+Math.minapply(...arrayName)    // min element on array
 ```
 
 ## Check if an array is empty
@@ -713,6 +850,7 @@ const unique = (arr) => arr.reduce((acc, el) => (acc.includes(el) ? acc : [...ac
 ```js
 // Merge but don't remove the duplications
 const merge = (a, b) => a.concat(b);
+const merge = (a, b) => [].concat(a, b);
 // Or
 const merge = (a, b) => [...a, ...b];
 
@@ -998,10 +1136,78 @@ getUrlParams('foo=Foo&bar=Bar'); // { foo: "Foo", bar: "Bar" }
 getUrlParams('foo=Foo&foo=Fuzz&bar=Bar'); // { foo: ["Foo", "Fuzz"], bar: "Bar" }
 ```
 
+## Scroll to an element
+
+```js
+ele.scrollIntoView({ behavior: 'smooth' });
+```
+
+## Change the website favicon
+
+```js
+const setFavicon = function (url) {
+    // Find the current favicon element
+    const favicon = document.querySelector('link[rel="icon"]');
+    if (favicon) {
+        // Update the new link
+        favicon.href = url;
+    } else {
+        // Create new `link`
+        const link = document.createElement('link');
+        link.rel = 'icon';
+        link.href = url;
+
+        // Append to the `head` element
+        document.head.appendChild(link);
+    }
+};
+
+setFavicon('/path/to/user/profile/icon.ico');
+```
+
+## Use an emoji as the favicon
+
+```js
+const emojiFavicon = function (emoji) {
+    // Create a canvas element
+    const canvas = document.createElement('canvas');
+    canvas.height = 64;
+    canvas.width = 64;
+
+    // Get the canvas context
+    const context = canvas.getContext('2d');
+    context.font = '64px serif';
+    context.fillText(emoji, 0, 64);
+
+    // Get the custom URL
+    const url = canvas.toDataURL();
+
+    // Update the favicon
+    setFavicon(url);
+};
+
+// Usage
+emojiFavicon('🎉');
+```
+
 ## Detect dark mode
 
 ```js
 const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+```
+
+## Check if an element is in the viewport
+
+```js
+const isInViewport = function (ele) {
+    const rect = ele.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
 ```
 
 ## Get type of a variable in string
@@ -1026,6 +1232,14 @@ getTypeOf(function () {}); // Function
 getTypeOf((a, b) => a + b); // Function
 getTypeOf(async () => {}); // AsyncFunction
 getTypeOf(document); // HTMLDocument
+```
+
+## check specified type
+
+```js
+isNaN( varName )      // return true if is undefine variable
+isFinite( varName )   // return true if is finite variable
+isInteger( varName )  // return true if is int variable
 ```
 
 ## Swap two variables
@@ -1205,4 +1419,1283 @@ const reverse = (str) => (str === '' ? '' : `${reverse(str.substr(1))}${str.char
 const truncate = (str, max, suffix) => (str.length < max ? str : `${str.substr(0, str.substr(0, max - suffix.length).lastIndexOf(' '))}${suffix}`);
 
 truncate('This is a long message', 20, '...'); // 'This is a long...'
+```
+
+# RegExp (regular expression)
+
+## password pattern
+
+```js
+// Password (UpperCase, LowerCase, Number/SpecialChar and min 8 Chars
+(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$
+```
+
+# Front-end Tips
+
+## Always pass the radix to parseInt
+
+```js
+parseInt('50', 10); // 50
+```
+
+## Always use `noopener` or `noreferrer` for links opened in new tabs
+
+```js
+window.opener.location = 'http://fake.website.here';
+```
+
+```html
+<!-- Don't -->
+<a target="_blank">...</a>
+
+<!-- Do -->
+<a target="_blank" rel="noopener">...</a>
+
+<!-- Or -->
+<a target="_blank" rel="noreferrer">...</a>
+<a target="_blank" rel="noopener noreferrer">...</a>
+```
+
+## some rule while coding JS
+
+- var and function are in camelCase
+- `global` and `constant` are in **UPPERCASE**
+- filename are in **lowercase**
+- let `space` between **separator** like `+, - ...`
+- short statement can be in one line
+- `let i, len = arr.length;` best in performance than `for(i=0; i< len; i++)`
+- avoid using `new` word it's bad in performance
+- if we using `html` element more it's better put it into variable like `let`, `var` it effect on performance
+- `onload`, `onunload` ues to deal with cookie and browser type
+- there are two type of event
+  - bubbling propagation(default)
+  - capturing propagation
+- `selector.addEventListener('event', function, false|true)`  by default `false` which mean we are using bubbling propagation
+- use try & catch
+    ```js
+    try{
+        throw 'any data type';
+        .....
+    }
+    catch (er){
+        er.message;
+        ......
+    }
+    finally{
+        'code execute after try/catch' ;
+    }
+    ```
+
+# Advanced Examples
+
+## [Make a draggable element](https://htmldom.dev/make-a-draggable-element/)
+
+```html
+<div id="dragMe" class="draggable">Drag me</div>
+```
+
+```scss
+.draggable {
+    /* Indicate the element draggable */
+    cursor: move;
+
+    /* It will be positioned absolutely */
+    position: absolute;
+
+    /* Doesn't allow to select the content inside */
+    user-select: none;
+}
+```
+
+```js
+/ The current position of mouse
+let x = 0;
+let y = 0;
+
+// Query the element
+const ele = document.getElementById('dragMe');
+
+// Handle the mousedown event
+// that's triggered when user drags the element
+const mouseDownHandler = function (e) {
+    // Get the current mouse position
+    x = e.clientX;
+    y = e.clientY;
+
+    // Attach the listeners to `document`
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+};
+
+const mouseMoveHandler = function (e) {
+    // How far the mouse has been moved
+    const dx = e.clientX - x;
+    const dy = e.clientY - y;
+
+    // Set the position of element
+    ele.style.top = `${ele.offsetTop + dy}px`;
+    ele.style.left = `${ele.offsetLeft + dx}px`;
+
+    // Reassign the position of mouse
+    x = e.clientX;
+    y = e.clientY;
+};
+
+const mouseUpHandler = function () {
+    // Remove the handlers of `mousemove` and `mouseup`
+    document.removeEventListener('mousemove', mouseMoveHandler);
+    document.removeEventListener('mouseup', mouseUpHandler);
+};
+
+ele.addEventListener('mousedown', mouseDownHandler);
+```
+
+## [Drag to scroll](https://htmldom.dev/drag-to-scroll/)
+
+User often uses the mouse to scroll in a scrollable container. In addition to that, some applications also allow user to scroll by dragging the element. You can see that feature implemented in a PDF viewer, Figma and many more.
+This post shows you a simple way to archive that feature with vanilla JavaScript.
+Assume that we have a scrollable container as below:
+
+```html
+<div id="container" class="container">...</div>
+```
+
+```scss
+.container {
+    cursor: grab;
+    overflow: auto;
+}
+```
+
+```js
+// Scroll to given position
+const ele = document.getElementById('container');
+ele.scrollTop = 100;
+ele.scrollLeft = 150;
+```
+
+The implementation is quite straightforward. By using the similar technique in the Make a draggable element post, we start with handling the mousedown event which occurs when user clicks the element:
+
+```js
+let pos = { top: 0, left: 0, x: 0, y: 0 };
+
+const mouseDownHandler = function (e) {
+    pos = {
+        // The current scroll
+        left: ele.scrollLeft,
+        top: ele.scrollTop,
+        // Get the current mouse position
+        x: e.clientX,
+        y: e.clientY,
+    };
+
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+};
+
+
+
+const mouseMoveHandler = function (e) {
+    // How far the mouse has been moved
+    const dx = e.clientX - pos.x;
+    const dy = e.clientY - pos.y;
+
+    // Scroll the element
+    ele.scrollTop = pos.top - dy;
+    ele.scrollLeft = pos.left - dx;
+};
+
+// Last but not least, we can improve the user experience by setting some CSS properties when user starts moving the mouse:
+const mouseDownHandler = function(e) {
+    // Change the cursor and prevent user from selecting the text
+    ele.style.cursor = 'grabbing';
+    ele.style.userSelect = 'none';
+    ...
+};
+
+// These CSS properties are reset when the mouse is released:
+const mouseUpHandler = function () {
+    document.removeEventListener('mousemove', mouseMoveHandler);
+    document.removeEventListener('mouseup', mouseUpHandler);
+
+    ele.style.cursor = 'grab';
+    ele.style.removeProperty('user-select');
+};
+```
+
+## [Create a custom scrollbar](https://htmldom.dev/create-a-custom-scrollbar/)
+
+Unfortunately, the `-webkit-scrollbar` styles aren't standard and isn't **recommended** to use on **production** sites.
+
+```scss
+body::-webkit-scrollbar {
+    width: 0.75rem;
+}
+*::-webkit-scrollbar-track {
+    background-color: #edf2f7;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #718096;
+    border-radius: 9999px;
+}
+```
+
+### Hide the default scrollbar
+
+```html
+<div id="wrapper" class="wrapper">
+    <div id="content" class="content">...</div>
+</div>
+```
+
+```scss
+.wrapper {
+    max-height: 32rem;
+    overflow: hidden;
+}
+.content {
+    height: 100%;
+    overflow: auto;
+}
+// It's easy to hide the default scrollbar by using a negative margin:
+.content {
+    margin-right: -1rem;
+    padding-right: 1rem;
+}
+```
+
+### Position the fake scrollbar
+
+```html
+<div id="wrapper">...</div>
+
+<!-- Use an anchor -->
+<div id="anchor" style="left: 0; position: absolute; top: 0"></div>
+
+<!-- Fake scrollbar -->
+<div id="scrollbar" style="position: absolute; width: .75rem;"></div>
+```
+
+The scrollbar is shown at the desired position by setting the top and left styles:
+
+```js
+// Query elements
+const wrapper = document.getElementById('wrapper');
+const content = document.getElementById('content');
+const anchor = document.getElementById('anchor');
+const scrollbar = document.getElementById('scrollbar');
+
+// Get the bounding rectangles
+const wrapperRect = wrapper.getBoundingClientRect();
+const anchorRect = anchor.getBoundingClientRect();
+
+// Set the scrollbar position
+const top = wrapperRect.top - anchorRect.top;
+const left = wrapperRect.width + wrapperRect.left - anchorRect.left;
+scrollbar.style.top = `${top}px`;
+scrollbar.style.left = `${left}px`;
+```
+
+The scrollbar has the same height as the wrapper:
+
+```js
+scrollbar.style.height = `${wrapperRect.height}px`;
+```
+
+### Organize the scrollbar
+
+```html
+<div id="scrollbar">
+    <div id="track" class="track"></div>
+    <div id="thumb" class="thumb"></div>
+</div>
+```
+
+```scss
+
+
+.track {
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.thumb {
+    left: 0;
+    position: absolute;
+
+    /* Take full width */
+    width: 100%;
+}
+```
+
+```js
+// Initially, the thumb's height is calculated based on the ratio between normal and scroll heights of the content element:
+const track = document.getElementById('track');
+const thumb = document.getElementById('thumb');
+
+const scrollRatio = content.clientHeight / content.scrollHeight;
+thumb.style.height = `${scrollRatio * 100}%`;
+```
+
+### Drag the thumb to scroll
+
+```js
+let pos = { top: 0, y: 0 };
+
+const mouseDownThumbHandler = function (e) {
+    pos = {
+        // The current scroll
+        top: content.scrollTop,
+        // Get the current mouse position
+        y: e.clientY,
+    };
+
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+};
+
+const mouseMoveHandler = function (e) {
+    // How far the mouse has been moved
+    const dy = e.clientY - pos.y;
+
+    // Scroll the content
+    content.scrollTop = pos.top + dy / scrollRatio;
+};
+
+// Attach the `mousedown` event handler
+thumb.addEventListener('mousedown', mouseDownThumbHandler);
+
+
+// When user drags the thumb element as well as scroll the content element, we have to update the position of the thumb element. Here is the scroll event handler of the content element:
+const scrollContentHandler = function () {
+    window.requestAnimationFrame(function () {
+        thumb.style.top = `${(content.scrollTop * 100) / content.scrollHeight}%`;
+    });
+};
+
+content.addEventListener('scroll', scrollContentHandler);
+```
+
+### Jump when clicking the track
+
+```js
+const trackClickHandler = function (e) {
+    const bound = track.getBoundingClientRect();
+    const percentage = (e.clientY - bound.top) / bound.height;
+    content.scrollTop = percentage * (content.scrollHeight - content.clientHeight);
+};
+
+track.addEventListener('click', trackClickHandler);
+```
+
+## [Preview an image before uploading it](https://htmldom.dev/preview-an-image-before-uploading-it/)
+
+```html
+<input type="file" id="fileInput" />
+
+<img id="preview" />
+```
+
+```js
+const fileEle = document.getElementById('fileInput');
+const previewEle = document.getElementById('preview');
+
+fileEle.addEventListener('change', function (e) {
+    // Get the selected file
+    const file = e.target.files[0];
+
+    // Create a new URL that references to the file
+    const url = URL.createObjectURL(file);
+
+    // Set the source for preview element
+    previewEle.src = url;
+});
+
+fileEle.addEventListener('change', function (e) {
+    // Get the selected file
+    const file = e.target.files[0];
+
+    const reader = new FileReader();
+    reader.addEventListener('load', function () {
+        // Set the source for preview element
+        previewEle.src = reader.result;
+    });
+
+    reader.readAsDataURL(file);
+});
+```
+
+## Create an image comparison slider
+
+```html
+<div class="container">
+    <!-- Show the modified image -->
+    <div class="modified-image"></div>
+
+    <!-- The resizer -->
+    <div class="resizer" id="dragMe"></div>
+
+    <!-- The original image -->
+    <img src="/path/to/original/image.png" />
+</div>
+```
+
+```scss
+.container {
+    position: relative;
+}
+.modified-image {
+    /* Absolute position */
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    /* Take full height and half width of container */
+    height: 100%;
+    width: 50%;
+}
+```
+
+We don't use the img tag to display the modified image here because the image could be scaled. Instead, we use the modified image as the background of modified element:
+
+```html
+<div class="modified-image" style="background-image: url('/path/to/modified/image.png')"></div>
+```
+
+```scss
+.modified-image {
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    ...;
+}
+```
+
+It's a lot easier to set the position for the resizer. It is displayed at the center of container:
+
+```scss
+.resizer {
+    /* Absolute position */
+    left: 50%;
+    position: absolute;
+    top: 0;
+
+    /* Size */
+    height: 100%;
+    width: 2px;
+
+    /* Background */
+    background-color: #cbd5e0;
+
+    /* Indicate that it can be resized */
+    cursor: ew-resize;
+}
+```
+
+```js
+const resizer = document.getElementById('dragMe');
+const leftSide = resizer.previousElementSibling;
+
+// The current position of mouse
+let x = 0;
+let y = 0;
+
+// The width of modified element
+let leftWidth = 0;
+
+// Handle the mousedown event
+// that's triggered when user drags the resizer
+const mouseDownHandler = function (e) {
+    // Get the current mouse position
+    x = e.clientX;
+    y = e.clientY;
+    leftWidth = leftSide.getBoundingClientRect().width;
+
+    // Attach the listeners to `document`
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+};
+
+const mouseMoveHandler = function (e) {
+    // How far the mouse has been moved
+    const dx = e.clientX - x;
+    const dy = e.clientY - y;
+
+    let newLeftWidth = ((leftWidth + dx) * 100) / resizer.parentNode.getBoundingClientRect().width;
+    newLeftWidth = Math.max(newLeftWidth, 0);
+    newLeftWidth = Math.min(newLeftWidth, 100);
+
+    // Set the width for modified and resizer elements
+    leftSide.style.width = `${newLeftWidth}%`;
+    resizer.style.left = `${newLeftWidth}%`;
+};
+
+// Attach the handler
+resizer.addEventListener('mousedown', mouseDownHandler);
+
+// When user moves the mouse around, we have to make sure that the mouse isn't moved to out of the container. That's why we have to compare the newLeftWidth with 0 and 100 percentages:
+
+const mouseMoveHandler = function(e) {
+    ...
+
+    newLeftWidth = Math.max(newLeftWidth, 0);
+    newLeftWidth = Math.min(newLeftWidth, 100);
+};
+```
+
+## [Create resizable split views](https://htmldom.dev/create-resizable-split-views/)
+
+In order to place the left, resizer and right elements in the same row, we add the `display: flex` style to the parent.
+
+```html
+<div style="display: flex">
+    <!-- Left element -->
+    <div>Left</div>
+
+    <!-- The resizer -->
+    <div class="resizer" id="dragMe"></div>
+
+    <!-- Right element -->
+    <div style="flex: 1 1 0%;">Right</div>
+</div>
+```
+
+```js
+// Update the width of left side when dragging the resizer element
+const resizer = document.getElementById('dragMe');
+const leftSide = resizer.previousElementSibling;
+const rightSide = resizer.nextElementSibling;
+
+// The current position of mouse
+let x = 0;
+let y = 0;
+
+// Width of left side
+let leftWidth = 0;
+
+// Handle the mousedown event
+// that's triggered when user drags the resizer
+const mouseDownHandler = function (e) {
+    // Get the current mouse position
+    x = e.clientX;
+    y = e.clientY;
+    leftWidth = leftSide.getBoundingClientRect().width;
+
+    // Attach the listeners to `document`
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+};
+
+// Attach the handler
+resizer.addEventListener('mousedown', mouseDownHandler);
+
+const leftSide = resizer.previousElementSibling;
+const rightSide = resizer.nextElementSibling;
+
+const mouseMoveHandler = function (e) {
+    // How far the mouse has been moved
+    const dx = e.clientX - x;
+    const dy = e.clientY - y;
+
+    const newLeftWidth = ((leftWidth + dx) * 100) / resizer.parentNode.getBoundingClientRect().width;
+    leftSide.style.width = `${newLeftWidth}%`;
+};
+
+
+const mouseUpHandler = function () {
+    resizer.style.removeProperty('cursor');
+    document.body.style.removeProperty('cursor');
+
+    leftSide.style.removeProperty('user-select');
+    leftSide.style.removeProperty('pointer-events');
+
+    rightSide.style.removeProperty('user-select');
+    rightSide.style.removeProperty('pointer-events');
+
+    // Remove the handlers of `mousemove` and `mouseup`
+    document.removeEventListener('mousemove', mouseMoveHandler);
+    document.removeEventListener('mouseup', mouseUpHandler);
+};
+```
+
+### Support vertical direction
+
+```js
+const prevSibling = resizer.previousElementSibling;
+let prevSiblingHeight = 0;
+
+const mouseDownHandler = function (e) {
+    const rect = prevSibling.getBoundingClientRect();
+    prevSiblingHeight = rect.height;
+};
+
+const mouseMoveHandler = function (e) {
+    const h = ((prevSiblingHeight + dy) * 100) / resizer.parentNode.getBoundingClientRect().height;
+    prevSibling.style.height = `${h}%`;
+};
+
+// We also change the cursor when user moves the resizer element:
+const mouseMoveHandler = function(e) {
+    ...
+    resizer.style.cursor = 'row-resize';
+    document.body.style.cursor = 'row-resize';
+};
+```
+
+### Support both directions
+
+```html
+<div style="display: flex">
+    <div>Left</div>
+    <div class="resizer" data-direction="horizontal"></div>
+
+    <!-- The right side -->
+    <div style="display: flex; flex: 1 1 0%; flex-direction: column">
+        <div>Top</div>
+        <div class="resizer" data-direction="vertical"></div>
+        <div style="flex: 1 1 0%">Bottom</div>
+    </div>
+</div>
+```
+
+```js
+const direction = resizer.getAttribute('data-direction') || 'horizontal';
+
+const mouseMoveHandler = function(e) {
+    switch (direction) {
+        case 'vertical':
+            const h = (prevSiblingHeight + dy) * 100 / resizer.parentNode.getBoundingClientRect().height;
+            prevSibling.style.height = `${h}%`;
+            break;
+        case 'horizontal':
+        default:
+            const w = (prevSiblingWidth + dx) * 100 / resizer.parentNode.getBoundingClientRect().width;
+            prevSibling.style.width = `${w}%`;
+            break;
+    }
+
+    const cursor = direction === 'horizontal' ? 'col-resize' : 'row-resize';
+    resizer.style.cursor = cursor;
+    document.body.style.cursor = cursor;
+
+    ...
+};
+```
+
+## [Drag and drop element in a list](https://htmldom.dev/drag-and-drop-element-in-a-list/)
+
+```html
+<div id="list">
+    <div class="draggable">A</div>
+    <div class="draggable">B</div>
+    <div class="draggable">C</div>
+    <div class="draggable">D</div>
+    <div class="draggable">E</div>
+</div>
+```
+
+```scss
+.draggable {
+    cursor: move;
+    user-select: none;
+}
+```
+
+```js
+// The current dragging item
+let draggingEle;
+
+// The current position of mouse relative to the dragging element
+let x = 0;
+let y = 0;
+
+const mouseDownHandler = function (e) {
+    draggingEle = e.target;
+
+    // Calculate the mouse position
+    const rect = draggingEle.getBoundingClientRect();
+    x = e.pageX - rect.left;
+    y = e.pageY - rect.top;
+
+    // Attach the listeners to `document`
+    document.addEventListener('mousemove', mouseMoveHandler);
+    document.addEventListener('mouseup', mouseUpHandler);
+};
+
+const mouseMoveHandler = function (e) {
+    // Set position for dragging element
+    draggingEle.style.position = 'absolute';
+    draggingEle.style.top = `${e.pageY - y}px`;
+    draggingEle.style.left = `${e.pageX - x}px`;
+};
+
+const mouseUpHandler = function () {
+    // Remove the position styles
+    draggingEle.style.removeProperty('top');
+    draggingEle.style.removeProperty('left');
+    draggingEle.style.removeProperty('position');
+
+    x = null;
+    y = null;
+    draggingEle = null;
+
+    // Remove the handlers of `mousemove` and `mouseup`
+    document.removeEventListener('mousemove', mouseMoveHandler);
+    document.removeEventListener('mouseup', mouseUpHandler);
+};
+
+// Now we can attach the mousedown event to each item by looping over the list of items:
+// Query the list element
+const list = document.getElementById('list');
+
+// Query all items
+[].slice.call(list.querySelectorAll('.draggable')).forEach(function (item) {
+    item.addEventListener('mousedown', mouseDownHandler);
+});
+```
+
+### Add a placeholder
+
+Let's take a look at the list of items again: `A B C D E`
+
+When we drag an item, C for example, the next item (D) will move up to the top and takes the area of the dragging element (C). To fix that, we create a dynamic placeholder element and `insert` it right before the dragging element. The height of placeholder must be the same as dragging element.
+The placeholder is created once during the mouse moving, so we add a new flag `isDraggingStarted` to track it:
+
+```js
+
+
+let placeholder;
+let isDraggingStarted = false;
+
+const mouseMoveHandler = function(e) {
+    const draggingRect = draggingEle.getBoundingClientRect();
+
+    if (!isDraggingStarted) {
+        // Update the flag
+        isDraggingStarted = true;
+
+        // Let the placeholder take the height of dragging element
+        // So the next element won't move up
+        placeholder = document.createElement('div');
+        placeholder.classList.add('placeholder');
+        draggingEle.parentNode.insertBefore(
+            placeholder,
+            draggingEle.nextSibling
+        );
+
+        // Set the placeholder's height
+        placeholder.style.height = `${draggingRect.height}px`;
+    }
+
+    ...
+}
+
+// The placeholder will be removed as soon as the users drop the item:
+const mouseUpHandler = function() {
+    // Remove the placeholder
+    placeholder && placeholder.parentNode.removeChild(placeholder);
+    // Reset the flag
+    isDraggingStarted = false;
+
+    ...
+};
+```
+
+### Determine if user moves item up or down
+
+```js
+const isAbove = function (nodeA, nodeB) {
+    // Get the bounding rectangle of nodes
+    const rectA = nodeA.getBoundingClientRect();
+    const rectB = nodeB.getBoundingClientRect();
+
+    return rectA.top + rectA.height / 2 < rectB.top + rectB.height / 2;
+};
+
+// As user moves the item around, we define the previous and next sibling items:
+const mouseMoveHandler = function (e) {
+    // The current order:
+    // prevEle
+    // draggingEle
+    // placeholder
+    // nextEle
+    const prevEle = draggingEle.previousElementSibling;
+    const nextEle = placeholder.nextElementSibling;
+};
+
+// If user moves the item to the top, we will swap the placeholder and the previous item:
+const mouseMoveHandler = function(e) {
+    ...
+
+    // User moves item to the top
+    if (prevEle && isAbove(draggingEle, prevEle)) {
+        // The current order    -> The new order
+        // prevEle              -> placeholder
+        // draggingEle          -> draggingEle
+        // placeholder          -> prevEle
+        swap(placeholder, draggingEle);
+        swap(placeholder, prevEle);
+        return;
+    }
+};
+
+// Similarly, we will swap the next and dragging item if we detect that user moves item down to the bottom:
+const mouseMoveHandler = function(e) {
+    ...
+
+    // User moves the dragging element to the bottom
+    if (nextEle && isAbove(nextEle, draggingEle)) {
+        // The current order    -> The new order
+        // draggingEle          -> nextEle
+        // placeholder          -> placeholder
+        // nextEle              -> draggingEle
+        swap(nextEle, placeholder);
+        swap(nextEle, draggingEle);
+    }
+};
+
+// Here, swap is a small function for swapping two nodes:
+const swap = function (nodeA, nodeB) {
+    const parentA = nodeA.parentNode;
+    const siblingA = nodeA.nextSibling === nodeB ? nodeA : nodeA.nextSibling;
+
+    // Move `nodeA` to before the `nodeB`
+    nodeB.parentNode.insertBefore(nodeA, nodeB);
+
+    // Move `nodeB` to before the sibling of `nodeA`
+    parentA.insertBefore(nodeB, siblingA);
+};
+```
+
+## [Resize columns of a table](https://htmldom.dev/resize-columns-of-a-table/)
+
+```html
+<table id="resizeMe" class="table">
+    ...
+</table>
+```
+
+```scss
+.table th {
+    position: relative;
+}
+.resizer {
+    /* Displayed at the right side of column */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    cursor: col-resize;
+    user-select: none;
+}
+```
+
+```js
+// To create resizers and append them to columns, we have to query and loop over all columns:
+
+// Query the table
+const table = document.getElementById('resizeMe');
+
+// Query all headers
+const cols = table.querySelectorAll('th');
+
+// Loop over them
+[].forEach.call(cols, function (col) {
+    // Create a resizer element
+    const resizer = document.createElement('div');
+    resizer.classList.add('resizer');
+
+    // Set the height
+    resizer.style.height = `${table.offsetHeight}px`;
+
+    // Add a resizer element to the column
+    col.appendChild(resizer);
+
+    // Will be implemented in the next section
+    createResizableColumn(col, resizer);
+});
+
+/*
+Handle the resizer's events
+We are going to implement a function, createResizableColumn, which accepts two parameters:
+
+    col that represents the table header
+    resizer that represents the resizer element within the column
+
+In order to allow user to resize col, we have to handle three events:
+
+    mousedown on the resizer: Track the current position of mouse
+    mousemove on document: Calculate how far the mouse has been moved, and adjust the width of the column
+    mouseup on document: Remove the event handlers of document
+*/
+const createResizableColumn = function (col, resizer) {
+    // Track the current position of mouse
+    let x = 0;
+    let w = 0;
+
+    const mouseDownHandler = function (e) {
+        // Get the current mouse position
+        x = e.clientX;
+
+        // Calculate the current width of column
+        const styles = window.getComputedStyle(col);
+        w = parseInt(styles.width, 10);
+
+        // Attach listeners for document's events
+        document.addEventListener('mousemove', mouseMoveHandler);
+        document.addEventListener('mouseup', mouseUpHandler);
+    };
+
+    const mouseMoveHandler = function (e) {
+        // Determine how far the mouse has been moved
+        const dx = e.clientX - x;
+
+        // Update the width of column
+        col.style.width = `${w + dx}px`;
+    };
+
+    // When user releases the mouse, remove the existing event listeners
+    const mouseUpHandler = function () {
+        document.removeEventListener('mousemove', mouseMoveHandler);
+        document.removeEventListener('mouseup', mouseUpHandler);
+    };
+
+    resizer.addEventListener('mousedown', mouseDownHandler);
+};
+```
+
+## Highlight the resizer
+
+```scss
+// We can improve the user experience a little bit. When user hovers or clicks on the resizer, it can be hightlighted. To demonstrate the idea in the most simple way, we add a solid border to the :hover selector:
+
+.resizer:hover,
+.resizing {
+    border-right: 2px solid blue;
+}
+```
+
+```js
+// The resizing class is added to the resizer while user clicks and drags the resizer:
+
+const mouseDownHandler = function(e) {
+    ...
+    resizer.classList.add('resizing');
+};
+
+const mouseUpHandler = function() {
+    ...
+    resizer.classList.remove('resizing');
+};
+```
+
+## Text Scramble
+
+random replace char of string by special char
+
+```js
+class TextScramble {
+  constructor(el) {
+    this.el = el;
+    this.chars = "!<>-_\\/[]{}—=+*^?#________";
+    this.update = this.update.bind(this);
+  }
+  setText(newText) {
+    const oldText = this.el.innerText;
+    const length = Math.max(oldText.length, newText.length);
+    const promise = new Promise((resolve) => (this.resolve = resolve));
+    this.queue = [];
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || "";
+      const to = newText[i] || "";
+      const start = Math.floor(Math.random() * 40);
+      const end = start + Math.floor(Math.random() * 40);
+      this.queue.push({ from, to, start, end });
+    }
+    cancelAnimationFrame(this.frameRequest);
+    this.frame = 0;
+    this.update();
+    return promise;
+  }
+  update() {
+    let output = "";
+    let complete = 0;
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let { from, to, start, end, char } = this.queue[i];
+      if (this.frame >= end) {
+        complete++;
+        output += to;
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar();
+          this.queue[i].char = char;
+        }
+        output += `<span class="dud">${char}</span>`;
+      } else {
+        output += from;
+      }
+    }
+    this.el.innerHTML = output;
+    if (complete === this.queue.length) {
+      this.resolve();
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update);
+      this.frame++;
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)];
+  }
+}
+
+const phrases = ["find", "read", "BOOM!"];
+
+const el = document.querySelector(".text");
+const fx = new TextScramble(el);
+
+let counter = 0;
+const next_word = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next_word, 1500);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+
+next_word();
+```
+
+## counter
+
+start count when element is in view and check if already count
+
+```html
+<span class="counter-number" data-counter="20000" data-is_count="false"> 1059</span>
+```
+
+```js
+window.addEventListener('scroll', function () {
+
+    document.querySelectorAll('.counter-number').forEach(counter => {
+        if (isInViewport(counter) && counter.getAttribute('data-is_count') == 'false') {
+            let frame = 0,
+                countTo = parseInt(counter.getAttribute('data-counter'), 10);
+            let counter_interval = setInterval(() => {
+                frame++;
+                let progress = (frame / 250) * (2 - (frame / 250));
+                let currentCount = Math.round(countTo * progress);
+
+                if (parseInt(counter.textContent, 10) !== currentCount) {
+                    counter.textContent = currentCount;
+                }
+
+                if (frame === 250) {
+                    clearInterval(counter_interval);
+                }
+            }, 20);
+
+            counter.setAttribute('data-is_count', true);
+        }
+    })
+});
+const isInViewport = function (ele) {
+    const rect = ele.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
+```
+
+## password length checker
+
+```html
+<div id="js-password-input" class="password-input-container">
+<input type="password">
+<span id="js-show-hide-password" class="show-hide-password-btn">show</span>
+</div>
+
+<div id="js-password-strength" class="password-strength-container">
+<span id="poor" class="poor-bar"></span>
+<span id="weak" class="weak-bar"></span>
+<span id="strong" class="strong-bar"></span>
+</div>
+
+<div id="js-password-info" class="password-result-message"></div>
+```
+
+```scss
+.password-input-container {
+  width: 30%;
+  display: flex;
+  position: relative;
+
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    font-size: 15px;
+    padding-right: 50px;
+  }
+
+  .show-hide-password-btn {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    color: tomato;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+  }
+}
+
+.password-strength-container {
+  width: 30%;
+  height: 5px;
+  margin: 5px 0;
+  display: none;
+
+  span {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: lightgrey;
+    border-radius: 5px;
+
+    &:nth-child(2) {
+      margin: 0 3px;
+    }
+
+    &.active:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    &.poor-bar:before {
+      background-color: #ff4757;
+    }
+
+    &.weak-bar:before {
+      background-color: orange;
+    }
+
+    &.strong-bar:before {
+      background-color: #23ad5c;
+    }
+  }
+
+  .password-result-message {
+    font-size: 15px;
+
+    .poor-bar {
+      color: red;
+    }
+
+    .weak-bar {
+      color: orange;
+    }
+
+    .strong-bar {
+      color: green;
+    }
+  }
+}
+```
+
+```js
+let password_input = document.querySelector('#js-password-input input[type="password"]'),
+    password_strength = document.getElementById('js-password-strength'),
+    poor_bar = document.querySelector('#js-password-strength .poor-bar'),
+    weak_bar = document.querySelector('#js-password-strength .weak-bar'),
+    strong_bar = document.querySelector('#js-password-strength .strong-bar'),
+    password_info_message = document.getElementById('js-password-info');
+
+
+password_input.oninput = function () {
+
+    let poor_password = password_input.value.match(/[a-z]/),
+    weak_password = password_input.value.match(/(?=.*?[0-9])/),
+    strong_password = password_input.value.match(/(?=.*?[#?!@$%^&*-])/),
+    whitespace = password_input.value.match(/^$|\s+/);
+
+    if (password_input.value != "") {
+
+    password_strength.style.display = "block";
+    password_strength.style.display = "flex";
+    password_info_message.style.display = "block";
+    password_info_message.style.color = "black";
+
+    if (whitespace) {
+        password_info_message.textContent = "whites paces are not allowed";
+    } else {
+        check_poor_password(password_input.value.length, poor_password, weak_password, strong_password);
+        check_weak_password(password_input.value.length, poor_password, weak_password, strong_password);
+        check_strong_password(password_input.value.length, poor_password, weak_password, strong_password);
+    }
+    } else {
+    password_strength.style.display = "none";
+    password_info_message.style.display = "none";
+    }
+}
+
+function check_poor_password(passwordLength, poorPassword, weakPassword, strongPassword) {
+
+    if (passwordLength <= 5 && (poorPassword || weakPassword || strongPassword)) {
+    poor_bar.classList.add("active");
+    password_info_message.style.display = "block";
+    password_info_message.style.color = "red";
+    password_info_message.textContent = "Your password is too Poor";
+
+    }
+}
+
+function check_weak_password(passwordLength, poorPassword, weakPassword, strongPassword) {
+    if (passwordLength >= 8 && poorPassword && (weakPassword || strongPassword)) {
+    weak_bar.classList.add("active");
+    password_info_message.textContent = "Your password is Weak";
+    password_info_message.style.color = "orange";
+
+    } else {
+    weak_bar.classList.remove("active");
+
+    }
+}
+
+function check_strong_password(passwordLength, poorPassword, weakPassword, strongPassword) {
+
+    if (passwordLength >= 10 && (poorPassword && weakPassword) && strongPassword) {
+    poor_bar.classList.add("active");
+    weak_bar.classList.add("active");
+    strong_bar.classList.add("active");
+    password_info_message.textContent = "Your password is strong";
+    password_info_message.style.color = "green";
+    } else {
+    strong_bar.classList.remove("active");
+
+    }
+}
+
+
+document.querySelector('#js-show-hide-password').onclick = function () {
+    if (password_input.type == "password") {
+    password_input.type = "text";
+    this.textContent = "hide";
+    } else {
+    password_input.type = "password";
+    this.textContent = "show";
+    }
+}
 ```

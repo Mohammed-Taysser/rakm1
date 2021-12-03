@@ -502,6 +502,10 @@ git mv old_name.html new_name.html
 - <https://github.com/t9tio/open-source-jobs>
 - <https://github.com/lukasz-madon/awesome-remote-job>
 
+## Data science
+
+- <https://github.com/awesomedata/awesome-public-datasets>
+
 ### Learn
 
 - <https://github.com/ossu/computer-science>
@@ -568,6 +572,7 @@ git mv old_name.html new_name.html
 - <https://github.com/olawanlejoel/Awesome-Javascript>
 - <https://github.com/knaxus/problem-solving-javascript>
 - <https://danlevy.net/you-may-not-need-axios/>
+- <https://github.com/leonardomso/33-js-concepts>
 
 ### JS packages
 
@@ -677,6 +682,8 @@ git mv old_name.html new_name.html
 - <https://github.com/arialdomartini/Back-End-Developer-Interview-Questions>
 - <https://github.com/jwasham/coding-interview-university>
 - <https://github.com/DopplerHQ/awesome-interview-questions>
+- <https://github.com/ombharatiya/FAANG-Coding-Interview-Questions>
+- <https://dev.to/a8hok/useful-javascript-links-3e1>
 
 ## Make Badge For README
 
