@@ -102,7 +102,6 @@ switch(expression){
     arr.indexOf('value', 'start')
     arr.lastIndexOf('value','start')
 
-
 ## loops
 
     for(let i=0; i>5; i++) {....}
@@ -914,7 +913,7 @@ console.log(arr);   // [ 1, 2, 50, 50, 5 ]
 ### `Array.find()`
 
 ```js
-// arrayName.find(function) RETURN FIRST ITEM Satisfy the function
+// arrayName.find(function) Return First Item Satisfy The Function
 
 let arr = [1,2,3,4,5];
 founded = arr.find(i => i < 10);    // 1
@@ -931,6 +930,52 @@ arrayName.copyWithin(target, start, end) //target:start index to replace
 let arr = [1,2,3,4,5,6];
 arr.copyWithin(0,3,6);
 console.log(arr); // will return arr but change 1,2,3 with 4,5,6
+```
+
+### `Array.map()`
+
+creates a new array by applying the provided transformation to each element of the original array. The result is an array with the same length as the original array and elements transformed based on the provided function.
+
+```js
+const arr = [1, 2, 3];
+const double = x => x * 2;
+arr.map(double); // [2, 4, 6]
+```
+
+### `Array.filter()`
+
+creates a new array by using a filtering function to keep only elements that return true based on that function. The result is an array with equal or less than the original array's length, containing a subset of the same elements as the original array.
+
+```js
+const arr = [1, 2, 3];
+const isOdd = x => x % 2 === 1;
+arr.filter(isOdd); // [1, 3]
+```
+
+### `Array.reduce()`
+
+creates an output value of any type depending on a reducer function and an initial value. The result can be of any type such as an integer, an object or an array, based on the reducer function provided.
+
+```js
+const arr = [1, 2, 3];
+
+const sum = (x, y) => x + y;
+arr.reduce(sum, 0); // 6
+
+const increment = (x, y) => [...x, x[x.length - 1] + y];
+arr.reduce(increment, [0]); // [0, 1, 3, 6]
+```
+
+### `Array.every()`
+
+tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+
+```js
+const isBelowThreshold = (currentValue) => currentValue < 40;
+
+const array1 = [1, 30, 39, 29, 10, 13];
+
+console.log(array1.every(isBelowThreshold));  // true
 ```
 
 ## import & export
@@ -1452,137 +1497,6 @@ Object.defineProperties(name,{
 
 # JS Tricks
 
-## Auto Load Function
-
-```js
-(function() {
-   // your page initialization code here
-   // the DOM will be available here
-})();
-```
-
-## Merge Array
-
-    arr_0 = arr.contact(arr1, ...)
-    arr_0 = [].contact(arr1, ...)
-
-    arr_0 = [...arr_1, ...]
-    arr_0.push(...arr_1, ...)
-    arr_0 = [...new Aet([...arr_1, ...])]   // no duplicate
-
-## document title notification
-
-    let old_title = docuement.title;
-    document.title += '(5)'
-
-### swap values
-
-using destruction
-
-```js
-let book = 'clean code', anime = 'solo levelling'
-[book, anime] = [anime, book]
-```
-
-## print the page
-
-    window.print()
-
-## short if
-
-    if a > b ? true : false
-
-    note that name = 'text' dosn't equal name = "text"
-
-## different between `search` and `indexOf`
-
-with search we can use regular expression but not start position unlike `indexOf` we can use start position but not regular expression
-
-## check specified type
-
-    isNaN( varName )      // return true if is undefine variable
-    isFinite( varName )   // return true if is finite variable
-    isInteger( varName )  // return true if is int variable
-
-## exponential
-
-    ** exponential
-
-    2 ** 2      // 4
-
-## search on array
-
-includes(searchElement, fromIndex)
-
-```js
-const array1 = [1, 2, 3];
-
-console.log(array1.includes(2));
-// expected output: true
-[1, 2, 3].includes(2)         // true
-[1, 2, 3].includes(4)         // false
-[1, 2, 3].includes(3, 3)      // false
-[1, 2, 3].includes(3, -1)     // true
-[1, 2, NaN].includes(NaN)     // true
-["1", "2", "3"].includes(3)   // false
-```
-
-## sort
-
-with function to determine the order
-
-    arr.sort((a,b) => a - b)
-
-## min & max element on array
-
-    Math.max.apply(null,arrayName) max element on array
-    Math.maxapply(...arrayName) max element on array
-
-    Math.min.apply(null,arrayName) min element on array
-    Math.minapply(...arrayName) min element on array
-
-## prevent right click
-
-```js
-document.addEventListener('contextmenu', function(e){
-    e.preventDefault();
-})
-```
-
-
-# some rule wile coding
-
-- var and function are in camelCase
-- global and constant are in upper case
-- file name are in lower case
-- let space between `separator` like `+, - ...`
-- short statement can be in one line
-- `let i, len = arr.length;` best in performance than `for(i=0; i< len; i++)`
-- avoid using new word it's bad in performance
-- if we using `html` element more it's better put it into variable like `let`, `var` it effect on performance
-- `onload`, `onunload` ues to deal with cookie and browser type
-- there are two type of event
-  - bubbling propagation(default)
-  - capturing propagation
-- `selector.addEventListener('event', function, false|true)`  by default `false` which mean we are using bubbling propagation
-- use try & catch
-
-    ```js
-    try{
-        throw 'any data type';
-        .....
-    }
-    catch (er){
-        er.message;
-        ......
-    }
-    finally{
-        'code execute after try/catch' ;
-    }
-    ```
-
-- `arr.find(function(val,index){})` return first element achieve function condition
-- `arr.findIndex(function(val,index){})` return index of first element achieve function condition
 - `arr.filter(function(val,index){})` return array under function condition
 - arr`.foreach(function(val,index){})` loop on array
 - arr`.map(function(val,index){})` return array after achieve function on every element
