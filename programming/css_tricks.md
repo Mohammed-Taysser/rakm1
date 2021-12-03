@@ -999,52 +999,53 @@ label.moved-checkbox {
 needed `required` attr to work else use JS
 
 ```html
-  <div class="floating-label">
-    <input type="text" class="floating-label-field" id="field-1" required>
-    <label for="field-1" class="floating-label-placeholder" placeholder="Field 1">Field 1</label>
-  </div>
+<div class="float-label">
+  <input type="text" class="" id="input-name-1" required>
+  <label for="input-name-1">user name</label>
+</div>
 ```
 
 ```scss
-.floating-label {
+.float-label {
   position: relative;
-  font-size: 14px;
-  padding-top: 20px;
 
-  .floating-label-field {
-    border: none;
-    -webkit-appearance: none;
-    -ms-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    outline: none;
-    background-color: #f2f2f2;
-    padding: 12px;
-    border-radius: 3px;
-    width: 250px;
-    font-size: 14px;
+  & > label {
+    position: absolute;
+    left: 14px;
+    pointer-events: none;
+    top: 2px;
+    font-size: 1rem;
+    color: #aaa;
+    transition: 0.3s;
+  }
 
+  input{
     &::placeholder {
       color: transparent;
     }
   }
-  .floating-label-placeholder {
-    position: absolute;
-    left: 12px;
-    top: calc(50% + 10px);
-    user-select: none;
-    transform: translateY(-50%);
-    color: #aaa;
-    transition: top 0.3s ease-in-out, font-size 0.3s ease-in-out,
-      color 0.3s ease-in-out;
-  }
-  .floating-label-field:valid + .floating-label-placeholder,
-  .floating-label-field:focus + .floating-label-placeholder {
-    top: 10px;
-    font-size: 12px;
-    color: #aaa;
+
+  & input:focus + label,
+  & input.has-content + label {
+    top: -30px;
+    left: 0;
+    font-weight: 400;
+    color: #212529;
+    transition: 0.3s;
   }
 }
+```
+
+```js
+document.querySelectorAll('.float-label input').forEach(input => {
+  input.onfocus = function () {
+    if (this.value != '') {
+      this.classList.add('has-content');
+    } else {
+      this.classList.remove('has-content');
+    }
+  };
+})
 ```
 
 ## skew-divider
