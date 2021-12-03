@@ -1691,3 +1691,63 @@ code {
   }
 }
 ```
+
+## three spinner
+
+```html
+  <div class="three-spinner">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+```
+
+```scss
+.three-spinner .circle {
+  animation: rotate-spinner 0.2s linear infinite;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+
+  &:first-of-type {
+    border-top-color: dodgerblue;
+    height: 50px;
+    width: 50px;
+    top: 50px;
+    left: 50px;
+    animation-duration: 0.85s;
+  }
+  &:nth-of-type(2) {
+    border-top-color: lawngreen;
+    height: 75px;
+    width: 75px;
+    top: 38px;
+    animation-duration: 0.95s;
+    left: 38px;
+  }
+  &:last-of-type {
+    border-top-color: darkorange;
+    animation-duration: 1.05s;
+    height: 100px;
+    width: 100px;
+    top: 25px;
+    left: 25px;
+  }
+}
+@keyframes rotate-spinner {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+```
