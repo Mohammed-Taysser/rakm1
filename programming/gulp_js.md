@@ -49,9 +49,9 @@ npm i --save-dev gulp gulp-autoprefixer gulp-babel @babel/core @babel/preset-env
 ## Packages
 
 - [gulp-responsive](https://github.com/mahnunchik/gulp-responsive)
-- [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
-- [gulp-image](https://www.npmjs.com/package/gulp-image)
-- [gulp-webp](https://www.npmjs.com/package/gulp-webp)
+- ~~[gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)~~
+- ~~[gulp-image](https://www.npmjs.com/package/gulp-image)~~
+- ~~[gulp-webp](https://www.npmjs.com/package/gulp-webp)~~
 - [gulp-sourcemaps](https://www.npmjs.org/package/gulp-sourcemaps)
 - [gulp-concat](https://www.npmjs.com/package/gulp-concat)
 - [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
@@ -72,10 +72,8 @@ npm i --save-dev gulp gulp-autoprefixer gulp-babel @babel/core @babel/preset-env
 const gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     babel = require('gulp-babel'),
-
     // concat = require('gulp-concat'),
-    webp = require('gulp-webp'),
-    image = require('gulp-image'),
+    responsive = require('gulp-responsive'),
     del = require('del'),
     pug = require('gulp-pug'),
     rename = require('gulp-rename'),
@@ -92,38 +90,51 @@ const gulp = require('gulp'),
             dest: 'dist/css/',
         },
         javascript: {
-            libs: 'src/js/libs/*.js',
-            build: {
-                src: 'src/js/*.js',
-                dest: 'dist/javascript/build/',
-            },
-            demo: {
-                src: 'src/js/*.js',
-                dest: 'dist/javascript/',
-            },
+            src: 'src/javascript/*.js',
+            dest: 'dist/javascript/',
         },
-        fonts: {
-            src: 'src/fonts/**',
-            dest: 'dist/fonts/',
+        statics: {
+            fonts: {
+                src: 'src/fonts/**/*',
+                dest: 'dist/fonts/',
+            },
+            music: {
+                src: 'src/music/**/*',
+                dest: 'dist/music/',
+            },
+            javascript: {
+                src: 'src/javascript/libs/*.js',
+                dest: 'dist/javascript/libs/',
+            },
+            html: {
+                src: 'src/html/**/*.pug',
+            },
+            scss: {
+                src: 'src/css/**/*.scss',
+            },
+            images: {
+                src: 'src/images/favicon/*.{png,jpg,jpeg,svg}',
+                dest: 'dist/images/favicon/',
+            },
+            search_engin: {
+                src: ['src/robots.txt', 'src/manifest.json'],
+                dest: 'dist/',
+            },
         },
         images: {
-            src: 'src/images/**',
+            src: ['src/images/**/*.{png,jpg,jpeg,svg}', '!src/images/favicon/'],
             dest: 'dist/images/',
         },
-        music: {
-            src: 'src/music/**',
-            dest: 'dist/music/',
-        },
+
     };
+
 function clean() {
     'use strict';
-    return del([
-        'dist/**', '!dist',
-    ]);
+    return del(['dist/**', '!dist']);
 }
 
 
-function scss() {
+function dist_scss_task() {
     'use strict';
     return gulp.src(paths.scss.src)
         .pipe(sourcemaps.init())
@@ -134,18 +145,25 @@ function scss() {
         .pipe(gulp.dest(paths.scss.dest));
 }
 
-function demo_scss() {
+function dev_scss_task() {
     'use strict';
     return gulp.src(paths.scss.src)
-        .pipe(sourcemaps.init())
-        .pipe(autoprefixer())
+        // .pipe(sourcemaps.init())
+        // .pipe(autoprefixer())
         .pipe(sass().on('error', sass.logError))
         .pipe(rename(function (path) { path.extname = '.css'; }))
-        .pipe(sourcemaps.write('.'))
+        // .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest(paths.scss.dest));
 }
 
-function html() {
+function dist_html_task() {
+    'use strict';
+    return gulp.src(paths.html.src)
+        .pipe(pug({ pretty: false }))
+        .pipe(gulp.dest(paths.html.dest));
+}
+
+function dev_html_task() {
     'use strict';
     require('./server.js');
     return gulp.src(paths.html.src)
@@ -153,104 +171,143 @@ function html() {
         .pipe(gulp.dest(paths.html.dest));
 }
 
-function fonts() {
+function dev_js_task() {
     'use strict';
-    return gulp.src(paths.fonts.src)
-        .pipe(gulp.dest(paths.fonts.dest));
-}
-
-function demo_js_task() {
-    'use strict';
-    return gulp.src(paths.javascript.demo.src)
-        .pipe(sourcemaps.init())
+    return gulp.src(paths.javascript.src)
+        // .pipe(sourcemaps.init())
         .pipe(babel({ presets: ['@babel/env'] }))
-
         // .pipe(concat('script.js'))
-        .pipe(rename(function (path) {
-            if (path.basename.slice(-3) === 'min') {
-                path.basename = path.basename.slice(0, -4);
-            }
-        }))
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(paths.javascript.demo.dest));
+        // .pipe(rename(function (path) {
+        //     if (path.basename.slice(-3) === 'min') {
+        //         path.basename = path.basename.slice(0, -4);
+        //     }
+        // }))
+        // .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(paths.javascript.dest));
 }
-
-function build_js() {
+function dist_js_task() {
     'use strict';
-    return gulp.src(paths.javascript.build.src)
+    return gulp.src(paths.javascript.src)
         .pipe(sourcemaps.init())
         .pipe(babel({ presets: ['@babel/env'] }))
-
         // .pipe(concat('scripts.min.js'))
         .pipe(rename(function (path) {
             if (path.basename.slice(-3) !== 'min') {
                 path.extname = '.min.js';
             }
         }))
-
         // .pipe(rename({ suffix: '.min' }))
         .pipe(uglify())
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(paths.javascript.build.dest));
-}
-
-function build_libs_js() {
-    'use strict';
-    return gulp.src(paths.javascript.libs)
-        .pipe(sourcemaps.init())
-        .pipe(rename(function (path) {
-            if (path.basename.slice(-3) !== 'min') {
-                path.extname = '.min.js';
-            }
-        }))
-        .pipe(uglify())
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(paths.javascript.build.dest));
+        .pipe(gulp.dest(paths.javascript.dest));
 }
 
 function images_task() {
     'use strict';
     return gulp.src(paths.images.src)
-        .pipe(image({quiet: true}))
-        .pipe(webp())
         .pipe(gulp.dest(paths.images.dest));
+}
+
+function favicon_task() {
+    'use strict';
+    return gulp.src(paths.statics.images.src)
+        .pipe(
+            responsive({
+                'favicon.png': [
+                    {
+                        width: 180,
+                        height: 180,
+                        rename: 'apple-touch-icon.png',
+                        format: 'png',
+                        progressive: true,
+                        withMetadata: false,
+                    },
+                    {
+                        width: 32,
+                        height: 32,
+                        rename: 'favicon-32x32.png',
+                        format: 'png',
+                        progressive: true,
+                        withMetadata: false,
+                    },
+                    {
+                        width: 16,
+                        height: 16,
+                        rename: 'favicon-16x16.png',
+                        format: 'png',
+                        progressive: true,
+                        withMetadata: false,
+                    },
+                ]
+            })
+        )
+        .pipe(gulp.dest(paths.statics.images.dest));
 }
 
 function music_task() {
     'use strict';
-    return gulp.src(paths.music.src)
-        .pipe(gulp.dest(paths.music.dest));
+    return gulp.src(paths.statics.music.src)
+        .pipe(gulp.dest(paths.statics.music.dest));
 }
 
-function watch() {
+function fonts_task() {
     'use strict';
-    gulp.watch('src/html/**/*.pug', html);
-
-    // gulp.watch(paths.javascript.demo.src, demo_js_task);
-    // gulp.watch(paths.scss.src, demo_scss);
-    gulp.watch('src/js/**/*.js', build_js);
-    gulp.watch('src/js/**/*.js', build_libs_js);
-    gulp.watch(paths.fonts.src, fonts);
-    gulp.watch('src/css/**/*.scss', scss);
-    gulp.watch(paths.images.src, images_task);
-    gulp.watch(paths.music.src, music_task);
+    return gulp.src(paths.statics.fonts.src)
+        .pipe(gulp.dest(paths.statics.fonts.dest));
 }
 
+function statics_js_task() {
+    'use strict';
+    return gulp.src(paths.statics.javascript.src)
+        .pipe(gulp.dest(paths.statics.javascript.dest));
+}
 
-exports.default = gulp.series(
+function search_engin_task() {
+    'use strict';
+    return gulp.src(paths.statics.search_engin.src)
+        .pipe(gulp.dest(paths.statics.search_engin.dest));
+}
+
+function watch_fun() {
+    'use strict';
+    gulp.watch(paths.statics.html.src, dev_html_task);
+    gulp.watch(paths.statics.scss.src, dev_scss_task);
+    gulp.watch(paths.javascript.src, dev_js_task);
+    gulp.watch(paths.statics.javascript.src, statics_js_task);
+    gulp.watch(paths.statics.fonts.src, fonts_task);
+    gulp.watch(paths.images.src, images_task);
+    gulp.watch(paths.statics.music.src, music_task);
+    gulp.watch(paths.statics.images.src, favicon_task);
+}
+
+const dev = gulp.series(
     clean,
-    html,
-    build_js,
-    build_libs_js,
-
-    // demo_js_task,
-    // demo_scss,
-    fonts,
+    dev_html_task,
+    dev_scss_task,
+    dev_js_task,
+    statics_js_task,
+    fonts_task,
     images_task,
-    scss,
     music_task,
-    gulp.parallel(watch),
-);
+    watch_fun,
+),
+    dist = gulp.series(
+        clean,
+        dist_html_task,
+        dist_js_task,
+        statics_js_task,
+        dist_scss_task,
+        fonts_task,
+        images_task,
+        music_task,
+        favicon_task,
+        search_engin_task,
+    );
+
+module.exports = {
+    dev,
+    dist,
+}
 ```
 
 ## `package.js`
