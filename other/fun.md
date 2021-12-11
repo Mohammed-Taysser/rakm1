@@ -37,7 +37,7 @@
 - [I’m destined for greatness 71](https://mangaswat.com/im-destined-for-greatness-71/834411/)
 - [FFF-Class Trashero 92](https://mangaswat.com/92-%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A/753362/)
 - [Max Level Returner – 95](https://mangaswat.com/max-level-returner-95/1066903/)
-- [Poison Dragon: The Legend of an Asura Ch.63](https://mangaswat.com/p-d-t-63/1074851/)
+- [Poison Dragon: The Legend of an Asura Ch.63](https://azoraworld.com/series/legend-of-asura-the-venom-dragon/66/)
 - [I Grow Stronger By Eating](https://teamxmanga.com/2lxpvmf/)
 - [i’m the only one loved by the constellations](https://teamxmanga.com/whbinq/)
 - [Leveling Up With Gods](https://teamxmanga.com/bkvhi3/)
@@ -57,7 +57,11 @@
 - [The Eternal Supreme 42](https://mangaswat.com/the-eternal-supreme-41-2/1105661/)
 - [The Lord’s Coins Aren’t Decreasing ?!](https://mangaswat.com/the-lords-coins-arent-decreasing-6/1108934/)
 - [The Max Level Hero has Returned! 71](https://mangaswat.com/the-max-level-hero-has-returned-71/1110661/)
+- [dimensional-mercenary](https://azoraworld.com/series/dimensional-mercenary/93/)
+- [lightning-degree](https://azoraworld.com/series/lightning-degree/31/)
 - [the strong man From The Mental Hospital 28](https://mangaswat.com/the-strong-man-28/1111788/)
+- [sss-class-gacha-hunter](https://azoraworld.com/series/sss-class-gacha-hunter/27/)
+- [strongest-anti-m-e-t-a-278](https://azoraworld.com/series/strongest-anti-m-e-t-a/278/)
 
 ## anime
 
@@ -99,11 +103,12 @@
 - [Darwin’s Game](https://www.faselhd.pro/?p=123128)
 - [Dr. Stone](https://www.faselhd.pro/?p=119203)
 - [man no Inochi no Ue ni Ore wa Tatteiru](https://www.faselhd.pro/?p=134165)
+- [kemono-jihen](https://www.zimabadk.com/anime/kemono-jihen/)
 - [High-Rise Invasion](https://www.faselhd.pro/?p=119075)
 - [Genjitsu Shugi Yuusha no Oukoku Saikenki](https://www.faselhd.pro/?p=134289)
 - [Shingeki no Kyojin (Attack on Titan)](https://www.faselhd.pro/?p=115789)
 - [Golden Kamuy](https://www.faselhd.pro/?p=108523)
-- [Mushoku Tensei: Isekai Ittara Honki Dasu Season 2](https://www.faselhd.pro/?p=138567)
+- [Mushoku Tensei: Isekai Ittara Honki Dasu Season 2](https://www.faselhd.pro/?p=138886)
 
 ## website
 
