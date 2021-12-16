@@ -1752,3 +1752,207 @@ code {
   }
 }
 ```
+
+# burger
+
+## flippin burger
+
+```html
+
+<svg class="ham-svg  ham-4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+  <path class="line top" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+  <path  class="line middle"  d="m 70,50 h -40" />
+  <path class="line bottom" d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+</svg>
+
+<svg class="ham-svg  ham-8" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+  <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+  <path class="line middle" d="m 30,50 h 40" />
+  <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+</svg>
+
+```
+
+```scss
+.ham-svg {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  &.active {
+    transform: rotate(45deg);
+  }
+
+  .line {
+    fill: none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #000;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+  }
+
+  &.ham-4 {
+    .top {
+      stroke-dasharray: 40 121;
+    }
+    .bottom {
+      stroke-dasharray: 40 121;
+    }
+    &.active .top {
+      stroke-dashoffset: -68px;
+    }
+    &.active .bottom {
+      stroke-dashoffset: -68px;
+    }
+  }
+
+  &.ham-8 {
+    .top {
+      stroke-dasharray: 40 160;
+    }
+    .middle {
+      stroke-dasharray: 40 142;
+      transform-origin: 50%;
+      transition: transform 400ms;
+    }
+    .bottom {
+      stroke-dasharray: 40 85;
+      transform-origin: 50%;
+      transition: transform 400ms, stroke-dashoffset 400ms;
+    }
+    &.active .top {
+      stroke-dashoffset: -64px;
+    }
+    &.active .middle {
+      //stroke-dashoffset: -20px;
+      transform: rotate(90deg);
+    }
+    &.active .bottom {
+      stroke-dashoffset: -64px;
+    }
+  }
+}
+```
+
+## draw burger
+
+```html
+<div class="menu-toggle-btn" onclick="this.classList.toggle('open')">
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="cross">
+    <span></span>
+    <span></span>
+  </div>
+</div>
+```
+
+```scss
+span {
+  display:block;
+  background:#566973;
+  border-radius:2px;
+}
+
+.menu-toggle-btn {
+  transition:.25s ease-in-out;
+  width:70px;
+  height:70px;
+  margin:50px auto;
+  position:relative;
+  cursor:pointer;
+  background:#d9e4ea;
+  border-radius:5px;
+  &:hover {
+    background:rgba(255,255,255,.8);
+  }
+  .hamburger {
+    transition:.25s ease-in-out;
+    position:absolute;
+    height:100%;
+    width:100%;
+    span {
+      transition:.25s ease-in-out;
+      width:40px;
+      height:4px;
+      position:relative;
+      top:10px;
+      left:15px;
+      margin:10px 0;
+      &:nth-child(1){
+        transition-delay:.5s;
+      }
+      &:nth-child(2){
+        transition-delay:.625s;
+      }
+      &:nth-child(3){
+        transition-delay:.75s;
+      }
+    }
+  }
+  .cross {
+    transition:.25s ease-in-out;
+    position:absolute;
+    height:100%;
+    width:100%;
+    transform:rotate(45deg);
+    span{
+      transition:.25s ease-in-out;
+      &:nth-child(1){
+        height:0%;
+        width:4px;
+        position:absolute;
+        top:10%;
+        left:37px;
+        transition-delay:0s;
+      }
+      &:nth-child(2){
+        width:0%;
+        height:4px;
+        position:absolute;
+        left:12%;
+        top:35px;
+        transition-delay:.25s;
+      }
+    }
+  }
+}
+
+.menu-toggle-btn.open {
+  .hamburger {
+    span {
+      width:0%;
+      &:nth-child(1){
+        transition-delay:0s;
+      }
+      &:nth-child(2){
+        transition-delay:.125s;
+      }
+      &:nth-child(3){
+        transition-delay:.25s;
+      }
+    }
+  }
+  .cross {
+    span {
+      &:nth-child(1){
+        height:80%;
+        transition-delay:.625s;
+      }
+    }
+    span {
+      &:nth-child(2){
+        width:80%;
+        transition-delay:.375s;
+      }
+    }    
+  }
+}
+```
