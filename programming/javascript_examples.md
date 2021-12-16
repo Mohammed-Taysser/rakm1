@@ -2699,3 +2699,5 @@ document.querySelector('#js-show-hide-password').onclick = function () {
     }
 }
 ```
+
+- <https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications
