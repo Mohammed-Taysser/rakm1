@@ -1,10 +1,36 @@
 
 # references
 
-- [html](https://htmlreference.io/)
-- [html.spec.whatwg](https://html.spec.whatwg.org/multipage/)
-- [css](https://cssreference.io/)
-- [css guide lines](https://cssguidelin.es/)
+## `html`
+
+- <https://htmlreference.io/>
+- <https://html.spec.whatwg.org/multipage/>
+
+## `css`
+
+- <https://cssreference.io/>
+- <https://cssguidelin.es/>
+- <https://www.w3schools.com/jsref/default.asp>
+- <https://tympanus.net/codrops/css_reference/>
+- <https://meiert.com/en/indices/css-properties/>
+- <https://csstriggers.com/>
+- <https://css-tricks.com/almanac/>
+
+## `javascript`
+
+- <https://javascript.info/>
+- <https://jstherightway.org/>
+- <http://es6-features.org/#Constants>
+- <https://exploringjs.com/es6/>
+
+## `global`
+
+- <https://overapi.com/>
+- <https://devdocs.io/>
+- <https://www.better.dev>
+- <https://hackr.io/>
+
+# Frontend
 
 ## Inspiration & Parts
 
@@ -18,15 +44,24 @@
 - <https://www.iamrohit.in/#>
 - <https://codemyui.com>
 
+## loaders
+
+- <https://cssloaders.github.io/>
+
+## tables
+
+- <https://datatables.net/>
+
 ## Best Plugins
 
-### slider & carousel
+### slider & carousel (`vanilla.js`)
 
-- <https://glidejs.com/>                                slider and carousel
+- <https://glidejs.com/>
 - <https://revealjs.com/>
-- <https://splidejs.com/>                               slider and carousel
-- <https://flickity.metafizzy.co/options.html>          slider and carousel
-- <https://github.com/NickPiscitelli/Glider.js>         slider and carousel
+- <https://splidejs.com/>
+- <https://flickity.metafizzy.co/options.html>
+- <https://github.com/NickPiscitelli/Glider.js>
+- <https://ilkeryilmaz.github.io/timelinejs/>            timeline
 
 ### Other
 
@@ -49,11 +84,11 @@
 - <https://sa-si-dev.github.io/virtual-select>          select elements
 - <https://bmsvieira.github.io/BVSelect-VanillaJS/>     select elements
 - <https://intl-tel-input.com/>                         International Telephone Input
-- <https://www.chartjs.org/docs/latest/>                create charts
 - <http://fian.my.id/Waves/>                            wave effect
 - <https://pryley.github.io/star-rating.js/>            star-rating
-- <https://sparticlesjs.dev/>                           particles
+- <https://quilljs.com/>                                editor
 - <https://shepherdjs.dev/>                             guiding user
+- <https://sparticlesjs.dev/>                           particles
 
   ```json
   {
@@ -92,21 +127,30 @@
 - <https://github.com/sbstjn/timesheet.js>              create HTML time sheets
 - <https://github.com/rstacruz/nprogress>               like youtube progressbar (ajax request)
 
+### alerts
+
+- <https://sweetalert.js.org/>
+
 ### Video & Audio
 
 - <https://plyr.io/>                                    A simple, accessible media player
 - <https://www.mediaelementjs.com/>                     A dependable HTML media framework
 - <https://github.com/goldfire/howler.js>               audio library for the modern web
 
+### charts
+
+- <https://developers.google.com/chart>
+- <https://www.chartjs.org/>
+
 ### Button Hover
 
 - <https://github.com/IanLunn/Hover>
 
-## UX
+## UX Notes
 
 - make hint for scroll like header angle scroll for any scroll part
-- add icons in form
-- use validation in user form input with message in error
+- add icons in form input
+- use validation in user form input with message in error or success
 
 ### website
 
@@ -119,16 +163,6 @@
 - <https://systemuicons.com/>
 - <https://remixicon.com/>
 - <https://healthicons.org/>    # Free, open source health icons
-
-## Gradients
-
-- <https://www.csscolorgradients.com/>
-
-## create photo from code
-
-- <https://ray.so/>
-- <https://carbon.now.sh/>
-- <https://codeimg.io/>
 
 ## link to QR
 
@@ -146,7 +180,7 @@
 
 ## minify & putty code
 
-- <https://alchemizeapp.com/>
+- <https://alchemizeapp.com/app/>
 
 ## before buy
 
@@ -156,11 +190,6 @@ http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options',
 
 ## deployment website
 
-- [netlify](https://www.netlify.com/)
-- [pythonanywhere](https://www.pythonanywhere.com/)
-
-### Frontend
-
 - GitHub
 - Netlify
 - Heroku
@@ -168,18 +197,20 @@ http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options',
 - Vercel
 - [Surge](https://surge.sh/)
 - Firebase
-
-### Backend
-
 - Vercel
 - Heroku
 - Google Cloud
 - AWS
 
-The Best :smile:
+The Best :slightly_smiling_face:
 Localhost://3000
 
-## icons & illustrations
+## vectors and icons
+
+- <https://dryicons.com/>
+- <https://iconstore.co/>
+
+## icons Library
 
 - <https://feathericons.com/>     # downloadable
 - <https://boxicons.com/>         # downloadable
@@ -199,15 +230,24 @@ Localhost://3000
 - <https://icomoon.io/>
 - <https://dribbble.com/>
 - <https://flat-icons.com/>
-- <https://undraw.co/>          illustrations
-- <https://blush.design/>       illustrations
-- <https://opendoodles.com/>    illustrations
 - <https://illustrationkit.com/>
 - <https://iconscout.com/>
-- <https://www.toptal.com/designers/subtlepatterns/>  pattern
-- <https://github.com/atlemo/SubtlePatterns>          pattern
+
+## pattern & backgrounds
+
+- <https://www.freepik.com/search?dates=any&format=search&page=1&query=geometric&sort=popular>
+- <https://www.toptal.com/designers/subtlepatterns/>
+- <https://github.com/atlemo/SubtlePatterns>
 - <https://bansal.io/pattern-css>
 - <https://trianglify.io/>
+
+## illustrations
+
+- <https://www.glazestock.com/> best
+- <https://undraw.co/> best2
+- <https://opendoodles.com/>
+- <https://blush.design/>
+- <https://drawkit.com/>
 
 ## Useful
 
@@ -242,6 +282,7 @@ Localhost://3000
 
 - Checkboxes Multi-Select with Shift and Ctrl/Cmd Keys | Shift-Select
 - local storage in js
+- <https://codepen.io/search/pens?q=es6>
 - <https://nullilac.github.io/skeleton-screen-css/>     animation while loading content
 - <https://kodhus.com/framework/components/view/autocomplete-suggestion>
 
@@ -265,16 +306,11 @@ Localhost://3000
 - [https://www.hubspot.com/careers/product-engineering](https://www.hubspot.com/careers/product-engineering)
 - <https://github.com/tabler/tabler>
 
-## User Warn from console
+## Warn User from console
 
 from <https://academy.hsoub.com/>
 
-This is a browser feature intended for developers. Do not paste any code here given to you by someone else. It may compromise your account or have other negative side effects.
-
-## github
-
-- <https://github.com/collections/machine-learning>
-- <https://github.com/collections/open-data>
+This is a browser feature intended for developers. Do not paste any code here given to you by someone else. It may compromise your account or have other negative side effects. have a good day
 
 ## test website before deploy
 
@@ -328,47 +364,28 @@ This is a browser feature intended for developers. Do not paste any code here gi
   - <https://app.sistrix.com/en/serp-snippet-generator>
   - <https://cssstats.com/>
 - favicon
-  - <https://www.favicon-generator.org/> just check it
   - <https://realfavicongenerator.net/>
-
-## API
-
-- <https://www.breakingbadapi.com/documentation>
-- <https://randomuser.me/>
-- <https://picsum.photos/>
-- <https://reqres.in/>
-- <https://ipapi.co/>
-- <https://quotes.rest/>
-- <https://www.quotes.net/quotes_api.php>
-- <https://rapidapi.com/collection/quote-generator-apis>
 
 ## convert any image into a pure css image
 
 - <https://javier.xyz/img2css/>
 
-## colors & gradient
+## colors
 
 - <https://coolors.co/>
 - <https://randoma11y.com/>
-- <https://colorsinspo.com>
-- <https://palettegenerator.colorion.co>
+
+## gradient
+
 - <https://webgradients.com/>
-- <https://uigradients.com/#Reef>
-- <https://components.ai/gradient/>
-- <https://www.gradientmagic.com/>
-- <https://gradients.party/>
-- <https://cssgradient.io>
 - <https://cssgradient.io/gradient-backgrounds/>
-- <https://gradienta.io/>
-- <https://mybrandnewlogo.com/color-gradient-generator>
+- <https://cssgradient.io>
+- <https://gradients.party/>
+- <https://www.gradientmagic.com/>
+- <https://uigradients.com/#Reef>
 - <https://webkul.github.io/coolhue/>
-- <https://designkiki.com/colordoo/>
-- <https://www.30secondsofcode.org/articles/s/25-css-gradients>
-
-## svg generator
-
-- <https://components.ai/svg-grid/>
-- <https://components.ai/delaunay/>
+- <https://gradienta.io/>
+- <https://www.csscolorgradients.com/>
 
 ## Frontend Design tips
 
@@ -377,29 +394,61 @@ This is a browser feature intended for developers. Do not paste any code here gi
 - <https://medium.com/nextux/design-better-input-fields-3d02985a8e24>
 - <https://uxplanet.org/button-ux-design-best-practices-types-and-states-647cf4ae0fc6>
 
-## Backend Development
+# Backend Development
+
+## Data Structure
+
+- <https://www.programiz.com/dsa>
+- <https://www.geeksforgeeks.org/fundamentals-of-algorithms/>
+- <https://docs.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-hashtable?view=powershell-7.2>
+- <https://www.freecodecamp.org/news/hash-tables/>
+- <https://www.tutorialspoint.com/data_structures_algorithms/hash_data_structure.htm>
+
+## problem solving
+
+- <https://www.hackerrank.com/dashboard>
+- <https://www.spoj.com/>
+- <https://edabit.com/>
+
+## github
 
 - <https://github.com/shieldfy/API-Security-Checklist>
-- <https://github.com/djstein/modern-django>
-- <https://github.com/wsvincent/awesome-django>
 - <https://github.com/ismaxim/awesome-backend>
+- <https://github.com/collections/machine-learning>
+- <https://github.com/collections/open-data>
 
-### Learning and Practicing SQL: Resources and Platforms
+## Learning and Practicing SQL: Resources and Platforms
 
-- [https://sqlbolt.com/](https://sqlbolt.com/)
-- [https://sqlzoo.net/](https://sqlzoo.net/)
-- [https://www.codecademy.com/learn/learn-sql](https://www.codecademy.com/learn/learn-sql)
-- [https://www.w3schools.com/sql/](https://www.w3schools.com/sql/)
-- [https://www.hackerrank.com/domains/sql](https://www.hackerrank.com/domains/sql)
-- [https://www.windowfunctions.com/](https://www.windowfunctions.com/)
-- [https://selectstarsql.com/](https://selectstarsql.com/)
-- [https://quip.com/2gwZArKuWk7W](https://quip.com/2gwZArKuWk7W)
-- [https://leetcode.com/problemset/database/](https://leetcode.com/problemset/database/)
-- [http://thedatamonk.com/](http://thedatamonk.com/)
+- <https://sqlbolt.com/>
+- <https://sqlzoo.net/>
+- <https://www.codecademy.com/learn/learn-sql>
+- <https://www.w3schools.com/sql/>
+- <https://www.hackerrank.com/domains/sql>
+- <https://www.windowfunctions.com/>
+- <https://selectstarsql.com/>
+- <https://quip.com/2gwZArKuWk7W>
+- <https://leetcode.com/problemset/database/>
+- <http://thedatamonk.com/>
+
+## API
+
+- <https://breakingbadapi.com/>
+- <https://api.github.com/>
+- <https://randomuser.me/>
+- <https://picsum.photos/>
+- <https://reqres.in/>
+- <https://ipapi.co/>
+- <https://quotes.rest/>
+- <https://www.quotes.net/quotes_api.php>
+- <https://rapidapi.com/collection/quote-generator-apis>
+
+# other but useful
 
 ## Save code as photo
 
 - <https://ray.so/>
+- <https://carbon.now.sh/>
+- <https://codeimg.io/>
 
 ## Image Compress
 
