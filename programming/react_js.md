@@ -92,6 +92,7 @@ ReactDOM.render(element, document.getElementById('root'));
 
 ```js
 class Welcome extends React.Component {
+  const {title, date} = this.props;
   render() {
     return <h1>Hello, {this.props.name}</h1>;
   }
@@ -102,6 +103,7 @@ class Welcome extends React.Component {
 
 ```js
 function Welcome(props) {
+  const {title, date} = props;
   return <h1>Hello, {props.name}</h1>;
 }
 ```
@@ -211,6 +213,12 @@ this.setState(function(state, props) {
   return {
     counter: state.counter + props.increment
   };
+});
+
+this.setState((state) => {
+  {
+    is_editable: !state.is_editable
+  }
 });
 ```
 
@@ -915,6 +923,8 @@ function TodoList() {
 
 - Use the Production Build `npm run build`
 
+## Typechecking With PropTypes
+
 # API Reference
 
 ## React.Component
@@ -946,6 +956,7 @@ If your React component’s `render()` function renders the same result given th
 - <https://www.30secondsofcode.org/react/t/hooks/p/1>
 - <https://www.30secondsofcode.org/c/react-testing/p/1>
 - <https://iq.js.org/questions/react/what-is-react>
+- <https://www.npmjs.com/package/prop-types>
 - <https://duckduckgo.com/?t=ffab&q=react+css+modules&atb=v281-1&ia=web>
 - <https://duckduckgo.com/?t=ffab&q=styled+components&atb=v281-1&ia=web>
 - <https://reactjs.org/docs/refs-and-the-dom.html>
