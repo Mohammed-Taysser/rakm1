@@ -1,128 +1,187 @@
 
-# links
+# google 😜
 
-- [googleguide](http://www.googleguide.com/advanced_operators_reference.html)
-- [support.google](https://support.google.com/websearch/answer/2466433?hl=en)
+## Search Operators
 
-allinanchor:text => all links tend to        [text]
-allintext  :text => all page contain         [text]
-allintitle :text => all page title have      [text]
-allinurl   :text => all page have url to     [text]
-define     :text => all page contain def to  [text]
-info       :text => all page contain with def [text]
+**Note**: Do not put a space between `operator:` and the `URL`
 
- text1 location:text 
+- `allinanchor:title`:  page with anchor text contain **title**
+- `allintext:title`:    page with **title** in page content
+- `allintitle:title`:   page with **title** in page title
+- `allinurl:title`:     page with **title** in page url
+- `cache:url`:          display cached version of a web page
+- `define:title`:       finding definitions of words
+- `filetype:suffix` or `ext:suffix`     pages whose names end in suffix
+- `link:url`            pages that point to that **URL**
+- `site:url title`      search results to the site with **title**
+- `related:url`         pages that are similar to the **URL**
 
-[searching text] filetype:text => all page contain searching text as text format
------[example]-----> email security filetype:pdf OR filetype:doc
+## Query Input
 
+- Search for **exact match**: Put a word inside quotes. example: `"full stack"`
+- Search within **range of numbers**: Put `..` between two numbers. example: `laptop $500..$1000`
+- **Exclude** words from search: Put `-` in front of word you want to leave out. example `full stack -dotnet`
+- **Combine searches**: Put `OR` or `|` between each search query. example, `frontend OR backend`.
+- Search for **price**: put `$` in front of a number. example:`laptop $400`
+- Search for **hashtags**: Put `#` in front of a word. example: `#frontend`
+- Search for **alternative** mean: Put `~` in front of a word. example: `~expensive` like un-cheap
+- Search for **unknown** word: Put `*` between words. example: `"full * dev"` as unknown word is `stack`
 
-site:
-If you include site: in your query, Google will restrict your search results to the site or domain you specify. For example, [ admissions site:www.lse.ac.uk ] will show admissions information from London School of Economics’ site and [ peace site:gov ] will find pages about peace within the .gov domain. You can specify a domain with or without a period, e.g., either as .gov or gov.
+## Anatomy of a Web Address
 
-Note: Do not include a space between the “site:” and the domain.
+<http://www.googleguide.com/searchEngines/google/searchLeader.html>
 
-You can use many of the search operators in conjunction with the basic search operators +, –, OR, and " ". For example, to find information on Windows security from all sites except microsoft.com, enter:
+part                | description
+-------             | ---------
+http                | transfer protocol (type of information being transferred)
+www.googleguide.com | website name, host name
+googleguide         | second-level domain name
+com                 | top-level domain name
+searchEngines       | directory name (major category)
+google              | sub-directory name (sub-category)
+searchLeader        | file name (a file within the directory)
+html                | file format
 
-[  windows security –site:microsoft.com  ]
+## some note
 
-You can also restrict your results to a site or domain through the domains selector on the Advanced Search page.
+### Stop Words
 
+Some common words, called `stop words` (such as the, on, where, how, de, la, as well as certain single digits and single letters) generally don't add meaning to a search.
 
-/-----------------------------------------------/
+### Word Limit
 
+Google limits queries to 32 words.
 
-Search social media
-Put @ in front of a word to search social media. For example: @twitter.
+### Terms in Order
 
-Search for a price
-Put $ in front of a number. For example: camera $400.
+Google gives higher priority to pages that have the terms in the same order as in your query.
 
-Search hashtags
-Put # in front of a word. For example: #throwbackthursday
+### Not Case-Sensitive
 
-Exclude words from your search
-Put - in front of a word you want to leave out. For example, jaguar speed -car
+Google is NOT case sensitive, it shows both upper- and lowercase results.
 
-Search for an exact match
-Put a word or phrase inside quotes. For example, "tallest building".
+### Characters Ignored
 
-Search within a range of numbers
-Put .. between two numbers. For example, camera $50..$100.
+Google ignores some punctuation and special characters, including `! ? , . ; [ ] @ / # < >`
 
-Combine searches
-Put "OR" between each search query. For example, marathon OR race.
+### Apostrophes
 
-Search for a specific site
-Put "site:" in front of a site or domain. For example, site:youtube.com or site:.gov.
+A term with an apostrophe (single quote, ') doesn't match the term without an apostrophe.
 
-Search for related sites
-Put "related:" in front of a web address you already know. For example, related:time.com.
+A query with the term “we're” returns different results from a query with the term “were.”
 
-See Google’s cached version of a site
-Put "cache:" in front of the site address.
+- `we're` matches `we're` but not `were`
+- `were`  matches `were` but not `we're`
 
-Important: Not all search operators return exhaustive results.
+### Hyphenated Terms
 
+Because some people spell hyphenated words with a hyphen `-` and others with a space, Google searches for variations on any hyphenated terms.
 
+- `part-time` matches `part-time`, `part time` and `parttime`
+- `part time` matches `part-time` and `part time`
+- `"part time"` (with quotes) is better for space-separated words
 
+### Terms Nearby
 
-الكنز المجهول فى Google ! 😃
+Google favors results that have your search terms near each other
 
-- كلنا بنستخدم google بشكل يومى فى اننا ندور على احنا محتاجينه بس معظمنا مش عارف ان جوجل مليان أسرار فى البحث ..
+Google considers the proximity of your search terms within a page. So the query `snake grass` finds pages about a plant of that name, while `snake in the grass` tends to emphasize pages about sneaky people. Although Google ignores the words “in” and “the,” (these are stop words), Google gives higher priority to pages in which “snake” and “grass” are separated by two words.
 
-- شوية أسرار بسيطه بنكتبها واحنا بندور هنوصل الى احنا محتاجينه بكل ببساطه :D
+## resources
 
-1- السر الأول (+)
-نستخدم + لما نحتاج ندور على حاجتين مع بعض
-- مثال :
-Computer+internet
-eat + drink
+- <http://www.googleguide.com/advanced_operators_reference.html>
+- [advanced image search](https://google.com/advanced_image_search)
 
-2- السر التانى (-)
-نستخدم - لما نحتاج ندور على كلمه معينه مرتبطه بكلمه تانيه بس احنا محتاجين الكلمه الاولى بس
-- مثال :
-Green - burger
-كده هيدور على green بس ومش هيظهر اى حاجه عن burger
+# duckduckgo 💪
 
-3- السر التالت ( " " )
-نستخدم " " لما نحتاج ندور فى المواقع على جمله مترتبه
-- مثال
-" i use facebook "
-كده هيدور على كل المواقع الى فيها الجمله ده بترتيب الكلام بالظبط
+## Bang
 
-4- السر الرابع (OR)
-نستخدم OR لما ندور على كلمتين فى بس مش مش يكونوا مع بعض
-- مثال
-Eat or Drink
-كده هيدور على المواقع الى فيها eat ومش شرط يكون فيها drink وبرده هيدور على المواقع الى فيها drink ومش شرط يكون فيها eat
+    !devto (opens Dev)
+    !mdn   (opens MDN Web Docs)
+    !yt    (opens YouTube)
 
-5- السر الخامس :site
-بنستخدم :site لما نحتاج ندور موضوع داخل موقع معين
-- مثال
-messi Site:Facebook
-كده هيدورلك على كلمه messi فى موقع الفيس بوك
+## See social media information in results
 
-6- السر السادس (*)
-نستخدم * لما نكون بندور وناسين كلمه من الى احنا بندور عليه
-- مثال
-how to * football
-كده هيدور على كل كل جمله فيها التلات كلمات دور واكيد هتلاقى الى انت كنت بدور عليه
+    @duckduckgo
 
-7- السر السابع +time
-بنستخدم الامر ده + time لما نحتاج نعرف الوقت فى دوله معينه
-- مثال
-Time + England
-كده هيجبلك الوقت فى انجلترا
+## Generate lorem ipsum text
 
-8- السر التامن Info
-بنستخدم info لما نحتاج نعرف معلومه عن موقع معين
-- مثال :
-Info : www.twitter
-كده هيطلعلك كل المعلومات عن موقع تويتر
+    lorem ipsum
 
-9- السر التاسع :filetype
-بنستخدم الأمر ده لما نكون بندور على حاجة وعاوزنها تطلع فى صورة ملفات أو برنامج لتحميل
-مثال:
-Mechanical engineering filetype:pdf
-كده هيطلع كل نتيجة البحث ملفات
+    5 sentences of Lorem Ipsum
+
+    20 words of random latin
+
+    10 paragraphs of lorem ipsum
+
+## Change casing
+
+    lowercase title
+
+    uppercase title
+
+## URL encoding
+
+    url encode https://duckduckgo.com/
+    result: https%3A%2F%2Fduckduckgo.com%2F
+
+    URL decode https%3A%2F%2Fduckduckgo.com%2F
+    result: https://duckduckgo.com/
+
+## Shorten links
+
+    shorten https://duckduckgo.com
+    result: https://is.gd/Xiofm9
+
+## Expand links
+
+    expand https://is.gd/Xiofm9
+    result:https://duckduckgo.com
+
+## Cheatsheets
+
+    duckduckgo cheatsheet
+
+## Searching for any calendar
+
+    calendar 25 dec 2021
+
+    calendar
+
+## Generate QR Codes
+
+    qr https://duckduckgo.com
+
+## Find HTML codes
+
+    html chars
+
+    html &
+
+## Find certain colours
+
+    #FFB38F
+
+## Check the status of a website
+
+    is github.com down
+
+## Binary conversion
+
+    101 binary
+
+    101 decimal
+
+## alternative
+
+    alternative to photoshop
+
+## Stopwatch
+
+    Stopwatch
+
+## Easter eggs
+
+- [why should i use this](https://duckduckgo.com/?q=why+should+i+use+this&t=brave&ia=answer)
+- [google](https://duckduckgo.com/?q=google&v=c&ia=web)
+- [xkcd](https://duckduckgo.com/?q=xkcd&v=c&ia=comics)
