@@ -42,12 +42,6 @@
 <input type="file" accept="image/png, image/jpeg" />
 ```
 
-## Lazy loading images
-
-```html
-<img src="..." alt="..." loading="lazy" />
-```
-
 ## Validate an input value with the pattern attribute
 
 ```html
@@ -74,4 +68,10 @@
     <option value="..." />
     ...
 </datalist>
+```
+
+## dynamic link
+
+```html
+<a href="?art&copy">Art and Copy</a>
 ```
