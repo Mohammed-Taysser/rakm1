@@ -18,7 +18,6 @@ command | details
 `Ctrl+Shift+N`     | New window/instance
 `Ctrl+W`           | Close window/instance
 `Ctrl+,`           | User Settings
-`Ctrl+S`           | Keyboard Shortcuts
 `Alt+ ↓ / ↑`       | Move line down/up
 `Ctrl+ ↑ / ↓`      | Scroll line up/down
 `Ctrl+Shift+K`     | Delete line
@@ -27,6 +26,7 @@ command | details
 `Ctrl+Shift+\`     | Jump to matching bracket
 `Ctrl+]`           | Indent line
 `Ctrl+[`           | Outdent line
+`Ctrl+K M`         | Change file language
 `Home`             | Go to beginning of line
 `Ctrl+ Home`       | Go to beginning of file
 `End`              | Go to end of line
