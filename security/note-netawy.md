@@ -1,7 +1,22 @@
 
-# elements of info-sec
+# technawi notes
 
-1. confidentiality  سرية
+## course content
+
+1. introduction to ethical hacking (basic & essential)
+2. building your testing lab
+3. footprinting & reconnaissance
+4. scanning network
+5. enumeration
+6. system hacking
+7. malware threats
+8. sniffing
+9. social engineering
+10. denial of service
+
+## elements of info-sec
+
+1. confidentiality  (السرية)
 2. integrity
 3. availability
 4. authenticity
