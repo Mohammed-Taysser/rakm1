@@ -1,79 +1,107 @@
 
-# technawi notes
+# Technawi Notes (CEH v9) 💻
 
-## course content
+## Course Content 📔
 
-1. introduction to ethical hacking (basic & essential)
-2. building your testing lab
-3. footprinting & reconnaissance
-4. scanning network
-5. enumeration
-6. system hacking
-7. malware threats
-8. sniffing
-9. social engineering
-10. denial of service
+1. Introduction To Ethical Hacking (Basic & Essential)
+2. Building Your Testing Lab
+3. Foot printing & Reconnaissance
+4. Scanning Network
+5. Enumeration
+6. System Hacking
+7. Malware Threats
+8. Sniffing
+9. Social Engineering
+10. Denial Of Service
+11. Session Hijacking
+12. Hacking Web Server
+13. Hacking Web Application
+14. SQL Injection
+15. Hacking Wireless Network
+16. Hacking Mobile Platform
+17. Evading Ids, Firewalls & Honeypots
+18. Cloud Computing
+19. Cryptography
+20. Buffer Overflow
 
-## elements of info-sec
+# Introduction To Ethical Hacking 🛌
 
-1. confidentiality  (السرية)
-2. integrity
-3. availability
-4. authenticity
-5. non repudiation   عدم الانكار
+**Information Security** is a state of well-being of information and infrastructure in which the possibility of theft, tempering and disruption of information and service is kept low or tolerable
 
-## vocabulary
+## Elements Of Information Security 💁
 
-1. hack value
-2. vulnerability
-3. exploit
-4. payload
-5. zero day attack
-6. daisy chaining
-7. doxing
-8. bot
-9. information warfare
+1. Confidentiality (only authorized people can seen content or enter system)
+2. Integrity       (only authorized people can seen update or edit content)
+3. Availability
+4. Authenticity
+5. Non Repudiation   (non-denial)
 
-    attack = motive + method + vulnerability
+## Strength Of System 💪
 
-## top info-sec attacks vector
+for example: two way authentication that need to enter email & password then send code to email and enter it which reduce usability of the application
 
-1. cloud computing threats
-2. advanced persistent threats
-3. malware
-4. mobile threats
-5. botnet
-6. insider attack
+![strength of system](../assets/images/strength_of_system.png)
 
-## info-sec category
+## Essential Terminology 🛼
 
-1. network threats
-2. host threats
-3. applications threats
+1. Hack Value       (the value or benefits of hack system)
+2. Vulnerability    (weak point)
+3. Exploit          (code or way use to hack system)
+4. Payload          (code or method)
+5. Zero Day Attack  (vulnerability not fixed yet)
+6. Daisy Chaining   (used hacked information to hack another system 😜)
+7. Doxing           (collect information about organization from social media)
+8. Bot
 
-## info-sec on system
+## Information Security Threats & Attacks 📡
 
-1. os attack
-2. applications level attack
-3. mis configurations attack
-4. shrink warp code attack
+    Attack = Motive + Method + Vulnerability
 
---------------------------------------------------------
+### Top Information Security Attack Vectors 🚃
 
-**hacking** process of exploiting vulnerability to gain unauthorized access to system or resources
+- Cloud Computing Threats
+- Advanced Persistent Threats
+- Malwares
+- Mobile Threats
+- Botnet (install bot on many devices)
+- Insider Attacks (inside organization)
 
-**hacker** highly skilled computer expert capable of breaking into computer systems and networks using bugs and exploits
+### Information Security Category 💀
 
-## hacker classifications
+1. Network Threats (like know network device that work, sniffing)
+2. Host Threats    (stole session, send malware)
+3. Applications Threats (web attack, buffer overflow)
 
-1. white hat hackers
-2. black hat hackers
-3. gray hat hacker
-4. suicide hackers
-5. script kiddies
-6. cyber terrorists
-7. state sponsored
-8. hacktivist
+## Type Of Attack On System 🤖
+
+1. Os Attack (uninstall updated)
+2. Mis Configurations Attack (admin, admin)
+3. Applications Level Attack
+4. Shrink Warp Code Attack (use code already written like framework, library)
+
+## Information Warfare 🪓
+
+concept involving the use and management of information and communication technology in pursuit of a competitive advantage over opponent
+
+can be explain as the war between companies, countries and more that seeks to use the best of information, any of them has defensive team to protect and offensive team to attack
+
+-----
+
+## Hacking Concepts
+
+- **hacking** process of exploiting vulnerability to gain unauthorized access to system or resources
+- **hacker** highly skilled computer expert capable of breaking into computer systems and networks using bugs and exploits
+
+### hacker classifications
+
+1. White Hat Hackers
+2. Black Hat Hackers
+3. Gray Hat Hacker
+4. Suicide Hackers
+5. Script Kiddies
+6. Cyber Terrorists
+7. State Sponsored
+8. Hacktivist
 
 ## hacking phases
 
