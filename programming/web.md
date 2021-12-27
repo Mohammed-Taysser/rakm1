@@ -453,3 +453,102 @@ This is a browser feature intended for developers. Do not paste any code here gi
 ## Image Compress
 
 - <https://compressimage.io/>
+
+# my exp in frontend
+
+- html language and it's new version html5
+- css language and it's new version css3
+  - animation
+- javascript
+  - es6
+  - oop
+  - DOM
+  - BOM
+- jQuery
+- bootstrap
+- json
+- ajax
+  - vanilla JS
+  - promise
+  - fetch
+  - awaite
+- scss
+- gulp      task runner
+- jest      just a start
+
+
+<div align='right'>
+إن قياس تقدم البرمجة حسب أسطر الكود يشبه قياس تقدم بناء الطائرات بالوزن. - بيل جيتس
+</div>
+
+- todo app
+- CURD app
+- waether app
+- template
+
+# [weather app](https://medium.com/@hamedbaatour/build-a-real-world-beautiful-web-app-with-angular-6-a-to-z-ultimate-guide-2018-part-i-e121dd1d55e)
+
+• Angular 8
+• Firebase
+• Server-Side Rendering
+• CSS with Grid Layout and Flexbox
+• Mobile friendly & responsive
+• Dark Mode
+• Beautiful UI 
+
+# [movie search](https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/)
+
+1-API
+2- React with Hooks
+3- create-react-app
+4- JSX
+5- CSS
+
+# [chat app](https://www.sitepoint.com/pusher-vue-real-time-chat-app/)
+
+• Vue Router
+• Vue CLI
+• Pusher
+• CSS
+
+# [e cart](https://snipcart.com/blog/next-js-ecommerce-tutorial)
+
+• Next.js
+• Components and Pages
+• Data Fetching
+• Styling
+• Deployment
+• SSR and SPA
+
+# [blog](https://blog.bitsrc.io/how-to-build-a-blog-with-gatsby-and-boostrap-d1270212b3dc)
+
+• Gatsby
+• React
+• GraphQL
+• Plugins & Themes
+• MDX / Markdown
+• Bootstrap CSS
+• Templates  
+
+# [other blog](https://www.telerik.com/blogs/building-a-blog-with-vue-and-markdown-using-gridsome)
+
+• Gridsome
+• Vue
+• GraphQL
+• Markdown
+• Netlify
+
+- RESTful API
+- webhook
+
+# all about api
+
+## links
+
+- [google Books APIs](https://developers.google.com/books/)
+- [jsonplaceholder](https://jsonplaceholder.typicode.com)
+- [list-of-free-apis](https://rapidapi.com/collection/list-of-free-apis)
+- [Translation API](https://libretranslate.com)
+- [arabic-apis](https://github.com/AqeelAT/arabic-apis)
+- [The Star Wars API](https://swapi.dev/)
+- [The Breaking Bad API](https://www.breakingbadapi.com/)
