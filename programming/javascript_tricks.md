@@ -40,6 +40,17 @@ function is_support_local_host() {
 }
 ```
 
+## English Digits to arabic Digits
+
+```js
+function toIndiaDigits (num) {
+    let id = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+    return num.toString().replace(/[0-9]/g, function (w) {
+        return id[+w]
+    });
+}
+```
+
 ## print the page
 
 ```js
