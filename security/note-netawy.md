@@ -24,11 +24,11 @@
 19. Cryptography
 20. Buffer Overflow
 
-# Introduction To Ethical Hacking 🛌
+# Introduction To Ethical Hacking 👾
 
 **Information Security** is a state of well-being of information and infrastructure in which the possibility of theft, tempering and disruption of information and service is kept low or tolerable
 
-## Elements Of Information Security 💁
+## Elements Of Information Security
 
 1. Confidentiality (only authorized people can seen content or enter system)
 2. Integrity       (only authorized people can seen update or edit content)
@@ -36,13 +36,13 @@
 4. Authenticity
 5. Non Repudiation   (non-denial)
 
-## Strength Of System 💪
+## Strength Of System
 
 for example: two way authentication that need to enter email & password then send code to email and enter it which reduce usability of the application
 
 ![strength of system](../assets/images/strength_of_system.png)
 
-## Essential Terminology 🛼
+## Essential Terminology
 
 1. Hack Value       (the value or benefits of hack system)
 2. Vulnerability    (weak point)
@@ -53,11 +53,11 @@ for example: two way authentication that need to enter email & password then sen
 7. Doxing           (collect information about organization from social media)
 8. Bot
 
-## Information Security Threats & Attacks 📡
+## Information Security Threats & Attacks
 
     Attack = Motive + Method + Vulnerability
 
-### Top Information Security Attack Vectors 🚃
+### Top Information Security Attack Vectors
 
 - Cloud Computing Threats
 - Advanced Persistent Threats
@@ -72,14 +72,14 @@ for example: two way authentication that need to enter email & password then sen
 2. Host Threats    (stole session, send malware)
 3. Applications Threats (web attack, buffer overflow)
 
-## Type Of Attack On System 🤖
+## Type Of Attack On System
 
 1. Os Attack (uninstall updated)
 2. Mis Configurations Attack (admin, admin)
 3. Applications Level Attack
 4. Shrink Warp Code Attack (use code already written like framework, library)
 
-## Information Warfare 🪓
+## Information Warfare
 
 concept involving the use and management of information and communication technology in pursuit of a competitive advantage over opponent
 
@@ -92,92 +92,131 @@ can be explain as the war between companies, countries and more that seeks to us
 - **hacking** process of exploiting vulnerability to gain unauthorized access to system or resources
 - **hacker** highly skilled computer expert capable of breaking into computer systems and networks using bugs and exploits
 
-### hacker classifications
+### Hacker Classifications
 
 1. White Hat Hackers
 2. Black Hat Hackers
 3. Gray Hat Hacker
 4. Suicide Hackers
 5. Script Kiddies
-6. Cyber Terrorists
+6. Cyber Terrorists (politics)
 7. State Sponsored
-8. Hacktivist
+8. Hacktivist (active online, searching for hack for any goals)
 
-## hacking phases
+### Hacking Phases
 
-1. reconnaissance     | footprint       جمع المعلومات
-2. scanning and enumeration
-3. gaining access
-4. maintaining access
-5. covering tracks
+1. Reconnaissance | Footprint (active phase or passive phase)
+2. Scanning And Enumeration
+3. Gaining Access (now we are hack)
+4. Maintaining Access (like back door)
+5. Covering Tracks (remove any evidence that system is hack)
 
-## vulnerability assessment
+## Ethical Hacking
+
+term used to describe hacking performed by company or individual to help identify potential threats on a computer or network
+
+it focus on simulating techniques used by attackers to verify the existence of exploitable vulnerabilities in the target system
+
+it necessary because it allow to counter attacks from malicious hackers by following the methods used by them to hack the system
+
+## Vulnerability Assessment
 
 process that define, identifies and classifies the security logs in a computer, network or a communication infrastructure
 
-## types of vulnerability assessment
+### Types Of Vulnerability Assessment
 
-1. active assessments
-2. passive assessments
-3. host base assessments
-4. internal assessments
-5. external assessments
-6. application assessments
-7. network assessments
-8. wireless network assessments
+1. Active Assessments (use tools to get information about working devices)
+2. Passive Assessments(use tools to get the information transmitted on network)
+3. Host Base Assessments (software install o device to get information about it)
+4. Internal Assessments (finding Vulnerability inside organization)
+5. External Assessments (finding Vulnerability outside organization)
+6. Application Assessments (scan any application for Vulnerability)
+7. Network Assessments
+8. Wireless Network Assessments
 
-## vulnerability assessment 2
+### Vulnerability Assessment Phases
 
-1. acquisition
-2. identification
-3. analyzing
-4. evaluation
-5. reporting
+1. Acquisition (find a previous Vulnerability)
+2. Identification (meeting with employee)
+3. Analyzing
+4. Evaluation (determine how to use Vulnerability and it's serious)
+5. Reporting
 
-## vulnerability classified base on
+## Vulnerability Research
 
-1. severity level   [height | low, medium]
-2. exploit range    [local | remote]
+process by which security flaws in technology are identified and helps to identify and eliminate security flaws that might overwise be exploited by malicious hackers. it can but doesn't allow involve reverse engineering, code analysis, static analysis, ...
 
-## penetration testing
+### Vulnerability Classified Base On
+
+1. Severity Level   [how it serious Height, Low, Medium]
+2. Exploit Range    [working area Local | Remote]
+
+## Penetration Testing
 
 simulated attack on a computer system that looks for security weakness, potentially gaining access to the computer's feathers and data
 
-## penetration testing classes
+### Penetration Testing Classes
 
-1. white box
-2. gray box
-3. black box
+1. White Box (know all information about target organization)
+2. Gray Box  (know some information about target organization)
+3. Black Box (don't know any information about target organization)
 
-## penetration testing phases
+### Penetration Testing Phases
 
-1. pre attack
-2. attack
-3. post attack
+1. Pre Attack
+2. Attack
+3. Post Attack
 
-## security audit
+## Security Audit
 
-التأكد من أن الشركة او المنظمة تتبع المعايير العامة للسلامة
+Ensure that the company or organization follows the general safety standards
 
-## penetration testing  methodology
+### Penetration Testing  Methodology
 
 1. OWASP
 2. OSSTMM
 3. ISSSAF
 4. EC-Council LPT
 
-## information assurance
+## Information Security Controls
+
+### Information Assurance (IA)
 
 assurance that the information and information's systems is protected during usage, processing, storage and transmission
 
-## network security zoning
+### Information Security Management Program
+
+program design to enable any business to reduce the risk
+
+### Threads Modeling
+
+risk assessment approach for analyzing security of an application by capturing and analyzing all information that effect the security of an application
+
+### Enterprise Information Security Architecture (EISA)
+
+aet of requirements, process, principles and models that determine the structure and behavior of information system
+
+### Network Security Zoning
 
 allows an organization to manage a secure environment by selecting the appropriate security levels for different zones of internet and internet networks also it helps to mentor and control inbound and outbound traffic
+
+![Network Security Zoning](../assets/images/network_security_zone.png)
+
+### Information Security Policy
+
+define the basic security requirements and rules to be implements in order to protect and secure in formation security
+
+### Physical Security
+
+first layer od protection in any organization and it involves protection of organizational assets from both environmental (fire) and man made threats (war)
+
+### Incident Management
+
+set of defined process to identify, analyse prioritize and resolve security incidents to restore normal service operations as quickly as possible and to prevent future recurrence of the incident
 
 [netcraft](https://www.netcraft.com/)
 [shodan](https://www.shodan.io/)
 [bayt](https://www.bayt.com/en/egypt/)
-[linkedin](https://www.linkedin.com/)
 
 GHDB [google hacking database]
 
