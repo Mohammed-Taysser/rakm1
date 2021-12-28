@@ -1,11 +1,13 @@
 
 # EN translation
 
-<div align='right'>
-إذا كنت ترى ان الآخر لا يستحق ان تسامحه فأكيد أنت تستحق سامح لأجلك..لا لأجلهم تحرر من أسر الكره والحقد طهر نفسك من ظلام الأحقاد وخفف أحمالك التي تعيق إرتقاءك عد طفلا.. الأطفال يسامحون .. وما نحن سوى أطفالا مشوهين... إسترجع براءتك فهي حقيقتك
-</div>
+> If you see that the other is not worth to help him. Surely you can Forgive for you, not for them. Move of the families of ball and Cleanse yourself of the darkness of the hatchet Reduce the Arc that set it Come back baby, children travelling .. And we're only children deformed... Retrieve your innocence it's real you <br>
+> <div align='right'>إذا كنت ترى ان الآخر لا يستحق ان تسامحه فأكيد أنت تستحق سامح لأجلك..لا لأجلهم تحرر من أسر الكره والحقد طهر نفسك من ظلام الأحقاد وخفف أحمالك التي تعيق إرتقاءك عد طفلا.. الأطفال يسامحون .. وما نحن سوى أطفالا مشوهين... إسترجع براءتك فهي حقيقتك</div>
 
-If you see that the other is not worth to help him. Surely you can Forgive for you, not for them. Move of the families of ball and Cleanse yourself of the darkness of the hatchet Reduce the Arc that set it Come back baby, children travelling .. And we're only children deformed... Retrieve your innocence it's real you
+-----
+
+> And we remember that nothing deserves you to stop at it, or declare your defeat and surrender for it, because only the losers fall. <br>
+> <div align='right'>و نذكر أن لا شيء يستحق أن تتوقف عنده طوبلا أو أن تعلن انهزامك و استسلامك من اجله لان الفاشلين هم فقط من يقعلون</div>
 
 -----
 
