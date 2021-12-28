@@ -9,602 +9,253 @@ If you see that the other is not worth to help him. Surely you can Forgive for y
 
 -----
 
-<div align='right'>في بعض الاحيان عليك إعطاء نفسك ما تمنيت أن يعطيك اياه احدٌ آخر</div>
-Times are tough but i am tougher .I' ll be fine
-
-<div align='right'>اوَقـات صـ؏ـبه لڪني أصعب سأڪون بخير .</div>
-There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them
-
-<div align='right'>بدلاً عن التركيز على مقدار ما تستطيع ان تنجزه , ركز على مقدار حبك لما تقوم به</div>
-Instead of focusing on how much you can accomplish,focus on how much you can absolutely love what you’re doing.
-
-<div align='right'>مهما تمشي مستقيما،ستجد من ينتقد ظلك المائل!</div>
-No matter how straight you walk,you will find someone who will criticize your tilted shadow.
-
-<div align='right'>كل الأمور على مايرام في النهاية ، إن لم تكن كذلك ، فتلك ليست النهاية .</div>
-Everything is okay in the end. If it's not okay, then it's not the end .
-
-<div align='right'>تستطيع تخطي كل شيء سيء في حياتك بابتسامة جميلة فقط ".</div>
-You can change everything bad in your life only with a beautiful smile .
+English | Arabic
+----- | -----
+Times are tough but i am tougher .I' ll be fine | اوَقـات صـ؏ـبه لڪني أصعب سأڪون بخير
+Instead of focusing on how much you can accomplish,focus on how much you can absolutely love what you’re doing. | بدلاً عن التركيز على مقدار ما تستطيع ان تنجزه , ركز على مقدار حبك لما تقوم به
+No matter how straight you walk,you will find someone who will criticize your tilted shadow. | مهما تمشي مستقيما،ستجد من ينتقد ظلك المائل!
+Everything is okay in the end. If it's not okay, then it's not the end | كل الأمور على مايرام في النهاية ، إن لم تكن كذلك ، فتلك ليست النهاية
+You can change everything bad in your life only with a beautiful smile | تستطيع تخطي كل شيء سيء في حياتك بابتسامة جميلة فقط
 
 -----
 
-- I wish I could take it back. <div align='right'>ليتني لم أفعل ذلك.</div>
-- I'm sorry, it will not happen again. <div align='right'>اسف لن يتكرر الأمر مرة أخرى.</div>
-- I bought 6 books for a song. <div align='right'>اشتريت ٦ كتب بثمن بخس.</div>
-- He was well-liked by everyone. <div align='right'>كان محبوباً من الجميع.</div>
-- I'm at your fingertip. <div align='right'>أنا رهن إشارتك/ تحت أمرك.</div>
-- I'm at your service. <div align='right'>أنا في خدمتك.</div>
-- If you have time, pay me a visit. <div align='right'>إذا عندك وقت زورني.</div>
-- I don't want to see you here. Get lost. <div align='right'>لا أريد أن أراك هنا. انصرف/ انقلع.</div>
-- Do you have any painkillers? <div align='right'>هل لديك  أية حبوب مسكِّنة/ مسكّنات؟</div>
-- Do you have medical insurance? <div align='right'>هل لديك تأمين صحي؟</div>
-- Do you wear contact lenses? <div align='right'>هل تلبس/ين عدسات لاصقة؟</div>
-- I'm going to take your blood pressure. <div align='right'>سوف أقيس ضغط دمك.</div>
-- I'm going to take your temperature. <div align='right'>سوف أقيس درجة حرارتك.</div>
-- I'm going to take your pulse. <div align='right'>سوف أقيس نبضك </div>
-- Could you roll up your sleeve? <div align='right'>هلّا رفعت/شمّرت عن كُمِّك ؟</div>
+English | Arabic
+----- | -----
+I wish I could take it back. | ليتني لم أفعل ذلك.
+I'm sorry, it will not happen again. | اسف لن يتكرر الأمر مرة أخرى.
+I bought 6 books for a song. | اشتريت ٦ كتب بثمن بخس.
+He was well-liked by everyone. | كان محبوباً من الجميع.
+I'm at your fingertip. | أنا رهن إشارتك/ تحت أمرك.
+I'm at your service. | أنا في خدمتك.
+If you have time, pay me a visit. | إذا عندك وقت زورني.
+I don't want to see you here. Get lost. | لا أريد أن أراك هنا. انصرف/ انقلع.
+Do you have any painkillers? | هل لديك  أية حبوب مسكِّنة/ مسكّنات؟
+Do you have medical insurance? | هل لديك تأمين صحي؟
+Do you wear contact lenses? | هل تلبس/ين عدسات لاصقة؟
+I'm going to take your blood pressure. | سوف أقيس ضغط دمك.
+I'm going to take your temperature. | سوف أقيس درجة حرارتك.
+I'm going to take your pulse. | سوف أقيس نبضك
+Could you roll up your sleeve? | هلّا رفعت/شمّرت عن كُمِّك ؟
 
------
+# Words
 
-## different objects
-
-العربية | الانجليزية
------| ----
-فن |  art
-بنك |  bank
-شاطئ |  beach
-كتاب |  book
-بواسطة دراجة | by bicycle
-بالحافلة |  by bus
-بالسيارة |  by car
-بالقطار |  by train
-مقهى |  cafe
-بلد |  country
-صحراء |  desert
-قاموس |  dictionary
-أرض |  earth
-الزهور |  flowers
-كرة |  القدم football
-غابة |  forest
-لعبة |  game
-حديقة |  garden
-جغرافية |  geography
-تاريخ |  history
-منزل |  house
-جزيرة |  island
-بحيرة |  lake
-مكتبة |  library
-الرياضيات |  math
-القمر |  moon
-جبل |  mountain
-أفلام |  movies
-موسيقى |  music
-المحيط |  ocean
-مكتب |  office
-سير  على الأقدام | on foot
-لاعب |  player
-نهر |  river
-علوم |  science
-بحر |  sea
-سماء |  sky
-كرة |  القدم soccer
-النجوم |  stars
-سوبر  ماركت | supermarket
-حمام السباحة | swimming pool
-مسرح |  theater
-شجرة |  tree
-الأحوال الجوية | weather
-جو  سيئ | bad weather
-غائم |  cloudy
-بارد |  cold
-رطب |  cool
-ضبابي |  foggy
-حار |  hot
-الطقس  لطيف | nice weather
-تمطر بغزارة | pouring
-مطر |  rain
-تمطر |  raining
-ثلج |  snow
-ينزل |  الثلج snowing
-جليد |  ice
-مشمس |  sunny
-عاصف |  windy
-الربيع |  spring
-الصيف |  summer
-الخريف |  autumn
-الشتاء |  winter
-الناس |  people
-عمة |  aunt
-طفل |  baby
-أخ |  brother
-ابن عم - بنت عم | cousin
-ابنة |  daughter
-طبيب أسنان | dentist
-الطبيب |  doctor
-الأب |  father
-جد |  grandfather
-جدة |  grandmother
-زوج |  husband
-والدة |  mother
-ابن أخ | nephew
-ابنة أخ | niece
-ممرضة |  nurse
-الشرطي |  policeman
-ساعي البريد | postman
-أستاذ |  professor
-نجل - حفيد | son
-معلم |  teacher
-عم |  uncle
-زوجة |  wife.
-
-## weather
-
-العربية | الانجليزية
------| ----
-خريف | Autumn
-غائم | Cloudy
-بارد | Cold
-ضبابي | Foggy
-حار | Hot
-رطب | Humid
-مطر | Rain
-ماطر | Rainy
-ثلج | Snow
-مثلج | Snowing
-ربيع | Spring
-عاصفة | Storm
-صيف | Summer
-شمس | Sun
-مشمس | Sunny
-مظلة | Umbrella
-دافئ | Warm
-رياح | Wind
-عاصف | Windy
-شتاء | Winter
-الجو ممطر | It is raining
-الجو مشمس | It is sunny
-الجو عاصف | It is windy
-الجو جميل اليوم | Today is nice weather
-الجو كان سيئ البارحة | Yesterday was bad weather
-الجو بارد جدا | It's freezing
-الجو بارد | It's cold
-الجو حار | It's hot
-الجو معتدل | So so
-
-## home
-
-العربية | الانجليزية
------| ----
-سرير | Bed
-غرفة النوم | Bedroom
-سجادة | Carpet
-سقف | Ceiling
-كرسي | Chair
-كمبيوتر | Computer
-مكتب | Desk
-باب | Door
-أثاث | Furniture
-منزل | House
-مطبخ | Kitchen
-ثلاجة | Refrigerator
-سقف | Roof
-غرفة | Room
-موقد | Stove
-طاولة | Table
-تلفزيون | Television
-مرحاض | Toilet
-جدار | Wall
-نافذة | Windo
-
-## resturent
-
-العربية | الانجليزية
------| ----
-أنا نباتي (لا أكل اللحوم)  | I'm vegetarian
-انه لذيذ جدا | It is very delicious!
-الحساب من فضلك | May we have the check please!
-الفاتورة  من فضلك | The bill please!
-نادل  \ نادلة | Waiter / waitress!
-ماذا  تقترح كطبق؟ | What do you recommend?
-ما  هو اسم هذا الطبق؟ | What's the name of this dish?
-أين  يوجد مطعم جيد؟ | Where is there a good restaurant?
-كوب من | A cup of
-كأس  من  | A glass of
-فلفل  اسود  | Black pepper
-خبز |  Bread
-حلوى |  Dessert
-طعام |  Food
-شوكة |  Fork
-سكين |  Knife
-قائمة |  الطعام Menu
-منديل |  Napkin
-طبق |  Plate
-سلطة |  Salad
-ملح |  Salt
-مالح |  Salty
-حساء |  Soup
-حار |  Spicy
-ملعقة |  Spoon
-حلو |  Sweet
-طاولة |  Table
-بقشيش |  Tip
-ماء |  Water
-
-## places
-
-العربية | الانجليزية
------| ----
-بنك |  Bank
-شاطئ |  Beach
-صحراء |  Desert
-أرض |  Earth
-غابة |  Forest
-حديقة |  Garden
-مستشفى |  Hospital
-جزيرة |  Island
-بحيرة |  Lake
-قمر |  Moon
-جبل |  Mountain
-نهر |  River
-بحر |  Sea
-سماء |  Sky
-نجوم |  Stars
-شمس |  Sun
-القمرالليلة كامل  | The moon is full tonight
-هذه حديقة جميلة  | This is a beautiful garden
-
-## order something
-
-العربية | الانجليزية
------| ----
-إذهب | Go!
-توقف | Stop!
-لا تذهب  | Don't Go!
-إبقى | Stay!
-إرحل | Leave!
-تعال هنا  | Come here!
-اذهب هناك  | Go there!
-أدخل | Enter!
-تكلم | Speak!
-لا ترفع صوتك  | Be quiet!
-انعطف يمينا | Turn right
-انعطف يسارا | Turn left
-إذهب على طول  | Go straight
-إنتظر | Wait!
-هيا بنا Let's | go!
-كن حذرا  | Be careful!
-إجلس  | Sit down!
-دعني اريك  | Let me show you!
-إسمع | Listen!
-أكتبها  | Write it down
-
-## ask for help
-
-العربية | الانجليزية
------| ----
-حادث |Accident
-حساسية |Allergy
-سيارة إسعاف |Ambulance
-الربو |Asthma
-خطر |Danger
-طبيب |Doctor
-صداع |Headache
-نوبة قلبية |Heart attack
-ساعدني |Help me
-مستشفى |Hospital
-أدوية |Medicines
-صيدلية |Pharmacy
-سم |Poison
-شرطة P|olice
-ألم معدة |Stomach ache
-سكتة دماغية |Stroke
-هل أنت بخير؟ |Are you okay?
-اتصل بالطبيب |Call a doctor!
-اتصل بسيارة إسعاف |Call the ambulance!
-اتصل بالشرطة |Call the police!
-إهدأ |Calm down!
-النار(حريق!) |Fire!
-أنا مريض |I feel sick
-احس بألم هنا |It hurts here
-الأمرعاجل |It's urgent!
-توقف |Stop!
-لص (حرامي!) |Thief!
-أين هي أقرب صيدلية؟ |Where is the closest pharmacy?
-أنت جميلة |You look beautiful!
-لديك اسم جميل |You have a beautiful name
-هذه زوجتي |This is my wife
-هذا زوجي |This is my husband -
-
-## action
-
-العربية | الانجليزية
------| ----
-يدفع | To drive
-يجد | To find
-يعطي | To give
-يملك | To have
-يعرف | To know
-يتعلم | To learn
-يحب | To love
-يلعب | To play
-يقرأ | To read
-يرى | To see
-يتبسم | To smile
-يتكلم | To speak
-يفكر | To think
-يفهم | To understand
-يعمل | To work
-يكتب | To write
-
-## times
-
-العربية | الانجليزية
------| ----
-الأيام | Days
-الإثنين | Monday
-الثلاثاء | Tuesday
-الأربعاء | Wednesday
-الخميس | Thursday
-الجمعة | Friday
-السبت | Saturday
-الأحد | Sunday
-يناير | January
-فبراير | February
-مارس | March
-أبريل | April
-ماي | May
-يونيو | June
-يوليو | July
-أغسطس | August
-سبتمبر | September
-أكتوبر | October
-نوفمبر | November
-ديسمبر | December
-خريف | Autumn
-شتاء | Winter
-ربيع | Spring
-صيف | Summer
-مواسم | Seasons
-أشهر | Months
-وقت | Time
-ساعة | Hour
-دقيقة | Minute
-ثانية | Second
-
-## jobs
-
-العربية | الانجليزية
------| ----
-ممثل | Actor
-ممثلة | Actress
-فنان | Artist
-رجل اعمال | Businessman
-طبيب | Doctor
-مهندس | Engineer
-ممرضة | Nurse
-شرطي | Policeman
-مطربة | Singer
-طالب | Student
-معلم | Teacher
-مترجم | Translator
-
-## human body
-
-العربية | الانجليزية
------| ----
-ذراع | Arm
-ظهر | Back
-صدر | Chest
-أذن | Ear
-عين | Eye
-وجه | Face
-قدم | Feet
-أصابع | Fingers
-شعر | Hair
-يد | Hand
-رأس | Head
-قلب | Heart
-ساق | Leg
-فم | Mouth
-عنق | Neck
-أنف | Nose
-كتف | Shoulder
-معدة | Stomach
-أسنان | Teeth
-لسان | Tongu
-
-## school
-
-العربية | الانجليزية
------| ----
-إجابة | Answer
-كتاب | Book
-كتب | Books
-كرسي | Chair
-مكتب | Desk
-قاموس | Dictionary
-كمبيوتر محمول | Laptop
-مكتبة | Library
-دفتر | Notebook
-صفحة | Page
-ورقة | Paper
-قلم | Pen
-قلم رصاص | Pencil
-سؤال | Question
-مدرسة | School
-طالب | Student
-معلم (أستاذ) | Teacher
-جامعة | Universit
-
-## numbers
-
-العربية | الانجليزية
------| ----
-واحد | One
-أول | First
-اثنان | Two
-ثاني | Second
-ثلاثة | Three
-ثالث | Third
-أربعة | Four
-رابع | Fourth
-خمسة | Five
-خامس | Fifth
-ستة | Six
-سادس | Sixth
-سبعة | Seven
-سابع | Seventh
-ثمانية | Eight
-ثامن | Eighth
-تسعة | Nine
-تاسع | Ninth
-عشرة | Ten
-عاشر | Tenth
-أحد عشر | Eleven
-حادي عشر | Eleventh
-اثنا عشر | Twelve
-ثاني عشر | Twelfth
-ثلاثة عشر | Thirteen
-ثالث عشر | Thirteenth
-أربعة عشرة | Fourteen
-رابع عشر | Fourteenth
-خمسة عشر | Fifteen
-خامس عشر | Fifteenth
-ستت عشرة | Sixteen
-سادس عشر | Sixteenth
-سبعة عشر | Seventeen
-سابع عشر | Seventeenth
-ثمانية عشر | Eighteen
-ثامن عشر | Eighteenth
-تسعة عشر | Nineteen
-تاسع عشر | Nineteenth
-عشرون | Twenty
-العشرون | Twentieth
-ثلاثة وثلاثين |Thirty three
-مائة |One hundred
-ثلاث مئة وستون |Three hundred and sixty
-ألف |One thousand
-ألفين وأربعة عشر |Two thousand and fourteen
-مليون |One million
-مرة |Once
-مرتين |Twice
-
-## clothes
-
-العربية | الانجليزية
------| ----
-حزام | Belt
-ملابس | Clothes
-معطف | Coat
-فستان | Dress
-نظارات | Glasses
-قفازات | Gloves
-قبعة | Hat
-معطف | Jacket
-سروال  | Pants (Trousers)
-خاتم | Ring
-قميص | Shirt
-أحذية | Shoes
-جوارب | Socks
-بذلة | Suit
-سترة | Sweater
-ربطة عنق | Tie
-مظلة | Umbrella
-ملابس داخلية | Underwear
-محفظة | Wallet
-ساعة | Watch
-هل يعجبك لباسي؟ |Do you like my dress?
-لقد أضعت جواربي I |lost my socks
-إنها تبدو جميلة عليك |It looks good on you
-لديها خاتم جميل |She has a beautiful ring
-هذا السروال طويل |These pants (trousers) are long
-هذه الأحذية صغيرة T|hese shoes are small
-من أين أنت؟ |Where are you from?
-أنا من الولايات المتحدة |I'm from the U.S
-أنا أمريكي |I'm American
-أين تعيش؟ |Where do you live?
-أنا أعيش فى الولايات المتحدة |I live in the U.S
-هل أنت مستمتع بوجودك هنا؟ |Do you like it here?-
-
-## foods
-
-العربية | الانجليزية
------| ----
-فطور | Breakfast
-غداء | Lunch
-عشاء | Dinner
-وجبة | Meal
-تفاح | Apples
-أفوكادو | Avocados
-موز | Bananas
-فاصوليا | Beans
-خبز | Bread
-زبدة | Butter
-جزر | Carrots
-جبن | Cheese
-دجاج | Chicken
-قهوة | Coffee
-ذرة | Corn
-خيار | Cucumbers
-بيض | Eggs
-تين | Figs
-سمك | Fish
-طعام | Food
+Arabic | English | Arabic | English
+----- | ----- | ----- | -----
+علوم |  science | كرة  القدم | football
+بحر |  sea | غابة |  forest
+سماء |  sky | لعبة |  game
+كرة  القدم | soccer | حديقة |  garden
+النجوم |  stars | جغرافية |  geography
+سوبر  ماركت | supermarket | تاريخ |  history
+حمام السباحة | swimming pool | منزل |  house
+مسرح |  theater | جزيرة |  island
+شجرة |  tree | بحيرة |  lake
+الأحوال الجوية | weather | مكتبة |  library
+جو  سيئ | bad weather | الرياضيات |  math
+غائم |  cloudy | القمر |  moon
+بارد |  cold | جبل |  mountain
+رطب |  cool | أفلام |  movies
+ضبابي |  foggy | موسيقى |  music
+حار |  hot | المحيط |  ocean
+الطقس  لطيف | nice weather | مكتب |  office
+تمطر بغزارة | pouring | سير  على الأقدام | on foot
+مطر |  rain | لاعب |  player
+تمطر |  raining | نهر |  river
+ثلج |  snow | فن |  art
+ينزل |  الثلج snowing | بنك |  bank
+جليد |  ice | شاطئ |  beach
+مشمس |  sunny | كتاب |  book
+عاصف |  windy | بواسطة دراجة | by bicycle
+الربيع |  spring | بالحافلة |  by bus
+الصيف |  summer | بالسيارة |  by car
+الخريف |  autumn | بالقطار |  by train
+الشتاء |  winter | مقهى |  cafe
+الناس |  people | بلد |  country
+عمة |  aunt | صحراء |  desert
+طفل |  baby | قاموس |  dictionary
+أخ |  brother | أرض |  earth
+ابن عم - بنت عم | cousin | الزهور |  flowers
+ابنة |  daughter | عاصفة | Storm
+طبيب أسنان | dentist | الجو ممطر | It is raining
+الطبيب |  doctor | الجو مشمس | It is sunny
+الأب |  father | الجو عاصف | It is windy
+جد |  grandfather | الجو جميل اليوم | Today is nice weather
+جدة |  grandmother | الجو كان سيئ البارحة | Yesterday was bad weather
+زوج |  husband | الجو بارد جدا | It's freezing
+والدة |  mother | الجو بارد | It's cold
+ابن أخ | nephew | الجو حار | It's hot
+ابنة أخ | niece | الجو معتدل | So so
+ممرضة |  nurse | ماذا  تقترح كطبق؟ | What do you recommend?
+الشرطي |  policeman | ما  هو اسم هذا الطبق؟ | What's the name of this dish?
+ساعي البريد | postman | أين  يوجد مطعم جيد؟ | Where is there a good restaurant?
+أستاذ |  professor | كوب من | A cup of
+نجل - حفيد | son | كأس  من  | A glass of
+معلم |  teacher | فلفل  اسود  | Black pepper
+عم |  uncle | حلوى |  Dessert
+زوجة |  wife | شوكة |  Fork
+رطب | Humid | سكين |  Knife
+ماطر | Rainy | قائمة  الطعام | Menu
+سرير | Bed | منديل |  Napkin
+غرفة النوم | Bedroom | طبق |  Plate
+سجادة | Carpet | مالح |  Salty
+سقف | Ceiling | حساء |  Soup
+كمبيوتر | Computer | حار |  Spicy
+باب | Door | ملعقة |  Spoon
+أثاث | Furniture | حلو |  Sweet
+مطبخ | Kitchen | طاولة |  Table
+ثلاجة | Refrigerator | بقشيش |  Tip
+سقف | Roof | ماء |  Water
+غرفة | Room | سم |Poison
+موقد | Stove | شرطة P|olice
+تلفزيون | Television | ألم معدة |Stomach ache
+مرحاض | Toilet | سكتة دماغية |Stroke
+جدار | Wall | هل أنت بخير؟ |Are you okay?
+نافذة | Window | اتصل بالطبيب |Call a doctor!
+أنا نباتي (لا أكل اللحوم)  | I'm vegetarian | اتصل بسيارة إسعاف |Call the ambulance!
+انه لذيذ جدا | It is very delicious! | اتصل بالشرطة |Call the police!
+الحساب من فضلك | May we have the check please! | إهدأ |Calm down!
+الفاتورة  من فضلك | The bill please! | النار(حريق!) |Fire!
+نادل  \ نادلة | Waiter / waitress! | أنا مريض |I feel sick
+القمرالليلة كامل  | The moon is full tonight | احس بألم هنا |It hurts here
+هذه حديقة جميلة  | This is a beautiful garden | الأمرعاجل |It's urgent!
+إذهب | Go! | توقف |Stop!
+توقف | Stop! | لص (حرامي!) |Thief!
+لا تذهب  | Don't Go! | أين هي أقرب صيدلية؟ |Where is the closest pharmacy?
+إبقى | Stay! | أنت جميلة |You look beautiful!
+إرحل | Leave! | لديك اسم جميل |You have a beautiful name
+تعال هنا  | Come here! | هذه زوجتي |This is my wife
+اذهب هناك  | Go there! | هذا زوجي |This is my husband
+أدخل | Enter! | الخميس | Thursday
+تكلم | Speak! | الجمعة | Friday
+لا ترفع صوتك  | Be quiet! | السبت | Saturday
+انعطف يمينا | Turn right | الأحد | Sunday
+انعطف يسارا | Turn left | يناير | January
+إذهب على طول  | Go straight | فبراير | February
+إنتظر | Wait! | مارس | March
+هيا بنا  | Let's go! | أبريل | April
+كن حذرا  | Be careful! | ماي | May
+إجلس  | Sit down! | يونيو | June
+دعني اريك  | Let me show you! | يوليو | July
+إسمع | Listen! | أغسطس | August
+أكتبها  | Write it down | سبتمبر | September
+حادث |Accident | أكتوبر | October
+حساسية |Allergy | نوفمبر | November
+سيارة إسعاف |Ambulance | ديسمبر | December
+الربو |Asthma | مواسم | Seasons
+خطر |Danger | أشهر | Months
+صداع |Headache | وقت | Time
+نوبة قلبية |Heart attack | ساعة | Hour
+ساعدني |Help me | دقيقة | Minute
+مستشفى |Hospital | ثانية | Second
+أدوية |Medicines | ممثل | Actor
+صيدلية |Pharmacy | ممثلة | Actress
+يدفع | To drive | فنان | Artist
+يجد | To find | رجل اعمال | Businessman
+يعطي | To give | مهندس | Engineer
+يملك | To have | مطربة | Singer
+يعرف | To know | معلم | Teacher
+يتعلم | To learn | مترجم | Translator
+يحب | To love | واحد | One
+يلعب | To play | أول | First
+يقرأ | To read | اثنان | Two
+يرى | To see | ثاني | Second
+يتبسم | To smile | ثلاثة | Three
+يتكلم | To speak | ثالث | Third
+يفكر | To think | أربعة | Four
+يفهم | To understand | رابع | Fourth
+يعمل | To work | خمسة | Five
+يكتب | To write | خامس | Fifth
+الأيام | Days | ستة | Six
+الإثنين | Monday | سادس | Sixth
+الثلاثاء | Tuesday | سبعة | Seven
+الأربعاء | Wednesday | سابع | Seventh
+ذراع | Arm | ثمانية | Eight
+ظهر | Back | ثامن | Eighth
+صدر | Chest | تسعة | Nine
+أذن | Ear | تاسع | Ninth
+عين | Eye | عشرة | Ten
+وجه | Face | عاشر | Tenth
+قدم | Feet | أحد عشر | Eleven
+أصابع | Fingers | حادي عشر | Eleventh
+شعر | Hair | اثنا عشر | Twelve
+يد | Hand | ثاني عشر | Twelfth
+رأس | Head | ثلاثة عشر | Thirteen
+قلب | Heart | ثالث عشر | Thirteenth
+ساق | Leg | أربعة عشرة | Fourteen
+فم | Mouth | رابع عشر | Fourteenth
+عنق | Neck | خمسة عشر | Fifteen
+أنف | Nose | خامس عشر | Fifteenth
+كتف | Shoulder | ستت عشرة | Sixteen
+معدة | Stomach | سادس عشر | Sixteenth
+أسنان | Teeth | سبعة عشر | Seventeen
+لسان | Tongu | سابع عشر | Seventeenth
+إجابة | Answer | ثمانية عشر | Eighteen
+كتاب | Book | ثامن عشر | Eighteenth
+كرسي | Chair | تسعة عشر | Nineteen
+مكتب | Desk | تاسع عشر | Nineteenth
+كمبيوتر محمول | Laptop | عشرون | Twenty
+دفتر | Notebook | العشرون | Twentieth
+صفحة | Page | ثلاثة وثلاثين |Thirty three
+ورقة | Paper | مائة |One hundred
+قلم | Pen | ثلاث مئة وستون |Three hundred and sixty
+قلم رصاص | Pencil | ألف |One thousand
+سؤال | Question | ألفين وأربعة عشر |Two thousand and fourteen
+مدرسة | School | مليون |One million
+طالب | Student | مرة |Once
+جامعة | University | مرتين |Twice | فلفل | Peppers
+حزام | Belt | أناناس | Pineapples
+ملابس | Clothes | بيتزا | Pizza
+معطف | Coat | بطاطا | Potatoes
+فستان | Dress | يقطين | Pumpkin
+نظارات | Glasses | سلطة | Salad
+قفازات | Gloves | ملح | Salt
+قبعة | Hat | شطيرة | Sandwich
+معطف | Jacket | صودا | Soda
+سروال  | Pants (Trousers) | فراولة | Strawberries
+خاتم | Ring | سكر | Sugar
+قميص | Shirt | شاي | Tea
+أحذية | Shoes | طماطم | Tomatoes
+جوارب | Socks | خضروات | Vegetables
+بذلة | Suit | ماء | Water
+سترة | Sweater | بطيخ | Watermelon
+ربطة عنق | Tie | هل انت عطشان؟ |Are you thirsty?
+مظلة | Umbrella | أنا جائع |I'm hungry
+ملابس داخلية | Underwear | هل لديك قنينة ماء؟ |Do you have a bottle of water?
+محفظة | Wallet | الإفطار جاهز |Breakfast is ready
+ساعة | Watch | أي نوع من الطعام تحب؟ |What kind of food do you like?
+هل يعجبك لباسي؟ |Do you like my dress? | أنا أحب الجبن |I like cheese
+لقد أضعت جواربي I |lost my socks | الموز طعمه حلو |Bananas taste sweet
+إنها تبدو جميلة عليك |It looks good on you | أنا لا أحب الخيار |I don't like cucumber
+لديها خاتم جميل |She has a beautiful ring | أنا أحب الموز |I like bananas
+هذا السروال طويل |These pants (trousers) are long | الليمون طعمه حامض |Lemons taste sour
+هذه الأحذية صغيرة T|hese shoes are small | هذه الفاكهة لذيذة |This fruit is delicious
+من أين أنت؟ |Where are you from? | الخضروات هي صحية |Vegetables are healthy
+أنا من الولايات المتحدة |I'm from the U.S | مرحبا |Hi!
+أنا أمريكي |I'm American | صباح الخير |Good morning!
+أين تعيش؟ |Where do you live? | مساء الخير |Good afternoon!
+أنا أعيش فى الولايات المتحدة |I live in the U.S | مساء الخير |Good evening!
+هل أنت مستمتع بوجودك هنا؟ |Do you like it here?- | أهلا وسهلا |Welcome!
+فطور | Breakfast | كيف حالك؟ |How are you? (informal)
+غداء | Lunch | كيف حالك حضرتك؟ |How are you? (formal)
+عشاء | Dinner | ما الجديد؟ |What's up? (colloquial)
+وجبة | Meal | أنا بخير ,شكرا لك |I'm fine, thank you!
+تفاح | Apples | و أنت؟ |And you? (informal)
+أفوكادو | Avocados | و حضرتك؟ |And you? (formal)
+موز | Bananas | بخير |Good
+فاصوليا | Beans | ليمون | Lemons
+خبز | Bread | خس | Lettuce
+زبدة | Butter | لحم | Meat
+جزر | Carrots | حليب | Milk
+جبن | Cheese | زيتون | Olives
+دجاج | Chicken | بصل | Onions
+قهوة | Coffee | عصير البرتقال  | Orange juice
+ذرة | Corn | برتقال | Oranges
+خيار | Cucumbers | خوخ | Peaches
+بيض | Eggs | كمثرى | Pears
+تين | Figs | ثوم | Garlic
+سمك | Fish | عنب | Grapes
+طعام | Food | بوظة  | Ice cream
 فاكهة | Fruit
-ثوم | Garlic
-عنب | Grapes
-بوظة  | Ice cream
-ليمون | Lemons
-خس | Lettuce
-لحم | Meat
-حليب | Milk
-زيتون | Olives
-بصل | Onions
-عصير البرتقال  | Orange juice
-برتقال | Oranges
-خوخ | Peaches
-كمثرى | Pears
-فلفل | Peppers
-أناناس | Pineapples
-بيتزا | Pizza
-بطاطا | Potatoes
-يقطين | Pumpkin
-سلطة | Salad
-ملح | Salt
-شطيرة | Sandwich
-صودا | Soda
-فراولة | Strawberries
-سكر | Sugar
-شاي | Tea
-طماطم | Tomatoes
-خضروات | Vegetables
-ماء | Water
-بطيخ | Watermelon
-هل انت عطشان؟ |Are you thirsty?
-أنا جائع |I'm hungry
-هل لديك قنينة ماء؟ |Do you have a bottle of water?
-الإفطار جاهز |Breakfast is ready
-أي نوع من الطعام تحب؟ |What kind of food do you like?
-أنا أحب الجبن |I like cheese
-الموز طعمه حلو |Bananas taste sweet
-أنا لا أحب الخيار |I don't like cucumber
-أنا أحب الموز |I like bananas
-الليمون طعمه حامض |Lemons taste sour
-هذه الفاكهة لذيذة |This fruit is delicious
-الخضروات هي صحية |Vegetables are healthy
-مرحبا |Hi!
-صباح الخير |Good morning!
-مساء الخير |Good afternoon!
-مساء الخير |Good evening!
-أهلا وسهلا |Welcome!
-كيف حالك؟ |How are you? (informal)
-كيف حالك حضرتك؟ |How are you? (formal)
-ما الجديد؟ |What's up? (colloquial)
-أنا بخير ,شكرا لك |I'm fine, thank you!
-و أنت؟ |And you? (informal)
-و حضرتك؟ |And you? (formal)
-بخير |Good
 
 # Most common American idioms
 
