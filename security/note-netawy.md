@@ -1,5 +1,5 @@
 
-# Technawi Notes (CEH v9) 💻
+# Technawi Notes (CEH v9)
 
 ## Course Content 📔
 
@@ -214,11 +214,127 @@ first layer od protection in any organization and it involves protection of orga
 
 set of defined process to identify, analyse prioritize and resolve security incidents to restore normal service operations as quickly as possible and to prevent future recurrence of the incident
 
-[netcraft](https://www.netcraft.com/)
-[shodan](https://www.shodan.io/)
-[bayt](https://www.bayt.com/en/egypt/)
+# Building Your Testing Lab 💻
+
+    watch videos 😜
+
+# Foot printing & Reconnaissance 👀
+
+## Module Content
+
+- Footprinting Concepts
+- Footprinting Methodology
+- Footprinting Tools
+- Footprinting Countermeasuers
+- Footprinting Pentesting
+
+## What Is Footprinting
+
+also know as Reconnaissance, the technique used for gathering information about computer systems an d the entities they belong to.
+
+to get information, hacker might use various tools and technology. this information is very useful to hacker who trying to crack a whole system
+
+Footprinting can reveal system vulnerabilities and improve the ease with which they can be exploit like social engineering
+
+consider the **most important phase** of ethical hacking as:
+
+- allow attacker know about security posture for target
+- reduce attacker focus area
+- allow attacker to identify vulnerabilities
+- allow attacker to draw the map for the target network infrastructure
+
+### Footprinting Types
+
+- **Passive Footprinting** : collect information without direct interacting with the target
+- **Active Footprinting** : collect information by interacting with the target with any mean
+
+### Footprinting Objects
+
+help attackers to collect information suck as:
+
+- Network Information (ip's, OS)
+- System Information (working services)
+- Organization Information (phones, address)
+
+### OSINT
+
+stands for `open source intelligence` which reefer to any unclassified information and includes anything freely or publicly available on the web
+
+sources includes:
+
+- Social Networks
+- Forums
+- Business Website
+- Blogs
+- Videos
+- New Sources
+
+OSINT is one of many INTs (intelligence) disciplines employed by government intelligence agents such as:
+
+- HUMINT (human intelligence: gathering intelligence by interacting with people)
+- SIGINT (signal intelligence: gathering data from sensors)
+- GEOINT (geospatial intelligence : gathering data from satellites)
+
+## Footprinting Methodology
+
+- Search Engin Footprinting
+- Advanced Google Hacking
+- Social Network Footprinting
+- Website Footprinting
+- Email Footprinting
+- Competitive Intelligence
+- WHOIS Footprinting
+- Dns Footprinting
+- Network Footprinting
+- Social Engineering
+
+## Search Engin Footprinting
+
+data collected such that:
+
+- Technology Platforms
+- Employee Details
+- Login Pages
+- Intranet Portals
+
+### general examples
+
+- [wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+- [google](https://www.google.com/)
+- [bing](https://www.bing.com/)
+- [netcraft](https://www.netcraft.com/)
+- [shodan](https://www.shodan.io/)
+
+### jops examples
+
+- [bayt](https://www.bayt.com/en/egypt/)
+- [linkedin](https://www.linkedin.com/)
+
+### people example
+
+- [linkedin](https://www.linkedin.com/)
+- [pipl](https://pipl.com/)
+
+### geolocation
+
+- google map
+- wikipedia
+- bing map
+
+### finance services
+
+- google finance
+- yahoo finance
+
+### advanced google hacking
+
+see googling file 😉
 
 GHDB [google hacking database]
 
-1. <https://www.hackersforcharity.org/>
-2. <https://www.exploit-db.com/>
+- [hackers for charity](https://hackersforcharity.org/)
+- [exploit-db](https://www.exploit-db.com/)
+
+## Website Footprinting
+
+    stop at 13
