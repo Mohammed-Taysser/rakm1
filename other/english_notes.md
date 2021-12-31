@@ -18,6 +18,8 @@ Instead of focusing on how much you can accomplish,focus on how much you can abs
 No matter how straight you walk,you will find someone who will criticize your tilted shadow. | مهما تمشي مستقيما،ستجد من ينتقد ظلك المائل!
 Everything is okay in the end. If it's not okay, then it's not the end | كل الأمور على مايرام في النهاية ، إن لم تكن كذلك ، فتلك ليست النهاية
 You can change everything bad in your life only with a beautiful smile | تستطيع تخطي كل شيء سيء في حياتك بابتسامة جميلة فقط
+Always smile despite everything | دائما ابستم رغم كل شيء
+Sometimes distance is respect | أحياناً يكون الإبتعاد إحترام
 
 -----
 
