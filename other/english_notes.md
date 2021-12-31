@@ -20,11 +20,16 @@ Everything is okay in the end. If it's not okay, then it's not the end | كل ا
 You can change everything bad in your life only with a beautiful smile | تستطيع تخطي كل شيء سيء في حياتك بابتسامة جميلة فقط
 Always smile despite everything | دائما ابستم رغم كل شيء
 Sometimes distance is respect | أحياناً يكون الإبتعاد إحترام
-
------
-
-English | Arabic
------ | -----
+Man's worst enemy is his memories| أسوأ عدو للإنسان هي ذكرياته
+I will always be your shelter and I promise. | سأكون ملجأكِ و أحتويكِ دائمًا أوعدك
+The idea of someone trying for you is very warm. | فكرة أن يحاول أحدهم من أجلك، فكرة دافئة جدًا
+𝒃𝒆𝒍𝒊𝒆𝒗𝒆 𝒊𝒏 𝒚𝒐𝒖𝒓𝒔𝒆𝒍𝒇 𝒂𝒏𝒅 𝒚𝒐𝒖 𝒘𝒊𝒍𝒍 𝒏𝒐𝒕 𝒃𝒆 𝒅𝒆𝒇𝒆𝒂𝒕𝒆𝒅 | ثق بنفسك ولن تهزم
+Leave everywhere unworthy of you. | غادر كل مكان لا يستحقك
+Be strong so that no one will pity you | كن قوياً حتى لا يشفق عليك احد
+Be a support for yourself and go. | كن سند لنفسك و أمضي
+The love of your eyes does not write | حب عيناك لا يكتب
+We are the losses, not the losers | نحن الخسائر ولسنا الخاسرين
+Either you resist or pretend you'r resisting | إما أن تقاوم أو تمثل أنك تقاوم
 I wish I could take it back. | ليتني لم أفعل ذلك.
 I'm sorry, it will not happen again. | اسف لن يتكرر الأمر مرة أخرى.
 I bought 6 books for a song. | اشتريت ٦ كتب بثمن بخس.
@@ -40,6 +45,42 @@ I'm going to take your blood pressure. | سوف أقيس ضغط دمك.
 I'm going to take your temperature. | سوف أقيس درجة حرارتك.
 I'm going to take your pulse. | سوف أقيس نبضك
 Could you roll up your sleeve? | هلّا رفعت/شمّرت عن كُمِّك ؟
+Make yourself comfortable! | خذ راحتك!
+Please, feel right at home! | البيت بيتك!
+What would you like to drink? | ماذا تحب حضرتك أن تشرب؟  
+Do you like music? | أتحب الموسيقى؟
+I like classical music. | أنا أحب الموسيقى الكلاسيكية.
+These are my CD’s. | هنا سيدياتي.
+Do you play a musical instrument? | أتعزف على آلة موسيقية؟
+This is my guitar. | هنا قيثارتي.
+Do you like to sing? | أتحب أن تغني؟
+Do you have children? | أعندك أطفال؟
+Do you have a dog? | أعندك كلب؟
+Do you have a cat? | أعندك قطة؟
+These are my books. | هنا توجد كتبي.
+I am currently reading this book. | أقرأ حالياً هذا الكتاب.
+What do you like to read? | ماذا تحب أن تقرأ؟
+Do you like to go to concerts? | أتحب أن تذهب إلى الحفلة الموسيقية؟
+Do you like to go to the theatre / theater (am.)? | أتحب أن تذهب إلى المسرح؟
+Do you like to go to the opera? | أتحب أن تذهب إلى دار الأوبرا؟
+Where do you come from? | من أين أنت؟
+From Basel. | أنا من بازل.
+Basel is in Switzerland. | بازل في سويسرا.
+May I introduce Mr. Miller? | اسمحوا لي أن أقدم لكم السيد مولر!  
+He is a foreigner. | هو أجنبي.
+He speaks several languages. | هو يتكلم عدّة لغات.
+Are you here for the first time? | هل حضرتك هنا لأول مرة؟
+No, I was here once last year. | لا، قد كنت هنا في العام الماضي.
+Only for a week, though. | ولكن لمدة أسبوع واحد فقط.
+How do you like it here? | أتستمتع بوجودك عندنا؟
+A lot. The people are nice. | جداً الناس هنا لطفاء.
+And I like the scenery, too. | وتعجبني المناظر الطبيعية أيضًا.
+What is your profession? | ما هو عملك؟
+I am a translator. | أنا مترجم.
+I translate books. | أنا أترجم الكتب.
+Are you alone here? | هل حضرتك هنا لوحدك؟
+No, my wife / my husband is also here. | لا، زوجتي / زوجي هنا أيضًا.
+And those are my two children. | وهناك طفلاي الاثنان.
 
 # Words
 
