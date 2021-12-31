@@ -441,6 +441,8 @@ This is a browser feature intended for developers. Do not paste any code here gi
 - <https://quotes.rest/>
 - <https://www.quotes.net/quotes_api.php>
 - <https://rapidapi.com/collection/quote-generator-apis>
+- <https://rapidapi.com/collection/list-of-free-apis>
+- <https://public-apis.xyz>
 
 # other but useful
 
