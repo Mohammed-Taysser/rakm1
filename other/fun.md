@@ -93,6 +93,7 @@
 - [Mushoku Tensei: Isekai Ittara Honki Dasu Season 2](https://www.faselhd.io/?p=139683)
 - [Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru](https://www.faselhd.io/?p=140036)
 - [Golden Kamuy](https://www.faselhd.pro/?p=108523)
+- [mieruko chan](https://octanime.net/animes/mieruko-chan-30990)
 
 ## website
 
