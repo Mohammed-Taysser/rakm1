@@ -337,4 +337,52 @@ GHDB [google hacking database]
 
 ## Website Footprinting
 
-    stop at 13
+collect data such that:
+
+- used software & it's version
+- used OS
+- suv directory & parameters
+- filename, paths, database fields name or query
+- scripting platform & CMS details
+- contact details
+
+### Attacker can use
+
+- Burp suit
+- zaproxy
+- paros proxy
+- firebug
+- wappalzer
+
+**Mirroring** the target like [HTTrack](https://www.httrack.com/) (website copier) into local system giving the attacker the opportunity to browse it offline so attacker can find the directory structure for the website and search for valuable data from the copy.
+
+HTTrack found as CLI tool on kali linux
+
+also attacker can:
+
+- examine html source code to find data like comment, address
+- examine cookies to find data on them
+- use web spiders (GSA email spider, [web data extractor](http://www.webextractor.com/)) to perform automate searches on the target website and collect data like employee names and more for social engineering
+- use internet archives to see archived versions like [archive.org](https://archive.org/)
+
+## Email Footprinting
+
+analyze email header like:
+
+- [ip address location](https://www.ipaddresslocation.org/)
+- [ip location](https://www.iplocation.net/)
+
+## Competitive Intelligence
+
+process of identify, gathering, analyzing, verifying and using information about competitive from resources such as internet
+
+sources:
+
+- company website and employment ads
+- search engin
+- press releases and annual reports
+- journals, conference and newsletters
+- social engineering
+- customer & vendor reviews
+
+stop 14
