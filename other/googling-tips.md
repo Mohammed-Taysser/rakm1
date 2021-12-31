@@ -96,9 +96,11 @@ Google considers the proximity of your search terms within a page. So the query 
 
 ## Bang
 
-    !devto (opens Dev)
-    !mdn   (opens MDN Web Docs)
-    !yt    (opens YouTube)
+    !devto  Dev
+    !mdn    MDN Web Docs
+    !yt     YouTube
+    !b      bing search engin
+    !g      google search engin
 
 ## See social media information in results
 
