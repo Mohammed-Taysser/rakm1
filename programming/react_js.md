@@ -1288,3 +1288,28 @@ MyComponent.propTypes = {
   })
 };
 ```
+
+## [Udemy Course with Stephen Grider](https://www.udemy.com/course/react-redux/)
+
+code id => 105
+stop : 25
+
+## diff between react & react-dom
+
+react know how to deal with component which call `reconciler`, reactDom know how to take instructions on what we want to show & turn it to html which call `renderer`
+
+## main way of start
+
+```js
+// import rect & reactDOM
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// create component
+const App = () =>{
+  return 'Hello world';
+}
+
+// display the component o screen
+ReactDOM.render(<App />, document.querySelector('#root));
+```
