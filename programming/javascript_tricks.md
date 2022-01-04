@@ -51,6 +51,79 @@ function toIndiaDigits (num) {
 }
 ```
 
+## quantity button
+
+```html
+<div class="d-flex align-items-center qty-container">
+    <button class="btn-qty btn-qty-down"> <i class="fas fa-minus"></i> </button>
+    <input class="form-qty" type="number" name="quantity" value="1">
+    <button class="btn-qty btn-qty-up"> <i class="fas fa-plus"></i> </button>
+</div>
+```
+
+```scss
+.qty-container .btn-qty {
+  background: none;
+  color: #042825;
+  border: 1px solid #ced4da;
+  height: 40px;
+  width: auto;
+  padding: 0 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.qty-container .btn-qty.btn-qty-up {
+  border-radius: 0px 3px 3px 0px;
+}
+
+.qty-container input.form-qty {
+  -moz-appearance: textfield;
+  height: 40px;
+  border: none;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+  background: #ffffff;
+  text-align: center;
+  width: 50px;
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  color: #042825;
+  vertical-align: middle;
+}
+
+.qty-container .btn-qty.btn-qty-down {
+  border-radius: 3px 0px 0px 3px;
+}
+```
+
+```js
+let qty_container = document.querySelectorAll('.qty-container');
+if(qty_container){
+    Array.from(qty_container).forEach(item => {
+        let qty_plus = item.querySelector('.btn-qty-up'), 
+            qty_minus = item.querySelector('.btn-qty-down'),
+            qty_input = item.querySelector('.form-qty');
+
+            qty_minus.onclick = function(){
+                if(qty_input.value > 1){
+                    qty_input.value = parseInt(qty_input.value, 10) - 1;
+                }
+            }
+
+            qty_plus.onclick = function(){
+                if(qty_input.value >= 1){
+                    qty_input.value = parseInt(qty_input.value, 10) + 1;
+                }
+            }
+    });
+}
+```
+
 ## print the page
 
 ```js
