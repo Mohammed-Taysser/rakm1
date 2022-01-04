@@ -1,9 +1,8 @@
 # Sass notes
 
-stopped at
-
-- [sass documentation](https://sass-lang.com/documentation/values)
-- [el zero build sass website](https://www.youtube.com/watch?v=zHtjBS1hD84&list=PLDoPjvoNmBAz9sluuyOWPifXvySgrGma8&index=8)
+```shell
+sass -w style.scss  dist/css/style.css
+```
 
 ## resources
 
