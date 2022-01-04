@@ -284,9 +284,9 @@ OSINT is one of many INTs (intelligence) disciplines employed by government inte
 - Email Footprinting
 - Competitive Intelligence
 - WHOIS Footprinting
-- Dns Footprinting
+- DNS Footprinting
 - Network Footprinting
-- Social Engineering
+- Social Engineering Footprinting
 
 ## Search Engin Footprinting
 
@@ -385,4 +385,81 @@ sources:
 - social engineering
 - customer & vendor reviews
 
-stop 14
+## WHOIS Footprinting
+
+query and respond protocol that is widely used for querying databases that stor the registered users or assignees of internet resource such as domain name, IP address block or autonomous system. but it also used for a wider range of other information
+
+WHOIS database are maintained by **Regional Internet Register** (RIR) and contact personal information of domain owners
+
+WHOIS query return:
+
+- Domain Name Details (email, address)
+- Contact Details Of Domain Owner
+- Domain Name Services
+- NetRange
+- Domain Name Creation Date & Expiry Date
+- Domain Name Last Update
+
+also `whois`, `nslookup`, `dig` available as CLI in kali linux
+
+an example is [whois domain tools](https://whois.domaintools.com/)
+
+## DNS Footprinting
+
+domain name servers are the internet equivalent of phone book. they maintain a directory of domain names and translate them to internet protocol (IP) address
+
+it provide an important information about location and type of servers
+
+attacker can gather DNS information to determine key host in the network and can perform social engineering attacks
+
+see [network-tools webwiz](https://network-tools.webwiz.net/) form ore tools
+
+## Network Footprinting
+
+network range information assists attacker to crate a map of the target, also find IP range using ARIN [whois database search tool](https://www.whois.com/whois/arin.net)
+
+traceroute (CLI tool) works on the concept of ICMP protocol and use TTL field in the header of ICMP packets to discover the routers on the path to target host
+
+attacker conduct traceroute to extract information about:
+
+- network topology
+- trusted routers
+- firewall location
+
+## Social Engineering Footprinting
+
+the art od exploiting human behavior to extract confidential information. it depend on the act that people are unaware of their valuable information and are careless about protect it do attacker attempt to gather:
+
+- credit card details & SSN
+- usernames & passwords
+- security product i use
+- OS & software version
+- network layout information
+- IP address & name of servers
+
+### Social Engineering Techniques
+
+- Eavesdropping
+- Shoulder Surfing
+- Dumpster Diving
+- Impersonation
+
+## Footprinting Tools
+
+watch videos for more details 😜
+
+- maltego (on kali linux)
+- fierce (on kali linux)
+- FOCA (has GUI in windows)
+- recon-NG
+- dnsrecon (on kali linux)
+- dnsmap (on kali linux)
+- dnstracer (on kali linux)
+- dnsenum (on kali linux)
+- dnswalk (on kali linux)
+- metagoofil
+- the harvester (on kali linux)
+- Dmitry (on kali linux)
+- [sublist3r](https://github.com/aboul3la/Sublist3r)
+
+stop 20
