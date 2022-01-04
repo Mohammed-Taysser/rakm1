@@ -119,6 +119,27 @@ sh pycharm.sh
 /home/linuxroot/.mozilla/firefox/i4j66yab.dev-edition-default
 ```
 
+# themes
+
+for terminal
+
+- <https://github.com/ohmyzsh/ohmyzsh>
+
+```json
+plugins=(
+  git
+  colorize
+  dash
+  emoji
+  npm
+  vscode
+  dotenv
+  gulp
+  iterm2
+  heroku
+)
+```
+
 # course 1
 
     nano
