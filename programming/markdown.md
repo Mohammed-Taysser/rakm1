@@ -105,7 +105,12 @@ also can use `+ - *`
 ![placeholder](https://via.placeholder.com/300x300/333/fff?text=it's+me+here)
 
 ```markdown
-Format: ![Alt Text](url)
+Format: ![Alt Text](url "Optional title")
+
+
+![Alt text][id]
+
+[id]: url/to/image  "Optional title attribute"
 ```
 
 ## Linking Images
@@ -297,27 +302,3 @@ Character | Name
 ## Escaping Pipe Characters in Tables
 
 You can display a pipe (|) character in a table by using its HTML character code (`&#124;`).
-
-# Footnotes
-
-```markdown
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
-[^1]: This is the first footnote.
-
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
-```
-
-Here's a simple [io][io] footnote,[^1] and here's a longer one.[^bignote]
-
-[io]: https://linkedin.com/in/mohammed-taysser
-
-[^1]: This is the first footnote.
-
-[^bignote]: Here's one with multiple paragraphs and code.
