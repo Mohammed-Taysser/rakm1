@@ -45,6 +45,8 @@
 
 ## more
 
+- <https://tutorials.cyberaces.org/tutorials.html>
+- <https://secgeek.net/>
 - [Protocols](https://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html)
 - [headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields)
 - [network set](https://www.networkset.net/category/security/)
@@ -85,6 +87,10 @@
 - [CompTIA 220-1001 A+ Training Course](https://www.youtube.com/playlist?list=PLG49S3nxzAnlGHY8ObL8DiyP3AIu9vd3K)
 - [digitalnetworksbiz](https://www.youtube.com/user/digitalnetworksbiz/playlists)
 - [Professor Messer](https://www.youtube.com/c/professormesser)
+
+## advanced topic
+
+- <https://owasp.org/www-project-top-ten/>
 
 ## cyber security company in egypt
 
