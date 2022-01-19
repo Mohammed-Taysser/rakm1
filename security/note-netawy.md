@@ -1,5 +1,5 @@
 
-# Technawi Notes (CEH v9)
+# Technawi Notes (CEH v9 updated to v10 in 3 module)
 
 ## Course Content 📔
 
@@ -220,7 +220,7 @@ set of defined process to identify, analyse prioritize and resolve security inci
 
 # Foot printing & Reconnaissance 👀
 
-## Module Content
+## Foot printing & Reconnaissance Module Content
 
 - Footprinting Concepts
 - Footprinting Methodology
@@ -462,4 +462,352 @@ watch videos for more details 😜
 - Dmitry (on kali linux)
 - [sublist3r](https://github.com/aboul3la/Sublist3r)
 
-stop 20
+## `recon-ng`
+
+full featured web Reconnaissance framework written in python. complete with independent modules database interaction, interactive help and command completion
+
+recon-ng has a look and feel and even command flow similar to the metasploit framework
+
+found on kali linux
+
+### comes with
+
+- 77 recon modules
+- 2 discovery modules
+- 2 exploitation modules
+- 8 reporting modules
+- 2 import modules
+
+### recon-ng schema
+
+- domains
+- companies
+- netblocks
+- locations
+- vulnerability
+- ports
+- contacts
+- credentials
+- leaks
+- pushpins
+- profiles
+
+# Scanning Network
+
+## Scanning Network Module Content
+
+- What Is Scanning
+- Type Of Scanning
+- Scanning Objects
+- TCP/IP Suite
+- Scanning Methodology
+- Ping Sweeps
+- Port Scanning
+- Scanning Techniques
+- Scanning Tools
+- Vulnerability Scanning
+- Proxy Serves & Anonymizers
+- IP Spoofing
+- Scanning Pen-Testing
+
+## What Is Scanning
+
+network scanning refer to use the computer ti gather information regarding computing system. it's mainly used for security assessment, system maintenance, and also for performing attacks by hackers
+
+it's one of the components of intelligence gathering an attacker uses to create a profile of the target organization
+
+### Used To Identify
+
+- Live Host & Their Systems
+- Open & Closed Ports
+- Running Services
+- Vulnerability In Network
+
+### Type Of Scanning
+
+- Network Scanning
+  - Find Live Hosts
+  - Possibly Identify Working OS
+  - Pick Up IP Address
+- Port Scanning
+  - It's Endpoint Of Communication In An Operating System. Port Number Is Away To Identify Specific Process To Which An Internet Or Other Network Message To Be Forwarded When It Arrive A Server
+  - Exist 65535 Ports, But Focus On First 1023 (That They Services)
+  - Each Port Has One Service Running On It
+- Vulnerability Scanning
+  - Identify Possible Threats To OS, Apps, ...
+  - Identify Vulnerability on OS, Apps, ...
+
+## Scanning Objects & Goals
+
+- Live Hosts
+- IP Address
+- Open & Closed Ports
+- OS & Architecture
+- Vulnerability & Threats
+- Security Risk & Services
+
+## TCP/IP Suite
+
+the TCP/IP Suite is the conceptual and set of communications protocols used on the internet and similar computer network
+
+it provide end-to-end data communication specifying how dada should be packetized, addressed, transmitted, routed and received
+
+this functionality is organized into four abstraction layers which are used to sort all related protocols according to the scope of networking invoked.
+
+- Application Layer
+- Transport Layer
+- Internet Layer
+- Network Access Layer
+
+## TCP Protocol
+
+reliable, connection-oriented delivery service:
+
+- connection-oriented mean that a connection must be established before hosts can exchange data
+- reliable is achieved by assigning a sequence number to each segment transmitted
+- TCP peer, the two nodes using TCP to communicate, acknowledge when they receive data
+- a TCP segment is the protocol data unit (PDU) consisting of the TCP header & TCP payload also know as segment. for each TCP segment sent containing data, the receiving host must return a acknowledgement (ACK). if ACK is not received within time the TCP segment is retransmitted
+
+### TCP/IP Protocols
+
+![TCP/IP Protocols](../assets/images/tcp-ip-protocols.png)
+
+### TCP/IP Dataflow
+
+![TCP/IP Dataflow](../assets/images/tcp-ip-data-flow.png)
+
+### TCP Segment
+
+![TCP Segment](../assets/images/tcp-ip-segment.png)
+
+### TCP Communication Flags
+
+- URG (Urgent) data contained in the packet should be processed immediately
+- FIN (Finish) there will be no more transmissions
+- RST (Reset) reset a connection
+- PSH (Push) send all buffered data immediately
+- ACK (Acknowledgement) acknowledgement the receipt of packet
+- SYN (Synchronize) initiates a connection between hosts
+
+### TCP 3 Way Handshake
+
+![TCP 3 Way Handshake](../assets/images/tcp-3-way-handshake.png)
+
+### TCP Session Termination
+
+![TCP Session Termination](../assets/images/tcp-session-termination.png)
+
+## UDP Protocol
+
+provide a connectionless datagram service that offers unreliable, best-effort delivery of data transmitted in messages. this mean that neither the arrival of datagrams nor the correct sequencing of delivered packages is guaranteed. so it doesn't retransmitted lost data
+
+UDP message consist of UDP header & UDP payload. also knw as a message
+
+applications use UDP if they don't require an acknowledgement of receipt of data and they typically transmit small amounts of data at one time. NetBIOS name service, NetBIOS datagram service and SNMP are examples of services and applications that use UDP
+
+![UDP Protocol](../assets/images/udp-protocol.png)
+
+## Scanning Methodology
+
+steps:
+
+- Check For Live Systems
+- Check For Open Ports
+- Scanning Beyond IDS
+- Banner Grabbing
+- Scanning For Vulnerability
+- Draw Network Diagrams
+- Prepare Proxies
+- Scanning Pen-Testing
+
+## Check For Live Systems
+
+### `ICMP` scanning
+
+- ping scan invokes sending `ICMP ECHO` request to a host. if the host is a live
+- it's used for locating active devices or determining if `ICMP` passing through a **firewall**.
+
+![`ICMP` scanning](../assets/images/live-system-ceheck.png)
+
+### ping sweeps
+
+use to determine the live hosts from a range of IP addresses by sending `ICMP ECHO` request to multiple hosts. if a host is a live it will return `ICMP ECHO` reply
+
+attacker calculate subnet masks using subnet calculators to identify the number of hosts present in subnet. then they using ping sweep to create an inventory of live systems in the subnet
+
+tools:
+
+- angry IP scanner
+- Namp
+
+```shell
+# get IP of PC
+ipconfig
+# then
+ping IP_Address
+```
+
+## Port Scanning
+
+Port Scanning is vital par. organization or regular users use port scans to probe systems for open ports and their respective services
+
+if we think oc PC as hallway of doors, port scanning can be compared with walking through the hallway looking for open doors
+
+penetration tester use this data to find entry ways into the computer
+
+Port Scanning is part of **active reconnaissance** phase, a vital part of ant penetration test
+
+### Scanning TCP services
+
+- open TCP scanning methods
+  - TCP connect/full open scan
+- stealth TCP scanning methods
+  - half open scan
+  - inverse TCP flat scan
+  - Xmas scan
+  - FIN scan
+  - NULL scan
+  - ACK flag probe scan
+- spoofed TCP scanning methods
+  - IDLE scan
+- scanning UDP services
+  - UDP scanning
+
+### TCP connect scan
+
+perform full 3 way handshake to detect open ports, then send RST packet. no need to have privileged access as it completes a TCP connection so apparent when application connection logs are examined (this bad)
+
+![TCP connect scan](../assets/images/tcp-connect-scan.png)
+
+### Half-open Scan
+
+TCP SYN scan gather information about open ports without completing the TCP handshake process. when open port is identified the TCP handshake is reset before it can be completed
+
+the TCP SYN scan never actually create a TCP session so it logged by the destination host application. and hence it's a quiet sca
+
+but it need privileged access to the system
+
+![TCP connect scan](../assets/images/half-open-scan.png)
+
+### xmas-scan
+
+attackers send a TCP packet to remote device with FIN, URG, PUSH flags set. since no TCP session are established, they are quiet stealthy
+
+it work only wo OS with RFC 793 TCP/IP implementation (linux) which mean that it dose't work on windows OS
+
+### Inverse TCP scan
+
+attackers send TCP packet to remote device with TCP flag(FIN or URG or PUSH) set or with no flag. since no TCP sessions are established, they are quiet stealthy
+
+also it work only wo OS with RFC 793 TCP/IP implementation (linux) which mean that it dose't work on windows OS
+it's know as FIN, URG, PUSH scan based on the flag set in the TCP packet or null scan if no flag set
+![TCP connect scan](../assets/images/xmas-scan.png)
+
+### ACK flag scan
+
+attacker send TCP packets with ACK flag set to the remote devices, when they analyze the header information (TTL, WINDOW fields) of received RST packets to find whether the port is open or closed
+
+also, this type can used to check the filtering system of the target
+
+attackers send ACK packet with random sequence number, no response mean the port is filtered and RST response mean the port is not filtered
+
+in TTL base ACK flag scanning, if the TTL value of the RST packet on particular port is less than 64, then the port is open
+
+in WINDOW base ACK flag scanning, if WINDOW value of RST packet on particular port is not zero, then the port is open
+
+```shell
+# TTL based ACK scan
+host 192.168.0.12 port 22: F:RST -> ttl: 40 win: 0
+
+# WINDOW based ACK scan
+host 192.168.0.12 port 22: F:RST -> ttl: 64 win: 512
+```
+
+### IDLE scan
+
+it's a TCPport scan method used to send a spoofed source address to a computer to find out what services are available and offers bind scanning of remote host
+
+this accomplished by impersonating other computer. no packet send from own IP address, instead another host used canned as **Zombie**
+
+the first step in executing an IP ID idle scan is to find an appropriate zombie. it need to assign IP ID packet incrementally on a global basis
+
+choosing a network near your source address, or near by target produces better results
+
+## Port Scanning Countermeasures
+
+- firewalls configured to look for SYN scans
+- IDS should detect Namp/Snort
+- open only required ports
+- filter ICMP messages
+- test your own network
+- keep firewalls & IDS updated/patched
+
+## Port Scanning Tools
+
+- Hping2/Hping3
+- Namp
+- NtScan Tools Pro
+- SuperScan
+
+## Namp
+
+watch videos 😉
+
+## Banner Grabbing
+
+Banner are refer as text message that received from host. usually contain about a service such as version number
+
+Banner Grabbing is a process to collect details regarding any remote PC on a network and the services running on it's open ports
+
+identify the OS used on the remote host allows the attackers to figure out vulnerabilities the system process and the exploits that might work on that system to further carry out additional attacks
+
+### Type of Banner Grabbing
+
+- Active Banner Grabbing: by sending specially crafted packets to remote OS, then compare he responses with a database to determine the OS
+- Passive Banner Grabbing:
+  - from error messages
+  - sniffing the network traffic
+  - from web pages extension
+
+### Banner Grabbing Tools
+
+- Namp
+- curl
+- telnet
+- netcat
+- dimtry
+
+### Banner Grabbing countermeasures
+
+- misdirection / fake banner
+- IIS lockdown tool
+- server mask
+- turn off unused services
+- change the serverSignature (`http.conf`)
+- speaking `http.conf:mod_header`
+
+## Vulnerability Scanning
+
+process for identifying vulnerability and weakness of systems and networks, in order to determine how those systems can be exploited
+
+this can be done by using special softwares and tools that can scan the systems and networks a their own database to identify the vulnerability
+
+types of scanning:
+
+- Network Scanning
+- Web App Scanning
+
+### Vulnerability Scanners Component
+
+```shell
+# ------------------            -------------             ----------------             -----------------
+# | User Interface |    --->    | Scan Engin |    --->    | Scan Database |   --->     | Report Module |
+# ------------------            -------------             ----------------             -----------------
+```
+
+### Vulnerability Scanners Tools
+
+- nessus (need to install on kali, paid 😧 after 7 days)
+- openVAS (need to install on kali)
+- nexpose
+- MBSA
