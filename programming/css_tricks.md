@@ -1776,11 +1776,7 @@ code {
 ```scss
 .ham-svg {
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
   transition: transform 400ms;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 
   &.active {
@@ -1953,6 +1949,37 @@ span {
         transition-delay:.375s;
       }
     }    
+  }
+}
+```
+
+## masonry
+
+```scss
+.masonry-container {
+  column-gap: 0.5em;
+}
+
+.masonry-container .masonry-brick {
+  background: #fff;
+  margin: 0.5em 0;
+}
+
+@media (min-width: 1024px) {
+  .masonry-container {
+    column-count: 4;
+  }
+}
+
+@media (max-width: 1023px) {
+  .masonry-container {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 767px) {
+  .masonry-container {
+    column-count: 2;
   }
 }
 ```
