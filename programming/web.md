@@ -119,6 +119,7 @@
   ```
 
 - <https://inorganik.github.io/countUp.js/>
+- <https://vincentgarreau.com/particles.js/#default>    particles
 - <https://georapbox.github.io/shuffle-letters/>        shuffle text
 - <http://imagehover.io/>                               Pure CSS Image Hover Effect Library
 - <https://victordiego.com/lightbox/>                   popup
@@ -145,6 +146,8 @@
 ### Button Hover
 
 - <https://github.com/IanLunn/Hover>
+- <http://kevinjannis.github.io/hovereffects.css/>
+- <https://codepen.io/tonkec/full/zbRKKK>
 
 ## UX Notes
 
@@ -209,6 +212,11 @@ Localhost://3000
 
 - <https://dryicons.com/>
 - <https://iconstore.co/>
+
+## images
+
+- <https://www.foodiesfeed.com/>
+- <https://picsum.photos/>
 
 ## icons Library
 
