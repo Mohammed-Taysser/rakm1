@@ -11,6 +11,114 @@
 
 -----
 
+While a man was polishing his new car, his 6 yr old son picked up a stone and scratched lines on the side of the car.
+عندما كان أحدهم يلمع سيارته الجديدة اذا بطفله ذو الست سنوات يحمل حجرا ويكشط بأحد جوانب السيارة الجديدة
+
+In anger, the man took the child's hand and hit it many times;
+بدافع الغضب قام الأب بضرب ابنه على يده عدة مرات
+
+not realising he was using a wrench.
+لم ينتبه أنه يضرب ابنه بأداة صدئة
+
+At the hospital, the child lost all his fingers due to multiple fractures.
+في المشفى فقد الابن كل اصابع يده بسبب ذلك
+
+When the child saw his father...
+عندما رأى الابن والده
+
+with painful eyes he asked, 'Dad when will my fingers grow back?'
+بعيون ملؤها الألم سأل
+والدي مني  ستنمو أصابعي مجددا
+
+The man was so hurt and speechless;
+تألم الأب ولم يستطع الرد
+
+he went back to his car and kicked it a lot of times.
+رجع الأب للسيارة وركلها عدة مرات
+
+Devastated by his own actions.....
+مندفعا اومتاثرا بفعله
+
+sitting in front of that car he looked at the scratches;
+جالسا أمام السيار ينظر لنقش ابنه عليها
+
+the child had written 'LOVE YOU DAD'.
+فوجد أن طفله كتب
+أحبك ابي
+
+The next day that man committed suicide. . .
+في اليوم التالي انتحر الرجل
+
+Anger and Love have no limits;
+الغضب والحب ليس لهما حدود
+
+choose the latter to have a beautiful, lovely life.....
+اختر الحب لتحصل على حياة جميلة ملؤها الحب
+
+Things are to be used and people are to be loved.
+الأشياء للاستعمال والناس للحب
+
+But the problem in today's world is that,
+لكن مشكلة عالم اليوم هي:
+
+People are used and things are loved.
+الناس تستعمل والأشياء تحب
+
+In this year, let's be careful to keep this thought in mind:
+في هذة السنة لنكن حريصين لحفظ الفكرة أدناه في عقولنا
+
+Things are to be used,
+الأشياء للاستعمال
+
+but People are to be loved.
+والناس للمحبة
+
+Watch your thoughts; they become words.
+راقب افكارك ستصبح كلمات
+
+Watch your words; they become actions.
+راقب كلماتك ستصبح افعال
+
+Watch your actions; they become habits.
+لاحظ أفعالك ستصبح سلوك
+
+Watch your habits they become character;
+راغب سلوكك فهو يحدد شخصيتك
+
+Watch your character; it becomes your destiny.
+راغب شخصيتك فهي معيار حياتك
+
+I'm glad a friend forwarded this to me as a reminder.
+يسرني أن يكون ذلك ديدن اصدقائي
+
+God bless you.
+بارك الله فيكم
+
+If you don't pass this on nothing bad will happen;
+اذا لم تنشر هذه الرسالة فلا باس
+
+if you do, you might change someones' life.
+وإذا ارسلتها ربما تغير سلوك احدهم
+
+Do u know the relationship between your two eyes?
+هل تعرف العلاقة بين عينيك
+They blink together,
+تحدقان معا
+ move together, cry together, see things together & sleep
+ together.
+تتحركان معان تبكيان معا تنظران معا تنومان معا
+
+Even though they never see each other.
+على الرغم من ذلك لا ترى إحداهما الاخرى
+
+Friendship should be just like that!
+يجب ان تكون الصداقة كذلك
+
+Life is vanity without FRIENDS.
+الحياة مملة دون اصدقاء
+
+-----
+
 English | Arabic
 ----- | -----
 Times are tough but i am tougher .I' ll be fine | اوَقـات صـ؏ـبه لڪني أصعب سأڪون بخير
@@ -81,6 +189,24 @@ I translate books. | أنا أترجم الكتب.
 Are you alone here? | هل حضرتك هنا لوحدك؟
 No, my wife / my husband is also here. | لا، زوجتي / زوجي هنا أيضًا.
 And those are my two children. | وهناك طفلاي الاثنان.
+Do you smoke? | هل تدخن؟
+I used to. | سابقاً نعم.
+But I don’t smoke anymore. | لكن الآن لا أدخن قطعياً.
+Does it disturb you if I smoke? | أيزعجك إن أنا دخنت؟
+No, absolutely not. | لا، على الإطلاق.
+It doesn’t disturb me. | هذا لا يزعجني.
+Will you drink something? | هل تشرب حضرتك شيئًا؟
+A brandy? | واحد كونياك؟
+No, preferably a beer. | لا، ألأفضل بيرة.
+Do you travel a lot? | أتسافر حضرتك كثيرًا؟
+Yes, mostly on business trips. | نعم، وغالبًا ما تكون رحلات عمل.
+But now we’re on holiday. | ولكننا نمضي الآن إجازة هنا.
+It’s so hot! | ما هذا الحر!
+Yes, today it’s really hot. | نعم، اليوم حار جدًا فعلاً.
+Let’s go to the balcony. | لنذهب إلى الشُرفة.
+There’s a party here tomorrow. | غداً ستكون هنا حفلة.
+Are you also coming? | هل تأتون أيضًا؟
+Yes, we’ve also been invited. | نعم ، نحن أيضا مدعوّون.
 
 # Words
 
@@ -337,6 +463,22 @@ Cat got your tongue | Why aren't you speaking? | Ex.....Tell us about your probl
 Call off the dogs | Said when you want someone to stop criticizing you | Ex.....Please, call off the dogs. I apologize for what I have done.
 Be a cold fish | Be a person who is distant and unfeeling | Ex.....He rarely talks to his colleagues. He's a cold fish
 Be a chicken | Be a coward | Ex.....Don't be a chicken. Tell the boss what have you done
+Bottle out | to become too afraid to do something | EX i have bottled out from her couldn't say
+against the grain | contrary to the natural inclination or feeling of someone or something | it goes against the grain to tell outright lies. **or** These days it goes against the grain to show too much respect for authority.
+not have a penny to (one's) name | To be extremely poor; to have very little or no money to spend. | During college, when I didn't have a penny to my name, I survived off of ramen noodles for months at a time. **or** They used to be so well off, but the economy crashed and their business closed, and they don't have a penny to their name anymore.
+Achilles’ heel | a vulnerable spot or weakness | The corrupt minister is regarded as the government’s Achilles heel and is expected to resign.
+not as black as (one) is painted | Not as evil, malicious, or malignant as one is described or believed to be. | Everyone is afraid of the old hermit who lives on the edge of town, but after having a few conversations with him, he's not nearly as black as he's painted.
+out of the frying pan (and) into the fire | From a bad, stressful, or dangerous situation into one that is even worse. | Those poor refugees escaped the famine but ended up in a war zone—out of the frying pan into the fire. **or** I thought my old job was stressful, but my new one is 10 times worse. It's like going out of the frying pan and into the fire.
+not have (one's) heart in (something) | To not be emotionally invested or enthusiastic about something; to have no drive or will to do something. | The score was very close during the first half, but as the home team has slipped further behind you can tell that they don't have their hearts in the game anymore.
+keep the pot boiling | To ensure that something remains active or engaging. | The state department sent a representative to the talks to at least give the appearance of keeping the pot boiling, but it has become apparent that the administration has no real commitment to this cause. **or** To keep the pot boiling in the sequel, the writer-director decided to add the main character's parents to the mix.
+keep the pot boiling | To continue to rouse, incite, antagonize, or provoke someone or something. | It's clear that the country's government intends to keep the pot boiling with separatists living in the outer reaches of their border. **or** it is in their best interest to keep the pot boiling with the insurgency so that they can continue to benefit from financial and military aid.
+odd duck | A rather unusual, strange, or peculiar person. | His new girlfriend is nice enough, but she's a bit of an odd duck, don't you think? **OR** Jake is a bit of an odd duck, a zealous survivalist who has trained his son in the arts of camouflage, self-defense and living off the grid.
+in the blink of an eye | The high-speed camera reveals how the frog uses its specialized tongue to capture the insect in the blink of an eye.| Working on Wall Street, you get used to massive financial changes happening in the blink of an eye.
+be caught off (one's) guard | To be taken by surprise; to be caught when one is vulnerable, careless, or inattentive. | We'll wait until he's caught off guard, and then we'll take him and his company for all they're worth! **OR** Don't be caught off your guard. There are a lot of suspicious characters around here.
+go off the rails | state of chaos, dysfunction, or disorder. | Our project has started going off the rails ever since the manager up and quit last month.
+go off the rails | To become crazy, eccentric, or mentally unhinged; to begin acting in an uncontrollable, inappropriate and/or socially unacceptable manner. | My youngest son started going off the rails shortly after getting into drugs in high school.
+salty dog | A sailor, especially a man, who is older and has had a lot of experience on the seas. | The bar was packed with old salty dogs who'd traveled all across the world, sharing stories of their adventures.
+be at a crossroads | to be at a stage in your life when you have to make a very important decision | After earning my degree, I'm at a crossroads. I need to figure out which direction my life should take. **OR** As a company, we're at a crossroads. We can continue business as usual, or we can take a risk and try to grow.
 
 # times
 
