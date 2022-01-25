@@ -1298,6 +1298,23 @@ emojiFavicon('🎉');
 const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 ```
 
+## scroll info element on click
+
+```js
+Array.from(document.querySelectorAll('#about-dropmenu a')).forEach((link) => {
+  link.onclick = function(e){
+    e.preventDefault();
+      let target = document.getElementById(this.dataset.section);
+      if(target){
+        window.scrollBy({
+          top: target.getBoundingClientRect().top - 200,
+          behavior: 'smooth'
+        });
+      }
+  };
+});
+```
+
 ## Check if an element is in the viewport
 
 ```js
@@ -1521,6 +1538,23 @@ const reverse = (str) => (str === '' ? '' : `${reverse(str.substr(1))}${str.char
 const truncate = (str, max, suffix) => (str.length < max ? str : `${str.substr(0, str.substr(0, max - suffix.length).lastIndexOf(' '))}${suffix}`);
 
 truncate('This is a long message', 20, '...'); // 'This is a long...'
+```
+
+# API
+
+## Custom axios
+
+```js
+// a file called axios and import it
+const axios = {
+  get(url) {
+    return fetch(url)
+      .then(res => res.json())
+      .then(d => ({ data: d }));
+  }
+}
+
+export { axios };
 ```
 
 # RegExp (regular expression)
@@ -2802,4 +2836,5 @@ document.querySelector('#js-show-hide-password').onclick = function () {
 }
 ```
 
-- <https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications
+- <https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications>
+- <https://github.com/lukehoban/es6features>
