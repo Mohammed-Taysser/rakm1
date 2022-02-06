@@ -163,3 +163,7 @@ plugins=(
     netstat
 
     ctrl + alt + t      # open terminal
+
+# utilities
+
+- <https://itsfoss.com/free-up-space-ubuntu-linux/>
