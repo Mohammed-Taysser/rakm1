@@ -950,6 +950,10 @@ If your React component’s `render()` function renders the same result given th
 # resources
 
 - <https://react-bootstrap.github.io/>
+- <https://react-icons.github.io/react-icons>
+- <https://reactstrap.github.io/>
+- <https://github.com/remix-run/react-router#readme>
+- <https://github.com/reactjs/react-autocomplete>
 - <https://formik.org/docs/overview>
 - <https://github.com/jquense/yup>
 - <https://reactjs.org/docs/hooks-intro.html>
@@ -962,6 +966,12 @@ If your React component’s `render()` function renders the same result given th
 - <https://duckduckgo.com/?t=ffab&q=react+css+modules&atb=v281-1&ia=web>
 - <https://duckduckgo.com/?t=ffab&q=styled+components&atb=v281-1&ia=web>
 - <https://reactjs.org/docs/refs-and-the-dom.html>
+- <https://react-redux.js.org/>
+- <https://www.youtube.com/results?search_query=test+react+app>
+- <https://www.vanillajavascriptprojects.com/>
+- <https://www.uidesigndaily.com/>
+- <https://www.johnsmilga.com/>
+- <https://github.com/StephenGrider/ReduxCasts>
 
 ```js
 npm install --save react       // declarative and flexible JavaScript library for building UI
