@@ -30,6 +30,14 @@
 - [ ]  ~~[Software Development Process](https://www.youtube.com/watch?v=KxG4t_0dmzw)
 - [ ]  ~~[Agile & Scrum Introduction](https://www.youtube.com/watch?v=82gV6yXmVng&list=PLvQqAypn5_zqhuJr0j77a2RCuef6qmRYf&index=1)~~
 - [ ]  ~~[Software Development Methodologies](https://www.youtube.com/watch?v=NptJt63mO1s&list=PLsUhBXmTwOwMwi7ulqNuS9Sh6hSpXb-Ki&index=1)~~
+- [ ]  <https://www.youtube.com/playlist?list=PLD0gjrY4-xfHDab6qKfQ_NGiGbM8LxO-O>
+- [ ]  <https://www.youtube.com/playlist?list=PLD0gjrY4-xfEzWE1j3HGzkOecINJmMCzT>
+- [ ]  <https://www.youtube.com/watch?v=A80Y-CAXvQs&list=PLD0gjrY4-xfHgsbJS9lQFxIqG-EL9OR5x>
+- [ ]  <https://www.youtube.com/watch?v=8KPlYCqF1lw&list=PLD0gjrY4-xfGm4sgaap6ZWvVDJDjBui57>
+- [ ]  <https://www.youtube.com/watch?v=jEPUmfMSR8s&list=PLD0gjrY4-xfG6I-3SbgWEvnpjEOTwoeda>
+- [ ]  <https://www.youtube.com/watch?v=S_b_kErYyu4&list=PLD0gjrY4-xfHB9aiQabG8aOstnbK8QAG3>
+- [ ]  <https://www.youtube.com/watch?v=rxkEBoMdi0M&list=PLD0gjrY4-xfGASKK_nlE5GedGkllkbNBk>
+- [ ]  <https://www.mutaz.net>
 
 ## google drive
 
