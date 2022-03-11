@@ -43,6 +43,7 @@
 - <https://www.codingnepalweb.com/>
 - <https://www.iamrohit.in/#>
 - <https://codemyui.com>
+- <https://ayroui.com/>
 
 ## loaders
 
@@ -217,6 +218,7 @@ Localhost://3000
 
 - <https://www.foodiesfeed.com/>
 - <https://picsum.photos/>
+- <https://placehold.co/>
 
 ## icons Library
 
@@ -631,3 +633,43 @@ This is a browser feature intended for developers. Do not paste any code here gi
 
 - RESTful API
 - webhook
+
+<https://codepen.io/knyttneve/pen/abybEey>
+<https://codepen.io/thebabydino/pen/QWMBzVr?editors=1100>
+
+## auth with google & github
+
+- <https://developers.google.com/identity/sign-in/web/reference>
+- <https://developers.google.com/identity/protocols/oauth2/scopes>
+- <https://console.cloud.google.com/apis/>
+- <https://duckduckgo.com/?t=ffab&q=wizard+form+css&atb=v281-1&ia=web>
+- <https://www.npmjs.com/package/node-media-server>
+- <https://github.com/illuspas/Node-Media-Server#npm-version-recommended>
+
+## update profile
+
+- <https://www.logic-designs.com/landing_page/>
+- <https://preview.colorlib.com/#meetme>
+
+## more inspire
+
+- <https://codeconvey.com/>
+- <https://www.bitdegree.org/learn/javascript-refresh-page>
+- <https://www.freecodecamp.org/news/the-react-roadmap-10-steps-to-become-a-react-developer-in-2021/>
+- <https://learndesigntutorial.com/>
+- <https://www.welcome-ui.com/components/avatar>
+- <https://vaadin.com/docs/latest/ds/components/avatar>
+- <https://bashooka.com/coding/25-amazing-web-ui-components-built-using-pure-css/>
+- <https://medialoot.com/themes/css-components/>
+- <https://react.school/material-ui/avatar>
+- <https://csshint.com/>
+- <https://icons8.com/icons/color>
+
+# CodePen
+
+## pages
+
+- <https://codepen.io/aybukeceylan/pen/yLOxRyG>
+- <https://codepen.io/TurkAysenur/pen/abvrNgx>
+- <https://codepen.io/TurkAysenur/pen/RwWKYMO>
+- <https://codepen.io/aybukeceylan/pen/OJRNbZp>
