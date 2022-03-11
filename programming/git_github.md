@@ -495,7 +495,7 @@ git add new_file.js
 git mv old_name.html new_name.html
 ```
 
-## Amazing Github Repository
+# Amazing Github Repository
 
 ## Jobs
 
@@ -506,7 +506,7 @@ git mv old_name.html new_name.html
 
 - <https://github.com/awesomedata/awesome-public-datasets>
 
-### Learn
+## Learn
 
 - <https://github.com/ossu/computer-science>
 - <https://github.com/kamranahmedse/developer-roadmap>
@@ -539,6 +539,7 @@ git mv old_name.html new_name.html
 - <https://github.com/freeCodeCamp/freeCodeCamp>
 - <https://github.com/andrew--r/channels>
 - <https://github.com/JoseDeFreitas/awesome-youtubers>
+- <https://github.com/mtdvio/every-programmer-should-know>
 
 ## Editor
 
@@ -573,8 +574,9 @@ git mv old_name.html new_name.html
 - <https://github.com/knaxus/problem-solving-javascript>
 - <https://danlevy.net/you-may-not-need-axios/>
 - <https://github.com/leonardomso/33-js-concepts>
+- <https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions>
 
-### JS packages
+## JS packages
 
 - <https://github.com/Marak/faker.js>               fake data
 - <https://github.com/zenorocha/clipboard.js>       copy to clipboard
@@ -590,8 +592,10 @@ git mv old_name.html new_name.html
 - <https://introjs.com/docs>                        step-by-step hint
 - <https://www.chartjs.org/docs/latest/>
 - <https://github.com/AllThingsSmitty/must-watch-javascript>
+- <https://github.com/iamkun/dayjs>
+- <https://github.com/GoogleChromeLabs/dark-mode-toggle>
 
-### CSS package
+## CSS package
 
 - <https://github.com/lokesh-coder/pretty-checkbox>
 - <https://github.com/troxler/awesome-css-frameworks>
@@ -607,18 +611,22 @@ git mv old_name.html new_name.html
 - <https://github.com/testing-library/react-testing-library>
 - <https://github.com/kentcdodds/testing-react-apps>
 - <https://github.com/brillout/awesome-react-components>
+- <https://github.com/davo/awesome-react-framer-x>
+- <https://github.com/enaqx/awesome-react>
+- <https://github.com/rehooks/awesome-react-hooks>
+- <https://github.com/brillout/awesome-react-components>
 
 ## Jest JS
 
 - [x] <https://github.com/sapegin/jest-cheat-sheet>
 
-### Gulp
+## Gulp
 
 - [X] <https://github.com/kogakure/gulp-tutorial>
 - [x] <https://github.com/alferov/awesome-gulp>
 - [x] <https://github.com/Platform-CUF/use-gulp>
 
-### Frontend Development
+## Frontend Development
 
 - [x] <https://github.com/thedaviddias/Resources-Front-End-Beginner>
 - [x] <https://github.com/dypsilon/frontend-dev-bookmarks>
@@ -638,11 +646,19 @@ git mv old_name.html new_name.html
 - <https://github.com/sindresorhus/promise-fun>
 - <https://andreasbm.github.io/web-skills/>
 - <https://github.com/aloisdg/awesome-regex>
+- <https://github.com/vasanthk/web-security-basics>
+- <https://github.com/bendc/frontend-guidelines>
 - ~~<https://github.com/neiesc/awesome-minimalist>~~
 - ~~<https://github.com/dustinspecker/awesome-eslint>~~
 - ~~<https://github.com/ripienaar/free-for-dev>~~
+- <https://github.com/sw-yx/spark-joy>
 
-### Hacking
+## documentation
+
+- <https://github.com/doczjs/docz>
+- <https://github.com/facebook/docusaurus>
+
+## Hacking
 
 - <https://github.com/Hack-with-Github/Awesome-Hacking>
 - <https://github.com/swisskyrepo/PayloadsAllTheThings>
@@ -653,6 +669,7 @@ git mv old_name.html new_name.html
 - <https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE>
 - <https://github.com/Escapingbug/awesome-browser-exploit>
 - <https://github.com/OWASP/wstg>
+- <https://github.com/dwmkerr/hacker-laws>
 
 ### linux
 
@@ -684,6 +701,7 @@ git mv old_name.html new_name.html
 - <https://github.com/DopplerHQ/awesome-interview-questions>
 - <https://github.com/ombharatiya/FAANG-Coding-Interview-Questions>
 - <https://dev.to/a8hok/useful-javascript-links-3e1>
+- <https://github.com/Pau1fitz/react-interview>
 
 ## Make Badge For README
 
@@ -699,7 +717,7 @@ git mv old_name.html new_name.html
 - <https://github.com/anuraghazra/github-readme-stats>
 - <https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge>
 
-### skills
+## skills
 
 - <https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white>
 - <https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white>
@@ -718,51 +736,35 @@ git mv old_name.html new_name.html
 - <https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white>
 - <https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white>
 
-### Maintained
+## Maintained
 
 - <https://img.shields.io/badge/Maintained%3F-yes-green.svg>
 
-### Website Stats
+## Website Stats
 
 - <https://img.shields.io/website-up-down-green-red/http/monip.org.svg>
 website:<http://monip.org>
 - <https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg>
 Website: <http://cv.lbesson.qc.to/>
 
-### GitHub Stats
+## GitHub Stats
 
 - <https://img.shields.io/github/license/{username}/{repo-name}.svg>
-
 - <https://img.shields.io/github/realese/{username}/{repo-name}.svg>
-
 - <https://img.shields.io/github/commits-since/{username}/{repo-name}/{version}.svg>
-
 - <https://img.shields.io/github/downloads/{username}/{repo-name}/total.svg>
-
 - <https://img.shields.io/github/forks/{username}/{repo-name}.svg>
-
 - <https://img.shields.io/github/stars/{username}/{repo-name}.svg>
-
 - <https://img.shields.io/github/watchers/{username}/{repo-name}.svg>
-
 - <https://img.shields.io/github/followers/{username}.svg?style=social&label=Follow&maxAge=2592000>
-
 - <https://img.shields.io/github/issues/{username}/{repo-name}.svg>
-
 - <https://img.shields.io/github/issues-closed/{username}/{repo-name}.svg>
-
 - <https://img.shields.io/github/issues-pr/{username}/{repo-name}.svg>
-
 - <https://img.shields.io/github/issues-pr-closed/{username}/{repo-name}.svg>
-
 - <https://badge-size.herokuapp.com/{username}/{repo}/{branch}/{filename}>
-
 - <https://github-readme-stats.vercel.app/api?username={username}&theme=blue-green>
-
 - <https://github-readme-stats.vercel.app/api?username={username}&theme=blue-green>
-
 - <https://github-readme-stats.vercel.app/api/top-langs/?username={username}&theme=blue-green>
-
 - <https://starchart.cc/{username}/{repo}.svg>
 
 ## About GitHub

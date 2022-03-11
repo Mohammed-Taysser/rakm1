@@ -956,6 +956,15 @@ If your React component’s `render()` function renders the same result given th
 - <https://github.com/reactjs/react-autocomplete>
 - <https://formik.org/docs/overview>
 - <https://github.com/jquense/yup>
+- <https://react-table.tanstack.com/>
+- <https://storybook.js.org/>
+- <https://date-fns.org/>
+- <https://chakra-ui.com/>
+- <https://github.com/bvaughn/react-error-boundary>
+- <https://github.com/prabhuignoto/react-chrono>
+- <https://react-dropzone.js.org/>
+- <https://github.com/react-cropper/react-cropper>
+- <https://www.npmjs.com/package/react-image-crop>
 - <https://reactjs.org/docs/hooks-intro.html>
 - <https://github.com/JedWatson/classnames>
 - <https://axios-http.com/>
@@ -972,6 +981,10 @@ If your React component’s `render()` function renders the same result given th
 - <https://www.uidesigndaily.com/>
 - <https://www.johnsmilga.com/>
 - <https://github.com/StephenGrider/ReduxCasts>
+- <https://www.npmjs.com/package/react-window>
+- <https://www.reactjstutorials.com/>
+- <https://duckduckgo.com/?t=ffab&q=best+react+components&atb=v281-1&ia=web>
+- <https://duckduckgo.com/?t=ffab&q=best+react+libraries&atb=v281-1&ia=web>
 
 ```js
 npm install --save react       // declarative and flexible JavaScript library for building UI
@@ -1050,6 +1063,7 @@ a way to write reusable code instead of more classic techniques like inheritance
 - useCallback
 - useReducer
 - useMemo
+- useRef
 - useRefuseImperative
 - useLayoutEffect
 - useDebugValue
@@ -1122,6 +1136,8 @@ useEffect( () => {
 
 ### clean up with `useEffect`
 
+also work as `componentWillUnmount`
+
 ```js
 useEffect(() => {
   // some code
@@ -1139,6 +1155,35 @@ useEffect(() => {
 // ---------------      ----------     ------------      -----------       ---------
 // Action Creator |  => | Action |  => | Dispatch |  =>  | Reducer |   =>  | State |
 // ---------------      ----------     ------------      -----------       ---------
+```
+
+### Get Started
+
+```shell
+npm i --save redux react-redux
+```
+
+### How `react-redux` Work
+
+- Bass Store As Prop To Provider At The Top Of App Hieratically
+- So Any Component Inside App Has Access To Props Provide By Store
+- Both `provider`, `connect` Are Provide By `react-redux`
+
+```js
+// ------       ------------      -------     -----------       ---------
+// Store |  =>  | Provider |  =>  | App |  => | Connect |   =>  | State |
+// ------       ------------      -------     -----------       ---------
+```
+
+### Project Structure
+
+```markdown
+src/
+  ├── index.js            # setup both react & redux
+  ├── redux-actions       # contain file related to action creator
+  ├── redux-reducers
+  ├── redux-selector
+  └── redux-store
 ```
 
 # react Project idea

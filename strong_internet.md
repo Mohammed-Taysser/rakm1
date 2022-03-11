@@ -47,3 +47,11 @@
 - [ ] [شطرنج](https://drive.google.com/drive/folders/0B3hfaFxAWHe5Z3lxY2V3UlRrTnM?resourcekey=0-vWZQrK5ZsJ5XeFFPXwwuuA&usp=sharing)
 - [ ] [security](https://drive.google.com/drive/folders/0B4SooIXWH1zXQVRFbEZRbjBYcDA?resourcekey=0-o6U1Jdc6XzJ2cXZkY8U5tg&usp=sharing)
 - [ ] [interview question](https://drive.google.com/drive/folders/0B-yzD376ryjEdlUxZE1IM0VGU0E?resourcekey=0-_tHXpILNkj1w5PGqnxXfcQ&usp=sharing)
+
+- <https://www.youtube.com/c/Codevolution/videos>
+- <https://www.youtube.com/playlist?list=PL4cUxeGkcC9gTxqJBcDmoi5Q2pzDusSL7>
+- <https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3>
+- <https://www.youtube.com/playlist?list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI>
+- <https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ>
+- <https://www.youtube.com/playlist?list=PL4cUxeGkcC9iQ7g2eoNXHCJBBBz40S_Lm>
+- <https://www.youtube.com/c/WebDevSimplified/videos>

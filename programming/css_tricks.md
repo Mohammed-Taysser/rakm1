@@ -6,6 +6,53 @@
 - <https://csslayout.io/>
 - <https://shortcode.dev/css-cheatsheet>
 
+# Background patterns
+
+## Pure CSS Mozilla Hacks header
+
+```scss
+html {
+  --grad: conic-gradient(
+    at 1px calc(100% - 1px),
+    transparent 90deg,
+    hsla(0, 0%, 100%, 0.041) 0%
+   )
+   0 0/;
+  height: 100%;
+  background: var(--grad) 30px 30px, var(--grad) 10px 10px, linear-gradient(#1f4d78, #1862a7);
+}
+```
+
+## Gradient
+
+```html
+<h1 class='gradient-text'>If it’s not got a gradient heading, is it even a tech tool website?</h1>
+```
+
+```scss
+.gradient-text {
+  background-image: linear-gradient(
+    141deg,
+    cyan 0%,
+    rebeccapurple 40%,
+    deeppink 90%
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+}
+```
+
+## gradient border
+
+```pug
+.gradient-border-pseudo
+    h2 Gradient border
+    p Using a pseudo element.
+```
+
 ## custom scrollbar
 
 ```css
@@ -1982,4 +2029,165 @@ span {
     column-count: 2;
   }
 }
+```
+
+# Misc
+
+## example container
+
+```html
+<div class="example-container">
+  <div class="example-window">
+    <div class="example-window-head">
+      <div class="example-window-buttons">
+        <div class="example-window-button example-window-button-close"></div>
+        <div class="example-window-button example-window-button-min"></div>
+        <div class="example-window-button example-window-button-full"></div>
+      </div>
+      <div class="example-window-title">Put cursor at the end of an input</div>
+    </div>
+    <div class="example-window-demo">
+      <div class="example-window-demo-frame">
+        <iframe class="loaded" src="https://github.com/1milligram/html-dom/blob/master/public/demo/resize-columns-of-a-table/index.html"></iframe>
+
+      </div>
+      <div class="example-window-demo-toolbar">
+        <!--      replace text with icons    -->
+        <button class="example-window-demo-toolbar-button" type="button" id='js-demo-btn'>
+          code </button>
+        <a class="example-window-demo-toolbar-button" target="blank" rel="noopener noreferrer" href="#">
+          link </a>
+      </div>
+      <div class="example-window-demo-code" id='js-demo-code'>
+        <div class="example-window-demo-code-body">
+          <pre>
+            code start here
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+```scss
+.example-container {
+  margin: 0.5rem 0;
+  font-family: Inter, sans-serif;
+
+  .example-window {
+    border: 1px solid #e6e6e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    .example-window-head {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #e6e6e6;
+      height: 2rem;
+      padding: 0 1rem;
+      position: relative;
+
+      .example-window-buttons {
+        bottom: 0;
+        left: 0.5rem;
+        position: absolute;
+        top: 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        .example-window-button {
+          border-radius: 50%;
+          height: 0.75rem;
+          margin: 0 0.125rem;
+          width: 0.75rem;
+
+          &.example-window-button-close {
+            background-color: #ff5f56;
+          }
+          &.example-window-button-min {
+            background-color: #ffbd2e;
+          }
+          &.example-window-button-full {
+            background-color: #27c93f;
+          }
+        }
+      }
+
+      .example-window-title {
+        font-size: 0.875rem;
+        color: #777;
+      }
+    }
+    .example-window-demo {
+      .example-window-demo-frame {
+        padding: 1rem;
+        position: relative;
+
+        iframe {
+          border: none;
+          height: 100%;
+          opacity: 0;
+          width: 100%;
+          min-height: 300px;
+
+          &.loaded {
+            opacity: 1;
+          }
+        }
+      }
+      .example-window-demo-toolbar {
+        align-items: center;
+        display: flex;
+        border-top: 1px solid #e6e6e6;
+        font-size: 0.75rem;
+        padding: 0.25rem;
+
+        .example-window-demo-toolbar-button {
+          align-items: center;
+          display: flex;
+          background-color: transparent;
+          border: none;
+          border-radius: 0.25rem;
+          color: #333;
+          cursor: pointer;
+          height: 2rem;
+          padding: 0 0.75rem;
+          text-decoration: none;
+        }
+      }
+      .example-window-demo-code {
+        display: none;
+
+        &.opened {
+          display: block;
+        }
+        .example-window-demo-code-body {
+          max-height: 40rem;
+          overflow: auto;
+
+          pre {
+            border-radius: 0;
+            margin: 0;
+            border-radius: 0.5em;
+            font-size: 0.875rem;
+            height: auto;
+            margin: 1rem 0;
+            overflow: auto;
+            padding: 1em;
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+```js
+document.querySelector("#js-demo-btn").onclick = function () {
+  document.querySelector("#js-demo-code").classList.toggle("opened");
+};
 ```
