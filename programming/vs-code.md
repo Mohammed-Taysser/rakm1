@@ -1,6 +1,14 @@
 
 # vs-code notes
 
+## Fonts
+
+see `Cascadia Code` on  [devfonts](https://devfonts.gafi.dev/)
+
+## themes
+
+- <https://vscodethemes.com/>
+
 ## Keyboard shortcuts for :sunglasses: Linux
 
 - box selection                 shift + arrow
@@ -55,6 +63,7 @@ command | details
 `Ctrl+K R`         | Reveal active file in Explorer
 `Ctrl+Shift+C`     | Open new command prompt/terminal
 `Ctrl+Shift+V`     | Open Markdown preview
+`Ctrl+Shift+B`     | Run Build Task
 `Ctrl+H`           | Replace
 `Shift+F5`         | Stop
 `Ctrl+D`           | Add selection to next Find match
@@ -78,239 +87,142 @@ You can change the modifier key for the Insert cursor command to
 
 ```json
 {
-  "files.autoSave": "afterDelay",
-  "editor.wordWrap": "on",
-  "editor.snippetSuggestions": "top",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "editor.mouseWheelZoom": true,
-  "editor.quickSuggestions": true,
-  "editor.smoothScrolling": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
+  "code-runner.runInTerminal": true,
+  "compile-hero.generate-minified-css": true,
+  "compile-hero.generate-minified-html": true,
+  "cSpell.language": "en,ar",
+  "css.format.spaceAroundSelectorSeparator": true,
+  "css.lint.boxModel": "warning",
+  "css.lint.duplicateProperties": "error",
+  "css.lint.float": "warning",
+  "css.lint.hexColorLength": "warning",
   "css.lint.idSelector": "warning",
   "css.lint.ieHack": "warning",
+  "css.lint.important": "warning",
+  "css.lint.importStatement": "warning",
+  "css.lint.universalSelector": "warning",
+  "css.lint.unknownVendorSpecificProperties": "warning",
+  "css.lint.zeroUnits": "warning",
+  "css.trace.server": "verbose",
+  "debug.allowBreakpointsEverywhere": true,
+  "diffEditor.codeLens": true,
+  "doxdocgen.generic.authorName": "Mohammed Taysser",
+  "doxdocgen.generic.useGitUserEmail": true,
+  "doxdocgen.generic.useGitUserName": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.columnSelection": false,
+  "editor.cursorBlinking": "expand",
+  "editor.find.autoFindInSelection": "multiline",
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "editor.quickSuggestions": true,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.preview": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": {
-    "django-html": "html",
-    "javascript": "javascriptreact",
-    "aspnetcorerazor": "html"
-  },
-  "python.languageServer": "Pylance",
-  "python.pythonPath": "/usr/bin/python3.9",
-  "python.formatting.provider": "autopep8",
-  "editor.columnSelection": false,
-  "editor.find.autoFindInSelection": "multiline",
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "git.alwaysShowStagedChangesResourceGroup": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "gremlins.showInProblemPane": true,
+  "gulp.autoDetect": "on",
+  "html-css-class-completion.enableEmmetSupport": true,
+  "html-css-class-completion.includeGlobPattern": "**/*.{css,html.scss,.sass}",
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "html.format.endWithNewline": true,
+  "html.format.templating": true,
+  "html.trace.server": "messages",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "jupyter.interactiveWindowMode": "perFile",
+  "markdown-pdf.breaks": true,
+  "markdown-pdf.convertOnSave": false,
+  "markdown-pdf.executablePath": "/snap/bin/chromium",
+  "markdown-pdf.highlightStyle": "github.css",
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.showUpdateMessage": true,
+  "php.validate.executablePath": "/usr/bin/php",
   "php.validate.run": "onType",
-  "editor.renderControlCharacters": false,
-  "sonarlint.rules": {
-    // "Web:TableWithoutCaptionCheck": {
-    //   "level": "off"
-    // },
-    // "python:S5754": {
-    //   "level": "off"
-    // },
-    // "python:S2208": {
-    //   "level": "off"
-    // }
-  },
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "cSpell.userWords": [
-    "Lotfy",
-    "Taysser",
-    "arange",
-    "flexbox",
-    "gmail",
-    "isalpha",
-    "isnumeric",
-    "kwargs",
-    "kwlist",
-    "maxlength",
-    "mixins",
-    "numpy",
-    "pafy",
-    "psycopg",
-    "pyplot",
-    "queryset",
-    "struct",
-    "tabindex",
-    "typeof",
-    "unstyled",
-    "urlpatterns",
-    "xhttp",
-    "xlabel",
-    "ylabel",
-    "youtube"
-  ],
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "python.analysis.completeFunctionParens": true,
   "python.autoComplete.addBrackets": true,
-  "code-runner.runInTerminal": true,
-  "code-runner.executorMap": {
-    "javascript": "node",
-    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "php": "php",
-    "python": "python -u",
-    "perl": "perl",
-    "perl6": "perl6",
-    "ruby": "ruby",
-    "go": "go run",
-    "lua": "lua",
-    "groovy": "groovy",
-    "powershell": "powershell -ExecutionPolicy ByPass -File",
-    "bat": "cmd /c",
-    "shellscript": "bash",
-    "fsharp": "fsi",
-    "csharp": "cd $dir && dotnet run $fileName",
-    "vbscript": "cscript //Nologo",
-    "typescript": "ts-node",
-    "coffeescript": "coffee",
-    "scala": "scala",
-    "swift": "swift",
-    "julia": "julia",
-    "crystal": "crystal",
-    "ocaml": "ocaml",
-    "r": "Rscript",
-    "applescript": "osascript",
-    "clojure": "lein exec",
-    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
-    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
-    "racket": "racket",
-    "scheme": "csi -script",
-    "ahk": "autohotkey",
-    "autoit": "autoit3",
-    "dart": "dart",
-    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
-    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
-    "haskell": "runhaskell",
-    "nim": "nim compile --verbosity:0 --hints:off --run",
-    "lisp": "sbcl --script",
-    "kit": "kitc --run",
-    "v": "v run",
-    "sass": "sass --style expanded",
-    "scss": "scss --style expanded",
-    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-  },
-  "editor.formatOnPaste": false,
+  "python.defaultInterpreterPath": "/usr/bin/python3.9",
+  "python.formatting.provider": "autopep8",
+  "python.languageServer": "Pylance",
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-  "editor.formatOnSave": false,
-  "terminal.integrated.cursorStyle": "line",
+  "python.pythonPath": "/usr/bin/python3.9",
+  "scss.lint.compatibleVendorPrefixes": "warning",
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.float": "warning",
+  "scss.lint.idSelector": "warning",
+  "scss.lint.ieHack": "warning",
+  "scss.lint.important": "warning",
+  "scss.lint.universalSelector": "warning",
+  "scss.lint.unknownVendorSpecificProperties": "warning",
+  "scss.lint.zeroUnits": "warning",
+  "scss.showErrors": true,
+  "search.showLineNumbers": true,
+  "sonarlint.output.showAnalyzerLogs": true,
+  "sonarlint.output.showVerboseLogs": true,
+  "telemetry.telemetryLevel": "error",
   "terminal.integrated.cursorBlinking": true,
-  "css.enabledLanguages": ["html"],
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "monospace",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.useSplitJSON": true,
+  // "editor.fontFamily": "'Droid Sans Mono',\"monospace\", monospace, 'Droid Sans Fallback'",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "css.enabledLanguages": [
+    "html"
+  ],
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "better-comments.tags": [
-    {
-      "tag": "!", // danger
-      "color": "#dc3545",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "?", // primary
-      "color": "#3498DB",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "&", // under line
-      "color": "#6c757d",
-      "strikethrough": true,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "^", // throw line
-      "color": "#6c757d",
-      "strikethrough": false,
-      "underline": true,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "*", // sucsess
-      "color": "#28a745",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "-", // info
-      "color": "#17a2b8",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    },
-    {
-      "tag": "%", // warning
-      "color": "#ffc107",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false
-    }
-  ],
-  "js/ts.implicitProjectConfig.checkJs": true,
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "diffEditor.codeLens": false
   },
-  "cSpell.enableFiletypes": ["jupyter", "sass", "scss"],
-  "editor.cursorBlinking": "expand",
-  "editor.fontFamily": "'Droid Sans Mono',\"monospace\", monospace, 'Droid Sans Fallback'",
-  "editor.fontLigatures": true,
-  "html.format.endWithNewline": true,
-  "jupyter.interactiveWindowMode": "perFile",
-  "editor.formatOnType": false,
-  "python.analysis.completeFunctionParens": true,
-  "php.validate.executablePath": "/usr/bin/php",
-  "editor.linkedEditing": true,
-  "debug.allowBreakpointsEverywhere": true,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-  "git.enableSmartCommit": true,
-  "workbench.editor.pinnedTabSizing": "shrink",
-  "python.defaultInterpreterPath": "/usr/bin/python3.9",
-  "terminal.integrated.fontFamily": "monospace",
-  "editor.tokenColorCustomizations": null,
   "files.associations": {
     "**/*.html": "html",
     "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   },
-  "material-icon-theme.saturation": 1,
   "sonarlint.ls.javaHome": "/usr/lib/jvm/java-14-openjdk-amd64",
-  "git.autofetch": true,
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
@@ -321,81 +233,16 @@ You can change the modifier key for the Insert cursor command to
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "~"
-    },
-    {
-      "format": "expanded",
-      "extensionName": ".css",
-      "savePath": "~"
-    }
-  ],
-  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
-  "material-icon-theme.showUpdateMessage": true,
-  "telemetry.telemetryLevel": "error",
-  "markdown-pdf.executablePath": "/snap/bin/chromium",
-  "markdown-pdf.highlightStyle": "github.css",
-  "eslint.alwaysShowStatus": true,
-  "compile-hero.generate-minified-css": true,
-  "compile-hero.generate-minified-html": true,
-  "html.completion.attributeDefaultValue": "singlequotes",
-  "workbench.colorTheme": "Atom One Dark",
-  "workbench.iconTheme": "material-icon-theme",
-  "explorer.compactFolders": false,
-  "editor.rulers": [120],
-  "workbench.colorCustomizations": {
-    "editorRuler.foreground": "#4093ff"
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
   },
-  "editor.tabSize": 2,
-  "highlight-matching-tag.styles": {
-    "opening": {
-      "left": {
-        "custom": {
-          "borderWidth": "0 0 0 3px",
-          "borderStyle": "solid",
-          "borderColor": "yellow",
-          "borderRadius": "0px"
-        }
-      },
-      "right": {
-        "custom": {
-          "borderWidth": "0 3px 0 0",
-          "borderStyle": "solid",
-          "borderColor": "yellow",
-          "borderRadius": "0px"
-        }
-      }
-    }
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
-  "css.lint.compatibleVendorPrefixes": "warning",
-  "css.lint.duplicateProperties": "warning",
-  "css.lint.float": "warning",
-  "css.lint.important": "warning",
-  "css.lint.importStatement": "warning",
-  "css.lint.universalSelector": "warning",
-  "css.lint.unknownVendorSpecificProperties": "warning",
-  "css.lint.zeroUnits": "warning",
-  "css.trace.server": "verbose",
-  "scss.lint.compatibleVendorPrefixes": "warning",
-  "scss.lint.duplicateProperties": "warning",
-  "scss.lint.float": "warning",
-  "scss.lint.idSelector": "warning",
-  "scss.lint.ieHack": "warning",
-  "scss.lint.important": "warning",
-  "scss.lint.importStatement": "warning",
-  "scss.lint.universalSelector": "warning",
-  "scss.lint.unknownVendorSpecificProperties": "warning",
-  "scss.lint.zeroUnits": "warning",
-  "doxdocgen.generic.authorName": "Mohammed Taysser",
-  "doxdocgen.generic.useGitUserEmail": true,
-  "doxdocgen.generic.useGitUserName": true,
-  "eslint.format.enable": true,
-  "eslint.lintTask.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "eslint.probe": [
     "javascript",
     "javascriptreact",
@@ -411,26 +258,299 @@ You can change the modifier key for the Insert cursor command to
     "sass",
     "jsx"
   ],
-  "git.alwaysShowStagedChangesResourceGroup": true,
-  "gulp.autoDetect": "on",
-  "highlight-matching-tag.highlightSelfClosing": true,
-  "highlight-matching-tag.enabled": true,
-  "highlight-matching-tag.showPath": true,
-  "highlight-matching-tag.noDefaultEmptyElements": true,
-  "highlight-matching-tag.highlightFromContent": true,
-  "html.format.templating": true,
-  "html.trace.server": "messages",
-  "html-css-class-completion.enableEmmetSupport": true,
-  "html-css-class-completion.includeGlobPattern": "**/*.{css,html.scss,.sass}",
-  "markdown-pdf.breaks": true,
-  "markdown-pdf.convertOnSave": false,
-  "markdown-pdf.type": ["pdf", "html", "png", "jpeg"],
-  "scss.showErrors": true,
-  "sonarlint.output.showVerboseLogs": true,
-  "sonarlint.output.showAnalyzerLogs": true,
-  "stylelint.snippet": ["css", "less", "postcss", "sass", "scss"],
-  "stylelint.validate": ["css", "less", "postcss", "sass", "scss"]
+  "markdown-pdf.type": [
+    "pdf",
+    "html",
+    "png",
+    "jpeg"
+  ],
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#4093ff",
+    "editorBracketHighlight.foreground1": "#E6E6E6",
+    "editorBracketHighlight.foreground2": "#FF75B5",
+    "editorBracketHighlight.foreground3": "#19f9d8",
+    "editorBracketHighlight.foreground4": "#B084EB",
+    "editorBracketHighlight.foreground5": "#45A9F9",
+    "editorBracketHighlight.foreground6": "#FFB86C",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#FF2C6D",
+    "editorBracketPairGuide.activeBackground1": "#FFB86C",
+    "editorBracketPairGuide.activeBackground2": "#FF75B5",
+    "editorBracketPairGuide.activeBackground3": "#45A9F9",
+    "editorBracketPairGuide.activeBackground4": "#B084EB",
+    "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+    "editorBracketPairGuide.activeBackground6": "#19f9d8",
+  },
+  "todo-tree.general.tags": [
+    "NOTE",
+    "TODO",
+    "FIXME",
+    "MARK",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "tag",
+    "fontWeight": "normal",
+    "foreground": "#000000",
+    "opacity": 90,
+  },
+  "todo-tree.highlights.customHighlight": {
+    "NOTE": {
+      "background": "#FFA500",
+      "iconColour": "#FFA500",
+      "icon": "file",
+    },
+    "TODO": {
+      "background": "#FFD703",
+      "iconColour": "#FFD703",
+      "icon": "clippy",
+    },
+    "FIXME": {
+      "background": "#FF01FF",
+      "iconColour": "#FF01FF",
+      "icon": "bug",
+    },
+    "MARK": {
+      "background": "#157EFB",
+      "iconColour": "#157EFB",
+      "icon": "tag",
+    },
+    "[ ]": {
+      "background": "#dc3545",
+      "iconColour": "#dc3545",
+      "icon": "square",
+    },
+    "[x]": {
+      "background": "#28a745",
+      "iconColour": "#28a745",
+      "icon": "square-fill",
+    }
+  },
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "markdownlint.config": {
+    "MD024": {
+      "siblings_only": true
+    }
+  },
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "workbench.editor.autoLockGroups": {},
+  "emmet.preferences": {},
+  "eslint.nodePath": "",
 }
 ```
 
 ## windows settings
+
+# Useful notes
+
+- <https://dev.to/robole/vs-code-you-dont-need-that-extension-part-2-34o3>
+
+# Extension Playground
+
+```text
+TODO: todo task
+FIXME: todo task
+MARK: copy & past
+NOTE: ex: don't remove
+[ ]: pending task
+[x]: done task
+```
+
+## Better comment
+
+```json
+"better-comments.tags": [
+  {
+    "tag": "!", // danger
+    "color": "#dc3545",
+    "strikethrough": false,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "?", // primary
+    "color": "#3498DB",
+    "strikethrough": false,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "&", // under line
+    "color": "#6c757d",
+    "strikethrough": true,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "^", // throw line
+    "color": "#6c757d",
+    "strikethrough": false,
+    "underline": true,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "*", // sucsess
+    "color": "#28a745",
+    "strikethrough": false,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "-", // info
+    "color": "#17a2b8",
+    "strikethrough": false,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "%", // warning
+    "color": "#ffc107",
+    "strikethrough": false,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  }
+]
+```
+
+## Live Sass Compile
+
+```json
+"liveSassCompile.settings.autoprefix": [
+  "> 1%",
+  "last 2 versions"
+],
+"liveSassCompile.settings.formats": [
+  {
+    "format": "compressed",
+    "extensionName": ".min.css",
+    "savePath": "~"
+  },
+  {
+    "format": "expanded",
+    "extensionName": ".css",
+    "savePath": "~"
+  }
+]
+```
+
+## highlight-matching-tag
+
+```json
+"highlight-matching-tag.styles": {
+  "opening": {
+    "left": {
+      "custom": {
+        "borderWidth": "0 0 0 3px",
+        "borderStyle": "solid",
+        "borderColor": "yellow",
+        "borderRadius": "0px"
+      }
+    },
+    "right": {
+      "custom": {
+        "borderWidth": "0 3px 0 0",
+        "borderStyle": "solid",
+        "borderColor": "yellow",
+        "borderRadius": "0px"
+      }
+    }
+  }
+},
+"highlight-matching-tag.highlightSelfClosing": true,
+"highlight-matching-tag.enabled": true,
+"highlight-matching-tag.showPath": true,
+"highlight-matching-tag.noDefaultEmptyElements": true,
+"highlight-matching-tag.highlightFromContent": true,
+```
+
+# Keyboard Shortcut
+
+```json
+[
+    // Wrap Emmet
+    {
+        "key": "ctrl+shift+w",
+        "command": "editor.emmet.action.wrapWithAbbreviation",
+        "when": "editorHasSelection",
+    },
+    // Transform
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase",
+        "when": "editorHasSelection"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorHasSelection"
+    },
+    // Comments
+    {
+        "key": "ctrl+numpad_divide",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    // Terminal
+    {
+        "key": "ctrl+`", //ctrl+shift+` (new terminal)
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.toggleMaximizedPanel",
+    },
+    {
+        "key": "ctrl+alt+`",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "escape", //or ctrl+d
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+pageup", //alt+left (on split)
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+pagedown", //alt+right (on split)
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+]
+```
