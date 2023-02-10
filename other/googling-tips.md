@@ -5,16 +5,18 @@
 
 **Note**: Do not put a space between `operator:` and the `URL`
 
-- `allinanchor:title`:  page with anchor text contain **title**
-- `allintext:title`:    page with **title** in page content
-- `allintitle:title`:   page with **title** in page title
-- `allinurl:title`:     page with **title** in page url
-- `cache:url`:          display cached version of a web page
-- `define:title`:       finding definitions of words
-- `filetype:suffix` or `ext:suffix`     pages whose names end in suffix
-- `link:url`            pages that point to that **URL**
-- `site:url title`      search results to the site with **title**
-- `related:url`         pages that are similar to the **URL**
+query | information
+--- | ---
+`allinanchor:title`:  |  page with anchor text contain **title**
+`allintext:title`:    |  page with **title** in page content
+`allintitle:title`:   |  page with **title** in page title
+`allinurl:title`:     |  page with **title** in page url
+`cache:url`:          |  display cached version of a web page
+`define:title`:       |  finding definitions of words
+`filetype:suffix` or `|  ext:suffix`     |  pages whose names end in suffix
+`link:url`            |  pages that point|   to that **URL**
+`site:url title`      |  search results t|  o the site with **title**
+`related:url`         |  pages that are similar to the **URL**
 
 ## Query Input
 
@@ -68,7 +70,7 @@ Google ignores some punctuation and special characters, including `! ? , . ; [ ]
 
 A term with an apostrophe (single quote, ') doesn't match the term without an apostrophe.
 
-A query with the term “we're” returns different results from a query with the term “were.”
+A query with the term 'we're' returns different results from a query with the term 'were.'
 
 - `we're` matches `we're` but not `were`
 - `were`  matches `were` but not `we're`
@@ -85,102 +87,47 @@ Because some people spell hyphenated words with a hyphen `-` and others with a s
 
 Google favors results that have your search terms near each other
 
-Google considers the proximity of your search terms within a page. So the query `snake grass` finds pages about a plant of that name, while `snake in the grass` tends to emphasize pages about sneaky people. Although Google ignores the words “in” and “the,” (these are stop words), Google gives higher priority to pages in which “snake” and “grass” are separated by two words.
+Google considers the proximity of your search terms within a page. So the query `snake grass` finds pages about a plant of that name, while `snake in the grass` tends to emphasize pages about sneaky people. Although Google ignores the words 'in' and 'the,' (these are stop words), Google gives higher priority to pages in which 'snake' and 'grass' are separated by two words.
 
 ## resources
 
 - <http://www.googleguide.com/advanced_operators_reference.html>
 - [advanced image search](https://google.com/advanced_image_search)
 
-# duckduckgo 💪
+# duck duck go 💪
 
 ## Bang
 
-    !devto  Dev
-    !mdn    MDN Web Docs
-    !yt     YouTube
-    !b      bing search engin
-    !g      google search engin
-
-## See social media information in results
-
-    @duckduckgo
-
-## Generate lorem ipsum text
-
-    lorem ipsum
-
-    5 sentences of Lorem Ipsum
-
-    20 words of random latin
-
-    10 paragraphs of lorem ipsum
-
-## Change casing
-
-    lowercase title
-
-    uppercase title
-
-## URL encoding
-
-    url encode https://duckduckgo.com/
-    result: https%3A%2F%2Fduckduckgo.com%2F
-
-    URL decode https%3A%2F%2Fduckduckgo.com%2F
-    result: https://duckduckgo.com/
-
-## Shorten links
-
-    shorten https://duckduckgo.com
-    result: https://is.gd/Xiofm9
-
-## Expand links
-
-    expand https://is.gd/Xiofm9
-    result:https://duckduckgo.com
-
-## Cheatsheets
-
-    duckduckgo cheatsheet
-
-## Searching for any calendar
-
-    calendar 25 dec 2021
-
-    calendar
-
-## Generate QR Codes
-
-    qr https://duckduckgo.com
-
-## Find HTML codes
-
-    html chars
-
-    html &
-
-## Find certain colours
-
-    #FFB38F
-
-## Check the status of a website
-
-    is github.com down
-
-## Binary conversion
-
-    101 binary
-
-    101 decimal
-
-## alternative
-
-    alternative to photoshop
-
-## Stopwatch
-
-    Stopwatch
+bang | info
+--- | ---
+`!devto` | Dev
+`!mdn` | MDN Web Docs
+`!yt` | YouTube
+`!b` | bing search engin
+`!g` | google search engin
+`@duckduckgo` | See social media information in results
+`lorem ipsum` | Generate lorem ipsum text
+`5 sentences of Lorem Ipsum` | Generate lorem ipsum text
+`20 words of random latin` | Generate lorem ipsum text
+`10 paragraphs of lorem ipsum` | Generate lorem ipsum text
+`lowercase title` | Change casing
+`uppercase title` | Change casing
+`duckduckgo cheatsheet` | Cheatsheets
+`calendar 25 dec 2021` | Searching for any calendar
+`calendar` | Searching for any calendar
+`qr https://duckduckgo.com` | Generate QR Codes
+`html chars` | Find HTML codes
+`html &` | Find HTML codes
+`#FFB38F` | Find certain colors
+`is github.com down` | Check the status of a website
+`101 binary` | Binary conversion
+`101 decimal` | Binary conversion
+`alternative to photoshop` | get an alternative
+`stopwatch` | Stopwatch
+`shorten https://duckduckgo.com` | `Shorten links`, result: `https://is.gd/Xiofm9`
+`expand https://is.gd/Xiofm9` | Expand links, result: `https://duckduckgo.com`
+`url encode https://duckduckgo.com/` | URL encoding, result: `https%3A%2F%2Fduckduckgo.com%2F`
+`URL decode https%3A%2F%2Fduckduckgo.com%2F` | URL encoding, result: `https://duckduckgo.com/`
 
 ## Easter eggs
 
