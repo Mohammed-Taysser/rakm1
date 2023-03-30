@@ -1,5 +1,5 @@
 
-# Simply Ubuntu
+# Linux
 
 ## After Install
 
@@ -20,10 +20,10 @@
 
 - [firefox developer](https://www.mozilla.org/en-US/firefox/developer/)
 - [tor](https://itsfoss.com/install-tar-browser-linux/)
-  - [linuxize](https://linuxize.com/post/how-to-install-tor-browser-on-ubuntu-20-04/)
+  - <https://linuxize.com/post/how-to-install-tor-browser-on-ubuntu-20-04/>
 - [brave](https://itsfoss.com/brave-web-browser/)
 - [chromium](https://itsfoss.com/install-chromium-ubuntu/)
-  - [linuxize](https://linuxize.com/post/how-to-install-chromium-web-browser-on-ubuntu-20-04/)
+  - <https://linuxize.com/post/how-to-install-chromium-web-browser-on-ubuntu-20-04/>
 - [telegram](https://desktop.telegram.org/)
 - [zoom](https://itsfoss.com/zoom-ubuntu/)
 - discord
@@ -32,7 +32,8 @@
 
 - [gimp](https://www.gimp.org/downloads/)
 - [pinta](https://itsfoss.com/pinta-1-6-ubuntu-linux-mint/)
-- [Flameshot](https://flameshot.org/#download)     `sudo snap install flameshot`
+- [Flameshot](https://flameshot.org/#download)
+  - `sudo snap install flameshot`
 
 ### Converter
 
@@ -87,7 +88,7 @@
 
 ## Screenshot And Screen Recording Tools
 
-- [obs](https://obsproject.com/download)
+- [OBS](https://obsproject.com/download)
 
 ## Downloading Tools
 

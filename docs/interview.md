@@ -1,6 +1,6 @@
 # Interview Guidelines
 
-## html
+## HTML
 
 ### What is a tag in HTML?
 
@@ -45,12 +45,12 @@ Non-semantic - These elements are without any definition. They don't describe an
 
 In HTML some characters are reserved like `<`, `>`, `/`, etc. To use these characters in our webpage we need to use the character entities called HTML Entities. Below are a few mapping between the reserved character and its respective entity character to be used.
 
-Character | Entity Name | Entity Number
---- | --- | ---
-`<` | `&lt;` | `&#60;`
-`>` | `&gt;` | `&#62;`
-`&` | `&amp;` | `&#38;`
-(non-breaking space) | `&nbsp;` | `&#160;`
+| Character            | Entity Name | Entity Number |
+| -------------------- | ----------- | ------------- |
+| `<`                  | `&lt;`      | `&#60;`       |
+| `>`                  | `&gt;`      | `&#62;`       |
+| `&`                  | `&amp;`     | `&#38;`       |
+| (non-breaking space) | `&nbsp;`    | `&#160;`      |
 
 ### What is HTML5 Graphics?
 
@@ -77,12 +77,12 @@ In HTML5, there are two types of graphics.
 - Canvas is suitable for small rendering areas while SVG is suitable for large rendering areas like Google maps.
 - Canvas provides a less interactive animated user interface. Whereas, the interface provided by SVG is very highly interactive.
 
-SVG | Canvas
---- | ---
-SVG is a vector based i.e., composed of shapes.  | It is Raster based i.e., composed of pixels.
-SVG works better with a larger surface. | Canvas works better with a smaller surface.
-SVG can be modified using CSS and scripts. | Canvas can only be modified using scripts.
-SVG is highly scalable. So we can print at high quality with high resolution. | It is less scalable.
+| SVG                                                                           | Canvas                                       |
+| ----------------------------------------------------------------------------- | -------------------------------------------- |
+| SVG is a vector based i.e., composed of shapes.                               | It is Raster based i.e., composed of pixels. |
+| SVG works better with a larger surface.                                       | Canvas works better with a smaller surface.  |
+| SVG can be modified using CSS and scripts.                                    | Canvas can only be modified using scripts.   |
+| SVG is highly scalable. So we can print at high quality with high resolution. | It is less scalable.                         |
 
 ### Markup validation
 
@@ -324,7 +324,7 @@ A Manifest file is a simple text file, that tells the browser what to cache and 
 A Manifest file contains three Sections as
 
 - **CACHE MANIFEST** - HTML5 performs the caching of files listed under this section after
-- **they** get downloaded for the first time.
+- They get downloaded for the first time.
 - **NETWORK** - Files listed here, always need a connection to the server. The browser can never cache them.
 - **FALLBACK** - Files listed here specify the fallback pages, if any page in it is not accessible.
 
@@ -332,8 +332,8 @@ A Manifest file contains three Sections as
 
 Following are the key differences between the two.
 
-- In AppCache, we can define all the assets the browser should cache in a manifest file (even the entire site). For fetching this content, it is not necessary for the user to have accessed it previously. In other words, Application Cache can prefetch pages that have not been visited at all and are thereby unavailable in the regular browser cache. However, the browser cache will only store the pages (and associated assets) the user has visited actually.
-- The AppCache allows web apps (and websites) to be made available offline, that too, with the same speed benefits as the regular browser cache could provide only when the user is online.
+- In `AppCache`, we can define all the assets the browser should cache in a manifest file (even the entire site). For fetching this content, it is not necessary for the user to have accessed it previously. In other words, Application Cache can prefetch pages that have not been visited at all and are thereby unavailable in the regular browser cache. However, the browser cache will only store the pages (and associated assets) the user has visited actually.
+- The `AppCache` allows web apps (and websites) to be made available offline, that too, with the same speed benefits as the regular browser cache could provide only when the user is online.
 
 ### Difference between link tag `<link>` and anchor tag `<a>`?
 
@@ -358,10 +358,11 @@ Semantic elements are those which describe the particular meaning to the browser
 Image Map lets a developer map/link different parts of images with the different web pages. It can be achieved by the `<map>` tag in HTML5, using which we can link images with clickable areas.
 
 ```html
-<img  src='image_url' ,  usemap='#workspace' />
+<img  src='image_url', usemap='#workspace' />
+
 <map  name='workspace'>
-     <area shape='rect'  coords='34, 44, 270, 350' ,  href='xyz.html' />
-     <area shape='rect'  coords='10, 120, 250, 360' ,  href='xyz.html' />
+  <area shape='rect' coords='34, 44, 270, 350' , href='xyz.html' />
+  <area shape='rect' coords='10, 120, 250, 360' , href='xyz.html' />
 </map>
 ```
 
@@ -371,18 +372,23 @@ It is used to help extract data for site crawlers and search engines. It is basi
 
 ```html
 <div itemscope itemtype="http://schema.org/SoftwareApplication">
- <span itemprop="name">Interviewbit Games</span> -
- REQUIRES <span itemprop="operatingSystem">ANDROID</span><br>
- <link itemprop="applicationCategory" href="http://schema.org/GameApplication"/>
- <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
-RATING:
-<span itemprop="ratingValue">4.6</span> (
-<span itemprop="ratingCount">8864</span> ratings )
- </div>
- <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-Price: Rs.<span itemprop="price">1.00</span>
-<meta itemprop="priceCurrency" content="INR" />
- </div>
+
+  <span itemprop="name">Interviewbit Games</span>
+  - REQUIRES
+  <span itemprop="operatingSystem">ANDROID</span><br>
+
+  <link itemprop="applicationCategory" href="http://schema.org/GameApplication"/>
+  <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+
+  RATING:
+    <span itemprop="ratingValue">4.6</span> (
+    <span itemprop="ratingCount">8864</span> ratings )
+  </div>
+
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    Price: Rs.<span itemprop="price">1.00</span>
+    <meta itemprop="priceCurrency" content="INR" />
+  </div>
 </div>
 ```
 
@@ -394,7 +400,7 @@ Price: Rs.<span itemprop="price">1.00</span>
 
 The above example will be parsed by Google as
 
-![Microdata_in_HTML5](../../static/img//interview/Microdata_in_HTML5.png)
+![Microdata_in_HTML5](../static/img//interview/Microdata_in_HTML5.png)
 
 ### What are Web Workers?
 
@@ -423,32 +429,34 @@ These are added to bring parallelism and async capability. It runs in the backgr
 <button onclick="stopWorker()">Stop Worker</button>
 
 <script>
- var w;
- function startWorker() {
-  if (typeof Worker !== 'undefined') {
-   if (typeof w == 'undefined') {
-    w = new Worker('demo_workers.js');
-   }
-   w.onmessage = function (event) {
-    document.getElementById('result').innerHTML = event.data;
-   };
+  var w;
+
+  function startWorker() {
+    if (typeof Worker !== 'undefined') {
+      if (typeof w == 'undefined') {
+        w = new Worker('demo_workers.js');
+      }
+      w.onmessage = function (event) {
+        document.getElementById('result').innerHTML = event.data;
+      };
+    }
   }
- }
- function stopWorker() {
-  w.terminate();
-  w = undefined;
- }
+
+  function stopWorker() {
+    w.terminate();
+    w = undefined;
+  }
 </script>
 ```
 
-![web-worker](../../static/img//interview/web-worker.png)
+![web-worker](../static/img//interview/web-worker.png)
 
 ### How does a Web worker work?
 
 A Web worker gets initialized with the URL of a JavaScript file that contains its code. This code sets event listeners and starts communication with the script that invoked the worker from the main page. The Syntax is as follows.
 
 ```js
-let worker = new Worker("sample_prog.js"﴿;
+let worker = new Worker("sample_prog.js");
 ```
 
 If the javascript file specified in the above code exists, the browser spawns a new worker thread.
@@ -474,12 +482,7 @@ for (let i = 0; i <= 1000000000; i += 1){
 postMessage(j);
 ```
 
-### Others
-
-- How can we create a new HTML element?
-  - `document.createElement("myElement")`
-
-## Css
+## CSS
 
 - <https://www.careerride.com/Interview-Questions-CSS.aspx>
 - <https://www.techrepublic.com/article/css-interview-questions-and-answers/>
@@ -524,7 +527,9 @@ The reasons for this are as follows:
 3. The file is linked with HTML documents via the LINK element inside the HEAD element.
 
 ```html
-<head> <link rel=stylesheet href="style.css" type="text/css"> </head>
+<head> 
+  <link rel=stylesheet href="style.css" type="text/css"> 
+</head>
 ```
 
 ### What are the advantages and disadvantages of External Style Sheets?
@@ -583,7 +588,7 @@ The **disadvantages** of Inline Styles are:
 Here, the selector is A, which is called as type selector.
 
 ```scss
-A {text-indent: 12pt}
+a {text-indent: 12pt}
 ```
 
 ### What is Tweening?
@@ -754,9 +759,16 @@ Nesting selectors are the selectors that define a selector inside another select
 For Example:
 
 ```scss
-h1{color:blue;text-align:center;}
-.marked {background-color:red;}
-.marked h1{color:white;}
+h1 {
+  color: blue;
+  text-align: center;
+}
+.marked {
+  background-color: red;
+}
+.marked h1 {
+  color: white;
+}
 ```
 
 In this a particular style is being defined for the element of `h1`, and another is given for all other elements. Here the class is given as `marked` and one more style given for `h1` element within the `h1` style.
@@ -847,12 +859,11 @@ Image sprites are basically a collection of images put into a single image. A we
 **For ex** : We have a an image.gif which contains the home, forward and back navigation buttons. With the help of css the user can simply specify only the part of the image that is needed. Now the user wants to only display the home part of the image for the home button.
 
 ```scss
-img.home
- {
+img.home{
   width:50px;
   height: 44px;
   background: url (image.gif) 0 0 ;
- }
+}
 ```
 
 In the above css code only a part of the overall image.gif will be used, in this case the home page button area only. By using image sprites the page loading time can be reduced by substantial margins. The user only needs to know absolute image area to be displayed.
@@ -879,17 +890,16 @@ As you can see from the above code the all the elements have the same property. 
 For Example:
 
 ```scss
-p
-{
+p{
   color:blue;
   text-align:center;
 }
-.marked
-{
+
+.marked{
   background-color:red;
 }
-.marked p
-{
+
+.marked p{
   color:white;
 }
 ```
@@ -1079,9 +1089,9 @@ To support old browsers instead of defining the resource of svg in src attribute
 <img src="circle.png" alt="circle" srcset="circle.svg">
 ```
 
-# [`Interview This!`](https://github.com/Twipped/InterviewThis)
+## [`Interview This!`](https://github.com/Twipped/InterviewThis)
 
-## The Position
+### The Position
 
 - Why are you hiring for this position?
 - What would my role at the company be?
@@ -1093,7 +1103,7 @@ To support old browsers instead of defining the resource of svg in src attribute
   - Will the company grant me time to learn any languages that I need to use but do not know?
 - Do you have a target salary range?
 
-## Developer Coordination / Team Interactions
+### Developer Coordination / Team Interactions
 
 - How is your team structured?
   - How many developers do you currently have?
@@ -1116,7 +1126,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - Do you find yourself frequently blocked by dependencies from other teams?
 - What hours does the team work?
 
-## Development Process
+### Development Process
 
 - What source control do you use? Can you explain why you chose it?
 - Are your repos hosted in-house or on a third-party service?
@@ -1179,7 +1189,7 @@ To support old browsers instead of defining the resource of svg in src attribute
     - What is the on-call schedule?
 - How satisfied are your engineers with their current toolset? If they had to replace one tool, which would it be and what would they replace it with?
 
-## Monitoring / On-call duty
+### Monitoring / On-call duty
 
 - Do you have any application-level logging? If so, how are logs accessed?
   - Are logs aggregated across multiple hardware?
@@ -1195,7 +1205,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - Does time working on incidents/problems after-hours, when on on-call duty, count as overtime?
 - Are employees expected to be doing after-hours work while waiting on-call?
 
-## Remote
+### Remote
 
 - What timezone/hours does the company work in?
 - Will the company pay for home office equipment such as electronics or furniture?
@@ -1209,7 +1219,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - Will my visits and travel costs be reimbursed, or covered outright by the company?
 - How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
 
-## Open Source
+### Open Source
 
 - Do you use open source libraries?
   - Are you aware of the licensing on those libraries?
@@ -1219,7 +1229,7 @@ To support old browsers instead of defining the resource of svg in src attribute
   - If there is an approval process, how lengthy is it?
   - Is the process formalized?
 
-## Codebase / Architecture
+### Codebase / Architecture
 
 - How old is your codebase?
 - Do you have an automated test suite?
@@ -1240,14 +1250,14 @@ To support old browsers instead of defining the resource of svg in src attribute
 - Is there an in-house framework, and if so who controls it?
 - Do you host your product yourself (Local, CoLo, VPS) or is it running on a cloud platform such as AWS or Heroku?
 
-## Diversity
+### Diversity
 
 - What percentage of the company is non-male?
 - What percentage of the company is non-white?
 - What percentage of the company is LGBTQ?
 - What percentage of the company is non-development staff?
 
-## Culture
+### Culture
 
 - What is the rhythm to the work around here? Is there a time of year that it's all hands on deck and we're pulling all-nighters, or is it pretty consistent throughout the year? How about during the week / month? Is it pretty evenly spread throughout the week / month, or are there crunch days?
 - What made you (the interviewer) choose to join this company?
@@ -1266,7 +1276,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - Does the company provide snacks and/or drinks?
 - What are your expectations for how many productive hours a developer will have per day?
 
-## Company
+### Company
 
 - Is your company currently profitable?
 - What's the biggest change your group has gone through in the last year?
@@ -1290,7 +1300,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - What is the company policy with regards to side projects? Am I allowed to work on my own sites?
 - Do I own the code I make in my own time on my own hardware, or does the company claim it as theirs?
 
-## PHP
+### PHP
 
 - Do you use a public framework or is it an in-house environment?
   - When you find a bug in a public framework, do you give it back to the community?
@@ -1300,7 +1310,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - Which version of PHP are you using?
   - What is the update plan for new PHP releases?
 
-## JavaScript
+### JavaScript
 
 - What is your frontend software stack? (jQuery?, Underscore/Lodash?, Angular/Ember/React?, etc)
   - Why did you make those choices?
@@ -1309,7 +1319,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - Do you use a compiled language such as Coffeescript or Typescript? (If yes, is it required?)
 - Do you use NodeJS as a software platform? (ie, beyond tooling)
 
-## System & Network Administration / IT Operations
+### System & Network Administration / IT Operations
 
 - Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
   - Why was it chosen?
@@ -1342,9 +1352,9 @@ To support old browsers instead of defining the resource of svg in src attribute
 - Are DEV/QA/PreLIVE/LIVE systems all in one big network, or is each on a separate network? Are they firewalled so a DEV system can't DoS a LIVE system?
 - What is the process for managing rules on internal/external firewalls?
 
-# [Front-end Developer Interview Questions]([Front-end Developer Interview Questions](https://h5bp.org/Front-end-Developer-Interview-Questions/))
+## [Front-end Developer Interview Questions]([Front-end Developer Interview Questions](https://h5bp.org/Front-end-Developer-Interview-Questions/))
 
-## General
+### General
 
 - What did you learn yesterday/this week?
 - What excites or interests you about coding?
@@ -1376,7 +1386,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - What role do you see yourself in?
 - Explain the difference between cookies, session storage, and local storage?
 
-## HTML
+### HTML
 
 - What does a doctype do?
 - How do you serve a page with content in multiple languages?
@@ -1392,7 +1402,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - What is the difference between canvas and svg?
 - What are empty elements in HTML ?
 
-## CSS
+### CSS
 
 - What is CSS selector specificity and how does it work?
 - What's the difference between `resetting` and `normalizing` CSS? Which would you choose, and why?
@@ -1431,7 +1441,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - What is the difference between a block level element and an inline element. Can you provide examples of each type of element?
 - What is the difference between CSS Grid and Flexbox? When would you use one over the other?
 
-## JS
+### JS
 
 - Explain event delegation.
 - Explain how this works in JavaScript.
@@ -1481,7 +1491,7 @@ To support old browsers instead of defining the resource of svg in src attribute
 - What is the difference between while and do-while loops in JavaScript?
 - What is a promise? Where and how would you use promise?
 
-### Coding questions
+#### Coding questions
 
 - Make this work: ```duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]```
 - Create a for loop that iterates up to 100 while outputting `fizz` at multiples of 3, `buzz` at multiples of 5 and `fizzbuz'` at multiples of 3 and 5
@@ -1584,7 +1594,7 @@ To support old browsers instead of defining the resource of svg in src attribute
   }
   ```
 
-## Testing
+### Testing
 
 - What are some advantages/disadvantages to testing your code?
 - What tools would you use to test your code's functionality?
@@ -1592,13 +1602,13 @@ To support old browsers instead of defining the resource of svg in src attribute
 - What is the purpose of a code style linting tool?
 - What are some of the testing best practices?
 
-## Performance
+### Performance
 
 - What tools would you use to find a performance bug in your code?
 - What are some ways you may improve your website's scrolling performance?
 - Explain the difference between layout, painting and compositing.
 
-## Network
+### Network
 
 - Traditionally, why has it been better to serve site assets from multiple domains?
 - Do your best to describe the process from the time you type in a website's URL to it finishing loading on your screen.
@@ -1614,14 +1624,14 @@ To support old browsers instead of defining the resource of svg in src attribute
 - What is domain pre-fetching and how does it help with performance?
 - What is a CDN and what is the benefit of using one?
 
-## Fun
+### Fun
 
 - What's a cool project that you've recently worked on?
 - What are some things you like about the developer tools you use?
 - Who inspires you in the front-end community?
 - Do you have any pet projects? What kind?
 
-# Resources
+## Resources
 
 - <https://github.com/DopplerHQ/awesome-interview-questions>
 - <https://dzone.com/articles/responsive-vs-adaptive-design-which-one-is-better>

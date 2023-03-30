@@ -7,7 +7,7 @@
 
 - `v8` use in chrome
 
-## topics
+## Topics
 
 - backend with nodejs
 - express framework
@@ -15,21 +15,21 @@
 - build API with nodejs
 - some extra project
 
-## startup
+## Startup
 
 - `window` object == `global` object
 - `document` object == `process` object
 - `argv` mean argument vector
 - get arguments with `process.argv`
 
-## different between nodejs & apache server
+## Different Between Nodejs & Apache Server
 
 - apache server: make thread for each request
 - nodejs server: handel all request in the same thread asynchronously using event loop
 
 event loop use two condition to running 'is there any running process', 'is there any callback waiting'
 
-## nodejs not totally single thread
+## `Nodejs` Not Totally Single Thread
 
 nodejs use two thing
 

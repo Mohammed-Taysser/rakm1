@@ -103,7 +103,7 @@ also can use `+ - *`
 
 ![placeholder](https://via.placeholder.com/150)
 ![placeholder](https://via.placeholder.com/150/09f/fff.png)
-![placeholder](https://via.placeholder.com/150/f00/fff/fff.jpg?text=new)
+![placeholder](https://via.placeholder.com/150/333/fff.jpg?text=NEW)
 ![placeholder](https://via.placeholder.com/300x300/333/fff?text=it's+me+here)
 
 ```markdown
@@ -151,7 +151,7 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 <fake@example.com>
 ```
 
-### Formatting Links
+### Formatting Links{#code-id}
 
 ```markdown
 I love supporting the **[EFF](https://eff.org)**.
@@ -161,7 +161,7 @@ See the section on [`code`](#code).
 
 I love supporting the **[EFF](https://eff.org)**.
 This is the *[Markdown Guide](https://www.markdownguide.org)*.
-See the section on [`code`](#code).
+See the section on [`code`](#code-id).
 
 ### Formatting the First Part of the Link
 
@@ -173,7 +173,6 @@ See the section on [`code`](#code).
 ### Formatting the Second Part of the Link
 
 [linkedin]: https://linkedin.com/in/mohammed-taysser
-[portfolio]: https://mohammed-taysser.github.io/portfolio/
 
 ```markdown
 [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
@@ -185,10 +184,8 @@ See the section on [`code`](#code).
 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
 ```
 
-[linkedin]: https://linkedin.com/in/mohammed-taysser
-
 ```markdown
-[my portfolio link]: https://mohammed-taysser.github.io/portfolio/
+[portfolio]: https://mohammed-taysser.github.io/portfolio/
 
 [portfolio][portfolio]
 ```
