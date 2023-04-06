@@ -1283,6 +1283,32 @@
 
   ﺝ : ﺷﺮﻙ ﺃﻛﺒﺮ .
 
+## أختصارات لوحة المفاتيح
+
+| code        | info         |
+| ----------- | ------------ |
+| `Shift + E` | الضمة        |
+| `Shift + X` | السكون       |
+| `Shift + Q` | الفتحة       |
+| `Shift + A` | الكسرة       |
+| `ذ + Shift` | الشدة        |
+| `Shift + Z` | المدة        |
+| `Shift + W` | تنوين فتح    |
+| `Shift + S` | تنوين كسرة   |
+| `Shift + R` | تنوين ضم     |
+| `Shift + T` | لإ           |
+| `Shift + G` | لأ           |
+| `Shift + Y` | إ            |
+| `Shift + H` | أ            |
+| `Shift + N` | آ            |
+| `Shift + B` | لآ           |
+| `Shift + V` | `{`          |
+| `Shift + C` | `}`          |
+| `Shift + F` | `]`          |
+| `Shift + D` | `[`          |
+| `Shift + J` | تمديد الحرف  |
+| `Shift + U` | فاصلة معكوسة |
+
 ## المصادر
 
 - <https://waqfeya.net/book.php?bid=7849>
