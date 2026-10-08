@@ -1,0 +1,19 @@
+# Docusaurus
+node_modules/
+build/
+.docusaurus/
+.cache-loader/
+
+# Private material (CV, salary brief, employer commit history) — never commit or publish
+private/
+
+# Env, logs, OS files
+.env
+.env.*
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.playwright-mcp/

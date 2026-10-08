@@ -1,0 +1,8 @@
+{
+  // Editor and `npm run typecheck` only; the site builds without it.
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "exclude": [".docusaurus", "build"]
+}

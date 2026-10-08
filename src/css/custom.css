@@ -1,0 +1,190 @@
+/**
+ * Rakm1 theme. One accent (deep teal), neutral slate surfaces, no gradients.
+ */
+
+:root {
+  --ifm-color-primary: #0f766e;
+  --ifm-color-primary-dark: #0d6a63;
+  --ifm-color-primary-darker: #0c645e;
+  --ifm-color-primary-darkest: #0a524d;
+  --ifm-color-primary-light: #118279;
+  --ifm-color-primary-lighter: #12887f;
+  --ifm-color-primary-lightest: #149a90;
+
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --ifm-heading-font-weight: 650;
+  --ifm-code-font-size: 90%;
+  --ifm-line-height-base: 1.65;
+
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-color-emphasis-100: #f6f8fa;
+  --ifm-toc-border-color: #e5e9ef;
+  --ifm-hr-border-color: #e5e9ef;
+  --ifm-navbar-shadow: none;
+  --ifm-global-radius: 8px;
+
+  --rk-border: #e5e9ef;
+  --rk-surface-muted: #f6f8fa;
+  --rk-text-muted: #57606a;
+  --rk-accent-soft: #e6f4f2;
+  --rk-legacy: #b45309;
+  --rk-legacy-soft: #fef3e2;
+  --rk-border-strong: #cfd6de;
+  --rk-on-primary: #ffffff;
+  --rk-dot: rgba(15, 23, 42, 0.07);
+  --rk-glow: rgba(15, 118, 110, 0.14);
+  --rk-shadow: rgba(15, 23, 42, 0.18);
+  --rk-cta-bg: #0f766e;
+  --rk-cta-text: #ffffff;
+
+  --docusaurus-highlighted-code-line-bg: rgba(15, 118, 110, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #2dd4bf;
+  --ifm-color-primary-dark: #22c4ae;
+  --ifm-color-primary-darker: #20b9a5;
+  --ifm-color-primary-darkest: #1a9887;
+  --ifm-color-primary-light: #44dac7;
+  --ifm-color-primary-lighter: #50dccb;
+  --ifm-color-primary-lightest: #72e3d5;
+
+  --ifm-background-color: #0d1117;
+  --ifm-background-surface-color: #0d1117;
+  --ifm-color-emphasis-100: #161b22;
+  --ifm-toc-border-color: #262c36;
+  --ifm-hr-border-color: #262c36;
+
+  --rk-border: #262c36;
+  --rk-surface-muted: #161b22;
+  --rk-text-muted: #9198a1;
+  --rk-accent-soft: rgba(45, 212, 191, 0.12);
+  --rk-legacy: #f0a050;
+  --rk-legacy-soft: rgba(240, 160, 80, 0.12);
+  --rk-border-strong: #3a424d;
+  --rk-on-primary: #04211e;
+  --rk-dot: rgba(255, 255, 255, 0.06);
+  --rk-glow: rgba(45, 212, 191, 0.12);
+  --rk-shadow: rgba(0, 0, 0, 0.6);
+  --rk-cta-bg: #134e4a;
+  --rk-cta-text: #f0fdfa;
+
+  --docusaurus-highlighted-code-line-bg: rgba(45, 212, 191, 0.12);
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  border-bottom: 1px solid var(--rk-border);
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.navbar__logo {
+  height: 1.75rem;
+}
+
+.header-github-link::before {
+  content: '';
+  display: flex;
+  width: 22px;
+  height: 22px;
+  background-color: var(--ifm-navbar-link-color);
+  mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3'/%3E%3C/svg%3E")
+    no-repeat center / contain;
+}
+
+.header-github-link:hover::before {
+  background-color: var(--ifm-color-primary);
+}
+
+/* ---------- Docs ---------- */
+
+.theme-doc-markdown h1 {
+  font-size: 2.1rem;
+  letter-spacing: -0.02em;
+}
+
+.theme-doc-markdown h2 {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid var(--rk-border);
+}
+
+.theme-doc-markdown h3 {
+  font-size: 1.25rem;
+}
+
+.theme-doc-markdown h2:first-of-type {
+  border-top: none;
+}
+
+.markdown table {
+  display: table;
+  width: 100%;
+  font-size: 0.92rem;
+}
+
+.markdown table thead tr {
+  background: var(--rk-surface-muted);
+  border-bottom: 2px solid var(--rk-border);
+}
+
+.markdown table tr:nth-child(2n) {
+  background: transparent;
+}
+
+.markdown img {
+  border-radius: var(--ifm-global-radius);
+}
+
+/* Arabic notes (`<div align="right">` blocks) read right-to-left. */
+.markdown [align='right'] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* ---------- Sidebar ---------- */
+
+.menu {
+  font-size: 0.92rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: var(--rk-accent-soft);
+  font-weight: 600;
+}
+
+/* Pill after legacy docs so readers see the status before clicking. */
+.legacy > .menu__link::after {
+  content: 'legacy';
+  margin-left: auto;
+  padding: 0 0.45rem;
+  border-radius: 999px;
+  color: var(--rk-legacy);
+  background: var(--rk-legacy-soft);
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* ---------- Footer ---------- */
+
+.footer--light {
+  --ifm-footer-background-color: var(--rk-surface-muted);
+  border-top: 1px solid var(--rk-border);
+}
+
+@media (max-width: 996px) {
+  .theme-doc-markdown h1 {
+    font-size: 1.75rem;
+  }
+}
