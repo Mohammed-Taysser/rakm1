@@ -20,7 +20,7 @@ Requires Node.js 20+.
 
 ```bash
 npm install
-npm start          # dev server at http://localhost:3000/rakm1/
+npm start          # dev server at http://localhost:3000/
 npm run build      # production build into build/
 npm run serve      # preview the production build
 ```

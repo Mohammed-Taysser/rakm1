@@ -9,7 +9,7 @@ const config: Config = {
   favicon: 'img/favicon.svg',
 
   url: 'https://mohammed-taysser.github.io',
-  baseUrl: '/rakm1/',
+  baseUrl: '/',
   organizationName: 'Mohammed-Taysser',
   projectName: 'rakm1',
   trailingSlash: false,
